@@ -1,0 +1,30 @@
+[project]
+name = "text-rigidity"
+version = "0.1.0"
+description = "Indicateurs de rigidité textuelle (formatage typographique, balance phrastique, formularité, densité de noms propres)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "spacy>=3.8,<3.9",
+]
+
+[project.optional-dependencies]
+# Perplexité KenLM (indicateur non retenu, conservé pour comparaison)
+perplexity = [
+    "kenlm",
+    "sentencepiece>=0.2",
+]
+
+[tool.uv.sources]
+kenlm = { url = "https://github.com/kpu/kenlm/archive/master.zip" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+markers = [
+    "network: télécharge un treebank UD (GitHub)",
+]

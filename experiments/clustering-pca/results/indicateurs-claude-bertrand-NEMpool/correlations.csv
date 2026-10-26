@@ -1,0 +1,6 @@
+,Formularité (NEM.fr : réf. commune),ĥ (Bentz),Distinct-2,KL POS,Ponctuation
+Formularité (NEM.fr : réf. commune),1.0,0.454,0.596,0.553,0.333
+ĥ (Bentz),0.454,1.0,0.909,0.17,-0.252
+Distinct-2,0.596,0.909,1.0,0.314,-0.101
+KL POS,0.553,0.17,0.314,1.0,0.571
+Ponctuation,0.333,-0.252,-0.101,0.571,1.0

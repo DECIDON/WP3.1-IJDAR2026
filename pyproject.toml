@@ -1,0 +1,13 @@
+# Racine virtuelle du workspace uv : un environnement unique pour le package et les expériences.
+# Installation complète : uv sync --all-packages
+[tool.uv.workspace]
+members = [
+    "text-rigidity",
+    "experiments/rigidity-indicators",
+    "experiments/clustering-pca",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
