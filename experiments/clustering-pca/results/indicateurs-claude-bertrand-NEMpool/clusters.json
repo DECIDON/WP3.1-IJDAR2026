@@ -1,0 +1,85 @@
+{
+ "dims": 2,
+ "indices": {
+  "2": {
+   "FCM": {
+    "silhouette": 0.43,
+    "nul_moyen": 0.335,
+    "nul_max": 0.343,
+    "FPC": 0.74,
+    "PE": 0.409,
+    "clusters_non_vides": 2
+   },
+   "CAH_Ward": {
+    "silhouette": 0.422,
+    "nul_moyen": 0.305,
+    "nul_max": 0.327
+   },
+   "ARI_FCM_vs_CAH": 0.669
+  },
+  "3": {
+   "FCM": {
+    "silhouette": 0.482,
+    "nul_moyen": 0.331,
+    "nul_max": 0.341,
+    "FPC": 0.698,
+    "PE": 0.55,
+    "clusters_non_vides": 3
+   },
+   "CAH_Ward": {
+    "silhouette": 0.463,
+    "nul_moyen": 0.294,
+    "nul_max": 0.314
+   },
+   "ARI_FCM_vs_CAH": 0.616
+  },
+  "4": {
+   "FCM": {
+    "silhouette": 0.373,
+    "nul_moyen": 0.321,
+    "nul_max": 0.332,
+    "FPC": 0.608,
+    "PE": 0.74,
+    "clusters_non_vides": 4
+   },
+   "CAH_Ward": {
+    "silhouette": 0.369,
+    "nul_moyen": 0.274,
+    "nul_max": 0.302
+   },
+   "ARI_FCM_vs_CAH": 0.395
+  },
+  "5": {
+   "FCM": {
+    "silhouette": 0.396,
+    "nul_moyen": 0.307,
+    "nul_max": 0.314,
+    "FPC": 0.567,
+    "PE": 0.871,
+    "clusters_non_vides": 5
+   },
+   "CAH_Ward": {
+    "silhouette": 0.351,
+    "nul_moyen": 0.269,
+    "nul_max": 0.284
+   },
+   "ARI_FCM_vs_CAH": 0.67
+  },
+  "6": {
+   "FCM": {
+    "silhouette": 0.372,
+    "nul_moyen": 0.307,
+    "nul_max": 0.314,
+    "FPC": 0.538,
+    "PE": 0.965,
+    "clusters_non_vides": 6
+   },
+   "CAH_Ward": {
+    "silhouette": 0.325,
+    "nul_moyen": 0.263,
+    "nul_max": 0.286
+   },
+   "ARI_FCM_vs_CAH": 0.563
+  }
+ }
+}

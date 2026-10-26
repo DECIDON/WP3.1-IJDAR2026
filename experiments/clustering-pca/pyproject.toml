@@ -1,0 +1,22 @@
+[project]
+name = "clustering-pca-experiments"
+version = "0.1.0"
+description = "ACP et classifications (FCM, CAH, modèle nul, autres algorithmes) des fenêtres des datasets IJDAR 2026 sur des jeux d'indicateurs de text_rigidity"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "text-rigidity",
+    "fr-core-news-sm",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+text-rigidity = { workspace = true }
+fr-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl" }

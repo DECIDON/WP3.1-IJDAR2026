@@ -1,0 +1,5 @@
+,Formularité,ĥ (Bentz),KL POS,Ponctuation
+Formularité,1.0,0.489,0.565,0.305
+ĥ (Bentz),0.489,1.0,0.158,-0.242
+KL POS,0.565,0.158,1.0,0.603
+Ponctuation,0.305,-0.242,0.603,1.0
