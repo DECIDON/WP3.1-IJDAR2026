@@ -14,6 +14,13 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 | ĥ (Bentz) (`h_rate`) | 0.53 | 0.44 / 0.37 / 0.33 | 0.0 | -0.27 | 0.04 | 0.22 | -0.22 |
 | Distinct-2 (`distinct2`) | 0.36 | 0.17 / 0.13 / 0.17 | 0.0 | -0.33 | -0.13 | 0.05 | -0.01 |
 
+**Test du mélange, 100 mots.** ρ médian à l'intérieur d'un dataset entre le Self-BLEU brut (ou la formularité) et : 1-grammes, 2-grammes, 3-grammes, 4-grammes, Self-BLEU, mots mélangés, formularité. Le Self-BLEU sur mots mélangés vaut en médiane 0.15 fois l'original.
+
+| | 1-grammes | 2-grammes | 3-grammes | 4-grammes | Self-BLEU, mots mélangés | formularité |
+|---|---|---|---|---|---|---|
+| Self-BLEU brut | 0.49 | 0.77 | 0.95 | 0.95 | 0.31 | 0.41 |
+| formularité | 0.1 | 0.26 | 0.35 | 0.42 | 0.12 | — |
+
 ## Fenêtres de 300 mots
 
 | mesure | η² dataset | η² langue newseye / hipe2020 / ajmc | fenêtres à 0 (%) | ρ formularité | ρ name_density | ρ typo | ρ balance |
@@ -25,3 +32,10 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 | MATTR (50 mots) (`mattr`) | 0.6 | 0.64 / 0.52 / 0.21 | 0.0 | -0.31 | -0.04 | 0.12 | -0.2 |
 | ĥ (Bentz) (`h_rate`) | 0.69 | 0.74 / 0.52 / 0.12 | 0.0 | -0.48 | -0.05 | 0.17 | -0.19 |
 | Distinct-2 (`distinct2`) | 0.64 | 0.39 / 0.37 / 0.1 | 0.0 | -0.61 | -0.25 | 0.04 | 0.03 |
+
+**Test du mélange, 300 mots.** ρ médian à l'intérieur d'un dataset entre le Self-BLEU brut (ou la formularité) et : 1-grammes, 2-grammes, 3-grammes, 4-grammes, Self-BLEU, mots mélangés, formularité. Le Self-BLEU sur mots mélangés vaut en médiane 0.11 fois l'original.
+
+| | 1-grammes | 2-grammes | 3-grammes | 4-grammes | Self-BLEU, mots mélangés | formularité |
+|---|---|---|---|---|---|---|
+| Self-BLEU brut | 0.57 | 0.76 | 0.92 | 0.95 | 0.26 | 0.44 |
+| formularité | 0.15 | 0.21 | 0.43 | 0.46 | 0.15 | — |

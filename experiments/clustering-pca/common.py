@@ -29,11 +29,12 @@ WINDOWS = os.path.join(VALIDATION, "results", "windows.csv")
 KS = range(2, 7)
 LANGS = {"fr", "en", "de", "fi", "sv"}
 # Indicateurs du jeu Claude-Bertrand (pca_indicators.py) : nom affiché, signe pour « + = plus rigide »
-IND = {"formularity": ("Formularité", 1), "formularity_nempool": ("Formularité (NEM.fr : réf. commune)", 1),
+IND = {"formularity": ("Formularité", 1), "self_bleu": ("Self-BLEU", 1), "formularity_nempool": ("Formularité (NEM.fr : réf. commune)", 1),
        "h_rate": ("ĥ (Bentz)", -1), "distinct2": ("Distinct-2", -1), "kl": ("KL POS", 1), "punct": ("Ponctuation", 1),
        "balance": ("Balance phrastique", -1)}
 # Ce que veut dire, en mots, une valeur haute (côté rigide) et basse (côté souple) de chaque indicateur orienté
 POLES = {"formularity": ("formules répétées", "pas de formule"),
+         "self_bleu": ("suites de mots reprises", "peu de reprises"),
          "formularity_nempool": ("formules répétées", "pas de formule"),
          "h_rate": ("vocabulaire répétitif", "vocabulaire varié"),
          "distinct2": ("bigrammes répétés", "bigrammes variés"),
@@ -49,7 +50,7 @@ def load_windows():
     w.insert(0, "wid", w.dataset + ":" + w.doc_id + ":" + w.start.astype(str))
     w["groupe"] = group_labels(w.dataset)
     # formularité non comparable sous MIN_REF_TOKENS de référence (genres de NEM.fr), comme dans analysis.py
-    w.loc[w.ref_tokens < MIN_REF_TOKENS, "formularity"] = np.nan
+    w.loc[w.ref_tokens < MIN_REF_TOKENS, ["formularity", "self_bleu"]] = np.nan
     # variante NEMpool : genres de NEM.fr notés contre une référence commune à tout NEM.fr (nem_formularity.py)
     pooled = os.path.join(RESULTS, "nem_formularity_pooled.csv")
     if os.path.exists(pooled):

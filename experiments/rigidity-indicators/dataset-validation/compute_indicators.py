@@ -73,6 +73,7 @@ def run(names, sizes, max_windows, seed=0):
                     "name_density": tr.compute_name_density(text, lang, parsed),
                     "formularity": form[3]["formularity"], "formularity_k2": form[2]["formularity"],
                     "formularity_k5": form[5]["formularity"], "ref_tokens": form[3]["ref_tokens"],
+                    "self_bleu": tr.compute_self_bleu(text, reference, d["doc_id"], lang, parsed)["self_bleu"],
                     "distinct2": tr.compute_lexical_diversity(text, 2, lang, parsed),
                     "kl": tr.compute_pos_kl_divergence(text, lang, doc=parsed),
                 })

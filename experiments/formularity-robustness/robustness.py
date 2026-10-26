@@ -10,12 +10,15 @@ NEM.fr (référence trop petite, voir le rapport §5). Pour chaque fenêtre, on 
 * la même avec des **3-grammes et des 5-grammes** ;
 * le **Self-BLEU** (Zhu et al. 2018) contre la même référence : BLEU de la fenêtre (1- à 4-grammes, effectifs écrêtés
   par extrait de référence, lissage « method1 » de Chen et Cherry, sans pénalité de brièveté), sur le texte brut en
-  minuscules et sur la séquence masquée de la formularité (<NAME>, <NUM>) ; et la seule précision des 4-grammes masqués.
+  minuscules et sur la séquence masquée de la formularité (<NAME>, <NUM>) ; et la seule précision des 4-grammes masqués ;
+* pour le Self-BLEU brut, les précisions des 1- à 4-grammes et le score sur la fenêtre **aux mots mélangés** (test du
+  mélange : ce qui reste quand l'ordre des mots est détruit).
 
 Puis on compare ces mesures, et deux mesures de diversité lexicale internes à la fenêtre (MATTR, Covington et McFall
 2010, sur 50 mots ; ĥ de Bentz et al. 2017), sur ce qui décide du choix d'un indicateur : séparation des datasets,
 effet de la langue à corpus égal (newseye, hipe2020, ajmc), part de fenêtres à 0, recoupement avec les autres
-indicateurs de windows.csv (comparaison.md, comparaison.json).
+indicateurs de windows.csv (comparaison.md, comparaison.json). Le test du mélange dit ce qui fait varier le Self-BLEU
+brut à l'intérieur d'un dataset : les mots seuls (vocabulaire, thème) ou les suites de mots.
 
 Sorties (results/) : fenetres.csv, resume.json, resume.md, comparaison.json, comparaison.md, dispersion_n.png,
 self_bleu.png.
@@ -24,6 +27,7 @@ Usage : uv run python robustness.py [--figures]   (--figures : résumé et figur
 import json
 import math
 import os
+import random
 import sys
 import time
 from collections import Counter, defaultdict
@@ -32,7 +36,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 import text_rigidity as tr
-from text_rigidity.formularity import formula_tokens
+from text_rigidity.formularity import formula_tokens, raw_tokens
 
 import matplotlib
 matplotlib.use("Agg")
@@ -66,10 +70,6 @@ OTHERS = ["name_density", "typo", "balance"]
 
 def ngrams(tokens, n):
     return [tuple(tokens[i : i + n]) for i in range(len(tokens) - n + 1)]
-
-
-def raw_tokens(doc):
-    return [t.text.lower() for t in doc if not t.is_space]
 
 
 class BleuIndex:
@@ -121,7 +121,12 @@ def dataset_rows(name, win):
         row["ref_tokens"] = f["ref_tokens"]
         row["ref_docs"] = len({refs[4].chunks[i][0] for i in subset})
         pm = masked_idx.precisions(formula_tokens(doc), subset)
-        row["sbleu_raw"] = bleu(raw_idx.precisions(raw_tokens(doc), subset))
+        toks = raw_tokens(doc)
+        pr = raw_idx.precisions(toks, subset)
+        row["sbleu_raw"] = bleu(pr)
+        row.update({f"p{n}_raw": 100 * num / den for n, (num, den) in enumerate(pr, 1)})
+        random.Random(f"{name}-{r.doc_id}-{r.start}").shuffle(toks)
+        row["sbleu_shuffled"] = bleu(raw_idx.precisions(toks, subset))
         row["sbleu_masked"] = bleu(pm)
         row["p4_masked"] = 100 * pm[3][0] / pm[3][1]
         rows.append(row)
@@ -192,8 +197,24 @@ def compare_measures(df):
                             for c in cols},
             "part_nulle": {c: round(100 * float((x[c] == 0).mean()), 1) for c in cols},
             "rho": {c: {o: round(float(corr.loc[c, o]), 2) for o in ["F"] + OTHERS} for c in cols},
+            "ordre": order_test(x),
         }
     return out
+
+
+ORDER = {"p1_raw": "1-grammes", "p2_raw": "2-grammes", "p3_raw": "3-grammes", "p4_raw": "4-grammes",
+         "sbleu_shuffled": "Self-BLEU, mots mélangés", "F": "formularité"}
+
+
+def order_test(x):
+    """Ce qui fait varier le Self-BLEU brut à l'intérieur d'un dataset : ρ médian (sur les datasets) entre le score
+    et chaque précision, le score sur mots mélangés et la formularité ; et ρ médian de la formularité avec les mêmes."""
+    def within(a, b):
+        return round(float(np.median([spearmanr(g[a], g[b]).statistic for _, g in x.groupby("dataset")
+                                      if g[a].nunique() > 1 and g[b].nunique() > 1])), 2)
+    return {"sbleu_raw": {c: within("sbleu_raw", c) for c in ORDER},
+            "F": {c: within("F", c) for c in ORDER if c != "F"},
+            "perte_au_melange": round(float((x.sbleu_shuffled / x.sbleu_raw).median()), 2)}
 
 
 def write_comparison_md(cmp, path):
@@ -209,6 +230,13 @@ def write_comparison_md(cmp, path):
             lines.append(f"| {labels[m]} (`{m}`) | {c['eta2_dataset'][m]} | "
                          + " / ".join(str(c["eta2_langue"][m][k]) for k in MULTILINGUAL)
                          + f" | {c['part_nulle'][m]} | " + " | ".join(str(c["rho"][m][o]) for o in ["F"] + OTHERS) + " |")
+        o = c["ordre"]
+        lines += ["", f"**Test du mélange, {size} mots.** ρ médian à l'intérieur d'un dataset entre le Self-BLEU brut "
+                  "(ou la formularité) et : " + ", ".join(ORDER.values()) + ". Le Self-BLEU sur mots mélangés vaut en "
+                  f"médiane {o['perte_au_melange']} fois l'original.", "",
+                  "| | " + " | ".join(ORDER.values()) + " |", "|---" * (1 + len(ORDER)) + "|",
+                  "| Self-BLEU brut | " + " | ".join(str(o["sbleu_raw"][k]) for k in ORDER) + " |",
+                  "| formularité | " + " | ".join(str(o["F"].get(k, "—")) for k in ORDER) + " |"]
         lines.append("")
     open(path, "w").write("\n".join(lines))
 

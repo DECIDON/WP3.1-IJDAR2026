@@ -50,8 +50,9 @@ Le rapport sur les indicateurs distingue deux formes de rigidité :
   (« Martin, épicier, r. de Seine, 12 »). On le mesure par le formatage typographique et par la balance
   phrastique.
 * **la formularité.** Un texte formulaire garde la phrase mais la répète d'un document à l'autre (actes
-  de mariage, comptes rendus de procès). On la mesure par la part du texte prise dans des gabarits qui
-  reviennent ailleurs dans le dataset.
+  de mariage, comptes rendus de procès). On la mesure par le Self-BLEU de la fenêtre contre le reste du
+  dataset, mesure standard de la reprise de suites de mots ; la part du texte prise dans des gabarits
+  fréquents (la « formularité » du rapport) en est le complément lisible.
 
 La densité d'entités, mesurée par la part de noms propres, est traitée comme une variable distincte :
 un annuaire est à la fois rigide et très dense en entités, et il faut pouvoir séparer les deux effets.
@@ -377,7 +378,7 @@ locale, le modèle statistique est ajusté séparément pour chaque graine ([sec
 ### 7.5 La formularité vue par le modèle fine-tuné
 
 En régime 2, ce qui compte est la ressemblance d'une entité de test avec ce que *ce* modèle a vu. Pour
-l'analyse locale de ce régime, la référence de formularité est donc construite à partir des seuls
+l'analyse locale de ce régime, la référence du Self-BLEU est donc construite à partir des seuls
 documents d'entraînement, et non du dataset entier. Une entité de test est « dans une formule » si son
 contexte reprend des gabarits présents dans les documents d'entraînement.
 
@@ -510,8 +511,8 @@ Une analyse complémentaire distingue les types d'erreur (frontière, type, manq
 **Variables de rigidité et de densité**, calculées sur la fenêtre de l'entité :
 * le formatage typographique ;
 * la balance phrastique ;
-* la formularité ; sa référence est le dataset en régime 1 et les documents d'entraînement en régime 2
-  ([section 7.5](#s7-5)) ;
+* la formularité, mesurée par le Self-BLEU ; sa référence est le dataset en régime 1 et les documents
+  d'entraînement en régime 2 ([section 7.5](#s7-5)) ;
 * la densité de noms propres.
 
 **Variables de contrôle**, qui décrivent l'entité elle-même :
@@ -629,6 +630,11 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 * **Correspondance souple au lieu de stricte.** Les conclusions doivent tenir avec les deux règles. Si un
   effet n'apparaît qu'en correspondance stricte, il porte sur les frontières et non sur la détection.
 * **Autres tailles de fenêtre.** On refait l'analyse locale avec des fenêtres de 50 et de 200 mots.
+* **Formularité au lieu du Self-BLEU.** On refait le modèle principal avec la formularité du rapport
+  (gabarits vus au moins 3 fois, noms et nombres masqués) à la place du Self-BLEU. Les deux mesures
+  classent les datasets de la même façon, mais divergent à l'intérieur d'un dataset : le Self-BLEU compte
+  aussi la phraséologie ordinaire, la formularité suit davantage la densité de noms propres. Si les
+  conclusions changent, l'effet de la formularité dépend de ce choix et doit être discuté comme tel.
 * **Profil par mot.** Pour chaque mot du texte, on calcule les indicateurs sur une fenêtre glissante
   centrée sur lui. On calcule ensuite le taux d'erreur des mots appartenant à une entité, par tranche
   de rigidité locale. Ce contrôle ne dépend d'aucun choix d'ancrage.
@@ -666,8 +672,8 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 * **Petit budget d'entraînement.** 500 mentions, c'est peu : les scores du régime 2 varient d'une graine
   à l'autre, d'où les trois graines.
 * **Indicateurs imparfaits.** Les indicateurs grammaticaux reposent sur un étiqueteur entraîné sur la
-  langue moderne. La formularité dépend de la taille et de l'homogénéité du dataset (rapport sur les
-  indicateurs, [section 8](../experiments/rigidity-indicators/indicateurs-rigidite.md#s8)).
+  langue moderne. Le Self-BLEU et la formularité dépendent de la taille et de l'homogénéité du dataset
+  (rapport sur les indicateurs, [section 8](../experiments/rigidity-indicators/indicateurs-rigidite.md#s8)).
 
 <a id="s14"></a>
 ## 14. Décisions restant à prendre

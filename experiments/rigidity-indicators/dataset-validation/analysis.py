@@ -14,9 +14,9 @@ import loaders
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "results")
-RETAINED = ["typo", "balance", "verbless", "formularity", "name_density", "distinct2"]
+RETAINED = ["typo", "balance", "verbless", "self_bleu", "formularity", "name_density", "distinct2"]
 DIAGNOSTIC = ["kl", "typo_no_punct"]
-MIN_REF_TOKENS = 15_000  # en dessous, la formularité n'est pas comparable entre datasets
+MIN_REF_TOKENS = 15_000  # en dessous, Self-BLEU et formularité ne sont pas comparables entre datasets
 
 FAMILIES = {
     "Press": ["hipe2020-fr", "hipe2020-en", "hipe2020-de", "letemps-fr", "newseye-fr", "newseye-fi", "newseye-sv"],
@@ -67,7 +67,7 @@ def add_gold_named_density(df):
 
 def profiles(df, size):
     sub = df[df["size"] == size].copy()
-    sub.loc[sub.ref_tokens < MIN_REF_TOKENS, ["formularity", "formularity_k2", "formularity_k5"]] = np.nan
+    sub.loc[sub.ref_tokens < MIN_REF_TOKENS, ["self_bleu", "formularity", "formularity_k2", "formularity_k5"]] = np.nan
     cols = RETAINED + DIAGNOSTIC
     med = sub.groupby("dataset")[cols].median()
     q1 = sub.groupby("dataset")[cols].quantile(0.25)
@@ -138,12 +138,14 @@ def main(path):
     print("median within-dataset rho:", round(val.rho_within.median(), 2),
           "| rho between dataset medians:", round(spearmanr(val.name_density, val.gold_density).statistic, 2))
 
-    # La formularité suit-elle la densité de noms propres à l'intérieur des datasets ? (effet du masquage <NOM>)
+    # Self-BLEU et formularité suivent-ils la densité de noms propres à l'intérieur des datasets ? (masquage <NOM>)
     rows = []
     for name, g in out[100][1].dropna(subset=["formularity"]).groupby("dataset"):
         if g["formularity"].nunique() > 3:
             rows.append({"dataset": name, "rho_formularity_names": spearmanr(g["formularity"], g["name_density"]).statistic,
-                         "rho_formularity_balance": spearmanr(g["formularity"], g["balance"]).statistic})
+                         "rho_formularity_balance": spearmanr(g["formularity"], g["balance"]).statistic,
+                         "rho_self_bleu_names": spearmanr(g["self_bleu"], g["name_density"]).statistic,
+                         "rho_self_bleu_formularity": spearmanr(g["self_bleu"], g["formularity"]).statistic})
     within = pd.DataFrame(rows).set_index("dataset")
     within.to_csv(os.path.join(RESULTS, "formularity_within_dataset.csv"))
     print("\n=== Within-dataset correlations of formularity (100 words)")
