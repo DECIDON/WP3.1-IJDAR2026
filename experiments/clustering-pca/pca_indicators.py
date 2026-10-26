@@ -1,4 +1,4 @@
-"""ACP et classifications sur des jeux d'indicateurs de rigidité (fenêtres de 300 mots de windows.csv).
+"""ACP et classifications sur des jeux d'indicateurs de rigidité (fenêtres de SIZE = 100 mots de windows.csv).
 
 Indicateurs, tous orientés « + = plus rigide » puis centrés-réduits :
   formularité (windows.csv ; log(1 + x)) : part de la fenêtre prise dans des 4-grammes qui reviennent ailleurs dans son
@@ -13,7 +13,7 @@ Indicateurs, tous orientés « + = plus rigide » puis centrés-réduits :
   balance phrastique (windows.csv) : log-ratio mots de liaison / autres mots, moins celui de la référence PUD de la
       langue ; bas = peu de mots de liaison, style liste.
 Formularité, ĥ, Distinct-2 et KL ne sont pas retenus par le rapport indicateurs-rigidite.md (sauf la formularité) :
-à 300 mots, ĥ doublonne Distinct-2 (ρ ≈ 0,9) ; la KL dépend d'une référence par langue et ne se compare qu'à langue
+ĥ doublonne Distinct-2 (ρ ≈ 0,8 à 100 mots, 0,9 à 300) ; la KL dépend d'une référence par langue et ne se compare qu'à langue
 égale. Cinq jeux :
   indicateurs-claude-bertrand                    = formularité, ĥ, Distinct-2, KL, ponctuation ; genres de NEM.fr exclus
       (formularité non comparable sous 15 000 tokens de référence, règle de analysis.py) ;
@@ -44,7 +44,7 @@ import pandas as pd
 from scipy.cluster.hierarchy import dendrogram, fcluster, linkage
 from scipy.stats import spearmanr
 
-from common import (IND, KS, POLES, RESULTS, boxplots, clustering, group_order, kaiser, load_windows, loaders,
+from common import (IND, KS, POLES, RESULTS, SIZE, boxplots, clustering, group_order, kaiser, load_windows, loaders,
                     other_algorithms, pca, plt, pole_labels, zs)
 
 LOG = {"formularity", "formularity_nempool", "kl", "punct"}
@@ -190,7 +190,7 @@ def fig_pca(d, cols, names, var, Vt, P, kai, out):
 
     # (C) plan PC1-PC2 : fenêtres en gris, médiane et quartiles de chaque groupe, directions des indicateurs
     c = fig.add_subplot(gs[1, 0])
-    c.scatter(P[:, 0], P[:, 1], s=6, color="#b5b4ae", alpha=0.35, lw=0, label="une fenêtre de 300 mots")
+    c.scatter(P[:, 0], P[:, 1], s=6, color="#b5b4ae", alpha=0.35, lw=0, label=f"une fenêtre de {SIZE} mots")
     med = np.array([np.median(P[g == grp, :2], axis=0) for grp in order])
     for grp, m in zip(order, med):
         q = np.percentile(P[g == grp, :2], [25, 75], axis=0)

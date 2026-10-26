@@ -1,7 +1,7 @@
 """Fonctions partagées : fenêtres, étiquettes de groupe, ACP, FCM, CAH, modèle nul, autres algorithmes de regroupement.
 
-Les fenêtres sont celles de `../rigidity-indicators/dataset-validation/results/windows.csv`, taille 300 mots (profil
-global des datasets) ; leur texte vient du pivot `data/pivot/` (loaders.py de dataset-validation), leurs indicateurs du
+Les fenêtres sont celles de `../rigidity-indicators/dataset-validation/results/windows.csv`, taille SIZE = 100 mots
+(taille de référence de l'étude) ; leur texte vient du pivot `data/pivot/` (loaders.py de dataset-validation), leurs indicateurs du
 package text_rigidity.
 """
 import json
@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "results")
-SIZE = 300
+SIZE = 100
 VALIDATION = os.path.join(HERE, "..", "rigidity-indicators", "dataset-validation")
 sys.path.insert(0, VALIDATION)
 import loaders  # noqa: E402

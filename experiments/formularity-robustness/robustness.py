@@ -50,7 +50,7 @@ from compute_indicators import dataset_lang  # noqa: E402
 from pca_indicators import place_labels  # noqa: E402
 
 WINDOWS = os.path.join(VALIDATION, "results", "windows.csv")
-FIG_SIZE = 300
+FIG_SIZE = 100
 # variantes de formularité : nom de colonne -> (n, min_docs, libellé)
 VARIANTS = {"F": (4, 1, "4-grammes ≥ 3 fois (réglage actuel)"),
             "F_docs2": (4, 2, "+ dans ≥ 2 documents"),
@@ -218,7 +218,7 @@ def order_by_f(d):
 
 
 def fig_dispersion_n(d, out):
-    """Médiane de chaque variante par dataset (300 mots) : critère de dispersion à gauche, taille des n-grammes à droite."""
+    """Médiane de chaque variante par dataset (FIG_SIZE mots) : critère de dispersion à gauche, taille des n-grammes à droite."""
     order = order_by_f(d)
     med = d.groupby("dataset")[list(VARIANTS)].median().loc[order]
     y = np.arange(len(order))

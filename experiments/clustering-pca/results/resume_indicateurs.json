@@ -1,797 +1,121 @@
 {
  "indicateurs-claude-bertrand": {
-  "n_fenetres": 1862,
+  "n_fenetres": 2100,
   "variance_pct": [
-   48.5,
-   38.2,
-   8.1,
-   3.0,
-   2.1
-  ],
-  "kaiser": 2,
-  "clusters": {
-   "2": {
-    "FCM": {
-     "silhouette": 0.42,
-     "nul_moyen": 0.328,
-     "nul_max": 0.337,
-     "FPC": 0.733,
-     "PE": 0.418,
-     "clusters_non_vides": 2
-    },
-    "CAH_Ward": {
-     "silhouette": 0.425,
-     "nul_moyen": 0.288,
-     "nul_max": 0.316
-    },
-    "ARI_FCM_vs_CAH": 0.715
-   },
-   "3": {
-    "FCM": {
-     "silhouette": 0.491,
-     "nul_moyen": 0.331,
-     "nul_max": 0.339,
-     "FPC": 0.703,
-     "PE": 0.544,
-     "clusters_non_vides": 3
-    },
-    "CAH_Ward": {
-     "silhouette": 0.485,
-     "nul_moyen": 0.282,
-     "nul_max": 0.307
-    },
-    "ARI_FCM_vs_CAH": 0.703
-   },
-   "4": {
-    "FCM": {
-     "silhouette": 0.38,
-     "nul_moyen": 0.32,
-     "nul_max": 0.324,
-     "FPC": 0.612,
-     "PE": 0.734,
-     "clusters_non_vides": 4
-    },
-    "CAH_Ward": {
-     "silhouette": 0.407,
-     "nul_moyen": 0.272,
-     "nul_max": 0.307
-    },
-    "ARI_FCM_vs_CAH": 0.447
-   },
-   "5": {
-    "FCM": {
-     "silhouette": 0.401,
-     "nul_moyen": 0.305,
-     "nul_max": 0.312,
-     "FPC": 0.573,
-     "PE": 0.86,
-     "clusters_non_vides": 5
-    },
-    "CAH_Ward": {
-     "silhouette": 0.395,
-     "nul_moyen": 0.267,
-     "nul_max": 0.282
-    },
-    "ARI_FCM_vs_CAH": 0.735
-   },
-   "6": {
-    "FCM": {
-     "silhouette": 0.387,
-     "nul_moyen": 0.308,
-     "nul_max": 0.324,
-     "FPC": 0.548,
-     "PE": 0.947,
-     "clusters_non_vides": 6
-    },
-    "CAH_Ward": {
-     "silhouette": 0.388,
-     "nul_moyen": 0.268,
-     "nul_max": 0.282
-    },
-    "ARI_FCM_vs_CAH": 0.705
-   }
-  },
-  "autres_algorithmes": {
-   "k-means": [
-    "k = 3 (silhouette max 0.50)",
-    0.159,
-    0.376
-   ],
-   "GMM (BIC)": [
-    "k = 7 (BIC min)",
-    0.259,
-    0.466
-   ],
-   "CAH Ward": [
-    "k = 3 (plus grand saut)",
-    0.135,
-    0.368
-   ],
-   "HDBSCAN": [
-    "2 groupes, bruit 8 %",
-    0.042,
-    0.197
-   ]
-  },
-  "CAH_groupes": {
-   "2": {
-    "7romans": 2,
-    "ajmc (fr, en, de)": 2,
-    "basel": 2,
-    "copious": 2,
-    "e-ner": 1,
-    "geoedda": 2,
-    "hipe2020 (fr, en, de)": 2,
-    "letemps-fr": 2,
-    "litbank": 2,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 2,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "3": {
-    "7romans": 3,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 1,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 3,
-    "letemps-fr": 3,
-    "litbank": 3,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 3,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "4": {
-    "7romans": 4,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 1,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 4,
-    "letemps-fr": 4,
-    "litbank": 4,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 4,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "5": {
-    "7romans": 4,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 1,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 4,
-    "letemps-fr": 4,
-    "litbank": 4,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 5,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "6": {
-    "7romans": 5,
-    "ajmc (fr, en, de)": 4,
-    "basel": 4,
-    "copious": 4,
-    "e-ner": 2,
-    "geoedda": 4,
-    "hipe2020 (fr, en, de)": 5,
-    "letemps-fr": 5,
-    "litbank": 5,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 6,
-    "old-bailey": 1,
-    "soduco-pero": 3,
-    "soduco-ref": 3
-   }
-  }
- },
- "indicateurs-claude-bertrand-NEMpool": {
-  "n_fenetres": 1986,
-  "variance_pct": [
-   47.8,
-   37.2,
-   8.2,
+   42.8,
+   36.4,
+   12.9,
    4.6,
-   2.1
+   3.3
   ],
   "kaiser": 2,
   "clusters": {
    "2": {
     "FCM": {
-     "silhouette": 0.424,
-     "nul_moyen": 0.329,
-     "nul_max": 0.338,
-     "FPC": 0.738,
-     "PE": 0.411,
+     "silhouette": 0.408,
+     "nul_moyen": 0.321,
+     "nul_max": 0.329,
+     "FPC": 0.724,
+     "PE": 0.429,
      "clusters_non_vides": 2
     },
     "CAH_Ward": {
-     "silhouette": 0.418,
-     "nul_moyen": 0.293,
-     "nul_max": 0.324
+     "silhouette": 0.428,
+     "nul_moyen": 0.286,
+     "nul_max": 0.32
     },
-    "ARI_FCM_vs_CAH": 0.864
+    "ARI_FCM_vs_CAH": 0.363
    },
    "3": {
     "FCM": {
-     "silhouette": 0.482,
+     "silhouette": 0.408,
      "nul_moyen": 0.332,
-     "nul_max": 0.341,
-     "FPC": 0.698,
-     "PE": 0.551,
+     "nul_max": 0.34,
+     "FPC": 0.637,
+     "PE": 0.645,
      "clusters_non_vides": 3
     },
     "CAH_Ward": {
-     "silhouette": 0.472,
-     "nul_moyen": 0.289,
+     "silhouette": 0.431,
+     "nul_moyen": 0.282,
      "nul_max": 0.31
     },
-    "ARI_FCM_vs_CAH": 0.828
+    "ARI_FCM_vs_CAH": 0.414
    },
    "4": {
     "FCM": {
-     "silhouette": 0.37,
-     "nul_moyen": 0.319,
-     "nul_max": 0.329,
-     "FPC": 0.607,
-     "PE": 0.743,
+     "silhouette": 0.384,
+     "nul_moyen": 0.317,
+     "nul_max": 0.326,
+     "FPC": 0.584,
+     "PE": 0.795,
      "clusters_non_vides": 4
     },
     "CAH_Ward": {
-     "silhouette": 0.404,
-     "nul_moyen": 0.278,
-     "nul_max": 0.309
-    },
-    "ARI_FCM_vs_CAH": 0.432
-   },
-   "5": {
-    "FCM": {
-     "silhouette": 0.391,
-     "nul_moyen": 0.304,
-     "nul_max": 0.311,
-     "FPC": 0.564,
-     "PE": 0.876,
-     "clusters_non_vides": 5
-    },
-    "CAH_Ward": {
-     "silhouette": 0.355,
-     "nul_moyen": 0.27,
-     "nul_max": 0.283
-    },
-    "ARI_FCM_vs_CAH": 0.63
-   },
-   "6": {
-    "FCM": {
-     "silhouette": 0.37,
-     "nul_moyen": 0.309,
-     "nul_max": 0.317,
-     "FPC": 0.537,
-     "PE": 0.967,
-     "clusters_non_vides": 6
-    },
-    "CAH_Ward": {
-     "silhouette": 0.346,
-     "nul_moyen": 0.251,
-     "nul_max": 0.28
-    },
-    "ARI_FCM_vs_CAH": 0.635
-   }
-  },
-  "autres_algorithmes": {
-   "k-means": [
-    "k = 3 (silhouette max 0.49)",
-    0.135,
-    0.339
-   ],
-   "GMM (BIC)": [
-    "k = 9 (BIC min)",
-    0.19,
-    0.416
-   ],
-   "CAH Ward": [
-    "k = 3 (plus grand saut)",
-    0.124,
-    0.329
-   ],
-   "HDBSCAN": [
-    "2 groupes, bruit 9 %",
-    0.037,
-    0.178
-   ]
-  },
-  "CAH_groupes": {
-   "2": {
-    "7romans": 2,
-    "NEM.fr biomedical": 1,
-    "NEM.fr defense": 2,
-    "NEM.fr encyclopedia": 2,
-    "NEM.fr information": 2,
-    "NEM.fr juridique": 1,
-    "NEM.fr mail": 2,
-    "NEM.fr multi": 2,
-    "NEM.fr poetry": 2,
-    "NEM.fr politique": 1,
-    "NEM.fr prose": 2,
-    "NEM.fr spoken": 1,
-    "NEM.fr tweets": 2,
-    "ajmc (fr, en, de)": 2,
-    "basel": 2,
-    "copious": 2,
-    "e-ner": 1,
-    "geoedda": 2,
-    "hipe2020 (fr, en, de)": 2,
-    "letemps-fr": 2,
-    "litbank": 2,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 2,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "3": {
-    "7romans": 3,
-    "NEM.fr biomedical": 1,
-    "NEM.fr defense": 3,
-    "NEM.fr encyclopedia": 3,
-    "NEM.fr information": 3,
-    "NEM.fr juridique": 1,
-    "NEM.fr mail": 3,
-    "NEM.fr multi": 3,
-    "NEM.fr poetry": 3,
-    "NEM.fr politique": 1,
-    "NEM.fr prose": 3,
-    "NEM.fr spoken": 1,
-    "NEM.fr tweets": 3,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 1,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 3,
-    "letemps-fr": 3,
-    "litbank": 3,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 3,
-    "old-bailey": 1,
-    "soduco-pero": 2,
-    "soduco-ref": 2
-   },
-   "4": {
-    "7romans": 4,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 4,
-    "NEM.fr encyclopedia": 4,
-    "NEM.fr information": 4,
-    "NEM.fr juridique": 1,
-    "NEM.fr mail": 4,
-    "NEM.fr multi": 4,
-    "NEM.fr poetry": 4,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 4,
-    "NEM.fr spoken": 2,
-    "NEM.fr tweets": 4,
-    "ajmc (fr, en, de)": 4,
-    "basel": 4,
-    "copious": 4,
-    "e-ner": 1,
-    "geoedda": 4,
-    "hipe2020 (fr, en, de)": 4,
-    "letemps-fr": 4,
-    "litbank": 4,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 4,
-    "old-bailey": 1,
-    "soduco-pero": 3,
-    "soduco-ref": 3
-   },
-   "5": {
-    "7romans": 5,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 5,
-    "NEM.fr encyclopedia": 5,
-    "NEM.fr information": 5,
-    "NEM.fr juridique": 1,
-    "NEM.fr mail": 5,
-    "NEM.fr multi": 5,
-    "NEM.fr poetry": 5,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 5,
-    "NEM.fr spoken": 2,
-    "NEM.fr tweets": 5,
-    "ajmc (fr, en, de)": 4,
-    "basel": 4,
-    "copious": 4,
-    "e-ner": 1,
-    "geoedda": 4,
-    "hipe2020 (fr, en, de)": 5,
-    "letemps-fr": 5,
-    "litbank": 5,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 5,
-    "old-bailey": 1,
-    "soduco-pero": 3,
-    "soduco-ref": 3
-   },
-   "6": {
-    "7romans": 6,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 6,
-    "NEM.fr encyclopedia": 6,
-    "NEM.fr information": 6,
-    "NEM.fr juridique": 1,
-    "NEM.fr mail": 6,
-    "NEM.fr multi": 6,
-    "NEM.fr poetry": 6,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 6,
-    "NEM.fr spoken": 3,
-    "NEM.fr tweets": 6,
-    "ajmc (fr, en, de)": 5,
-    "basel": 5,
-    "copious": 5,
-    "e-ner": 1,
-    "geoedda": 5,
-    "hipe2020 (fr, en, de)": 6,
-    "letemps-fr": 6,
-    "litbank": 6,
-    "m-popp-handwritten": 1,
-    "m-popp-printed": 1,
-    "newseye (fr, fi, sv)": 6,
-    "old-bailey": 1,
-    "soduco-pero": 4,
-    "soduco-ref": 4
-   }
-  }
- },
- "indicateurs-claude-bertrand-sans-distinct2": {
-  "n_fenetres": 1862,
-  "variance_pct": [
-   52.5,
-   34.4,
-   9.4,
-   3.8
-  ],
-  "kaiser": 2,
-  "clusters": {
-   "2": {
-    "FCM": {
-     "silhouette": 0.418,
-     "nul_moyen": 0.345,
-     "nul_max": 0.354,
-     "FPC": 0.733,
-     "PE": 0.415,
-     "clusters_non_vides": 2
-    },
-    "CAH_Ward": {
-     "silhouette": 0.52,
-     "nul_moyen": 0.31,
-     "nul_max": 0.324
-    },
-    "ARI_FCM_vs_CAH": 0.392
-   },
-   "3": {
-    "FCM": {
-     "silhouette": 0.46,
-     "nul_moyen": 0.328,
-     "nul_max": 0.339,
-     "FPC": 0.699,
-     "PE": 0.542,
-     "clusters_non_vides": 3
-    },
-    "CAH_Ward": {
-     "silhouette": 0.46,
-     "nul_moyen": 0.282,
-     "nul_max": 0.315
-    },
-    "ARI_FCM_vs_CAH": 0.585
-   },
-   "4": {
-    "FCM": {
-     "silhouette": 0.386,
-     "nul_moyen": 0.325,
-     "nul_max": 0.331,
-     "FPC": 0.619,
-     "PE": 0.719,
-     "clusters_non_vides": 4
-    },
-    "CAH_Ward": {
-     "silhouette": 0.35,
-     "nul_moyen": 0.275,
-     "nul_max": 0.291
-    },
-    "ARI_FCM_vs_CAH": 0.491
-   },
-   "5": {
-    "FCM": {
-     "silhouette": 0.426,
-     "nul_moyen": 0.311,
-     "nul_max": 0.32,
-     "FPC": 0.592,
-     "PE": 0.824,
-     "clusters_non_vides": 5
-    },
-    "CAH_Ward": {
-     "silhouette": 0.381,
-     "nul_moyen": 0.269,
-     "nul_max": 0.296
-    },
-    "ARI_FCM_vs_CAH": 0.593
-   },
-   "6": {
-    "FCM": {
-     "silhouette": 0.403,
-     "nul_moyen": 0.305,
-     "nul_max": 0.317,
-     "FPC": 0.559,
-     "PE": 0.928,
-     "clusters_non_vides": 6
-    },
-    "CAH_Ward": {
-     "silhouette": 0.352,
-     "nul_moyen": 0.263,
-     "nul_max": 0.295
-    },
-    "ARI_FCM_vs_CAH": 0.46
-   }
-  },
-  "autres_algorithmes": {
-   "k-means": [
-    "k = 2 (silhouette max 0.51)",
-    0.044,
-    0.195
-   ],
-   "GMM (BIC)": [
-    "k = 9 (BIC min)",
-    0.254,
-    0.488
-   ],
-   "CAH Ward": [
-    "k = 3 (plus grand saut)",
-    0.138,
-    0.39
-   ],
-   "HDBSCAN": [
-    "2 groupes, bruit 6 %",
-    0.041,
-    0.199
-   ]
-  },
-  "CAH_groupes": {
-   "2": {
-    "7romans": 2,
-    "ajmc (fr, en, de)": 2,
-    "basel": 2,
-    "copious": 2,
-    "e-ner": 2,
-    "geoedda": 2,
-    "hipe2020 (fr, en, de)": 2,
-    "letemps-fr": 2,
-    "litbank": 2,
-    "m-popp-handwritten": 2,
-    "m-popp-printed": 2,
-    "newseye (fr, fi, sv)": 2,
-    "old-bailey": 2,
-    "soduco-pero": 1,
-    "soduco-ref": 1
-   },
-   "3": {
-    "7romans": 3,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 2,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 3,
-    "letemps-fr": 3,
-    "litbank": 3,
-    "m-popp-handwritten": 2,
-    "m-popp-printed": 2,
-    "newseye (fr, fi, sv)": 3,
-    "old-bailey": 2,
-    "soduco-pero": 1,
-    "soduco-ref": 1
-   },
-   "4": {
-    "7romans": 3,
-    "ajmc (fr, en, de)": 3,
-    "basel": 3,
-    "copious": 3,
-    "e-ner": 2,
-    "geoedda": 3,
-    "hipe2020 (fr, en, de)": 4,
-    "letemps-fr": 4,
-    "litbank": 4,
-    "m-popp-handwritten": 2,
-    "m-popp-printed": 2,
-    "newseye (fr, fi, sv)": 4,
-    "old-bailey": 2,
-    "soduco-pero": 1,
-    "soduco-ref": 1
-   },
-   "5": {
-    "7romans": 4,
-    "ajmc (fr, en, de)": 4,
-    "basel": 4,
-    "copious": 4,
-    "e-ner": 2,
-    "geoedda": 4,
-    "hipe2020 (fr, en, de)": 5,
-    "letemps-fr": 5,
-    "litbank": 5,
-    "m-popp-handwritten": 3,
-    "m-popp-printed": 3,
-    "newseye (fr, fi, sv)": 5,
-    "old-bailey": 2,
-    "soduco-pero": 1,
-    "soduco-ref": 1
-   },
-   "6": {
-    "7romans": 4,
-    "ajmc (fr, en, de)": 4,
-    "basel": 4,
-    "copious": 4,
-    "e-ner": 2,
-    "geoedda": 4,
-    "hipe2020 (fr, en, de)": 5,
-    "letemps-fr": 5,
-    "litbank": 5,
-    "m-popp-handwritten": 3,
-    "m-popp-printed": 3,
-    "newseye (fr, fi, sv)": 6,
-    "old-bailey": 2,
-    "soduco-pero": 1,
-    "soduco-ref": 1
-   }
-  }
- },
- "indicateurs-claude-bertrand-sans-distinct2-NEMpool": {
-  "n_fenetres": 1986,
-  "variance_pct": [
-   51.3,
-   33.4,
-   9.7,
-   5.6
-  ],
-  "kaiser": 2,
-  "clusters": {
-   "2": {
-    "FCM": {
-     "silhouette": 0.414,
-     "nul_moyen": 0.346,
-     "nul_max": 0.354,
-     "FPC": 0.733,
-     "PE": 0.416,
-     "clusters_non_vides": 2
-    },
-    "CAH_Ward": {
-     "silhouette": 0.531,
-     "nul_moyen": 0.31,
-     "nul_max": 0.332
-    },
-    "ARI_FCM_vs_CAH": 0.211
-   },
-   "3": {
-    "FCM": {
-     "silhouette": 0.452,
-     "nul_moyen": 0.328,
-     "nul_max": 0.338,
-     "FPC": 0.696,
-     "PE": 0.546,
-     "clusters_non_vides": 3
-    },
-    "CAH_Ward": {
-     "silhouette": 0.444,
-     "nul_moyen": 0.279,
-     "nul_max": 0.318
-    },
-    "ARI_FCM_vs_CAH": 0.534
-   },
-   "4": {
-    "FCM": {
-     "silhouette": 0.377,
-     "nul_moyen": 0.324,
-     "nul_max": 0.336,
-     "FPC": 0.614,
-     "PE": 0.727,
-     "clusters_non_vides": 4
-    },
-    "CAH_Ward": {
-     "silhouette": 0.385,
-     "nul_moyen": 0.269,
+     "silhouette": 0.317,
+     "nul_moyen": 0.274,
      "nul_max": 0.289
     },
-    "ARI_FCM_vs_CAH": 0.426
+    "ARI_FCM_vs_CAH": 0.547
    },
    "5": {
     "FCM": {
-     "silhouette": 0.413,
-     "nul_moyen": 0.312,
-     "nul_max": 0.318,
-     "FPC": 0.583,
-     "PE": 0.84,
+     "silhouette": 0.364,
+     "nul_moyen": 0.3,
+     "nul_max": 0.307,
+     "FPC": 0.547,
+     "PE": 0.909,
      "clusters_non_vides": 5
     },
     "CAH_Ward": {
-     "silhouette": 0.398,
-     "nul_moyen": 0.257,
-     "nul_max": 0.292
+     "silhouette": 0.312,
+     "nul_moyen": 0.262,
+     "nul_max": 0.281
     },
-    "ARI_FCM_vs_CAH": 0.615
+    "ARI_FCM_vs_CAH": 0.6
    },
    "6": {
     "FCM": {
-     "silhouette": 0.376,
-     "nul_moyen": 0.302,
-     "nul_max": 0.31,
-     "FPC": 0.542,
-     "PE": 0.957,
+     "silhouette": 0.362,
+     "nul_moyen": 0.31,
+     "nul_max": 0.324,
+     "FPC": 0.517,
+     "PE": 1.012,
      "clusters_non_vides": 6
     },
     "CAH_Ward": {
-     "silhouette": 0.35,
+     "silhouette": 0.316,
      "nul_moyen": 0.26,
-     "nul_max": 0.28
+     "nul_max": 0.279
     },
-    "ARI_FCM_vs_CAH": 0.594
+    "ARI_FCM_vs_CAH": 0.564
    }
   },
   "autres_algorithmes": {
    "k-means": [
-    "k = 3 (silhouette max 0.46)",
-    0.145,
-    0.353
+    "k = 3 (silhouette max 0.44)",
+    0.094,
+    0.213
    ],
    "GMM (BIC)": [
     "k = 7 (BIC min)",
-    0.233,
-    0.458
+    0.207,
+    0.319
    ],
    "CAH Ward": [
     "k = 3 (plus grand saut)",
-    0.11,
-    0.346
+    0.075,
+    0.226
    ],
    "HDBSCAN": [
-    "2 groupes, bruit 7 %",
-    0.036,
-    0.187
+    "0 groupes, bruit 100 %",
+    0.0,
+    0.0
    ]
   },
   "CAH_groupes": {
    "2": {
     "7romans": 2,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 2,
-    "NEM.fr encyclopedia": 2,
-    "NEM.fr information": 2,
-    "NEM.fr juridique": 2,
-    "NEM.fr mail": 2,
-    "NEM.fr multi": 2,
-    "NEM.fr poetry": 2,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 2,
-    "NEM.fr spoken": 2,
-    "NEM.fr tweets": 2,
     "ajmc (fr, en, de)": 2,
     "basel": 2,
     "copious": 2,
@@ -809,23 +133,11 @@
    },
    "3": {
     "7romans": 2,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 2,
-    "NEM.fr encyclopedia": 2,
-    "NEM.fr information": 2,
-    "NEM.fr juridique": 3,
-    "NEM.fr mail": 2,
-    "NEM.fr multi": 2,
-    "NEM.fr poetry": 2,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 2,
-    "NEM.fr spoken": 3,
-    "NEM.fr tweets": 2,
     "ajmc (fr, en, de)": 2,
     "basel": 2,
-    "copious": 2,
+    "copious": 3,
     "e-ner": 3,
-    "geoedda": 2,
+    "geoedda": 3,
     "hipe2020 (fr, en, de)": 2,
     "letemps-fr": 2,
     "litbank": 2,
@@ -838,23 +150,11 @@
    },
    "4": {
     "7romans": 2,
-    "NEM.fr biomedical": 2,
-    "NEM.fr defense": 2,
-    "NEM.fr encyclopedia": 2,
-    "NEM.fr information": 2,
-    "NEM.fr juridique": 3,
-    "NEM.fr mail": 2,
-    "NEM.fr multi": 2,
-    "NEM.fr poetry": 2,
-    "NEM.fr politique": 2,
-    "NEM.fr prose": 2,
-    "NEM.fr spoken": 4,
-    "NEM.fr tweets": 2,
     "ajmc (fr, en, de)": 2,
     "basel": 2,
-    "copious": 2,
-    "e-ner": 3,
-    "geoedda": 2,
+    "copious": 3,
+    "e-ner": 4,
+    "geoedda": 3,
     "hipe2020 (fr, en, de)": 2,
     "letemps-fr": 2,
     "litbank": 2,
@@ -866,24 +166,12 @@
     "soduco-ref": 1
    },
    "5": {
-    "7romans": 2,
-    "NEM.fr biomedical": 3,
-    "NEM.fr defense": 3,
-    "NEM.fr encyclopedia": 3,
-    "NEM.fr information": 3,
-    "NEM.fr juridique": 4,
-    "NEM.fr mail": 3,
-    "NEM.fr multi": 3,
-    "NEM.fr poetry": 3,
-    "NEM.fr politique": 3,
-    "NEM.fr prose": 3,
-    "NEM.fr spoken": 5,
-    "NEM.fr tweets": 3,
+    "7romans": 3,
     "ajmc (fr, en, de)": 2,
     "basel": 2,
-    "copious": 2,
-    "e-ner": 4,
-    "geoedda": 2,
+    "copious": 4,
+    "e-ner": 5,
+    "geoedda": 4,
     "hipe2020 (fr, en, de)": 3,
     "letemps-fr": 3,
     "litbank": 3,
@@ -895,146 +183,397 @@
     "soduco-ref": 1
    },
    "6": {
-    "7romans": 2,
-    "NEM.fr biomedical": 3,
-    "NEM.fr defense": 4,
-    "NEM.fr encyclopedia": 4,
-    "NEM.fr information": 4,
-    "NEM.fr juridique": 5,
-    "NEM.fr mail": 4,
-    "NEM.fr multi": 4,
-    "NEM.fr poetry": 4,
-    "NEM.fr politique": 3,
-    "NEM.fr prose": 4,
-    "NEM.fr spoken": 6,
-    "NEM.fr tweets": 4,
+    "7romans": 3,
     "ajmc (fr, en, de)": 2,
     "basel": 2,
-    "copious": 2,
-    "e-ner": 5,
-    "geoedda": 2,
-    "hipe2020 (fr, en, de)": 4,
-    "letemps-fr": 4,
-    "litbank": 4,
+    "copious": 4,
+    "e-ner": 6,
+    "geoedda": 4,
+    "hipe2020 (fr, en, de)": 3,
+    "letemps-fr": 3,
+    "litbank": 3,
     "m-popp-handwritten": 5,
     "m-popp-printed": 5,
-    "newseye (fr, fi, sv)": 4,
+    "newseye (fr, fi, sv)": 3,
     "old-bailey": 5,
     "soduco-pero": 1,
     "soduco-ref": 1
    }
   }
  },
- "indicateurs-formularite-ponctuation-balance": {
-  "n_fenetres": 1862,
+ "indicateurs-claude-bertrand-NEMpool": {
+  "n_fenetres": 2529,
   "variance_pct": [
-   65.8,
-   25.8,
-   8.5
+   41.0,
+   36.3,
+   12.0,
+   7.5,
+   3.3
   ],
-  "kaiser": 1,
+  "kaiser": 2,
   "clusters": {
    "2": {
     "FCM": {
-     "silhouette": 0.492,
-     "nul_moyen": 0.389,
-     "nul_max": 0.399,
-     "FPC": 0.775,
-     "PE": 0.363,
+     "silhouette": 0.402,
+     "nul_moyen": 0.317,
+     "nul_max": 0.324,
+     "FPC": 0.726,
+     "PE": 0.425,
      "clusters_non_vides": 2
     },
     "CAH_Ward": {
-     "silhouette": 0.557,
-     "nul_moyen": 0.346,
-     "nul_max": 0.372
+     "silhouette": 0.338,
+     "nul_moyen": 0.27,
+     "nul_max": 0.29
     },
-    "ARI_FCM_vs_CAH": 0.39
+    "ARI_FCM_vs_CAH": 0.386
    },
    "3": {
     "FCM": {
-     "silhouette": 0.478,
-     "nul_moyen": 0.303,
-     "nul_max": 0.311,
-     "FPC": 0.722,
-     "PE": 0.502,
+     "silhouette": 0.412,
+     "nul_moyen": 0.332,
+     "nul_max": 0.338,
+     "FPC": 0.639,
+     "PE": 0.642,
      "clusters_non_vides": 3
     },
     "CAH_Ward": {
-     "silhouette": 0.455,
-     "nul_moyen": 0.285,
-     "nul_max": 0.314
+     "silhouette": 0.341,
+     "nul_moyen": 0.282,
+     "nul_max": 0.315
     },
-    "ARI_FCM_vs_CAH": 0.712
+    "ARI_FCM_vs_CAH": 0.523
    },
    "4": {
     "FCM": {
-     "silhouette": 0.432,
-     "nul_moyen": 0.333,
-     "nul_max": 0.341,
-     "FPC": 0.647,
-     "PE": 0.673,
+     "silhouette": 0.376,
+     "nul_moyen": 0.314,
+     "nul_max": 0.32,
+     "FPC": 0.58,
+     "PE": 0.798,
      "clusters_non_vides": 4
     },
     "CAH_Ward": {
-     "silhouette": 0.413,
-     "nul_moyen": 0.288,
-     "nul_max": 0.314
+     "silhouette": 0.356,
+     "nul_moyen": 0.275,
+     "nul_max": 0.299
     },
-    "ARI_FCM_vs_CAH": 0.613
+    "ARI_FCM_vs_CAH": 0.713
    },
    "5": {
     "FCM": {
-     "silhouette": 0.455,
-     "nul_moyen": 0.319,
-     "nul_max": 0.329,
-     "FPC": 0.607,
-     "PE": 0.798,
+     "silhouette": 0.349,
+     "nul_moyen": 0.295,
+     "nul_max": 0.306,
+     "FPC": 0.54,
+     "PE": 0.92,
      "clusters_non_vides": 5
     },
     "CAH_Ward": {
-     "silhouette": 0.404,
-     "nul_moyen": 0.27,
-     "nul_max": 0.291
+     "silhouette": 0.34,
+     "nul_moyen": 0.267,
+     "nul_max": 0.288
     },
-    "ARI_FCM_vs_CAH": 0.696
+    "ARI_FCM_vs_CAH": 0.486
    },
    "6": {
     "FCM": {
-     "silhouette": 0.426,
-     "nul_moyen": 0.317,
-     "nul_max": 0.33,
-     "FPC": 0.585,
-     "PE": 0.871,
+     "silhouette": 0.36,
+     "nul_moyen": 0.309,
+     "nul_max": 0.319,
+     "FPC": 0.512,
+     "PE": 1.02,
      "clusters_non_vides": 6
     },
     "CAH_Ward": {
-     "silhouette": 0.4,
-     "nul_moyen": 0.262,
-     "nul_max": 0.28
+     "silhouette": 0.356,
+     "nul_moyen": 0.259,
+     "nul_max": 0.274
     },
-    "ARI_FCM_vs_CAH": 0.756
+    "ARI_FCM_vs_CAH": 0.522
    }
   },
   "autres_algorithmes": {
    "k-means": [
-    "k = 2 (silhouette max 0.49)",
-    0.086,
-    0.235
+    "k = 2 (silhouette max 0.44)",
+    0.044,
+    0.134
    ],
    "GMM (BIC)": [
-    "k = 9 (BIC min)",
-    0.267,
-    0.473
+    "k = 5 (BIC min)",
+    0.123,
+    0.273
    ],
    "CAH Ward": [
     "k = 2 (plus grand saut)",
-    0.041,
-    0.204
+    0.049,
+    0.162
    ],
    "HDBSCAN": [
-    "4 groupes, bruit 32 %",
-    0.124,
-    0.335
+    "0 groupes, bruit 100 %",
+    0.0,
+    0.0
+   ]
+  },
+  "CAH_groupes": {
+   "2": {
+    "7romans": 2,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 2,
+    "NEM.fr encyclopedia": 2,
+    "NEM.fr information": 2,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 2,
+    "NEM.fr multi": 2,
+    "NEM.fr poetry": 2,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 2,
+    "NEM.fr spoken": 1,
+    "NEM.fr tweets": 2,
+    "ajmc (fr, en, de)": 2,
+    "basel": 2,
+    "copious": 2,
+    "e-ner": 1,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 1,
+    "soduco-pero": 2,
+    "soduco-ref": 2
+   },
+   "3": {
+    "7romans": 3,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 2,
+    "NEM.fr encyclopedia": 2,
+    "NEM.fr information": 2,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 2,
+    "NEM.fr multi": 2,
+    "NEM.fr poetry": 2,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 2,
+    "NEM.fr spoken": 1,
+    "NEM.fr tweets": 2,
+    "ajmc (fr, en, de)": 3,
+    "basel": 3,
+    "copious": 3,
+    "e-ner": 1,
+    "geoedda": 3,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 3,
+    "m-popp-printed": 3,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 1,
+    "soduco-pero": 3,
+    "soduco-ref": 3
+   },
+   "4": {
+    "7romans": 4,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 2,
+    "NEM.fr encyclopedia": 2,
+    "NEM.fr information": 2,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 2,
+    "NEM.fr multi": 2,
+    "NEM.fr poetry": 2,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 2,
+    "NEM.fr spoken": 1,
+    "NEM.fr tweets": 2,
+    "ajmc (fr, en, de)": 4,
+    "basel": 4,
+    "copious": 4,
+    "e-ner": 1,
+    "geoedda": 4,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 4,
+    "m-popp-printed": 4,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 1,
+    "soduco-pero": 3,
+    "soduco-ref": 3
+   },
+   "5": {
+    "7romans": 5,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 3,
+    "NEM.fr encyclopedia": 3,
+    "NEM.fr information": 3,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 3,
+    "NEM.fr multi": 3,
+    "NEM.fr poetry": 3,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 3,
+    "NEM.fr spoken": 2,
+    "NEM.fr tweets": 3,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 5,
+    "e-ner": 1,
+    "geoedda": 5,
+    "hipe2020 (fr, en, de)": 3,
+    "letemps-fr": 3,
+    "litbank": 3,
+    "m-popp-handwritten": 5,
+    "m-popp-printed": 5,
+    "newseye (fr, fi, sv)": 3,
+    "old-bailey": 1,
+    "soduco-pero": 4,
+    "soduco-ref": 4
+   },
+   "6": {
+    "7romans": 6,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 3,
+    "NEM.fr encyclopedia": 3,
+    "NEM.fr information": 3,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 3,
+    "NEM.fr multi": 3,
+    "NEM.fr poetry": 3,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 3,
+    "NEM.fr spoken": 2,
+    "NEM.fr tweets": 3,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 6,
+    "e-ner": 1,
+    "geoedda": 6,
+    "hipe2020 (fr, en, de)": 3,
+    "letemps-fr": 3,
+    "litbank": 3,
+    "m-popp-handwritten": 6,
+    "m-popp-printed": 6,
+    "newseye (fr, fi, sv)": 3,
+    "old-bailey": 1,
+    "soduco-pero": 4,
+    "soduco-ref": 4
+   }
+  }
+ },
+ "indicateurs-claude-bertrand-sans-distinct2": {
+  "n_fenetres": 2100,
+  "variance_pct": [
+   49.7,
+   30.2,
+   14.5,
+   5.6
+  ],
+  "kaiser": 2,
+  "clusters": {
+   "2": {
+    "FCM": {
+     "silhouette": 0.422,
+     "nul_moyen": 0.352,
+     "nul_max": 0.361,
+     "FPC": 0.736,
+     "PE": 0.415,
+     "clusters_non_vides": 2
+    },
+    "CAH_Ward": {
+     "silhouette": 0.434,
+     "nul_moyen": 0.315,
+     "nul_max": 0.342
+    },
+    "ARI_FCM_vs_CAH": 0.574
+   },
+   "3": {
+    "FCM": {
+     "silhouette": 0.396,
+     "nul_moyen": 0.325,
+     "nul_max": 0.336,
+     "FPC": 0.646,
+     "PE": 0.625,
+     "clusters_non_vides": 3
+    },
+    "CAH_Ward": {
+     "silhouette": 0.377,
+     "nul_moyen": 0.275,
+     "nul_max": 0.304
+    },
+    "ARI_FCM_vs_CAH": 0.615
+   },
+   "4": {
+    "FCM": {
+     "silhouette": 0.412,
+     "nul_moyen": 0.326,
+     "nul_max": 0.338,
+     "FPC": 0.601,
+     "PE": 0.765,
+     "clusters_non_vides": 4
+    },
+    "CAH_Ward": {
+     "silhouette": 0.389,
+     "nul_moyen": 0.279,
+     "nul_max": 0.3
+    },
+    "ARI_FCM_vs_CAH": 0.644
+   },
+   "5": {
+    "FCM": {
+     "silhouette": 0.356,
+     "nul_moyen": 0.313,
+     "nul_max": 0.32,
+     "FPC": 0.546,
+     "PE": 0.91,
+     "clusters_non_vides": 5
+    },
+    "CAH_Ward": {
+     "silhouette": 0.38,
+     "nul_moyen": 0.274,
+     "nul_max": 0.295
+    },
+    "ARI_FCM_vs_CAH": 0.498
+   },
+   "6": {
+    "FCM": {
+     "silhouette": 0.371,
+     "nul_moyen": 0.305,
+     "nul_max": 0.314,
+     "FPC": 0.524,
+     "PE": 0.999,
+     "clusters_non_vides": 6
+    },
+    "CAH_Ward": {
+     "silhouette": 0.335,
+     "nul_moyen": 0.263,
+     "nul_max": 0.276
+    },
+    "ARI_FCM_vs_CAH": 0.628
+   }
+  },
+  "autres_algorithmes": {
+   "k-means": [
+    "k = 2 (silhouette max 0.44)",
+    0.054,
+    0.162
+   ],
+   "GMM (BIC)": [
+    "k = 5 (BIC min)",
+    0.21,
+    0.358
+   ],
+   "CAH Ward": [
+    "k = 2 (plus grand saut)",
+    0.055,
+    0.195
+   ],
+   "HDBSCAN": [
+    "2 groupes, bruit 11 %",
+    0.041,
+    0.161
    ]
   },
   "CAH_groupes": {
@@ -1059,6 +598,467 @@
     "7romans": 2,
     "ajmc (fr, en, de)": 3,
     "basel": 3,
+    "copious": 2,
+    "e-ner": 2,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 3,
+    "letemps-fr": 3,
+    "litbank": 3,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 3,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "4": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 3,
+    "basel": 3,
+    "copious": 2,
+    "e-ner": 2,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 4,
+    "letemps-fr": 4,
+    "litbank": 4,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 4,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "5": {
+    "7romans": 3,
+    "ajmc (fr, en, de)": 4,
+    "basel": 4,
+    "copious": 3,
+    "e-ner": 2,
+    "geoedda": 3,
+    "hipe2020 (fr, en, de)": 5,
+    "letemps-fr": 5,
+    "litbank": 5,
+    "m-popp-handwritten": 3,
+    "m-popp-printed": 3,
+    "newseye (fr, fi, sv)": 5,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "6": {
+    "7romans": 4,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 4,
+    "e-ner": 2,
+    "geoedda": 4,
+    "hipe2020 (fr, en, de)": 6,
+    "letemps-fr": 6,
+    "litbank": 6,
+    "m-popp-handwritten": 3,
+    "m-popp-printed": 3,
+    "newseye (fr, fi, sv)": 6,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   }
+  }
+ },
+ "indicateurs-claude-bertrand-sans-distinct2-NEMpool": {
+  "n_fenetres": 2529,
+  "variance_pct": [
+   47.9,
+   29.1,
+   14.1,
+   9.0
+  ],
+  "kaiser": 2,
+  "clusters": {
+   "2": {
+    "FCM": {
+     "silhouette": 0.425,
+     "nul_moyen": 0.351,
+     "nul_max": 0.36,
+     "FPC": 0.743,
+     "PE": 0.404,
+     "clusters_non_vides": 2
+    },
+    "CAH_Ward": {
+     "silhouette": 0.445,
+     "nul_moyen": 0.318,
+     "nul_max": 0.337
+    },
+    "ARI_FCM_vs_CAH": 0.362
+   },
+   "3": {
+    "FCM": {
+     "silhouette": 0.372,
+     "nul_moyen": 0.325,
+     "nul_max": 0.336,
+     "FPC": 0.631,
+     "PE": 0.646,
+     "clusters_non_vides": 3
+    },
+    "CAH_Ward": {
+     "silhouette": 0.345,
+     "nul_moyen": 0.269,
+     "nul_max": 0.297
+    },
+    "ARI_FCM_vs_CAH": 0.629
+   },
+   "4": {
+    "FCM": {
+     "silhouette": 0.379,
+     "nul_moyen": 0.324,
+     "nul_max": 0.331,
+     "FPC": 0.582,
+     "PE": 0.793,
+     "clusters_non_vides": 4
+    },
+    "CAH_Ward": {
+     "silhouette": 0.349,
+     "nul_moyen": 0.263,
+     "nul_max": 0.293
+    },
+    "ARI_FCM_vs_CAH": 0.542
+   },
+   "5": {
+    "FCM": {
+     "silhouette": 0.343,
+     "nul_moyen": 0.313,
+     "nul_max": 0.323,
+     "FPC": 0.536,
+     "PE": 0.927,
+     "clusters_non_vides": 5
+    },
+    "CAH_Ward": {
+     "silhouette": 0.363,
+     "nul_moyen": 0.259,
+     "nul_max": 0.282
+    },
+    "ARI_FCM_vs_CAH": 0.451
+   },
+   "6": {
+    "FCM": {
+     "silhouette": 0.357,
+     "nul_moyen": 0.301,
+     "nul_max": 0.307,
+     "FPC": 0.519,
+     "PE": 1.007,
+     "clusters_non_vides": 6
+    },
+    "CAH_Ward": {
+     "silhouette": 0.298,
+     "nul_moyen": 0.254,
+     "nul_max": 0.273
+    },
+    "ARI_FCM_vs_CAH": 0.525
+   }
+  },
+  "autres_algorithmes": {
+   "k-means": [
+    "k = 2 (silhouette max 0.44)",
+    0.041,
+    0.167
+   ],
+   "GMM (BIC)": [
+    "k = 6 (BIC min)",
+    0.158,
+    0.326
+   ],
+   "CAH Ward": [
+    "k = 2 (plus grand saut)",
+    0.021,
+    0.156
+   ],
+   "HDBSCAN": [
+    "2 groupes, bruit 13 %",
+    0.025,
+    0.134
+   ]
+  },
+  "CAH_groupes": {
+   "2": {
+    "7romans": 2,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 1,
+    "NEM.fr encyclopedia": 1,
+    "NEM.fr information": 1,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 1,
+    "NEM.fr multi": 1,
+    "NEM.fr poetry": 1,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 1,
+    "NEM.fr spoken": 1,
+    "NEM.fr tweets": 1,
+    "ajmc (fr, en, de)": 2,
+    "basel": 2,
+    "copious": 2,
+    "e-ner": 1,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 1,
+    "letemps-fr": 1,
+    "litbank": 1,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 1,
+    "old-bailey": 1,
+    "soduco-pero": 2,
+    "soduco-ref": 2
+   },
+   "3": {
+    "7romans": 3,
+    "NEM.fr biomedical": 1,
+    "NEM.fr defense": 1,
+    "NEM.fr encyclopedia": 1,
+    "NEM.fr information": 1,
+    "NEM.fr juridique": 1,
+    "NEM.fr mail": 1,
+    "NEM.fr multi": 1,
+    "NEM.fr poetry": 1,
+    "NEM.fr politique": 1,
+    "NEM.fr prose": 1,
+    "NEM.fr spoken": 1,
+    "NEM.fr tweets": 1,
+    "ajmc (fr, en, de)": 3,
+    "basel": 3,
+    "copious": 3,
+    "e-ner": 1,
+    "geoedda": 3,
+    "hipe2020 (fr, en, de)": 1,
+    "letemps-fr": 1,
+    "litbank": 1,
+    "m-popp-handwritten": 3,
+    "m-popp-printed": 3,
+    "newseye (fr, fi, sv)": 1,
+    "old-bailey": 1,
+    "soduco-pero": 2,
+    "soduco-ref": 2
+   },
+   "4": {
+    "7romans": 4,
+    "NEM.fr biomedical": 2,
+    "NEM.fr defense": 1,
+    "NEM.fr encyclopedia": 1,
+    "NEM.fr information": 1,
+    "NEM.fr juridique": 2,
+    "NEM.fr mail": 1,
+    "NEM.fr multi": 1,
+    "NEM.fr poetry": 1,
+    "NEM.fr politique": 2,
+    "NEM.fr prose": 1,
+    "NEM.fr spoken": 2,
+    "NEM.fr tweets": 1,
+    "ajmc (fr, en, de)": 4,
+    "basel": 4,
+    "copious": 4,
+    "e-ner": 2,
+    "geoedda": 4,
+    "hipe2020 (fr, en, de)": 1,
+    "letemps-fr": 1,
+    "litbank": 1,
+    "m-popp-handwritten": 4,
+    "m-popp-printed": 4,
+    "newseye (fr, fi, sv)": 1,
+    "old-bailey": 2,
+    "soduco-pero": 3,
+    "soduco-ref": 3
+   },
+   "5": {
+    "7romans": 5,
+    "NEM.fr biomedical": 2,
+    "NEM.fr defense": 1,
+    "NEM.fr encyclopedia": 1,
+    "NEM.fr information": 1,
+    "NEM.fr juridique": 2,
+    "NEM.fr mail": 1,
+    "NEM.fr multi": 1,
+    "NEM.fr poetry": 1,
+    "NEM.fr politique": 2,
+    "NEM.fr prose": 1,
+    "NEM.fr spoken": 3,
+    "NEM.fr tweets": 1,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 5,
+    "e-ner": 2,
+    "geoedda": 5,
+    "hipe2020 (fr, en, de)": 1,
+    "letemps-fr": 1,
+    "litbank": 1,
+    "m-popp-handwritten": 5,
+    "m-popp-printed": 5,
+    "newseye (fr, fi, sv)": 1,
+    "old-bailey": 2,
+    "soduco-pero": 4,
+    "soduco-ref": 4
+   },
+   "6": {
+    "7romans": 6,
+    "NEM.fr biomedical": 2,
+    "NEM.fr defense": 1,
+    "NEM.fr encyclopedia": 1,
+    "NEM.fr information": 1,
+    "NEM.fr juridique": 2,
+    "NEM.fr mail": 1,
+    "NEM.fr multi": 1,
+    "NEM.fr poetry": 1,
+    "NEM.fr politique": 2,
+    "NEM.fr prose": 1,
+    "NEM.fr spoken": 3,
+    "NEM.fr tweets": 1,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 6,
+    "e-ner": 2,
+    "geoedda": 6,
+    "hipe2020 (fr, en, de)": 1,
+    "letemps-fr": 1,
+    "litbank": 1,
+    "m-popp-handwritten": 6,
+    "m-popp-printed": 6,
+    "newseye (fr, fi, sv)": 1,
+    "old-bailey": 2,
+    "soduco-pero": 4,
+    "soduco-ref": 4
+   }
+  }
+ },
+ "indicateurs-formularite-ponctuation-balance": {
+  "n_fenetres": 2100,
+  "variance_pct": [
+   63.3,
+   25.9,
+   10.8
+  ],
+  "kaiser": 1,
+  "clusters": {
+   "2": {
+    "FCM": {
+     "silhouette": 0.456,
+     "nul_moyen": 0.385,
+     "nul_max": 0.396,
+     "FPC": 0.758,
+     "PE": 0.388,
+     "clusters_non_vides": 2
+    },
+    "CAH_Ward": {
+     "silhouette": 0.48,
+     "nul_moyen": 0.353,
+     "nul_max": 0.374
+    },
+    "ARI_FCM_vs_CAH": 0.225
+   },
+   "3": {
+    "FCM": {
+     "silhouette": 0.437,
+     "nul_moyen": 0.299,
+     "nul_max": 0.308,
+     "FPC": 0.687,
+     "PE": 0.555,
+     "clusters_non_vides": 3
+    },
+    "CAH_Ward": {
+     "silhouette": 0.365,
+     "nul_moyen": 0.283,
+     "nul_max": 0.302
+    },
+    "ARI_FCM_vs_CAH": 0.414
+   },
+   "4": {
+    "FCM": {
+     "silhouette": 0.438,
+     "nul_moyen": 0.332,
+     "nul_max": 0.346,
+     "FPC": 0.634,
+     "PE": 0.7,
+     "clusters_non_vides": 4
+    },
+    "CAH_Ward": {
+     "silhouette": 0.382,
+     "nul_moyen": 0.275,
+     "nul_max": 0.291
+    },
+    "ARI_FCM_vs_CAH": 0.521
+   },
+   "5": {
+    "FCM": {
+     "silhouette": 0.461,
+     "nul_moyen": 0.319,
+     "nul_max": 0.323,
+     "FPC": 0.615,
+     "PE": 0.787,
+     "clusters_non_vides": 5
+    },
+    "CAH_Ward": {
+     "silhouette": 0.417,
+     "nul_moyen": 0.267,
+     "nul_max": 0.294
+    },
+    "ARI_FCM_vs_CAH": 0.727
+   },
+   "6": {
+    "FCM": {
+     "silhouette": 0.422,
+     "nul_moyen": 0.314,
+     "nul_max": 0.329,
+     "FPC": 0.581,
+     "PE": 0.883,
+     "clusters_non_vides": 6
+    },
+    "CAH_Ward": {
+     "silhouette": 0.435,
+     "nul_moyen": 0.266,
+     "nul_max": 0.283
+    },
+    "ARI_FCM_vs_CAH": 0.737
+   }
+  },
+  "autres_algorithmes": {
+   "k-means": [
+    "k = 5 (silhouette max 0.46)",
+    0.195,
+    0.353
+   ],
+   "GMM (BIC)": [
+    "k = 7 (BIC min)",
+    0.191,
+    0.365
+   ],
+   "CAH Ward": [
+    "k = 2 (plus grand saut)",
+    0.037,
+    0.175
+   ],
+   "HDBSCAN": [
+    "2 groupes, bruit 4 %",
+    0.045,
+    0.144
+   ]
+  },
+  "CAH_groupes": {
+   "2": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 2,
+    "basel": 2,
+    "copious": 2,
+    "e-ner": 2,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "3": {
+    "7romans": 3,
+    "ajmc (fr, en, de)": 3,
+    "basel": 3,
     "copious": 3,
     "e-ner": 3,
     "geoedda": 3,
@@ -1073,12 +1073,12 @@
     "soduco-ref": 1
    },
    "4": {
-    "7romans": 2,
+    "7romans": 3,
     "ajmc (fr, en, de)": 4,
     "basel": 4,
     "copious": 4,
     "e-ner": 3,
-    "geoedda": 4,
+    "geoedda": 3,
     "hipe2020 (fr, en, de)": 2,
     "letemps-fr": 2,
     "litbank": 2,
@@ -1090,36 +1090,36 @@
     "soduco-ref": 1
    },
    "5": {
-    "7romans": 2,
-    "ajmc (fr, en, de)": 5,
+    "7romans": 3,
+    "ajmc (fr, en, de)": 4,
     "basel": 5,
-    "copious": 5,
+    "copious": 4,
     "e-ner": 3,
-    "geoedda": 5,
+    "geoedda": 3,
     "hipe2020 (fr, en, de)": 2,
     "letemps-fr": 2,
     "litbank": 2,
-    "m-popp-handwritten": 4,
-    "m-popp-printed": 4,
+    "m-popp-handwritten": 5,
+    "m-popp-printed": 5,
     "newseye (fr, fi, sv)": 2,
     "old-bailey": 3,
     "soduco-pero": 1,
     "soduco-ref": 1
    },
    "6": {
-    "7romans": 2,
+    "7romans": 3,
     "ajmc (fr, en, de)": 5,
     "basel": 6,
     "copious": 5,
-    "e-ner": 3,
-    "geoedda": 6,
+    "e-ner": 4,
+    "geoedda": 3,
     "hipe2020 (fr, en, de)": 2,
     "letemps-fr": 2,
     "litbank": 2,
-    "m-popp-handwritten": 4,
-    "m-popp-printed": 4,
+    "m-popp-handwritten": 6,
+    "m-popp-printed": 6,
     "newseye (fr, fi, sv)": 2,
-    "old-bailey": 3,
+    "old-bailey": 4,
     "soduco-pero": 1,
     "soduco-ref": 1
    }
