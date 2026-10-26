@@ -289,11 +289,11 @@ anglaise (4,9 %) se distingue des parties française et allemande (0 %).
 
 **Robustesse** ([`../formularity-robustness/`](../formularity-robustness/README.md)).
 * Exiger que le gabarit apparaisse dans au moins 2 ou 3 documents distincts de la référence, comme pour les
-  *lexical bundles*, ne change pas l'ordre des datasets (ρ = 0,99). La formularité n'est donc pas faite de
-  répétitions propres à un seul document.
-* Elle classe les datasets comme le Self-BLEU [[Zhu 2018](#ref-zhu2018)], calculé sur la même référence (ρ = 0,96
-  entre médianes). Contrairement au Self-BLEU, elle ne dépend pas de la langue : η² de la langue dans newseye = 0,02
-  contre 0,25.
+  *lexical bundles*, ne change pas l'ordre des datasets (ρ = 0,98 à 0,99 sur 100 mots). La formularité n'est donc
+  pas faite de répétitions propres à un seul document.
+* Elle classe les datasets comme le Self-BLEU [[Zhu 2018](#ref-zhu2018)], calculé sur la même référence (ρ = 0,95
+  entre médianes). Le Self-BLEU usuel dépend davantage de la langue dans newseye (η² de la langue = 0,17 contre
+  0,02), mais pas dans hipe2020 ni ajmc, où la langue se confond en partie avec la source.
 * Les 4-grammes sont un compromis : les 3-grammes captent des tournures banales de la langue, les 5-grammes
   effacent les formules courtes.
 
@@ -498,7 +498,7 @@ utilisables à l'échelle locale.
 | Distinct-2 | Ne voit que les répétitions internes à la fenêtre, alors que les formules se répètent d'un document à l'autre. Sépare mal à 100 mots (0,36) et dépend de la langue (0,37 à 0,39 à 300 mots). | formularité |
 | Entropie POS (ancienne) | Entropie des proportions d'étiquettes, insensible à l'ordre des mots : elle ne mesurait pas la syntaxe. Redondante avec la KL (ρ = −0,75 en français). L'article cité [[Bentz 2017](#ref-bentz)] porte sur les mots, pas sur les POS. | balance phrastique |
 | Entropie des mots H₁, ĥ et ΔH = H₁ − ĥ | Voir ci-dessous. | formularité |
-| MATTR [[Covington 2010](#ref-covington)] (TTR moyen sur 50 mots) | Comme Distinct-2, ne voit que les répétitions internes à la fenêtre. Dépend surtout de la langue (η² de la langue dans newseye : 0,64 à 300 mots) et sépare moins bien que la formularité (0,61 contre 0,82). | formularité |
+| MATTR [[Covington 2010](#ref-covington)] (TTR moyen sur 50 mots) | Comme Distinct-2, ne voit que les répétitions internes à la fenêtre. Dépend surtout de la langue (η² de la langue dans newseye : 0,41 à 100 mots, 0,64 à 300) et sépare moins bien que la formularité (0,49 contre 0,69 à 100 mots). | formularité |
 | Taux d'entropie des POS | Sépare les annuaires par leurs proportions d'étiquettes, pas par l'ordre. Construction sans précédent dans la littérature. | balance phrastique |
 | Divergence KL des POS | Ne donne qu'une ampleur, pas une direction : Proust (0,20) paraissait plus atypique que la presse (0,07). Sépare moins bien que la balance (0,47 contre 0,56 à 100 mots). | balance phrastique |
 | Perplexité KenLM (CCNet) | Mélange l'imprévisibilité propre du texte et sa distance à Wikipédia : log₂ PPL = H(p) + D<sub>KL</sub>(p ‖ q). Configuration différente de CCNet : chiffres et accents non normalisés, texte scoré d'un bloc. Modèle français seulement. | aucun ; éventuelle covariable de qualité OCR après normalisation CCNet [[Wenzek 2020](#ref-ccnet)] |
