@@ -1,11 +1,11 @@
 # Composantes de l'ACP des indicateurs (indicateurs-claude-bertrand)
 
-1862 fenêtres (0 de NEM.fr), 5 indicateurs orientés (+ = plus rigide), log(1 + x) pour la formularité, la KL et la ponctuation, centrés-réduits. Kaiser : 2 composante(s), 86.7 % de variance. Signe : somme des poids ≥ 0 ; une composante dont tous les poids ont le même signe est un axe de rigidité commun aux indicateurs, sinon elle OPPOSE des indicateurs censés aller dans le même sens.
+1862 fenêtres (0 de NEM.fr), 5 indicateurs orientés (+ = plus rigide), log(1 + x) pour : Formularité, KL POS, Ponctuation ; centrés-réduits. Kaiser : 2 composante(s), 86.7 % de variance. Signe : somme des poids ≥ 0 ; une composante dont tous les poids ont le même signe est un axe de rigidité commun aux indicateurs, sinon elle OPPOSE des indicateurs censés aller dans le même sens.
 
-| Composante | Poids des indicateurs | Groupes côté − | Groupes côté + |
-|---|---|---|---|
-| PC1 (49.8 %) | Formularité +0.53, Distinct-2 +0.53, ĥ (Bentz) +0.47, KL POS +0.39, Ponctuation +0.25 | newseye (fr, fi, sv) (-1.9), hipe2020 (fr, en, de) (-1.3), letemps-fr (-1.0) | m-popp-printed (+2.3), soduco-ref (+2.2), soduco-pero (+1.9) |
-| PC2 (36.9 %) | Ponctuation +0.64, KL POS +0.53, ĥ (Bentz) -0.44, Distinct-2 -0.35, Formularité +0.04 | e-ner (-2.1), old-bailey (-1.5), m-popp-handwritten (-1.0) | soduco-pero (+2.5), soduco-ref (+2.4), ajmc (fr, en, de) (+1.1) |
-| PC3 (8.1 %) | Formularité -0.84, ĥ (Bentz) +0.35, KL POS +0.31, Distinct-2 +0.23, Ponctuation +0.17 | m-popp-handwritten (-1.0), basel (-0.8), m-popp-printed (-0.6) | litbank (+0.6), letemps-fr (+0.5), e-ner (+0.3) |
-| PC4 (3.0 %) | Ponctuation +0.71, KL POS -0.69, Distinct-2 +0.13, ĥ (Bentz) +0.09, Formularité -0.04 | basel (-0.4), m-popp-handwritten (-0.3), e-ner (-0.1) | geoedda (+0.5), m-popp-printed (+0.3), ajmc (fr, en, de) (+0.2) |
-| PC5 (2.2 %) | Distinct-2 -0.73, ĥ (Bentz) +0.68, Formularité +0.10, Ponctuation +0.05, KL POS +0.00 | e-ner (-0.2), newseye (fr, fi, sv) (-0.2), m-popp-printed (-0.2) | 7romans (+0.3), geoedda (+0.3), old-bailey (+0.3) |
+| Composante | Poids des indicateurs | Lecture (côté − / côté +) | Groupes côté − | Groupes côté + |
+|---|---|---|---|---|
+| PC1 (49.8 %) | Formularité +0.53, Distinct-2 +0.53, ĥ (Bentz) +0.47, KL POS +0.39, Ponctuation +0.25 | − moins rigide : pas de formule, bigrammes variés, vocabulaire varié, POS ordinaires / + plus rigide : formules répétées, bigrammes répétés, vocabulaire répétitif, POS atypiques | newseye (fr, fi, sv) (-1.9), hipe2020 (fr, en, de) (-1.3), letemps-fr (-1.0) | m-popp-printed (+2.3), soduco-ref (+2.2), soduco-pero (+1.9) |
+| PC2 (36.9 %) | Ponctuation +0.64, KL POS +0.53, ĥ (Bentz) -0.44, Distinct-2 -0.35, Formularité +0.04 | − peu de ponctuation, POS ordinaires, vocabulaire répétitif, bigrammes répétés / + ponctuation dense, POS atypiques, vocabulaire varié, bigrammes variés | e-ner (-2.1), old-bailey (-1.5), m-popp-handwritten (-1.0) | soduco-pero (+2.5), soduco-ref (+2.4), ajmc (fr, en, de) (+1.1) |
+| PC3 (8.1 %) | Formularité -0.84, ĥ (Bentz) +0.35, KL POS +0.31, Distinct-2 +0.23, Ponctuation +0.17 | − formules répétées, vocabulaire varié, POS ordinaires / + pas de formule, vocabulaire répétitif, POS atypiques | m-popp-handwritten (-1.0), basel (-0.8), m-popp-printed (-0.6) | litbank (+0.6), letemps-fr (+0.5), e-ner (+0.3) |
+| PC4 (3.0 %) | Ponctuation +0.71, KL POS -0.69, Distinct-2 +0.13, ĥ (Bentz) +0.09, Formularité -0.04 | − peu de ponctuation, POS atypiques / + ponctuation dense, POS ordinaires | basel (-0.4), m-popp-handwritten (-0.3), e-ner (-0.1) | geoedda (+0.5), m-popp-printed (+0.3), ajmc (fr, en, de) (+0.2) |
+| PC5 (2.2 %) | Distinct-2 -0.73, ĥ (Bentz) +0.68, Formularité +0.10, Ponctuation +0.05, KL POS +0.00 | − bigrammes répétés, vocabulaire varié / + bigrammes variés, vocabulaire répétitif | e-ner (-0.2), newseye (fr, fi, sv) (-0.2), m-popp-printed (-0.2) | 7romans (+0.3), geoedda (+0.3), old-bailey (+0.3) |

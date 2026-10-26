@@ -924,5 +924,205 @@
     "soduco-ref": 1
    }
   }
+ },
+ "indicateurs-formularite-ponctuation-balance": {
+  "n_fenetres": 1862,
+  "variance_pct": [
+   66.1,
+   25.4,
+   8.5
+  ],
+  "kaiser": 1,
+  "clusters": {
+   "2": {
+    "FCM": {
+     "silhouette": 0.493,
+     "nul_moyen": 0.39,
+     "nul_max": 0.4,
+     "FPC": 0.776,
+     "PE": 0.362,
+     "clusters_non_vides": 2
+    },
+    "CAH_Ward": {
+     "silhouette": 0.477,
+     "nul_moyen": 0.355,
+     "nul_max": 0.381
+    },
+    "ARI_FCM_vs_CAH": 0.406
+   },
+   "3": {
+    "FCM": {
+     "silhouette": 0.477,
+     "nul_moyen": 0.304,
+     "nul_max": 0.312,
+     "FPC": 0.722,
+     "PE": 0.503,
+     "clusters_non_vides": 3
+    },
+    "CAH_Ward": {
+     "silhouette": 0.448,
+     "nul_moyen": 0.278,
+     "nul_max": 0.303
+    },
+    "ARI_FCM_vs_CAH": 0.659
+   },
+   "4": {
+    "FCM": {
+     "silhouette": 0.431,
+     "nul_moyen": 0.333,
+     "nul_max": 0.342,
+     "FPC": 0.646,
+     "PE": 0.674,
+     "clusters_non_vides": 4
+    },
+    "CAH_Ward": {
+     "silhouette": 0.444,
+     "nul_moyen": 0.268,
+     "nul_max": 0.314
+    },
+    "ARI_FCM_vs_CAH": 0.488
+   },
+   "5": {
+    "FCM": {
+     "silhouette": 0.454,
+     "nul_moyen": 0.319,
+     "nul_max": 0.329,
+     "FPC": 0.607,
+     "PE": 0.798,
+     "clusters_non_vides": 5
+    },
+    "CAH_Ward": {
+     "silhouette": 0.449,
+     "nul_moyen": 0.262,
+     "nul_max": 0.295
+    },
+    "ARI_FCM_vs_CAH": 0.526
+   },
+   "6": {
+    "FCM": {
+     "silhouette": 0.424,
+     "nul_moyen": 0.318,
+     "nul_max": 0.331,
+     "FPC": 0.584,
+     "PE": 0.872,
+     "clusters_non_vides": 6
+    },
+    "CAH_Ward": {
+     "silhouette": 0.387,
+     "nul_moyen": 0.259,
+     "nul_max": 0.275
+    },
+    "ARI_FCM_vs_CAH": 0.71
+   }
+  },
+  "autres_algorithmes": {
+   "k-means": [
+    "k = 2 (silhouette max 0.49)",
+    0.086,
+    0.236
+   ],
+   "GMM (BIC)": [
+    "k = 9 (BIC min)",
+    0.265,
+    0.474
+   ],
+   "CAH Ward": [
+    "k = 3 (plus grand saut)",
+    0.169,
+    0.376
+   ],
+   "HDBSCAN": [
+    "4 groupes, bruit 32 %",
+    0.123,
+    0.334
+   ]
+  },
+  "CAH_groupes": {
+   "2": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 2,
+    "basel": 2,
+    "copious": 2,
+    "e-ner": 2,
+    "geoedda": 2,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 2,
+    "m-popp-printed": 2,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 2,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "3": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 3,
+    "basel": 3,
+    "copious": 3,
+    "e-ner": 3,
+    "geoedda": 3,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 3,
+    "m-popp-printed": 3,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 3,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "4": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 4,
+    "basel": 4,
+    "copious": 4,
+    "e-ner": 3,
+    "geoedda": 4,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 4,
+    "m-popp-printed": 4,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 3,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "5": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 5,
+    "basel": 5,
+    "copious": 5,
+    "e-ner": 3,
+    "geoedda": 5,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 4,
+    "m-popp-printed": 4,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 3,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   },
+   "6": {
+    "7romans": 2,
+    "ajmc (fr, en, de)": 5,
+    "basel": 6,
+    "copious": 5,
+    "e-ner": 3,
+    "geoedda": 6,
+    "hipe2020 (fr, en, de)": 2,
+    "letemps-fr": 2,
+    "litbank": 2,
+    "m-popp-handwritten": 4,
+    "m-popp-printed": 4,
+    "newseye (fr, fi, sv)": 2,
+    "old-bailey": 3,
+    "soduco-pero": 1,
+    "soduco-ref": 1
+   }
+  }
  }
 }
