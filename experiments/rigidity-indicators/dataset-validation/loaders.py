@@ -107,7 +107,7 @@ def load_hipe(collection, lang):
 
 
 # --- SoDUCo : une page d'annuaire = un document ----------------------------------------------------
-_XML_TAG = re.compile(r"</?([A-Z_]+)>")
+_XML_TAG = re.compile(r"</?([A-Z_-]+)>")  # TITRE-H, TITRE-P : avec tiret
 
 
 def _parse_inline_xml(xml):

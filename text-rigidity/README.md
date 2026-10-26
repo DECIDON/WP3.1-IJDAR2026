@@ -53,6 +53,8 @@ compute_name_density(text, "fr", doc)                # % de noms propres
 # Formularité : référence tirée des autres documents du même dataset
 reference = FormularityReference([(doc_id, doc_text) for doc_id, doc_text in documents], lang="fr")
 compute_formularity(text, reference, doc_id="doc-1", lang="fr", doc=doc)
+# critère de dispersion (lexical bundles) : gabarits présents dans au moins 3 documents de la référence
+compute_formularity(text, reference, doc_id="doc-1", lang="fr", doc=doc, min_docs=3)
 ```
 
 À l'échelle locale, `exclude_spans=[(start, end)]` retire l'entité cible des comptages après

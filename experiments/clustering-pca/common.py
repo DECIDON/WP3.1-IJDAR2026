@@ -7,6 +7,7 @@ package text_rigidity.
 import json
 import os
 import sys
+import textwrap
 
 import numpy as np
 import pandas as pd
@@ -29,7 +30,16 @@ KS = range(2, 7)
 LANGS = {"fr", "en", "de", "fi", "sv"}
 # Indicateurs du jeu Claude-Bertrand (pca_indicators.py) : nom affiché, signe pour « + = plus rigide »
 IND = {"formularity": ("Formularité", 1), "formularity_nempool": ("Formularité (NEM.fr : réf. commune)", 1),
-       "h_rate": ("ĥ (Bentz)", -1), "distinct2": ("Distinct-2", -1), "kl": ("KL POS", 1), "punct": ("Ponctuation", 1)}
+       "h_rate": ("ĥ (Bentz)", -1), "distinct2": ("Distinct-2", -1), "kl": ("KL POS", 1), "punct": ("Ponctuation", 1),
+       "balance": ("Balance phrastique", -1)}
+# Ce que veut dire, en mots, une valeur haute (côté rigide) et basse (côté souple) de chaque indicateur orienté
+POLES = {"formularity": ("formules répétées", "pas de formule"),
+         "formularity_nempool": ("formules répétées", "pas de formule"),
+         "h_rate": ("vocabulaire répétitif", "vocabulaire varié"),
+         "distinct2": ("bigrammes répétés", "bigrammes variés"),
+         "kl": ("POS atypiques", "POS ordinaires"),
+         "punct": ("ponctuation dense", "peu de ponctuation"),
+         "balance": ("peu de mots de liaison", "beaucoup de mots de liaison")}
 
 
 def load_windows():
@@ -237,9 +247,26 @@ def other_algorithms(g, PD, out, suffix=""):
     return {alg: (v["choix"], v["ARI"], v["AMI"]) for alg, v in summary.items() if alg != "dims"}
 
 
-def boxplots(ax, P, g, order, i, var, xlabel_poles):
+def boxplots(ax, P, g, order, i, var, poles):
+    """Boîtes à moustaches des groupes sur la composante i, triées par médiane ; poles = (côté −, côté +) en mots."""
     srt = sorted(order, key=lambda c: np.median(P[g == c, i]))
-    ax.boxplot([P[g == c, i] for c in srt], orientation="horizontal", tick_labels=srt, showfliers=False)
-    ax.axvline(0, color="grey", lw=0.5)
-    ax.set_xlabel(f"PC{i + 1} ({var[i]:.1f} %)   {xlabel_poles}")
-    ax.set_title(f"Position des groupes sur PC{i + 1}")
+    ax.boxplot([P[g == c, i] for c in srt], orientation="horizontal", tick_labels=srt, showfliers=False,
+               patch_artist=True, boxprops={"facecolor": "#e8e7e3", "edgecolor": "#52514e"},
+               medianprops={"color": "#0b0b0b", "lw": 2}, whiskerprops={"color": "#52514e"}, capprops={"color": "#52514e"})
+    ax.axvline(0, color="grey", lw=0.5, ls=":")
+    ax.set_xlabel(f"PC{i + 1} ({var[i]:.1f} % de la variance)", fontsize=10)
+    pole_labels(ax, poles, "x", width=28)
+    ax.set_title(f"Position des groupes sur PC{i + 1}\nboîte : 50 % central des fenêtres · trait : médiane · "
+                 "moustaches : 1,5 × écart interquartile", fontsize=10)
+
+
+def pole_labels(ax, poles, axis, width=42):
+    """Écrit sous l'axe x (ou à gauche de l'axe y) ce que veulent dire ses deux extrémités, poles = (côté −, côté +)."""
+    kw = {"transform": ax.transAxes, "fontsize": 9.5, "color": "#1c5cab", "linespacing": 1.2}
+    lo, hi = (textwrap.fill(t, width) for t in (f"← {poles[0]}", f"{poles[1]} →"))
+    if axis == "x":
+        ax.text(0, -0.065, lo, ha="left", va="top", **kw)
+        ax.text(1, -0.065, hi, ha="right", va="top", **kw)
+    else:
+        ax.text(-0.11, 0, lo, ha="right", va="bottom", rotation=90, **kw)
+        ax.text(-0.11, 1, hi, ha="right", va="top", rotation=90, **kw)

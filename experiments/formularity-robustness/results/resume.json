@@ -1,0 +1,896 @@
+{
+ "100": {
+  "fenetres": 2100,
+  "eta2": {
+   "F": 0.69,
+   "F_docs2": 0.69,
+   "F_docs3": 0.69,
+   "F_n3": 0.69,
+   "F_n5": 0.68,
+   "sbleu_raw": 0.76,
+   "sbleu_masked": 0.75,
+   "p4_masked": 0.73
+  },
+  "rho_fenetres": {
+   "F_docs2": 0.99,
+   "F_docs3": 0.98,
+   "F_n3": 0.87,
+   "F_n5": 0.9,
+   "sbleu_raw": 0.79,
+   "sbleu_masked": 0.88,
+   "p4_masked": 0.88
+  },
+  "rho_medianes": {
+   "F_docs2": 1.0,
+   "F_docs3": 0.99,
+   "F_n3": 0.93,
+   "F_n5": 0.96,
+   "sbleu_raw": 0.91,
+   "sbleu_masked": 0.95,
+   "p4_masked": 0.93
+  },
+  "rho_interne_median": {
+   "F_docs2": 0.99,
+   "F_docs3": 0.95,
+   "F_n3": 0.76,
+   "F_n5": 0.81,
+   "sbleu_raw": 0.41,
+   "sbleu_masked": 0.59,
+   "p4_masked": 0.61
+  },
+  "medianes": {
+   "7romans": {
+    "F": 3.1,
+    "F_docs2": 3.1,
+    "F_docs3": 0.0,
+    "F_n3": 16.1,
+    "F_n5": 0.0,
+    "sbleu_raw": 17.8,
+    "sbleu_masked": 21.0,
+    "p4_masked": 3.7
+   },
+   "ajmc-de": {
+    "F": 8.8,
+    "F_docs2": 8.8,
+    "F_docs3": 8.7,
+    "F_n3": 12.4,
+    "F_n5": 4.1,
+    "sbleu_raw": 10.0,
+    "sbleu_masked": 35.1,
+    "p4_masked": 14.3
+   },
+   "ajmc-en": {
+    "F": 3.2,
+    "F_docs2": 3.2,
+    "F_docs3": 3.2,
+    "F_n3": 11.2,
+    "F_n5": 0.0,
+    "sbleu_raw": 16.3,
+    "sbleu_masked": 40.8,
+    "p4_masked": 19.2
+   },
+   "ajmc-fr": {
+    "F": 5.8,
+    "F_docs2": 5.7,
+    "F_docs3": 5.6,
+    "F_n3": 8.5,
+    "F_n5": 1.6,
+    "sbleu_raw": 14.0,
+    "sbleu_masked": 31.7,
+    "p4_masked": 12.2
+   },
+   "basel": {
+    "F": 20.9,
+    "F_docs2": 20.9,
+    "F_docs3": 19.9,
+    "F_n3": 29.9,
+    "F_n5": 11.1,
+    "sbleu_raw": 28.5,
+    "sbleu_masked": 48.6,
+    "p4_masked": 23.4
+   },
+   "copious": {
+    "F": 7.0,
+    "F_docs2": 5.7,
+    "F_docs3": 4.3,
+    "F_n3": 11.9,
+    "F_n5": 1.8,
+    "sbleu_raw": 11.6,
+    "sbleu_masked": 41.3,
+    "p4_masked": 18.1
+   },
+   "e-ner": {
+    "F": 9.0,
+    "F_docs2": 8.4,
+    "F_docs3": 8.0,
+    "F_n3": 22.0,
+    "F_n5": 4.5,
+    "sbleu_raw": 20.2,
+    "sbleu_masked": 33.4,
+    "p4_masked": 12.4
+   },
+   "geoedda": {
+    "F": 13.2,
+    "F_docs2": 13.2,
+    "F_docs3": 10.3,
+    "F_n3": 23.5,
+    "F_n5": 6.6,
+    "sbleu_raw": 23.9,
+    "sbleu_masked": 34.4,
+    "p4_masked": 12.9
+   },
+   "hipe2020-de": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 4.5,
+    "F_n5": 0.0,
+    "sbleu_raw": 4.4,
+    "sbleu_masked": 7.4,
+    "p4_masked": 0.4
+   },
+   "hipe2020-en": {
+    "F": 4.9,
+    "F_docs2": 4.9,
+    "F_docs3": 4.8,
+    "F_n3": 13.5,
+    "F_n5": 0.0,
+    "sbleu_raw": 5.2,
+    "sbleu_masked": 23.6,
+    "p4_masked": 5.6
+   },
+   "hipe2020-fr": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 8.3,
+    "F_n5": 0.0,
+    "sbleu_raw": 6.0,
+    "sbleu_masked": 16.3,
+    "p4_masked": 2.3
+   },
+   "letemps-fr": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 9.3,
+    "F_n5": 0.0,
+    "sbleu_raw": 5.7,
+    "sbleu_masked": 17.1,
+    "p4_masked": 2.6
+   },
+   "litbank": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 7.4,
+    "F_n5": 0.0,
+    "sbleu_raw": 9.3,
+    "sbleu_masked": 14.8,
+    "p4_masked": 1.6
+   },
+   "m-popp-handwritten": {
+    "F": 64.3,
+    "F_docs2": 64.3,
+    "F_docs3": 63.7,
+    "F_n3": 70.9,
+    "F_n5": 54.4,
+    "sbleu_raw": 57.3,
+    "sbleu_masked": 78.3,
+    "p4_masked": 61.1
+   },
+   "m-popp-printed": {
+    "F": 79.8,
+    "F_docs2": 79.8,
+    "F_docs3": 79.3,
+    "F_n3": 80.2,
+    "F_n5": 76.8,
+    "sbleu_raw": 68.7,
+    "sbleu_masked": 85.3,
+    "p4_masked": 74.0
+   },
+   "newseye-fi": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 2.9,
+    "F_n5": 0.0,
+    "sbleu_raw": 3.0,
+    "sbleu_masked": 9.9,
+    "p4_masked": 1.0
+   },
+   "newseye-fr": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 5.4,
+    "F_n5": 0.0,
+    "sbleu_raw": 4.7,
+    "sbleu_masked": 13.7,
+    "p4_masked": 1.8
+   },
+   "newseye-sv": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 2.9,
+    "F_n5": 0.0,
+    "sbleu_raw": 3.5,
+    "sbleu_masked": 5.7,
+    "p4_masked": 0.0
+   },
+   "old-bailey": {
+    "F": 17.4,
+    "F_docs2": 17.4,
+    "F_docs3": 16.4,
+    "F_n3": 37.1,
+    "F_n5": 6.9,
+    "sbleu_raw": 33.2,
+    "sbleu_masked": 44.9,
+    "p4_masked": 18.1
+   },
+   "soduco-pero": {
+    "F": 24.8,
+    "F_docs2": 22.6,
+    "F_docs3": 20.1,
+    "F_n3": 29.2,
+    "F_n5": 19.9,
+    "sbleu_raw": 28.4,
+    "sbleu_masked": 67.1,
+    "p4_masked": 47.6
+   },
+   "soduco-ref": {
+    "F": 28.8,
+    "F_docs2": 26.6,
+    "F_docs3": 25.0,
+    "F_n3": 32.9,
+    "F_n5": 24.7,
+    "sbleu_raw": 34.4,
+    "sbleu_masked": 71.0,
+    "p4_masked": 51.6
+   }
+  },
+  "part_nulle": {
+   "7romans": {
+    "F": 43.0,
+    "F_docs2": 45.0,
+    "F_docs3": 54.0,
+    "F_n3": 0.0,
+    "F_n5": 94.0
+   },
+   "ajmc-de": {
+    "F": 10.0,
+    "F_docs2": 10.0,
+    "F_docs3": 10.0,
+    "F_n3": 5.0,
+    "F_n5": 37.0
+   },
+   "ajmc-en": {
+    "F": 31.0,
+    "F_docs2": 31.0,
+    "F_docs3": 32.0,
+    "F_n3": 1.0,
+    "F_n5": 69.0
+   },
+   "ajmc-fr": {
+    "F": 31.0,
+    "F_docs2": 32.0,
+    "F_docs3": 33.0,
+    "F_n3": 6.0,
+    "F_n5": 50.0
+   },
+   "basel": {
+    "F": 2.0,
+    "F_docs2": 2.0,
+    "F_docs3": 3.0,
+    "F_n3": 0.0,
+    "F_n5": 26.0
+   },
+   "copious": {
+    "F": 26.0,
+    "F_docs2": 26.0,
+    "F_docs3": 32.0,
+    "F_n3": 1.0,
+    "F_n5": 50.0
+   },
+   "e-ner": {
+    "F": 13.0,
+    "F_docs2": 16.0,
+    "F_docs3": 20.0,
+    "F_n3": 0.0,
+    "F_n5": 46.0
+   },
+   "geoedda": {
+    "F": 29.0,
+    "F_docs2": 29.0,
+    "F_docs3": 29.0,
+    "F_n3": 1.0,
+    "F_n5": 40.0
+   },
+   "hipe2020-de": {
+    "F": 88.0,
+    "F_docs2": 89.0,
+    "F_docs3": 92.0,
+    "F_n3": 25.0,
+    "F_n5": 98.0
+   },
+   "hipe2020-en": {
+    "F": 36.0,
+    "F_docs2": 36.0,
+    "F_docs3": 37.0,
+    "F_n3": 4.0,
+    "F_n5": 67.0
+   },
+   "hipe2020-fr": {
+    "F": 63.0,
+    "F_docs2": 65.0,
+    "F_docs3": 67.0,
+    "F_n3": 7.0,
+    "F_n5": 95.0
+   },
+   "letemps-fr": {
+    "F": 64.0,
+    "F_docs2": 65.0,
+    "F_docs3": 67.0,
+    "F_n3": 4.0,
+    "F_n5": 95.0
+   },
+   "litbank": {
+    "F": 84.0,
+    "F_docs2": 84.0,
+    "F_docs3": 85.0,
+    "F_n3": 8.0,
+    "F_n5": 99.0
+   },
+   "m-popp-handwritten": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   },
+   "m-popp-printed": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   },
+   "newseye-fi": {
+    "F": 75.0,
+    "F_docs2": 76.0,
+    "F_docs3": 79.0,
+    "F_n3": 29.0,
+    "F_n5": 96.0
+   },
+   "newseye-fr": {
+    "F": 75.0,
+    "F_docs2": 77.0,
+    "F_docs3": 81.0,
+    "F_n3": 23.0,
+    "F_n5": 91.0
+   },
+   "newseye-sv": {
+    "F": 86.0,
+    "F_docs2": 86.0,
+    "F_docs3": 88.0,
+    "F_n3": 32.0,
+    "F_n5": 98.0
+   },
+   "old-bailey": {
+    "F": 2.0,
+    "F_docs2": 2.0,
+    "F_docs3": 3.0,
+    "F_n3": 0.0,
+    "F_n5": 21.0
+   },
+   "soduco-pero": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 1.0
+   },
+   "soduco-ref": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 1.0
+   }
+  },
+  "couverture_conservee_docs3": {
+   "7romans": 73.0,
+   "ajmc-de": 99.0,
+   "ajmc-en": 96.0,
+   "ajmc-fr": 94.0,
+   "basel": 98.0,
+   "copious": 73.0,
+   "e-ner": 86.0,
+   "geoedda": 98.0,
+   "hipe2020-de": 57.0,
+   "hipe2020-en": 99.0,
+   "hipe2020-fr": 80.0,
+   "letemps-fr": 83.0,
+   "litbank": 89.0,
+   "m-popp-handwritten": 98.0,
+   "m-popp-printed": 98.0,
+   "newseye-fi": 86.0,
+   "newseye-fr": 54.0,
+   "newseye-sv": 79.0,
+   "old-bailey": 94.0,
+   "soduco-pero": 80.0,
+   "soduco-ref": 80.0
+  },
+  "ref_docs_median": {
+   "7romans": 6.0,
+   "ajmc-de": 69.0,
+   "ajmc-en": 42.0,
+   "ajmc-fr": 65.0,
+   "basel": 64.0,
+   "copious": 39.0,
+   "e-ner": 35.0,
+   "geoedda": 16.0,
+   "hipe2020-de": 45.0,
+   "hipe2020-en": 62.0,
+   "hipe2020-fr": 38.0,
+   "letemps-fr": 53.0,
+   "litbank": 40.0,
+   "m-popp-handwritten": 46.0,
+   "m-popp-printed": 31.0,
+   "newseye-fi": 53.0,
+   "newseye-fr": 41.0,
+   "newseye-sv": 51.0,
+   "old-bailey": 56.0,
+   "soduco-pero": 26.0,
+   "soduco-ref": 25.0
+  }
+ },
+ "300": {
+  "fenetres": 1862,
+  "eta2": {
+   "F": 0.82,
+   "F_docs2": 0.82,
+   "F_docs3": 0.82,
+   "F_n3": 0.82,
+   "F_n5": 0.83,
+   "sbleu_raw": 0.85,
+   "sbleu_masked": 0.84,
+   "p4_masked": 0.83
+  },
+  "rho_fenetres": {
+   "F_docs2": 1.0,
+   "F_docs3": 0.99,
+   "F_n3": 0.93,
+   "F_n5": 0.93,
+   "sbleu_raw": 0.87,
+   "sbleu_masked": 0.92,
+   "p4_masked": 0.92
+  },
+  "rho_medianes": {
+   "F_docs2": 1.0,
+   "F_docs3": 0.99,
+   "F_n3": 0.93,
+   "F_n5": 0.91,
+   "sbleu_raw": 0.9,
+   "sbleu_masked": 0.96,
+   "p4_masked": 0.95
+  },
+  "rho_interne_median": {
+   "F_docs2": 0.99,
+   "F_docs3": 0.96,
+   "F_n3": 0.79,
+   "F_n5": 0.87,
+   "sbleu_raw": 0.44,
+   "sbleu_masked": 0.65,
+   "p4_masked": 0.68
+  },
+  "medianes": {
+   "7romans": {
+    "F": 3.4,
+    "F_docs2": 3.3,
+    "F_docs3": 2.2,
+    "F_n3": 16.9,
+    "F_n5": 0.0,
+    "sbleu_raw": 18.8,
+    "sbleu_masked": 21.3,
+    "p4_masked": 3.7
+   },
+   "ajmc-de": {
+    "F": 3.8,
+    "F_docs2": 3.8,
+    "F_docs3": 3.8,
+    "F_n3": 7.9,
+    "F_n5": 0.0,
+    "sbleu_raw": 8.3,
+    "sbleu_masked": 26.4,
+    "p4_masked": 9.0
+   },
+   "ajmc-en": {
+    "F": 3.6,
+    "F_docs2": 3.6,
+    "F_docs3": 3.6,
+    "F_n3": 11.3,
+    "F_n5": 1.2,
+    "sbleu_raw": 16.1,
+    "sbleu_masked": 41.2,
+    "p4_masked": 19.2
+   },
+   "ajmc-fr": {
+    "F": 3.1,
+    "F_docs2": 3.1,
+    "F_docs3": 3.1,
+    "F_n3": 8.4,
+    "F_n5": 1.5,
+    "sbleu_raw": 13.9,
+    "sbleu_masked": 30.4,
+    "p4_masked": 10.5
+   },
+   "basel": {
+    "F": 21.6,
+    "F_docs2": 21.5,
+    "F_docs3": 21.2,
+    "F_n3": 36.0,
+    "F_n5": 12.3,
+    "sbleu_raw": 29.1,
+    "sbleu_masked": 48.4,
+    "p4_masked": 24.6
+   },
+   "copious": {
+    "F": 7.1,
+    "F_docs2": 6.5,
+    "F_docs3": 4.8,
+    "F_n3": 14.4,
+    "F_n5": 3.3,
+    "sbleu_raw": 11.3,
+    "sbleu_masked": 38.4,
+    "p4_masked": 16.7
+   },
+   "e-ner": {
+    "F": 10.3,
+    "F_docs2": 9.8,
+    "F_docs3": 9.6,
+    "F_n3": 24.4,
+    "F_n5": 4.8,
+    "sbleu_raw": 20.2,
+    "sbleu_masked": 32.8,
+    "p4_masked": 11.8
+   },
+   "geoedda": {
+    "F": 16.7,
+    "F_docs2": 16.7,
+    "F_docs3": 16.3,
+    "F_n3": 25.9,
+    "F_n5": 13.3,
+    "sbleu_raw": 25.6,
+    "sbleu_masked": 39.9,
+    "p4_masked": 18.6
+   },
+   "hipe2020-de": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 4.0,
+    "F_n5": 0.0,
+    "sbleu_raw": 3.5,
+    "sbleu_masked": 9.8,
+    "p4_masked": 0.9
+   },
+   "hipe2020-en": {
+    "F": 3.5,
+    "F_docs2": 3.5,
+    "F_docs3": 3.5,
+    "F_n3": 10.9,
+    "F_n5": 0.0,
+    "sbleu_raw": 7.4,
+    "sbleu_masked": 18.6,
+    "p4_masked": 3.5
+   },
+   "hipe2020-fr": {
+    "F": 1.1,
+    "F_docs2": 1.1,
+    "F_docs3": 1.1,
+    "F_n3": 8.0,
+    "F_n5": 0.0,
+    "sbleu_raw": 9.2,
+    "sbleu_masked": 16.2,
+    "p4_masked": 2.5
+   },
+   "letemps-fr": {
+    "F": 1.2,
+    "F_docs2": 1.1,
+    "F_docs3": 1.1,
+    "F_n3": 8.2,
+    "F_n5": 0.0,
+    "sbleu_raw": 8.0,
+    "sbleu_masked": 14.4,
+    "p4_masked": 1.6
+   },
+   "litbank": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 8.1,
+    "F_n5": 0.0,
+    "sbleu_raw": 10.0,
+    "sbleu_masked": 15.2,
+    "p4_masked": 1.7
+   },
+   "m-popp-handwritten": {
+    "F": 61.0,
+    "F_docs2": 61.0,
+    "F_docs3": 60.2,
+    "F_n3": 68.6,
+    "F_n5": 51.6,
+    "sbleu_raw": 57.2,
+    "sbleu_masked": 75.2,
+    "p4_masked": 56.6
+   },
+   "m-popp-printed": {
+    "F": 80.7,
+    "F_docs2": 80.6,
+    "F_docs3": 79.5,
+    "F_n3": 79.6,
+    "F_n5": 77.1,
+    "sbleu_raw": 67.2,
+    "sbleu_masked": 84.9,
+    "p4_masked": 72.9
+   },
+   "newseye-fi": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 2.7,
+    "F_n5": 0.0,
+    "sbleu_raw": 2.2,
+    "sbleu_masked": 10.9,
+    "p4_masked": 1.6
+   },
+   "newseye-fr": {
+    "F": 1.1,
+    "F_docs2": 1.0,
+    "F_docs3": 0.0,
+    "F_n3": 6.1,
+    "F_n5": 0.0,
+    "sbleu_raw": 6.0,
+    "sbleu_masked": 13.6,
+    "p4_masked": 1.7
+   },
+   "newseye-sv": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 2.8,
+    "F_n5": 0.0,
+    "sbleu_raw": 2.9,
+    "sbleu_masked": 8.1,
+    "p4_masked": 0.7
+   },
+   "old-bailey": {
+    "F": 17.5,
+    "F_docs2": 17.4,
+    "F_docs3": 16.3,
+    "F_n3": 35.9,
+    "F_n5": 7.7,
+    "sbleu_raw": 32.3,
+    "sbleu_masked": 43.9,
+    "p4_masked": 17.6
+   },
+   "soduco-pero": {
+    "F": 24.9,
+    "F_docs2": 23.7,
+    "F_docs3": 21.0,
+    "F_n3": 27.8,
+    "F_n5": 21.4,
+    "sbleu_raw": 29.5,
+    "sbleu_masked": 68.1,
+    "p4_masked": 47.9
+   },
+   "soduco-ref": {
+    "F": 27.8,
+    "F_docs2": 26.0,
+    "F_docs3": 22.6,
+    "F_n3": 33.0,
+    "F_n5": 23.8,
+    "sbleu_raw": 31.9,
+    "sbleu_masked": 69.1,
+    "p4_masked": 50.4
+   }
+  },
+  "part_nulle": {
+   "7romans": {
+    "F": 7.0,
+    "F_docs2": 7.0,
+    "F_docs3": 12.0,
+    "F_n3": 0.0,
+    "F_n5": 73.0
+   },
+   "ajmc-de": {
+    "F": 12.5,
+    "F_docs2": 12.5,
+    "F_docs3": 12.5,
+    "F_n3": 12.5,
+    "F_n5": 62.5
+   },
+   "ajmc-en": {
+    "F": 7.2,
+    "F_docs2": 7.2,
+    "F_docs3": 8.7,
+    "F_n3": 0.0,
+    "F_n5": 43.5
+   },
+   "ajmc-fr": {
+    "F": 23.8,
+    "F_docs2": 23.8,
+    "F_docs3": 23.8,
+    "F_n3": 4.8,
+    "F_n5": 38.1
+   },
+   "basel": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   },
+   "copious": {
+    "F": 3.0,
+    "F_docs2": 3.0,
+    "F_docs3": 4.0,
+    "F_n3": 0.0,
+    "F_n5": 25.0
+   },
+   "e-ner": {
+    "F": 1.0,
+    "F_docs2": 2.0,
+    "F_docs3": 3.0,
+    "F_n3": 0.0,
+    "F_n5": 17.0
+   },
+   "geoedda": {
+    "F": 4.0,
+    "F_docs2": 4.0,
+    "F_docs3": 4.0,
+    "F_n3": 0.0,
+    "F_n5": 13.0
+   },
+   "hipe2020-de": {
+    "F": 71.0,
+    "F_docs2": 77.0,
+    "F_docs3": 82.0,
+    "F_n3": 3.0,
+    "F_n5": 96.0
+   },
+   "hipe2020-en": {
+    "F": 14.1,
+    "F_docs2": 14.1,
+    "F_docs3": 14.1,
+    "F_n3": 0.0,
+    "F_n5": 53.1
+   },
+   "hipe2020-fr": {
+    "F": 41.0,
+    "F_docs2": 43.0,
+    "F_docs3": 45.0,
+    "F_n3": 0.0,
+    "F_n5": 95.0
+   },
+   "letemps-fr": {
+    "F": 43.0,
+    "F_docs2": 46.0,
+    "F_docs3": 47.0,
+    "F_n3": 0.0,
+    "F_n5": 88.0
+   },
+   "litbank": {
+    "F": 57.0,
+    "F_docs2": 58.0,
+    "F_docs3": 60.0,
+    "F_n3": 0.0,
+    "F_n5": 99.0
+   },
+   "m-popp-handwritten": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 1.0
+   },
+   "m-popp-printed": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   },
+   "newseye-fi": {
+    "F": 58.0,
+    "F_docs2": 59.0,
+    "F_docs3": 61.0,
+    "F_n3": 4.0,
+    "F_n5": 88.0
+   },
+   "newseye-fr": {
+    "F": 46.0,
+    "F_docs2": 47.0,
+    "F_docs3": 62.0,
+    "F_n3": 4.0,
+    "F_n5": 91.0
+   },
+   "newseye-sv": {
+    "F": 66.0,
+    "F_docs2": 68.0,
+    "F_docs3": 71.0,
+    "F_n3": 7.0,
+    "F_n5": 98.0
+   },
+   "old-bailey": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 3.0
+   },
+   "soduco-pero": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   },
+   "soduco-ref": {
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
+    "F_n3": 0.0,
+    "F_n5": 0.0
+   }
+  },
+  "couverture_conservee_docs3": {
+   "7romans": 68.0,
+   "ajmc-de": 100.0,
+   "ajmc-en": 94.0,
+   "ajmc-fr": 96.0,
+   "basel": 98.0,
+   "copious": 78.0,
+   "e-ner": 86.0,
+   "geoedda": 97.0,
+   "hipe2020-de": 56.0,
+   "hipe2020-en": 98.0,
+   "hipe2020-fr": 79.0,
+   "letemps-fr": 88.0,
+   "litbank": 88.0,
+   "m-popp-handwritten": 99.0,
+   "m-popp-printed": 98.0,
+   "newseye-fi": 94.0,
+   "newseye-fr": 43.0,
+   "newseye-sv": 81.0,
+   "old-bailey": 94.0,
+   "soduco-pero": 82.0,
+   "soduco-ref": 82.0
+  },
+  "ref_docs_median": {
+   "7romans": 6.0,
+   "ajmc-de": 70.0,
+   "ajmc-en": 42.0,
+   "ajmc-fr": 65.0,
+   "basel": 64.0,
+   "copious": 39.0,
+   "e-ner": 35.0,
+   "geoedda": 16.0,
+   "hipe2020-de": 45.0,
+   "hipe2020-en": 64.0,
+   "hipe2020-fr": 38.0,
+   "letemps-fr": 53.0,
+   "litbank": 40.0,
+   "m-popp-handwritten": 46.0,
+   "m-popp-printed": 31.0,
+   "newseye-fi": 53.0,
+   "newseye-fr": 41.0,
+   "newseye-sv": 51.0,
+   "old-bailey": 56.0,
+   "soduco-pero": 26.0,
+   "soduco-ref": 25.0
+  }
+ }
+}

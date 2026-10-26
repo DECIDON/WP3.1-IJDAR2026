@@ -11,7 +11,7 @@ Conservés pour comparaison, non retenus : divergence KL des POS, Distinct-N, Δ
 """
 from .divergence import compute_pos_kl_divergence, kl_divergence_counts
 from .entropy import DELTA_H_TOKENS, compute_word_entropy, entropy_rate_lz, tokenize_words, unigram_entropy
-from .formularity import FormularityReference, compute_formularity, formula_tokens
+from .formularity import FormularityReference, compute_formularity, formula_tokens, sample_reference_chunks
 from .lexical import compute_lexical_diversity
 from .metrics import get_all_metrics
 from .nlp import SPACY_MODELS, UD_REFERENCE_TREEBANKS, get_nlp, get_pos_reference_counts
@@ -43,6 +43,7 @@ __all__ = [
     "get_nlp",
     "get_pos_reference_counts",
     "kl_divergence_counts",
+    "sample_reference_chunks",
     "strip_markup",
     "tokenize_words",
     "unigram_entropy",
