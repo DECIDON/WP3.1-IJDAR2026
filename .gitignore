@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Projet IJDAR 2026 ---
+# Datasets : ils ne vont jamais sur GitHub (stockés sur un espace partagé, hors dépôt).
+# Seule la description de leur provenance, data/README.md, est suivie.
+/data/*
+!/data/README.md
+# Modèles de langue CCNet (tokenizer SentencePiece et KenLM, ~2,6 Go), téléchargés par le notebook
+/experiments/*/models/
+*.arpa
+*.arpa.bin
+*.sp.model
+# Fichiers système
+.DS_Store
