@@ -5,6 +5,8 @@
    "sbleu_raw": 0.76,
    "sbleu_masked": 0.75,
    "p4_masked": 0.73,
+   "sbleu_nopunct": 0.68,
+   "sbleu_words": 0.68,
    "mattr": 0.49,
    "h_rate": 0.53,
    "distinct2": 0.36
@@ -30,6 +32,16 @@
     "hipe2020": 0.26,
     "ajmc": 0.08
    },
+   "sbleu_nopunct": {
+    "newseye": 0.26,
+    "hipe2020": 0.28,
+    "ajmc": 0.13
+   },
+   "sbleu_words": {
+    "newseye": 0.33,
+    "hipe2020": 0.21,
+    "ajmc": 0.16
+   },
    "mattr": {
     "newseye": 0.41,
     "hipe2020": 0.34,
@@ -51,6 +63,8 @@
    "sbleu_raw": 0.0,
    "sbleu_masked": 0.0,
    "p4_masked": 12.7,
+   "sbleu_nopunct": 0.0,
+   "sbleu_words": 0.0,
    "mattr": 0.0,
    "h_rate": 0.0,
    "distinct2": 0.0
@@ -79,6 +93,18 @@
     "name_density": 0.75,
     "typo": 0.51,
     "balance": -0.46
+   },
+   "sbleu_nopunct": {
+    "F": 0.63,
+    "name_density": 0.13,
+    "typo": -0.09,
+    "balance": 0.08
+   },
+   "sbleu_words": {
+    "F": 0.61,
+    "name_density": 0.12,
+    "typo": -0.1,
+    "balance": 0.1
    },
    "mattr": {
     "F": -0.21,
@@ -116,6 +142,65 @@
     "sbleu_shuffled": 0.12
    },
    "perte_au_melange": 0.15
+  },
+  "tokenisation": {
+   "rho_interne_avec_sbleu_raw": {
+    "sbleu_raw": 1.0,
+    "sbleu_nopunct": 0.8,
+    "sbleu_words": 0.71
+   },
+   "rho_interne_noms": {
+    "sbleu_raw": -0.01,
+    "sbleu_nopunct": -0.1,
+    "sbleu_words": -0.11,
+    "F": 0.31
+   },
+   "medianes": {
+    "sbleu_raw": {
+     "ajmc-de": 10.0,
+     "ajmc-en": 16.3,
+     "ajmc-fr": 14.0,
+     "hipe2020-de": 4.4,
+     "hipe2020-en": 5.2,
+     "hipe2020-fr": 6.0,
+     "newseye-fi": 3.0,
+     "newseye-fr": 4.7,
+     "newseye-sv": 3.5
+    },
+    "sbleu_nopunct": {
+     "ajmc-de": 3.0,
+     "ajmc-en": 5.4,
+     "ajmc-fr": 4.1,
+     "hipe2020-de": 2.0,
+     "hipe2020-en": 4.3,
+     "hipe2020-fr": 4.9,
+     "newseye-fi": 1.4,
+     "newseye-fr": 3.3,
+     "newseye-sv": 1.7
+    },
+    "sbleu_words": {
+     "ajmc-de": 3.0,
+     "ajmc-en": 5.3,
+     "ajmc-fr": 3.3,
+     "hipe2020-de": 2.0,
+     "hipe2020-en": 4.5,
+     "hipe2020-fr": 3.9,
+     "newseye-fi": 1.2,
+     "newseye-fr": 2.0,
+     "newseye-sv": 1.6
+    },
+    "F": {
+     "ajmc-de": 8.8,
+     "ajmc-en": 3.2,
+     "ajmc-fr": 5.8,
+     "hipe2020-de": 0.0,
+     "hipe2020-en": 4.9,
+     "hipe2020-fr": 0.0,
+     "newseye-fi": 0.0,
+     "newseye-fr": 0.0,
+     "newseye-sv": 0.0
+    }
+   }
   }
  },
  "300": {
@@ -124,6 +209,8 @@
    "sbleu_raw": 0.85,
    "sbleu_masked": 0.84,
    "p4_masked": 0.83,
+   "sbleu_nopunct": 0.78,
+   "sbleu_words": 0.79,
    "mattr": 0.6,
    "h_rate": 0.69,
    "distinct2": 0.64
@@ -149,6 +236,16 @@
     "hipe2020": 0.35,
     "ajmc": 0.26
    },
+   "sbleu_nopunct": {
+    "newseye": 0.37,
+    "hipe2020": 0.45,
+    "ajmc": 0.1
+   },
+   "sbleu_words": {
+    "newseye": 0.43,
+    "hipe2020": 0.37,
+    "ajmc": 0.12
+   },
    "mattr": {
     "newseye": 0.64,
     "hipe2020": 0.52,
@@ -170,6 +267,8 @@
    "sbleu_raw": 0.0,
    "sbleu_masked": 0.0,
    "p4_masked": 3.3,
+   "sbleu_nopunct": 0.0,
+   "sbleu_words": 0.0,
    "mattr": 0.0,
    "h_rate": 0.0,
    "distinct2": 0.0
@@ -198,6 +297,18 @@
     "name_density": 0.79,
     "typo": 0.51,
     "balance": -0.49
+   },
+   "sbleu_nopunct": {
+    "F": 0.73,
+    "name_density": 0.26,
+    "typo": -0.02,
+    "balance": 0.01
+   },
+   "sbleu_words": {
+    "F": 0.72,
+    "name_density": 0.26,
+    "typo": -0.03,
+    "balance": 0.02
    },
    "mattr": {
     "F": -0.31,
@@ -235,6 +346,65 @@
     "sbleu_shuffled": 0.15
    },
    "perte_au_melange": 0.11
+  },
+  "tokenisation": {
+   "rho_interne_avec_sbleu_raw": {
+    "sbleu_raw": 1.0,
+    "sbleu_nopunct": 0.79,
+    "sbleu_words": 0.67
+   },
+   "rho_interne_noms": {
+    "sbleu_raw": 0.01,
+    "sbleu_nopunct": -0.14,
+    "sbleu_words": -0.03,
+    "F": 0.42
+   },
+   "medianes": {
+    "sbleu_raw": {
+     "ajmc-de": 8.3,
+     "ajmc-en": 16.1,
+     "ajmc-fr": 13.9,
+     "hipe2020-de": 3.5,
+     "hipe2020-en": 7.4,
+     "hipe2020-fr": 9.2,
+     "newseye-fi": 2.2,
+     "newseye-fr": 6.0,
+     "newseye-sv": 2.9
+    },
+    "sbleu_nopunct": {
+     "ajmc-de": 2.0,
+     "ajmc-en": 7.1,
+     "ajmc-fr": 7.0,
+     "hipe2020-de": 2.0,
+     "hipe2020-en": 5.1,
+     "hipe2020-fr": 6.8,
+     "newseye-fi": 1.3,
+     "newseye-fr": 2.8,
+     "newseye-sv": 1.7
+    },
+    "sbleu_words": {
+     "ajmc-de": 2.0,
+     "ajmc-en": 7.1,
+     "ajmc-fr": 4.9,
+     "hipe2020-de": 2.1,
+     "hipe2020-en": 5.3,
+     "hipe2020-fr": 3.4,
+     "newseye-fi": 0.7,
+     "newseye-fr": 2.1,
+     "newseye-sv": 1.6
+    },
+    "F": {
+     "ajmc-de": 3.8,
+     "ajmc-en": 3.6,
+     "ajmc-fr": 3.1,
+     "hipe2020-de": 0.0,
+     "hipe2020-en": 3.5,
+     "hipe2020-fr": 1.1,
+     "newseye-fi": 0.0,
+     "newseye-fr": 1.1,
+     "newseye-sv": 0.0
+    }
+   }
   }
  }
 }

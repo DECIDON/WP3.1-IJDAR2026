@@ -11,6 +11,7 @@ Code and experiments for the IJDAR 2026 paper on NER &amp; textual rigidity
 | [`experiments/formularity-robustness/`](experiments/formularity-robustness/README.md) | robustesse de la formularité et choix du Self-BLEU : critère de dispersion, comparaison au Self-BLEU, test du mélange, taille des n-grammes |
 | [`data/`](data/README.md) | datasets bruts partagés par les expériences : **non versionnés**, stockés hors GitHub ; seul `data/README.md` (provenance) est suivi |
 | [`docs/`](docs/protocole-experimental.md) | protocole expérimental : tester la sensibilité des modèles NER à la rigidité des textes |
+| [`docs/arbitrage-formulaicite.md`](docs/arbitrage-formulaicite.md) | note de décision : Self-BLEU ou formularité, et règle de choix après les expériences NER |
 
 ## Installation
 

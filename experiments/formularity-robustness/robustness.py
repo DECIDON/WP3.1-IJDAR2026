@@ -12,7 +12,10 @@ NEM.fr (référence trop petite, voir le rapport §5). Pour chaque fenêtre, on 
   par extrait de référence, lissage « method1 » de Chen et Cherry, sans pénalité de brièveté), sur le texte brut en
   minuscules et sur la séquence masquée de la formularité (<NAME>, <NUM>) ; et la seule précision des 4-grammes masqués ;
 * pour le Self-BLEU brut, les précisions des 1- à 4-grammes et le score sur la fenêtre **aux mots mélangés** (test du
-  mélange : ce qui reste quand l'ordre des mots est détruit).
+  mélange : ce qui reste quand l'ordre des mots est détruit) ;
+* le Self-BLEU avec **deux autres tokenisations** : tokens spaCy sans les signes ; mots entiers (découpage aux espaces,
+  signes retirés en bordure, « qu'il » reste un mot). Test de tokenisation : quelle part de l'effet de langue vient du
+  découpage (élisions françaises découpées par spaCy) ?
 
 Puis on compare ces mesures, et deux mesures de diversité lexicale internes à la fenêtre (MATTR, Covington et McFall
 2010, sur 50 mots ; ĥ de Bentz et al. 2017), sur ce qui décide du choix d'un indicateur : séparation des datasets,
@@ -28,6 +31,7 @@ import json
 import math
 import os
 import random
+import re
 import sys
 import time
 from collections import Counter, defaultdict
@@ -62,7 +66,18 @@ VARIANTS = {"F": (4, 1, "4-grammes ≥ 3 fois (réglage actuel)"),
             "F_n3": (3, 1, "3-grammes ≥ 3 fois"),
             "F_n5": (5, 1, "5-grammes ≥ 3 fois")}
 BLEU = {"sbleu_raw": "Self-BLEU, texte brut", "sbleu_masked": "Self-BLEU, noms et nombres masqués",
-        "p4_masked": "précision des 4-grammes masqués"}
+        "p4_masked": "précision des 4-grammes masqués", "sbleu_nopunct": "Self-BLEU, tokens spaCy sans signes",
+        "sbleu_words": "Self-BLEU, mots entiers (découpage aux espaces)"}
+EDGE_PUNCT = re.compile(r"^[^\w]+|[^\w]+$")
+
+
+def nopunct_tokens(doc):
+    return [t.text.lower() for t in doc if not (t.is_space or t.is_punct)]
+
+
+def word_tokens(text):
+    """Mots entiers, sans tokeniseur propre à la langue : découpage aux espaces, signes retirés en bordure."""
+    return [w for w in (EDGE_PUNCT.sub("", x).lower() for x in text.split()) if w]
 DIVERSITY = {"mattr": "MATTR (50 mots)", "h_rate": "ĥ (Bentz)", "distinct2": "Distinct-2"}
 MULTILINGUAL = ["newseye", "hipe2020", "ajmc"]  # même corpus en plusieurs langues : l'effet de langue devrait être nul
 OTHERS = ["name_density", "typo", "balance"]
@@ -109,6 +124,8 @@ def dataset_rows(name, win):
     parsed = list(nlp.pipe([c for _, c in chunks], batch_size=64))
     assert len(parsed) == len(refs[4].chunks)
     raw_idx, masked_idx = BleuIndex([raw_tokens(p) for p in parsed]), BleuIndex([formula_tokens(p) for p in parsed])
+    nopunct_idx = BleuIndex([nopunct_tokens(p) for p in parsed])
+    words_idx = BleuIndex([word_tokens(c) for _, c in chunks])
     rows = []
     texts = [by_id[r.doc_id]["text"][r.start:r.end] for r in win.itertuples()]
     for r, text, doc in zip(win.itertuples(), texts, nlp.pipe(texts, batch_size=32)):
@@ -128,6 +145,8 @@ def dataset_rows(name, win):
         random.Random(f"{name}-{r.doc_id}-{r.start}").shuffle(toks)
         row["sbleu_shuffled"] = bleu(raw_idx.precisions(toks, subset))
         row["sbleu_masked"] = bleu(pm)
+        row["sbleu_nopunct"] = bleu(nopunct_idx.precisions(nopunct_tokens(doc), subset))
+        row["sbleu_words"] = bleu(words_idx.precisions(word_tokens(text), subset))
         row["p4_masked"] = 100 * pm[3][0] / pm[3][1]
         rows.append(row)
     return rows
@@ -198,8 +217,23 @@ def compare_measures(df):
             "part_nulle": {c: round(100 * float((x[c] == 0).mean()), 1) for c in cols},
             "rho": {c: {o: round(float(corr.loc[c, o]), 2) for o in ["F"] + OTHERS} for c in cols},
             "ordre": order_test(x),
+            "tokenisation": tokenization_test(x),
         }
     return out
+
+
+TOKENIZATIONS = ["sbleu_raw", "sbleu_nopunct", "sbleu_words"]
+
+
+def tokenization_test(x):
+    """Self-BLEU selon la tokenisation : accord avec la version spaCy à l'intérieur d'un dataset (ρ médian), médianes
+    des langues dans les corpus multilingues."""
+    def within(a, b):
+        return round(float(np.median([spearmanr(g[a], g[b]).statistic for _, g in x.groupby("dataset")])), 2)
+    return {"rho_interne_avec_sbleu_raw": {c: within("sbleu_raw", c) for c in TOKENIZATIONS},
+            "rho_interne_noms": {c: within(c, "name_density") for c in TOKENIZATIONS + ["F"]},
+            "medianes": {c: x[x.dataset.str.startswith(tuple(MULTILINGUAL))].groupby("dataset")[c].median().round(1).to_dict()
+                         for c in TOKENIZATIONS + ["F"]}}
 
 
 ORDER = {"p1_raw": "1-grammes", "p2_raw": "2-grammes", "p3_raw": "3-grammes", "p4_raw": "4-grammes",
@@ -237,6 +271,15 @@ def write_comparison_md(cmp, path):
                   "| | " + " | ".join(ORDER.values()) + " |", "|---" * (1 + len(ORDER)) + "|",
                   "| Self-BLEU brut | " + " | ".join(str(o["sbleu_raw"][k]) for k in ORDER) + " |",
                   "| formularité | " + " | ".join(str(o["F"].get(k, "—")) for k in ORDER) + " |"]
+        t = c["tokenisation"]
+        names = TOKENIZATIONS + ["F"]
+        lines += ["", f"**Test de tokenisation, {size} mots.** Médianes par langue dans les corpus multilingues ; ρ médian "
+                  "à l'intérieur d'un dataset avec le Self-BLEU spaCy et avec la densité de noms propres.", "",
+                  "| | " + " | ".join(labels[m] for m in names) + " |", "|---" * (1 + len(names)) + "|"]
+        for ds in sorted(t["medianes"]["F"]):
+            lines.append(f"| {ds} | " + " | ".join(str(t["medianes"][m][ds]) for m in names) + " |")
+        lines += ["| ρ interne avec le Self-BLEU spaCy | " + " | ".join(str(t["rho_interne_avec_sbleu_raw"].get(m, "—")) for m in names) + " |",
+                  "| ρ interne avec la densité de noms | " + " | ".join(str(t["rho_interne_noms"][m]) for m in names) + " |"]
         lines.append("")
     open(path, "w").write("\n".join(lines))
 

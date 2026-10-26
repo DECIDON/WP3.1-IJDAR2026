@@ -633,8 +633,9 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 * **Formularité au lieu du Self-BLEU.** On refait le modèle principal avec la formularité du rapport
   (gabarits vus au moins 3 fois, noms et nombres masqués) à la place du Self-BLEU. Les deux mesures
   classent les datasets de la même façon, mais divergent à l'intérieur d'un dataset : le Self-BLEU compte
-  aussi la phraséologie ordinaire, la formularité suit davantage la densité de noms propres. Si les
-  conclusions changent, l'effet de la formularité dépend de ce choix et doit être discuté comme tel.
+  aussi la phraséologie ordinaire, la formularité suit davantage la densité de noms propres. La lecture
+  des résultats et le choix de la mesure pour l'article suivent une règle fixée à l'avance :
+  [Mesurer la formulaicité : Self-BLEU ou formularité ?](arbitrage-formulaicite.md).
 * **Profil par mot.** Pour chaque mot du texte, on calcule les indicateurs sur une fenêtre glissante
   centrée sur lui. On calcule ensuite le taux d'erreur des mots appartenant à une entité, par tranche
   de rigidité locale. Ce contrôle ne dépend d'aucun choix d'ancrage.
@@ -687,6 +688,7 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 | hyperparamètres du fine-tuning | valeurs par défaut de la bibliothèque, valeurs d'un pilote | une valeur unique, gelée après le pilote | essai pilote |
 | mesure de la qualité de l'OCR | part de mots absents d'un lexique, perplexité normalisée | part de mots absents d'un lexique, plus simple et disponible dans toutes les langues | lexiques par langue |
 | second modèle zéro-shot | aucun, un grand modèle de langue génératif | optionnel : utile pour tester les omissions dans les longues énumérations, plus coûteux | budget |
+| mesure de la formulaicité | Self-BLEU, formularité | Self-BLEU à titre provisoire ; les deux calculées partout | analyse de sensibilité, selon la règle de [la note d'arbitrage](arbitrage-formulaicite.md) |
 | calcul | — | inférence zéro-shot : légère ; fine-tuning : une soixantaine de petits entraînements (une vingtaine de sous-corpus × 3 graines) | disponibilité du GPU |
 
 Actions préalables sur les données :

@@ -325,12 +325,16 @@ retenu, et non la formularité, pour cinq raisons :
   formule pleine de noms (« Before Mr. Justice `<NAME>` », « `<NAME>` was indicted for ») un gabarit.
   Pour une étude NER, où la densité d'entités est un facteur à part ([§6](#s6)), c'est un défaut ;
 * **l'effet de langue n'est pas plus fort** dans l'ensemble : 0,17 contre 0,02 dans newseye, mais 0,11
-  contre 0,24 dans hipe2020 et 0,10 contre 0,13 dans ajmc.
+  contre 0,24 dans hipe2020 et 0,10 contre 0,13 dans ajmc. Les deux mesures dépendent de la langue ; le
+  faible effet de la formularité dans newseye tient à ce que la presse y vaut presque toujours 0. L'effet
+  ne vient pas de la tokenisation : sans les signes, ou sur des mots entiers, il augmente (newseye : 0,26
+  et 0,33).
 
 La formularité garde deux atouts : elle se lit directement, et elle reconnaît une formule dont seuls
 les noms changent (M-POPP : 80 % contre un Self-BLEU de 69). On la garde pour décrire les corpus et
-illustrer ce que mesure le Self-BLEU, et pour une analyse de sensibilité du modèle
-([protocole](../../docs/protocole-experimental.md)).
+illustrer ce que mesure le Self-BLEU, et pour une analyse de sensibilité du modèle. Le choix du Self-BLEU
+est **provisoire** : la règle qui le confirmera ou non après les expériences NER est fixée dans
+[Mesurer la formulaicité : Self-BLEU ou formularité ?](../../docs/arbitrage-formulaicite.md).
 
 **Robustesse** ([`../formularity-robustness/`](../formularity-robustness/README.md)).
 * Exiger que le gabarit apparaisse dans au moins 2 ou 3 documents distincts de la référence, comme pour les

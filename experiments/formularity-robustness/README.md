@@ -142,9 +142,15 @@ quelque chose de plus. À 100 mots, la taille de référence de l'étude, elle n
 * **La version masquée du Self-BLEU** n'est pas retenue : elle n'est plus standard et recoupe davantage les autres
   indicateurs (ρ = 0,73 avec la densité de noms propres, 0,49 avec la typographie).
 
+**Test de tokenisation** (`comparaison.md`). Le Self-BLEU dépend-il de la langue à cause du découpage, par exemple
+des élisions françaises (« qu ' il » en trois tokens) ? On le recalcule sans les signes, puis sur des mots entiers
+(découpage aux espaces, signes retirés en bordure). Non : l'effet de langue **augmente** (newseye : 0,26 et 0,33 au
+lieu de 0,17 ; hipe2020 : 0,28 et 0,21 au lieu de 0,11) et la séparation baisse (0,68 au lieu de 0,76). Les signes,
+communs à toutes les langues, atténuent l'effet de la morphologie. On garde la tokenisation spaCy, signes compris.
+
 La formularité reste utile pour décrire les corpus, pour illustrer ce que mesure le Self-BLEU, et pour une analyse de
-sensibilité du modèle NER (même modèle avec la formularité à la place du Self-BLEU ;
-[protocole](../../docs/protocole-experimental.md)).
+sensibilité du modèle NER. Le choix du Self-BLEU est provisoire ; la règle de décision après les expériences NER est
+dans [Mesurer la formulaicité : Self-BLEU ou formularité ?](../../docs/arbitrage-formulaicite.md).
 
 **5. MATTR, comme ĥ et Distinct-2, ne mesure pas la formulaicité.**
 
