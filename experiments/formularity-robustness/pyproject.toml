@@ -1,0 +1,29 @@
+[project]
+name = "formularity-robustness-experiments"
+version = "0.1.0"
+description = "Robustesse de la formularité de text_rigidity : critère de dispersion, Self-BLEU, taille des n-grammes"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "text-rigidity",
+    "fr-core-news-sm",
+    "en-core-web-sm",
+    "de-core-news-sm",
+    "fi-core-news-sm",
+    "sv-core-news-sm",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+text-rigidity = { workspace = true }
+fr-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl" }
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+de-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl" }
+fi-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fi_core_news_sm-3.8.0/fi_core_news_sm-3.8.0-py3-none-any.whl" }
+sv-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/sv_core_news_sm-3.8.0/sv_core_news_sm-3.8.0-py3-none-any.whl" }

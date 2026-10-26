@@ -42,3 +42,14 @@ def test_leave_one_document_out():
 def test_short_window_is_nan():
     ref = FormularityReference(DOCS, lang="fr")
     assert math.isnan(compute_formularity("Martin", ref, lang="fr")["formularity"])
+
+
+def test_dispersion_ignores_repetition_within_one_document():
+    tic = "Le comité a décidé que la séance serait levée. "
+    docs = DOCS + [("bavard", tic * 6)]
+    ref = FormularityReference(docs, lang="fr")
+    window = "Ce soir encore, " + tic
+    assert compute_formularity(window, ref, doc_id="autre", lang="fr")["formularity"] > 0
+    assert compute_formularity(window, ref, doc_id="autre", lang="fr", min_docs=2)["formularity"] == 0
+    # les gabarits de l'annuaire reviennent dans plusieurs pages : ils passent le critère
+    assert compute_formularity(directory_page(99), ref, doc_id="page-99", lang="fr", min_docs=3)["formularity"] > 50

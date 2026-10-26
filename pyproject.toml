@@ -5,6 +5,7 @@ members = [
     "text-rigidity",
     "experiments/rigidity-indicators",
     "experiments/clustering-pca",
+    "experiments/formularity-robustness",
 ]
 
 [dependency-groups]
