@@ -71,7 +71,6 @@ Les chiffres sont ceux des fenêtres de 300 mots ; à 100 mots, les conclusions 
   Bailey, GeoEDdA, ajmc. E-NER en garde 86 %.
 * Trois datasets en perdent davantage :
   * **SoDUCo** (82 %) : des gabarits présents dans une ou deux pages seulement (`st <NAME> , <NUM>`, `. <NAME> , vins`).
-    Il perd aussi des balises d'annotation restées dans le texte (voir Limites).
   * **COPIOUS** (78 %) : des mesures (`<NUM> to <NUM> in .`), propres à quelques documents.
   * **7romans** (68 %) : des tournures de la langue (`qu ' il n`, `. - eh bien`), car la référence n'a que 6 romans.
 * La presse en perd aussi (43 à 94 %), mais sur des valeurs déjà proches de 0.
@@ -83,8 +82,8 @@ La formularité actuelle n'est donc pas faite de répétitions propres à un seu
 
 | | ρ entre fenêtres | ρ entre médianes des datasets | ρ médian dans un dataset | η² |
 |---|---|---|---|---|
-| Self-BLEU masqué | 0,93 | 0,96 | 0,65 | 0,84 |
-| Self-BLEU brut | 0,87 | 0,91 | 0,44 | 0,86 |
+| Self-BLEU masqué | 0,92 | 0,96 | 0,65 | 0,84 |
+| Self-BLEU brut | 0,87 | 0,90 | 0,44 | 0,85 |
 | formularité | — | — | — | 0,82 |
 
 * **Entre datasets**, l'accord est fort : c'est un argument de validité convergente.
@@ -103,7 +102,7 @@ La formularité actuelle n'est donc pas faite de répétitions propres à un seu
 * Les **5-grammes** effacent les formules courtes : la presse, ajmc-de et 7romans tombent à 0.
 
 **4. Pourquoi garder la formularité plutôt que le Self-BLEU** (`comparaison.md`). Le Self-BLEU sépare un peu mieux les
-datasets (η² = 0,84 à 0,86 contre 0,82) et n'a pas de masse à 0 : 22 % des fenêtres de 300 mots ont une formularité
+datasets (η² = 0,84 à 0,85 contre 0,82) et n'a pas de masse à 0 : 22 % des fenêtres de 300 mots ont une formularité
 nulle (36 % à 100 mots), ce qui forme la traînée diagonale de l'ACP. Mais :
 * **sa version standard, brute, dépend de la langue** : dans newseye (même presse en fr, fi, sv), η² de la langue = 0,25
   contre 0,02 pour la formularité. Les 1-grammes se retrouvent moins dans une langue à morphologie riche ;
@@ -120,8 +119,8 @@ Le Self-BLEU sert donc de **validation convergente** : ρ = 0,96 entre médianes
 | 300 mots | η² dataset | η² langue newseye / hipe2020 / ajmc | ρ avec la formularité |
 |---|---|---|---|
 | formularité | 0,82 | 0,02 / 0,32 / 0,01 | — |
-| MATTR | 0,61 | **0,64** / 0,52 / 0,21 | −0,32 |
-| ĥ | 0,69 | **0,74** / 0,52 / 0,12 | −0,49 |
+| MATTR | 0,60 | **0,64** / 0,52 / 0,21 | −0,31 |
+| ĥ | 0,69 | **0,74** / 0,52 / 0,12 | −0,48 |
 
 Ces mesures voient la répétition **à l'intérieur de la fenêtre**, alors qu'une formule se répète d'un document à
 l'autre. Un acte de M-POPP récite son gabarit une fois, avec des noms, des dates et des lieux différents : son MATTR
@@ -130,10 +129,10 @@ allemand et suédois (newseye-fi 0,94, ajmc-de 0,92, newseye-sv 0,91).
 
 ## Limites
 
-* **Balises dans SoDUCo.** Le pivot de SoDUCo contient encore des balises d'annotation : `<TITRE-H>` et
-  `<TITRE-P>`, environ 440 paires par variante, dans 41 pages sur 78. Elles entrent dans les 4-grammes et dans
-  toutes les mesures faites sur ce texte (`windows.csv`). Il faut les retirer dans `loaders.py` puis tout recalculer :
-  c'est hors du périmètre de ce dossier.
+* **Balises dans SoDUCo (corrigé).** Les premières versions du pivot SoDUCo gardaient les balises d'annotation
+  `<TITRE-H>` et `<TITRE-P>` (environ 440 paires par variante) : l'expression régulière de `loaders.py` n'acceptait
+  pas le tiret. Corrigé, puis `windows.csv` et ce dossier ont été recalculés. La formularité médiane de SoDUCo-ref
+  passe de 31,5 à 27,8 % (300 mots) ; aucune conclusion ne change.
 * **Self-BLEU, échelle.** Il n'y a pas de pénalité de brièveté, donc les valeurs ne se comparent pas à celles
   d'articles en génération de texte. Seuls les rangs comptent ici.
 * **Références.** Les seuils de Biber (fréquence par million de mots, dispersion sur 5 textes) et ceux de Hyland

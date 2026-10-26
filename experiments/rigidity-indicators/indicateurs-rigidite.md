@@ -137,7 +137,7 @@ chez Swann* en comptent 24.
 
 | sous-corpus | typo |
 |---|---|
-| SoDUCo (référence / OCR Pero) | 75,8 / 73,0 |
+| SoDUCo (référence / OCR Pero) | 77,5 / 74,9 |
 | ajmc (fr, de, en) | 37 – 48 |
 | M-POPP (dactylographiés / manuscrits) | 29,0 / 17,5 |
 | presse (hipe2020, letemps, newseye) | 14 – 27 |
@@ -197,7 +197,7 @@ Trois choix de construction :
 
 | sous-corpus | B |
 |---|---|
-| SoDUCo | −1,97 / −1,87 |
+| SoDUCo | −1,90 / −1,96 |
 | ajmc-fr | −1,05 |
 | M-POPP, Bâle | −0,72 à −0,88 |
 | presse | −0,46 à +0,07 |
@@ -273,7 +273,7 @@ propres et les nombres sont masqués, et on mesure une couverture.
 | sous-corpus | F (%) |
 |---|---|
 | M-POPP (dactylographiés / manuscrits) | 79,8 / 64,3 |
-| SoDUCo (référence / OCR Pero) | 30,9 / 24,6 |
+| SoDUCo (référence / OCR Pero) | 28,8 / 24,8 |
 | Bâle (registres fonciers) | 20,9 |
 | Old Bailey (procès) | 17,4 |
 | GeoEDdA (Encyclopédie) | 13,2 |
@@ -324,7 +324,7 @@ $$
 
 | sous-corpus | D (%) |
 |---|---|
-| SoDUCo | 33 |
+| SoDUCo | 34 |
 | ajmc, Bâle, M-POPP | 13 – 21 |
 | presse | 4,5 – 12 |
 | littérature | 3,0 – 3,5 |
@@ -414,8 +414,8 @@ Les principes qui concernent directement les indicateurs :
 
 | dataset | langue | famille | fenêtres | typo | balance | segments averbaux | formularité (%) | noms propres (%) |
 |---|---|---|---|---|---|---|---|---|
-| soduco-ref | fr | Annuaires | 100 | 75,8 | −1,97 | 1,00 | 30,9 | 32,8 |
-| soduco-pero | fr | Annuaires | 100 | 73,0 | −1,87 | 1,00 | 24,6 | 33,3 |
+| soduco-pero | fr | Annuaires | 100 | 74,9 | −1,96 | 1,00 | 24,8 | 33,5 |
+| soduco-ref | fr | Annuaires | 100 | 77,5 | −1,90 | 1,00 | 28,8 | 33,8 |
 | m-popp-printed | fr | Actes et registres | 100 | 29,0 | −0,88 | 0,55 | 79,8 | 19,0 |
 | basel | de | Actes et registres | 100 | 22,0 | −0,74 | 0,50 | 20,9 | 20,0 |
 | m-popp-handwritten | fr | Actes et registres | 100 | 17,5 | −0,72 | 0,50 | 64,3 | 15,2 |
@@ -463,13 +463,13 @@ Sur les quatre documents de calibration du notebook, typo, balance et segments a
 | indicateur | séparation, 100 mots | séparation, 300 mots | langue hipe2020 (100 / 300) | langue newseye (100 / 300) |
 |---|---|---|---|---|
 | formularité | **0,69** | **0,82** | 0,24 / 0,32 | 0,02 / 0,02 |
-| typographie | 0,56 | 0,57 | 0,07 / 0,19 | 0,11 / 0,17 |
+| typographie | 0,56 | 0,58 | 0,07 / 0,19 | 0,11 / 0,17 |
 | balance phrastique | 0,56 | 0,71 | 0,07 / 0,17 | 0,00 / 0,02 |
-| densité de noms propres | 0,57 | 0,66 | 0,18 / 0,11 | 0,10 / 0,17 |
+| densité de noms propres | 0,58 | 0,66 | 0,18 / 0,11 | 0,10 / 0,17 |
 | segments averbaux (contrôle) | 0,43 | 0,53 | 0,04 / 0,07 | 0,04 / 0,06 |
-| *KL des POS (non retenue)* | 0,46 | 0,59 | 0,05 / 0,05 | 0,00 / 0,00 |
-| *Distinct-2 (non retenu)* | 0,37 | 0,66 | 0,13 / 0,37 | 0,17 / 0,39 |
-| *typo hors ponctuation (détail)* | 0,36 | 0,37 | 0,06 / 0,19 | 0,16 / 0,16 |
+| *KL des POS (non retenue)* | 0,47 | 0,59 | 0,05 / 0,05 | 0,00 / 0,00 |
+| *Distinct-2 (non retenu)* | 0,36 | 0,64 | 0,13 / 0,37 | 0,17 / 0,39 |
+| *typo hors ponctuation (détail)* | 0,36 | 0,36 | 0,06 / 0,19 | 0,16 / 0,16 |
 
 Tous les indicateurs retenus gardent l'essentiel de leur pouvoir de séparation sur 100 mots : ils sont
 utilisables à l'échelle locale.
@@ -495,12 +495,12 @@ utilisables à l'échelle locale.
 | Compression zlib | Mesure en octets, donc sensible à l'encodage (le grec pèse plus lourd) et au balisage. Additionne répétitions de structure et de langue. Peu discriminant (η² ≈ 0,3 sur les tests préliminaires). | formularité (répétitions), typographie (structure) |
 | Mots par ligne (« Uniformité ») | Dépend de la transcription (lignes physiques ou paragraphes) et n'est pas mesurable sur tous les datasets. Mesure une moyenne, pas une régularité. | rien dans le jeu de base ; descriptif pour les datasets à lignes physiques |
 | Densité de ponctuation | Ne comptait que la ponctuation, et comptait le balisage Markdown du format pivot. | formatage typographique |
-| Distinct-2 | Ne voit que les répétitions internes à la fenêtre, alors que les formules se répètent d'un document à l'autre. Sépare mal à 100 mots (0,37) et dépend de la langue (0,37 à 0,39 à 300 mots). | formularité |
+| Distinct-2 | Ne voit que les répétitions internes à la fenêtre, alors que les formules se répètent d'un document à l'autre. Sépare mal à 100 mots (0,36) et dépend de la langue (0,37 à 0,39 à 300 mots). | formularité |
 | Entropie POS (ancienne) | Entropie des proportions d'étiquettes, insensible à l'ordre des mots : elle ne mesurait pas la syntaxe. Redondante avec la KL (ρ = −0,75 en français). L'article cité [[Bentz 2017](#ref-bentz)] porte sur les mots, pas sur les POS. | balance phrastique |
 | Entropie des mots H₁, ĥ et ΔH = H₁ − ĥ | Voir ci-dessous. | formularité |
 | MATTR [[Covington 2010](#ref-covington)] (TTR moyen sur 50 mots) | Comme Distinct-2, ne voit que les répétitions internes à la fenêtre. Dépend surtout de la langue (η² de la langue dans newseye : 0,64 à 300 mots) et sépare moins bien que la formularité (0,61 contre 0,82). | formularité |
 | Taux d'entropie des POS | Sépare les annuaires par leurs proportions d'étiquettes, pas par l'ordre. Construction sans précédent dans la littérature. | balance phrastique |
-| Divergence KL des POS | Ne donne qu'une ampleur, pas une direction : Proust (0,20) paraissait plus atypique que la presse (0,07). Sépare moins bien que la balance (0,46 contre 0,56 à 100 mots). | balance phrastique |
+| Divergence KL des POS | Ne donne qu'une ampleur, pas une direction : Proust (0,20) paraissait plus atypique que la presse (0,07). Sépare moins bien que la balance (0,47 contre 0,56 à 100 mots). | balance phrastique |
 | Perplexité KenLM (CCNet) | Mélange l'imprévisibilité propre du texte et sa distance à Wikipédia : log₂ PPL = H(p) + D<sub>KL</sub>(p ‖ q). Configuration différente de CCNet : chiffres et accents non normalisés, texte scoré d'un bloc. Modèle français seulement. | aucun ; éventuelle covariable de qualité OCR après normalisation CCNet [[Wenzek 2020](#ref-ccnet)] |
 | Segments averbaux | Redondants avec la balance (ρ = −0,71) et moins discriminants (0,43). | gardés comme contrôle ([§4.2](#s4-2)) |
 

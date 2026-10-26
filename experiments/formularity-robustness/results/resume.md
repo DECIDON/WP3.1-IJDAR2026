@@ -11,16 +11,16 @@ Généré par `robustness.py`. η² : part de la variance des rangs expliquée p
 | + dans ≥ 3 documents (`F_docs3`) | 0.69 | 0.98 | 0.99 | 0.95 |
 | 3-grammes ≥ 3 fois (`F_n3`) | 0.69 | 0.87 | 0.93 | 0.76 |
 | 5-grammes ≥ 3 fois (`F_n5`) | 0.68 | 0.9 | 0.96 | 0.81 |
-| Self-BLEU, texte brut (`sbleu_raw`) | 0.76 | 0.79 | 0.92 | 0.42 |
-| Self-BLEU, noms et nombres masqués (`sbleu_masked`) | 0.75 | 0.87 | 0.95 | 0.59 |
+| Self-BLEU, texte brut (`sbleu_raw`) | 0.76 | 0.79 | 0.91 | 0.41 |
+| Self-BLEU, noms et nombres masqués (`sbleu_masked`) | 0.75 | 0.88 | 0.95 | 0.59 |
 | précision des 4-grammes masqués (`p4_masked`) | 0.73 | 0.88 | 0.93 | 0.61 |
 
 | dataset | docs dans la référence (médiane) | `F` | `F_docs2` | `F_docs3` | `F_n3` | `F_n5` | couverture conservée à ≥ 3 docs (%) | `sbleu_raw` | `sbleu_masked` | `p4_masked` |
 |---|---|---|---|---|---|---|---|---|---|---|
 | m-popp-printed | 31 | 79.8 | 79.8 | 79.3 | 80.2 | 76.8 | 98 | 68.7 | 85.3 | 74.0 |
 | m-popp-handwritten | 46 | 64.3 | 64.3 | 63.7 | 70.9 | 54.4 | 98 | 57.3 | 78.3 | 61.1 |
-| soduco-ref | 25 | 30.9 | 29.4 | 25.2 | 33.2 | 26.5 | 80 | 34.7 | 70.8 | 51.7 |
-| soduco-pero | 25 | 24.6 | 23.2 | 20.8 | 29.3 | 19.6 | 81 | 30.4 | 69.1 | 50.0 |
+| soduco-ref | 25 | 28.8 | 26.6 | 25.0 | 32.9 | 24.7 | 80 | 34.4 | 71.0 | 51.6 |
+| soduco-pero | 26 | 24.8 | 22.6 | 20.1 | 29.2 | 19.9 | 80 | 28.4 | 67.1 | 47.6 |
 | basel | 64 | 20.9 | 20.9 | 19.9 | 29.9 | 11.1 | 98 | 28.5 | 48.6 | 23.4 |
 | old-bailey | 56 | 17.4 | 17.4 | 16.4 | 37.1 | 6.9 | 94 | 33.2 | 44.9 | 18.1 |
 | geoedda | 16 | 13.2 | 13.2 | 10.3 | 23.5 | 6.6 | 98 | 23.9 | 34.4 | 12.9 |
@@ -46,18 +46,18 @@ Généré par `robustness.py`. η² : part de la variance des rangs expliquée p
 | 4-grammes ≥ 3 fois (réglage actuel) (`F`) | 0.82 | — | — | — |
 | + dans ≥ 2 documents (`F_docs2`) | 0.82 | 1.0 | 1.0 | 0.99 |
 | + dans ≥ 3 documents (`F_docs3`) | 0.82 | 0.99 | 0.99 | 0.96 |
-| 3-grammes ≥ 3 fois (`F_n3`) | 0.83 | 0.93 | 0.93 | 0.79 |
+| 3-grammes ≥ 3 fois (`F_n3`) | 0.82 | 0.93 | 0.93 | 0.79 |
 | 5-grammes ≥ 3 fois (`F_n5`) | 0.83 | 0.93 | 0.91 | 0.87 |
-| Self-BLEU, texte brut (`sbleu_raw`) | 0.86 | 0.87 | 0.91 | 0.44 |
-| Self-BLEU, noms et nombres masqués (`sbleu_masked`) | 0.84 | 0.93 | 0.96 | 0.65 |
+| Self-BLEU, texte brut (`sbleu_raw`) | 0.85 | 0.87 | 0.9 | 0.44 |
+| Self-BLEU, noms et nombres masqués (`sbleu_masked`) | 0.84 | 0.92 | 0.96 | 0.65 |
 | précision des 4-grammes masqués (`p4_masked`) | 0.83 | 0.92 | 0.95 | 0.68 |
 
 | dataset | docs dans la référence (médiane) | `F` | `F_docs2` | `F_docs3` | `F_n3` | `F_n5` | couverture conservée à ≥ 3 docs (%) | `sbleu_raw` | `sbleu_masked` | `p4_masked` |
 |---|---|---|---|---|---|---|---|---|---|---|
 | m-popp-printed | 31 | 80.7 | 80.6 | 79.5 | 79.6 | 77.1 | 98 | 67.2 | 84.9 | 72.9 |
 | m-popp-handwritten | 46 | 61.0 | 61.0 | 60.2 | 68.6 | 51.6 | 99 | 57.2 | 75.2 | 56.6 |
-| soduco-ref | 25 | 31.5 | 29.8 | 25.3 | 34.4 | 27.6 | 82 | 33.0 | 69.6 | 51.0 |
-| soduco-pero | 25 | 26.7 | 26.0 | 23.6 | 28.8 | 22.0 | 82 | 30.3 | 68.2 | 48.1 |
+| soduco-ref | 25 | 27.8 | 26.0 | 22.6 | 33.0 | 23.8 | 82 | 31.9 | 69.1 | 50.4 |
+| soduco-pero | 26 | 24.9 | 23.7 | 21.0 | 27.8 | 21.4 | 82 | 29.5 | 68.1 | 47.9 |
 | basel | 64 | 21.6 | 21.5 | 21.2 | 36.0 | 12.3 | 98 | 29.1 | 48.4 | 24.6 |
 | old-bailey | 56 | 17.5 | 17.4 | 16.3 | 35.9 | 7.7 | 94 | 32.3 | 43.9 | 17.6 |
 | geoedda | 16 | 16.7 | 16.7 | 16.3 | 25.9 | 13.3 | 97 | 25.6 | 39.9 | 18.6 |

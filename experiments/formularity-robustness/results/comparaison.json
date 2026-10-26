@@ -5,8 +5,8 @@
    "sbleu_raw": 0.76,
    "sbleu_masked": 0.75,
    "p4_masked": 0.73,
-   "mattr": 0.5,
-   "h_rate": 0.54,
+   "mattr": 0.49,
+   "h_rate": 0.53,
    "distinct2": 0.36
   },
   "eta2_langue": {
@@ -47,7 +47,7 @@
    }
   },
   "part_nulle": {
-   "F": 36.2,
+   "F": 36.1,
    "sbleu_raw": 0.0,
    "sbleu_masked": 0.0,
    "p4_masked": 12.7,
@@ -60,7 +60,7 @@
     "F": 1.0,
     "name_density": 0.59,
     "typo": 0.34,
-    "balance": -0.33
+    "balance": -0.34
    },
    "sbleu_raw": {
     "F": 0.79,
@@ -69,7 +69,7 @@
     "balance": -0.19
    },
    "sbleu_masked": {
-    "F": 0.87,
+    "F": 0.88,
     "name_density": 0.73,
     "typo": 0.49,
     "balance": -0.42
@@ -81,34 +81,34 @@
     "balance": -0.46
    },
    "mattr": {
-    "F": -0.22,
-    "name_density": 0.04,
-    "typo": 0.16,
-    "balance": -0.19
+    "F": -0.21,
+    "name_density": 0.05,
+    "typo": 0.17,
+    "balance": -0.2
    },
    "h_rate": {
     "F": -0.27,
     "name_density": 0.04,
-    "typo": 0.21,
-    "balance": -0.21
+    "typo": 0.22,
+    "balance": -0.22
    },
    "distinct2": {
     "F": -0.33,
     "name_density": -0.13,
-    "typo": 0.04,
-    "balance": 0.0
+    "typo": 0.05,
+    "balance": -0.01
    }
   }
  },
  "300": {
   "eta2_dataset": {
    "F": 0.82,
-   "sbleu_raw": 0.86,
+   "sbleu_raw": 0.85,
    "sbleu_masked": 0.84,
    "p4_masked": 0.83,
-   "mattr": 0.61,
+   "mattr": 0.6,
    "h_rate": 0.69,
-   "distinct2": 0.66
+   "distinct2": 0.64
   },
   "eta2_langue": {
    "F": {
@@ -161,7 +161,7 @@
     "F": 1.0,
     "name_density": 0.68,
     "typo": 0.38,
-    "balance": -0.38
+    "balance": -0.37
    },
    "sbleu_raw": {
     "F": 0.87,
@@ -170,7 +170,7 @@
     "balance": -0.24
    },
    "sbleu_masked": {
-    "F": 0.93,
+    "F": 0.92,
     "name_density": 0.76,
     "typo": 0.49,
     "balance": -0.44
@@ -182,22 +182,22 @@
     "balance": -0.49
    },
    "mattr": {
-    "F": -0.32,
-    "name_density": -0.06,
-    "typo": 0.1,
-    "balance": -0.18
+    "F": -0.31,
+    "name_density": -0.04,
+    "typo": 0.12,
+    "balance": -0.2
    },
    "h_rate": {
-    "F": -0.49,
-    "name_density": -0.07,
-    "typo": 0.15,
-    "balance": -0.17
+    "F": -0.48,
+    "name_density": -0.05,
+    "typo": 0.17,
+    "balance": -0.19
    },
    "distinct2": {
-    "F": -0.63,
-    "name_density": -0.3,
-    "typo": -0.01,
-    "balance": 0.08
+    "F": -0.61,
+    "name_density": -0.25,
+    "typo": 0.04,
+    "balance": 0.03
    }
   }
  }

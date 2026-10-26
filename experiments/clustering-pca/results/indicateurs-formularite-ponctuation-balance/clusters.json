@@ -3,55 +3,55 @@
  "indices": {
   "2": {
    "FCM": {
-    "silhouette": 0.493,
-    "nul_moyen": 0.39,
-    "nul_max": 0.4,
-    "FPC": 0.776,
-    "PE": 0.362,
+    "silhouette": 0.492,
+    "nul_moyen": 0.389,
+    "nul_max": 0.399,
+    "FPC": 0.775,
+    "PE": 0.363,
     "clusters_non_vides": 2
    },
    "CAH_Ward": {
-    "silhouette": 0.477,
-    "nul_moyen": 0.355,
-    "nul_max": 0.381
+    "silhouette": 0.557,
+    "nul_moyen": 0.346,
+    "nul_max": 0.372
    },
-   "ARI_FCM_vs_CAH": 0.406
+   "ARI_FCM_vs_CAH": 0.39
   },
   "3": {
    "FCM": {
-    "silhouette": 0.477,
-    "nul_moyen": 0.304,
-    "nul_max": 0.312,
+    "silhouette": 0.478,
+    "nul_moyen": 0.303,
+    "nul_max": 0.311,
     "FPC": 0.722,
-    "PE": 0.503,
+    "PE": 0.502,
     "clusters_non_vides": 3
    },
    "CAH_Ward": {
-    "silhouette": 0.448,
-    "nul_moyen": 0.278,
-    "nul_max": 0.303
+    "silhouette": 0.455,
+    "nul_moyen": 0.285,
+    "nul_max": 0.314
    },
-   "ARI_FCM_vs_CAH": 0.659
+   "ARI_FCM_vs_CAH": 0.712
   },
   "4": {
    "FCM": {
-    "silhouette": 0.431,
+    "silhouette": 0.432,
     "nul_moyen": 0.333,
-    "nul_max": 0.342,
-    "FPC": 0.646,
-    "PE": 0.674,
+    "nul_max": 0.341,
+    "FPC": 0.647,
+    "PE": 0.673,
     "clusters_non_vides": 4
    },
    "CAH_Ward": {
-    "silhouette": 0.444,
-    "nul_moyen": 0.268,
+    "silhouette": 0.413,
+    "nul_moyen": 0.288,
     "nul_max": 0.314
    },
-   "ARI_FCM_vs_CAH": 0.488
+   "ARI_FCM_vs_CAH": 0.613
   },
   "5": {
    "FCM": {
-    "silhouette": 0.454,
+    "silhouette": 0.455,
     "nul_moyen": 0.319,
     "nul_max": 0.329,
     "FPC": 0.607,
@@ -59,27 +59,27 @@
     "clusters_non_vides": 5
    },
    "CAH_Ward": {
-    "silhouette": 0.449,
-    "nul_moyen": 0.262,
-    "nul_max": 0.295
+    "silhouette": 0.404,
+    "nul_moyen": 0.27,
+    "nul_max": 0.291
    },
-   "ARI_FCM_vs_CAH": 0.526
+   "ARI_FCM_vs_CAH": 0.696
   },
   "6": {
    "FCM": {
-    "silhouette": 0.424,
-    "nul_moyen": 0.318,
-    "nul_max": 0.331,
-    "FPC": 0.584,
-    "PE": 0.872,
+    "silhouette": 0.426,
+    "nul_moyen": 0.317,
+    "nul_max": 0.33,
+    "FPC": 0.585,
+    "PE": 0.871,
     "clusters_non_vides": 6
    },
    "CAH_Ward": {
-    "silhouette": 0.387,
-    "nul_moyen": 0.259,
-    "nul_max": 0.275
+    "silhouette": 0.4,
+    "nul_moyen": 0.262,
+    "nul_max": 0.28
    },
-   "ARI_FCM_vs_CAH": 0.71
+   "ARI_FCM_vs_CAH": 0.756
   }
  }
 }

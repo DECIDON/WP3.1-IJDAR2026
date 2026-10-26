@@ -17,7 +17,7 @@
    "F_n3": 0.87,
    "F_n5": 0.9,
    "sbleu_raw": 0.79,
-   "sbleu_masked": 0.87,
+   "sbleu_masked": 0.88,
    "p4_masked": 0.88
   },
   "rho_medianes": {
@@ -25,7 +25,7 @@
    "F_docs3": 0.99,
    "F_n3": 0.93,
    "F_n5": 0.96,
-   "sbleu_raw": 0.92,
+   "sbleu_raw": 0.91,
    "sbleu_masked": 0.95,
    "p4_masked": 0.93
   },
@@ -34,7 +34,7 @@
    "F_docs3": 0.95,
    "F_n3": 0.76,
    "F_n5": 0.81,
-   "sbleu_raw": 0.42,
+   "sbleu_raw": 0.41,
    "sbleu_masked": 0.59,
    "p4_masked": 0.61
   },
@@ -230,24 +230,24 @@
     "p4_masked": 18.1
    },
    "soduco-pero": {
-    "F": 24.6,
-    "F_docs2": 23.2,
-    "F_docs3": 20.8,
-    "F_n3": 29.3,
-    "F_n5": 19.6,
-    "sbleu_raw": 30.4,
-    "sbleu_masked": 69.1,
-    "p4_masked": 50.0
+    "F": 24.8,
+    "F_docs2": 22.6,
+    "F_docs3": 20.1,
+    "F_n3": 29.2,
+    "F_n5": 19.9,
+    "sbleu_raw": 28.4,
+    "sbleu_masked": 67.1,
+    "p4_masked": 47.6
    },
    "soduco-ref": {
-    "F": 30.9,
-    "F_docs2": 29.4,
-    "F_docs3": 25.2,
-    "F_n3": 33.2,
-    "F_n5": 26.5,
-    "sbleu_raw": 34.7,
-    "sbleu_masked": 70.8,
-    "p4_masked": 51.7
+    "F": 28.8,
+    "F_docs2": 26.6,
+    "F_docs3": 25.0,
+    "F_n3": 32.9,
+    "F_n5": 24.7,
+    "sbleu_raw": 34.4,
+    "sbleu_masked": 71.0,
+    "p4_masked": 51.6
    }
   },
   "part_nulle": {
@@ -385,16 +385,16 @@
     "F_n5": 21.0
    },
    "soduco-pero": {
-    "F": 1.0,
-    "F_docs2": 1.0,
-    "F_docs3": 1.0,
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
     "F_n3": 0.0,
-    "F_n5": 2.0
+    "F_n5": 1.0
    },
    "soduco-ref": {
-    "F": 1.0,
-    "F_docs2": 1.0,
-    "F_docs3": 1.0,
+    "F": 0.0,
+    "F_docs2": 0.0,
+    "F_docs3": 0.0,
     "F_n3": 0.0,
     "F_n5": 1.0
    }
@@ -419,7 +419,7 @@
    "newseye-fr": 54.0,
    "newseye-sv": 79.0,
    "old-bailey": 94.0,
-   "soduco-pero": 81.0,
+   "soduco-pero": 80.0,
    "soduco-ref": 80.0
   },
   "ref_docs_median": {
@@ -442,7 +442,7 @@
    "newseye-fr": 41.0,
    "newseye-sv": 51.0,
    "old-bailey": 56.0,
-   "soduco-pero": 25.0,
+   "soduco-pero": 26.0,
    "soduco-ref": 25.0
   }
  },
@@ -452,9 +452,9 @@
    "F": 0.82,
    "F_docs2": 0.82,
    "F_docs3": 0.82,
-   "F_n3": 0.83,
+   "F_n3": 0.82,
    "F_n5": 0.83,
-   "sbleu_raw": 0.86,
+   "sbleu_raw": 0.85,
    "sbleu_masked": 0.84,
    "p4_masked": 0.83
   },
@@ -464,7 +464,7 @@
    "F_n3": 0.93,
    "F_n5": 0.93,
    "sbleu_raw": 0.87,
-   "sbleu_masked": 0.93,
+   "sbleu_masked": 0.92,
    "p4_masked": 0.92
   },
   "rho_medianes": {
@@ -472,7 +472,7 @@
    "F_docs3": 0.99,
    "F_n3": 0.93,
    "F_n5": 0.91,
-   "sbleu_raw": 0.91,
+   "sbleu_raw": 0.9,
    "sbleu_masked": 0.96,
    "p4_masked": 0.95
   },
@@ -677,24 +677,24 @@
     "p4_masked": 17.6
    },
    "soduco-pero": {
-    "F": 26.7,
-    "F_docs2": 26.0,
-    "F_docs3": 23.6,
-    "F_n3": 28.8,
-    "F_n5": 22.0,
-    "sbleu_raw": 30.3,
-    "sbleu_masked": 68.2,
-    "p4_masked": 48.1
+    "F": 24.9,
+    "F_docs2": 23.7,
+    "F_docs3": 21.0,
+    "F_n3": 27.8,
+    "F_n5": 21.4,
+    "sbleu_raw": 29.5,
+    "sbleu_masked": 68.1,
+    "p4_masked": 47.9
    },
    "soduco-ref": {
-    "F": 31.5,
-    "F_docs2": 29.8,
-    "F_docs3": 25.3,
-    "F_n3": 34.4,
-    "F_n5": 27.6,
-    "sbleu_raw": 33.0,
-    "sbleu_masked": 69.6,
-    "p4_masked": 51.0
+    "F": 27.8,
+    "F_docs2": 26.0,
+    "F_docs3": 22.6,
+    "F_n3": 33.0,
+    "F_n5": 23.8,
+    "sbleu_raw": 31.9,
+    "sbleu_masked": 69.1,
+    "p4_masked": 50.4
    }
   },
   "part_nulle": {
@@ -889,7 +889,7 @@
    "newseye-fr": 41.0,
    "newseye-sv": 51.0,
    "old-bailey": 56.0,
-   "soduco-pero": 25.0,
+   "soduco-pero": 26.0,
    "soduco-ref": 25.0
   }
  }

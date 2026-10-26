@@ -87,38 +87,40 @@ Pour chaque jeu, `results/<jeu>/` contient :
 Les classifications portent sur les **composantes de Kaiser** (valeur propre > 1, au moins 2). Dans les quatre jeux
 « Claude-Bertrand », Kaiser retient 2 composantes : on classe dans le plan PC1-PC2, qui porte 85 à 87 % de la variance.
 Dans le jeu formularité-ponctuation-balance, Kaiser n'en retient qu'une ; on classe quand même dans le plan PC1-PC2
-(91,5 %).
+(91,6 %).
 
 ## Résultats
 
 1. **Deux dimensions de rigidité.** C'est le plus net sans Distinct-2 :
-   - PC1 (52,9 %) = **liste** : KL des POS, ponctuation, formularité. SoDUCo (+3,4) contre la presse (hipe2020,
+   - PC1 (52,5 %) = **liste** : KL des POS, ponctuation, formularité. SoDUCo (+3,4) contre la presse (hipe2020,
      newseye, letemps, ≈ −1,2) ;
-   - PC2 (33,8 %) = **redondance / formule** : ĥ bas et formularité. E-NER, Old Bailey, M-POPP contre newseye et ajmc.
+   - PC2 (34,4 %) = **redondance / formule** : ĥ bas et formularité. E-NER, Old Bailey, M-POPP contre newseye et ajmc.
 
-   Avec Distinct-2, PC1 (49,8 %) est un axe commun aux 5 indicateurs (M-POPP, SoDUCo contre la presse) et PC2 (36,9 %)
+   Avec Distinct-2, PC1 (48,5 %) est un axe commun aux 5 indicateurs (M-POPP, SoDUCo contre la presse) et PC2 (38,2 %)
    oppose ponctuation et KL à ĥ et Distinct-2 : les mêmes deux dimensions, mélangées.
-2. **Trois familles, mais un continuum autour.** CAH Ward à k = 3, sans Distinct-2 : SoDUCo (96-99 % de ses fenêtres) ;
-   M-POPP (96-99 %), Old Bailey (89 %), E-NER (75 %) ; tout le reste (presse, romans, ajmc, Bâle : 87-100 %). La
+2. **Trois familles, mais un continuum autour.** CAH Ward à k = 3, sans Distinct-2 : SoDUCo (100 % de ses fenêtres) ;
+   M-POPP (95-99 %), Old Bailey (89 %), E-NER (75 %) ; tout le reste (presse, romans, ajmc, Bâle : 83-100 %). La
    silhouette dépasse celle du modèle nul (FCM k = 3 : 0,46 contre 0,33), mais les algorithmes ne s'accordent pas
-   sur le nombre de groupes (k-means et CAH : 2 ou 3 ; GMM : 6 à 8 ; HDBSCAN : 2 groupes) et l'accord avec les
-   datasets reste faible (ARI 0,03 à 0,26).
-3. **NEM.fr (jeux NEMpool).** Les genres se placent au pôle non rigide de PC1 (spoken −2,6, tweets −1,9) ; la
+   sur le nombre de groupes (k-means et CAH : 2 ou 3 ; GMM : 7 à 9 ; HDBSCAN : 2 groupes) et l'accord avec les
+   datasets reste faible (ARI 0,04 à 0,26).
+3. **NEM.fr (jeux NEMpool).** Les genres se placent au pôle non rigide de PC1 (spoken −2,7, tweets −1,9) ; la
    structure des autres datasets ne change pas.
 4. **Sans ĥ ni KL (formularité, ponctuation, balance).** ĥ mesure surtout la diversité du vocabulaire, que la langue,
    l'OCR, les noms propres et les nombres font varier ; la KL dépend de la langue. Sans eux :
-   - PC1 (66,1 %) est un **axe de rigidité commun** (balance +0,64, ponctuation +0,63, formularité +0,44) : SoDUCo
-     (+3,2) contre LitBank, hipe2020 et Old Bailey (−1,1 à −1,3) ;
-   - PC2 (25,4 %) oppose la **formule** (formularité +0,90) à la **liste** (ponctuation −0,34, balance −0,29) :
+   - PC1 (65,8 %) est un **axe de rigidité commun** (balance +0,64, ponctuation +0,63, formularité +0,44) : SoDUCo
+     (+3,1) contre LitBank, hipe2020 et Old Bailey (−1,1 à −1,3) ;
+   - PC2 (25,8 %) oppose la **formule** (formularité +0,90) à la **liste** (ponctuation −0,33, balance −0,28) :
      M-POPP et Old Bailey (+1,3 à +1,5) contre newseye (−0,9).
 
-   La structure se détache mieux du modèle nul qu'avec ĥ (CAH Ward k = 4 : 0,44 contre 0,31 au plus pour le nuage
-   gaussien ; 0,37 contre 0,30 dans le jeu sans Distinct-2). À k = 3 : SoDUCo ; un groupe formulaire (M-POPP 100 %,
-   Old Bailey 97 %, Bâle 87 %, E-NER 64 %, GeoEDdA 60 %) ; la presse et la littérature (84-99 %). ajmc et COPIOUS se
-   partagent entre le groupe de SoDUCo et celui de la presse (47-53 %) : ils ressemblent à la liste sans être
-   formulaires. À k = 5, Old Bailey et E-NER (formule dans des phrases) se séparent de M-POPP imprimé, Bâle et
-   GeoEDdA (formule et liste). 22 % des fenêtres ont une formularité nulle (43 à 57 % pour la presse et LitBank) : elles
-   forment la traînée diagonale en bas à gauche du plan, que GMM et HDBSCAN isolent comme un groupe à part.
+   La structure se détache mieux du modèle nul qu'avec ĥ (CAH Ward k = 4 : 0,41 contre 0,31 au plus pour le nuage
+   gaussien ; 0,35 contre 0,29 dans le jeu sans Distinct-2). À k = 3 : SoDUCo (100 %) ; un groupe formulaire (M-POPP
+   et Old Bailey 100 %, Bâle 94 %, GeoEDdA 79 %, E-NER 78 %) ; la presse, la littérature et ajmc (84-97 %). COPIOUS se
+   partage entre les trois (28 / 22 / 50 %). À k = 4, Old Bailey (96 %) et E-NER (67 %), la formule dans des
+   phrases, se séparent de M-POPP, Bâle et GeoEDdA (formule et liste). À k = 5, ajmc (74 %) se détache de la presse,
+   avec un tiers de COPIOUS et un quart de newseye. La place d'ajmc est instable : avant la correction des balises
+   SoDUCo, il se partageait à k = 3 entre SoDUCo et la presse. 22 % des fenêtres ont une formularité nulle (43 à 57 %
+   pour la presse et LitBank) : elles forment la traînée diagonale en bas à gauche du plan, que GMM et HDBSCAN
+   isolent comme un groupe à part.
 
 ## Limites
 
