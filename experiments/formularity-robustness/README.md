@@ -37,6 +37,13 @@ Trois variantes :
 | `sbleu_masked` | séquence de la formularité (`<NAME>`, `<NUM>`) | idem, mais les noms et nombres ne séparent plus deux gabarits |
 | `p4_masked` | idem, 4-grammes seulement | la plus proche de la formularité, sans seuil d'occurrences |
 
+## Comparaison avec des mesures de diversité lexicale
+
+On compare aussi la formularité, le Self-BLEU et trois mesures de répétition **internes à la fenêtre** : MATTR
+(Covington et McFall 2010, TTR moyen sur des fenêtres glissantes de 50 mots), ĥ (Bentz et al. 2017) et Distinct-2. Les
+critères sont ceux qui décident du choix d'un indicateur : séparation des datasets, effet de la langue dans un même
+corpus multilingue, part de fenêtres à 0, recoupement avec les autres indicateurs (`comparaison.md`).
+
 ## Script
 
 ```bash
@@ -49,6 +56,7 @@ uv run python robustness.py --figures   # résumé et figures seulement, depuis 
 |---|---|
 | `fenetres.csv` | une ligne par fenêtre : toutes les variantes, Self-BLEU, taille et nombre de documents de la référence |
 | `resume.md`, `resume.json` | η², corrélations avec la formularité actuelle, médianes par dataset (100 et 300 mots) |
+| `comparaison.md`, `comparaison.json` | formularité, Self-BLEU, MATTR, ĥ, Distinct-2 : η², effet de langue, part de 0, corrélations |
 | `dispersion_n.png` | médiane de chaque variante par dataset |
 | `self_bleu.png` | formularité contre Self-BLEU, fenêtres et médianes des datasets |
 
@@ -93,6 +101,32 @@ La formularité actuelle n'est donc pas faite de répétitions propres à un seu
 * Les **3-grammes** captent des tournures banales de la langue : la presse et LitBank montent à 3 à 8 %, et Old
   Bailey (36 %) dépasse SoDUCo.
 * Les **5-grammes** effacent les formules courtes : la presse, ajmc-de et 7romans tombent à 0.
+
+**4. Pourquoi garder la formularité plutôt que le Self-BLEU** (`comparaison.md`). Le Self-BLEU sépare un peu mieux les
+datasets (η² = 0,84 à 0,86 contre 0,82) et n'a pas de masse à 0 : 22 % des fenêtres de 300 mots ont une formularité
+nulle (36 % à 100 mots), ce qui forme la traînée diagonale de l'ACP. Mais :
+* **sa version standard, brute, dépend de la langue** : dans newseye (même presse en fr, fi, sv), η² de la langue = 0,25
+  contre 0,02 pour la formularité. Les 1-grammes se retrouvent moins dans une langue à morphologie riche ;
+* **sa version masquée n'est plus standard** et recoupe davantage les autres indicateurs : ρ = 0,76 avec la densité de
+  noms propres (0,68 pour la formularité), 0,49 avec la typographie (0,38). Elle compte les suites de nombres et de
+  signes ;
+* la formularité se lit directement (« x % du texte pris dans des gabarits ») et suit une définition de la
+  linguistique de corpus, les *lexical bundles* de Biber.
+
+Le Self-BLEU sert donc de **validation convergente** : ρ = 0,96 entre médianes des datasets.
+
+**5. MATTR, comme ĥ et Distinct-2, ne mesure pas la formularité.**
+
+| 300 mots | η² dataset | η² langue newseye / hipe2020 / ajmc | ρ avec la formularité |
+|---|---|---|---|
+| formularité | 0,82 | 0,02 / 0,32 / 0,01 | — |
+| MATTR | 0,61 | **0,64** / 0,52 / 0,21 | −0,32 |
+| ĥ | 0,69 | **0,74** / 0,52 / 0,12 | −0,49 |
+
+Ces mesures voient la répétition **à l'intérieur de la fenêtre**, alors qu'une formule se répète d'un document à
+l'autre. Un acte de M-POPP récite son gabarit une fois, avec des noms, des dates et des lieux différents : son MATTR
+(0,86) vaut celui de newseye-fr. Elles mesurent surtout la langue : les valeurs les plus hautes sont en finnois,
+allemand et suédois (newseye-fi 0,94, ajmc-de 0,92, newseye-sv 0,91).
 
 ## Limites
 

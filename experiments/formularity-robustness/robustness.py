@@ -12,7 +12,13 @@ NEM.fr (référence trop petite, voir le rapport §5). Pour chaque fenêtre, on 
   par extrait de référence, lissage « method1 » de Chen et Cherry, sans pénalité de brièveté), sur le texte brut en
   minuscules et sur la séquence masquée de la formularité (<NAME>, <NUM>) ; et la seule précision des 4-grammes masqués.
 
-Sorties (results/) : fenetres.csv, resume.json, resume.md, dispersion_n.png, self_bleu.png.
+Puis on compare ces mesures, et deux mesures de diversité lexicale internes à la fenêtre (MATTR, Covington et McFall
+2010, sur 50 mots ; ĥ de Bentz et al. 2017), sur ce qui décide du choix d'un indicateur : séparation des datasets,
+effet de la langue à corpus égal (newseye, hipe2020, ajmc), part de fenêtres à 0, recoupement avec les autres
+indicateurs de windows.csv (comparaison.md, comparaison.json).
+
+Sorties (results/) : fenetres.csv, resume.json, resume.md, comparaison.json, comparaison.md, dispersion_n.png,
+self_bleu.png.
 Usage : uv run python robustness.py [--figures]   (--figures : résumé et figures depuis results/fenetres.csv)
 """
 import json
@@ -38,6 +44,7 @@ VALIDATION = os.path.join(HERE, "..", "rigidity-indicators", "dataset-validation
 sys.path.insert(0, VALIDATION)
 sys.path.insert(0, os.path.join(HERE, "..", "clustering-pca"))
 import loaders  # noqa: E402
+from compute_indicators import WORD_RE  # noqa: E402
 from analysis import MIN_REF_TOKENS, eta2  # noqa: E402
 from compute_indicators import dataset_lang  # noqa: E402
 from pca_indicators import place_labels  # noqa: E402
@@ -52,6 +59,9 @@ VARIANTS = {"F": (4, 1, "4-grammes ≥ 3 fois (réglage actuel)"),
             "F_n5": (5, 1, "5-grammes ≥ 3 fois")}
 BLEU = {"sbleu_raw": "Self-BLEU, texte brut", "sbleu_masked": "Self-BLEU, noms et nombres masqués",
         "p4_masked": "précision des 4-grammes masqués"}
+DIVERSITY = {"mattr": "MATTR (50 mots)", "h_rate": "ĥ (Bentz)", "distinct2": "Distinct-2"}
+MULTILINGUAL = ["newseye", "hipe2020", "ajmc"]  # même corpus en plusieurs langues : l'effet de langue devrait être nul
+OTHERS = ["name_density", "typo", "balance"]
 
 
 def ngrams(tokens, n):
@@ -153,6 +163,56 @@ def summarize(df):
     return out
 
 
+def mattr(tokens, span=50):
+    """Moving-Average Type-Token Ratio (Covington et McFall 2010) : TTR moyen des fenêtres glissantes de span mots."""
+    if len(tokens) < span:
+        return float("nan")
+    return float(np.mean([len(set(tokens[i : i + span])) / span for i in range(len(tokens) - span + 1)]))
+
+
+def compare_measures(df):
+    """Formularité, Self-BLEU et diversité lexicale interne (MATTR, ĥ, Distinct-2) sur les critères de choix d'un
+    indicateur ; les autres indicateurs viennent de windows.csv."""
+    w = pd.read_csv(WINDOWS, dtype={"doc_id": str})
+    d = df.merge(w[["dataset", "size", "doc_id", "start", "end", "lang", "distinct2"] + OTHERS],
+                 on=["dataset", "size", "doc_id", "start"])
+    texts = {}
+    for name in d.dataset.unique():
+        texts.update({(name, str(x["doc_id"])): x["text"] for x in loaders.load_pivot(name)})
+    win = [texts[(r.dataset, r.doc_id)][r.start:r.end] for r in d.itertuples()]
+    d["mattr"] = [mattr([t.lower() for t in WORD_RE.findall(x)]) for x in win]
+    d["h_rate"] = [tr.entropy_rate_lz(tr.tokenize_words(x)) for x in win]
+    cols = ["F"] + list(BLEU) + list(DIVERSITY)
+    out = {}
+    for size, x in d.groupby("size"):
+        corr = x[cols + OTHERS].corr("spearman")
+        out[int(size)] = {
+            "eta2_dataset": {c: round(float(eta2(x, c)), 2) for c in cols},
+            "eta2_langue": {c: {m: round(float(eta2(x[x.dataset.str.startswith(m)], c, "lang")), 2) for m in MULTILINGUAL}
+                            for c in cols},
+            "part_nulle": {c: round(100 * float((x[c] == 0).mean()), 1) for c in cols},
+            "rho": {c: {o: round(float(corr.loc[c, o]), 2) for o in ["F"] + OTHERS} for c in cols},
+        }
+    return out
+
+
+def write_comparison_md(cmp, path):
+    labels = {"F": "formularité", **BLEU, **DIVERSITY}
+    lines = ["# Formularité, Self-BLEU et diversité lexicale", "",
+             "Généré par `robustness.py`. η² dataset : séparation des datasets. η² langue : part de la variance due à la "
+             "langue dans un même corpus multilingue (devrait être nulle). ρ : Spearman entre fenêtres.", ""]
+    for size, c in cmp.items():
+        lines += [f"## Fenêtres de {size} mots", "",
+                  "| mesure | η² dataset | η² langue " + " / ".join(MULTILINGUAL) + " | fenêtres à 0 (%) | ρ formularité | "
+                  + " | ".join(f"ρ {o}" for o in OTHERS) + " |", "|---" * (5 + len(OTHERS)) + "|"]
+        for m in c["eta2_dataset"]:
+            lines.append(f"| {labels[m]} (`{m}`) | {c['eta2_dataset'][m]} | "
+                         + " / ".join(str(c["eta2_langue"][m][k]) for k in MULTILINGUAL)
+                         + f" | {c['part_nulle'][m]} | " + " | ".join(str(c["rho"][m][o]) for o in ["F"] + OTHERS) + " |")
+        lines.append("")
+    open(path, "w").write("\n".join(lines))
+
+
 def order_by_f(d):
     return d.groupby("dataset").F.median().sort_values(kind="stable").index.tolist()
 
@@ -249,6 +309,9 @@ def main(figures_only=False):
     summary = summarize(df)
     json.dump(summary, open(os.path.join(RESULTS, "resume.json"), "w"), ensure_ascii=False, indent=1)
     write_md(summary, os.path.join(RESULTS, "resume.md"))
+    cmp = compare_measures(df)
+    json.dump(cmp, open(os.path.join(RESULTS, "comparaison.json"), "w"), ensure_ascii=False, indent=1)
+    write_comparison_md(cmp, os.path.join(RESULTS, "comparaison.md"))
     d = df[df["size"] == FIG_SIZE]
     fig_dispersion_n(d, os.path.join(RESULTS, "dispersion_n.png"))
     fig_self_bleu(d, summary[FIG_SIZE], os.path.join(RESULTS, "self_bleu.png"))

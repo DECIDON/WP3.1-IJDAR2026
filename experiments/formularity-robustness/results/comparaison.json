@@ -1,0 +1,204 @@
+{
+ "100": {
+  "eta2_dataset": {
+   "F": 0.69,
+   "sbleu_raw": 0.76,
+   "sbleu_masked": 0.75,
+   "p4_masked": 0.73,
+   "mattr": 0.5,
+   "h_rate": 0.54,
+   "distinct2": 0.36
+  },
+  "eta2_langue": {
+   "F": {
+    "newseye": 0.02,
+    "hipe2020": 0.24,
+    "ajmc": 0.13
+   },
+   "sbleu_raw": {
+    "newseye": 0.17,
+    "hipe2020": 0.11,
+    "ajmc": 0.1
+   },
+   "sbleu_masked": {
+    "newseye": 0.11,
+    "hipe2020": 0.31,
+    "ajmc": 0.11
+   },
+   "p4_masked": {
+    "newseye": 0.06,
+    "hipe2020": 0.26,
+    "ajmc": 0.08
+   },
+   "mattr": {
+    "newseye": 0.41,
+    "hipe2020": 0.34,
+    "ajmc": 0.29
+   },
+   "h_rate": {
+    "newseye": 0.44,
+    "hipe2020": 0.37,
+    "ajmc": 0.33
+   },
+   "distinct2": {
+    "newseye": 0.17,
+    "hipe2020": 0.13,
+    "ajmc": 0.17
+   }
+  },
+  "part_nulle": {
+   "F": 36.2,
+   "sbleu_raw": 0.0,
+   "sbleu_masked": 0.0,
+   "p4_masked": 12.7,
+   "mattr": 0.0,
+   "h_rate": 0.0,
+   "distinct2": 0.0
+  },
+  "rho": {
+   "F": {
+    "F": 1.0,
+    "name_density": 0.59,
+    "typo": 0.34,
+    "balance": -0.33
+   },
+   "sbleu_raw": {
+    "F": 0.79,
+    "name_density": 0.37,
+    "typo": 0.27,
+    "balance": -0.19
+   },
+   "sbleu_masked": {
+    "F": 0.87,
+    "name_density": 0.73,
+    "typo": 0.49,
+    "balance": -0.42
+   },
+   "p4_masked": {
+    "F": 0.88,
+    "name_density": 0.75,
+    "typo": 0.51,
+    "balance": -0.46
+   },
+   "mattr": {
+    "F": -0.22,
+    "name_density": 0.04,
+    "typo": 0.16,
+    "balance": -0.19
+   },
+   "h_rate": {
+    "F": -0.27,
+    "name_density": 0.04,
+    "typo": 0.21,
+    "balance": -0.21
+   },
+   "distinct2": {
+    "F": -0.33,
+    "name_density": -0.13,
+    "typo": 0.04,
+    "balance": 0.0
+   }
+  }
+ },
+ "300": {
+  "eta2_dataset": {
+   "F": 0.82,
+   "sbleu_raw": 0.86,
+   "sbleu_masked": 0.84,
+   "p4_masked": 0.83,
+   "mattr": 0.61,
+   "h_rate": 0.69,
+   "distinct2": 0.66
+  },
+  "eta2_langue": {
+   "F": {
+    "newseye": 0.02,
+    "hipe2020": 0.32,
+    "ajmc": 0.01
+   },
+   "sbleu_raw": {
+    "newseye": 0.25,
+    "hipe2020": 0.28,
+    "ajmc": 0.22
+   },
+   "sbleu_masked": {
+    "newseye": 0.17,
+    "hipe2020": 0.39,
+    "ajmc": 0.32
+   },
+   "p4_masked": {
+    "newseye": 0.09,
+    "hipe2020": 0.35,
+    "ajmc": 0.26
+   },
+   "mattr": {
+    "newseye": 0.64,
+    "hipe2020": 0.52,
+    "ajmc": 0.21
+   },
+   "h_rate": {
+    "newseye": 0.74,
+    "hipe2020": 0.52,
+    "ajmc": 0.12
+   },
+   "distinct2": {
+    "newseye": 0.39,
+    "hipe2020": 0.37,
+    "ajmc": 0.1
+   }
+  },
+  "part_nulle": {
+   "F": 22.4,
+   "sbleu_raw": 0.0,
+   "sbleu_masked": 0.0,
+   "p4_masked": 3.3,
+   "mattr": 0.0,
+   "h_rate": 0.0,
+   "distinct2": 0.0
+  },
+  "rho": {
+   "F": {
+    "F": 1.0,
+    "name_density": 0.68,
+    "typo": 0.38,
+    "balance": -0.38
+   },
+   "sbleu_raw": {
+    "F": 0.87,
+    "name_density": 0.49,
+    "typo": 0.31,
+    "balance": -0.24
+   },
+   "sbleu_masked": {
+    "F": 0.93,
+    "name_density": 0.76,
+    "typo": 0.49,
+    "balance": -0.44
+   },
+   "p4_masked": {
+    "F": 0.92,
+    "name_density": 0.79,
+    "typo": 0.51,
+    "balance": -0.49
+   },
+   "mattr": {
+    "F": -0.32,
+    "name_density": -0.06,
+    "typo": 0.1,
+    "balance": -0.18
+   },
+   "h_rate": {
+    "F": -0.49,
+    "name_density": -0.07,
+    "typo": 0.15,
+    "balance": -0.17
+   },
+   "distinct2": {
+    "F": -0.63,
+    "name_density": -0.3,
+    "typo": -0.01,
+    "balance": 0.08
+   }
+  }
+ }
+}
