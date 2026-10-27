@@ -16,6 +16,8 @@ NEM.fr (référence trop petite, voir le rapport §5). Pour chaque fenêtre, on 
 * le Self-BLEU avec **deux autres tokenisations** : tokens spaCy sans les signes ; mots entiers (découpage aux espaces,
   signes retirés en bordure, « qu'il » reste un mot). Test de tokenisation : quelle part de l'effet de langue vient du
   découpage (élisions françaises découpées par spaCy) ?
+* le Self-BLEU sur les **lemmes** spaCy (signes compris), test diagnostique : quelle part de l'effet de langue vient de
+  la flexion ? Et la part des tokens que la lemmatisation modifie, par fenêtre.
 
 Puis on compare ces mesures, et deux mesures de diversité lexicale internes à la fenêtre (MATTR, Covington et McFall
 2010, sur 50 mots ; ĥ de Bentz et al. 2017), sur ce qui décide du choix d'un indicateur : séparation des datasets,
@@ -67,12 +69,29 @@ VARIANTS = {"F": (4, 1, "4-grammes ≥ 3 fois (réglage actuel)"),
             "F_n5": (5, 1, "5-grammes ≥ 3 fois")}
 BLEU = {"sbleu_raw": "Self-BLEU, texte brut", "sbleu_masked": "Self-BLEU, noms et nombres masqués",
         "p4_masked": "précision des 4-grammes masqués", "sbleu_nopunct": "Self-BLEU, tokens spaCy sans signes",
-        "sbleu_words": "Self-BLEU, mots entiers (découpage aux espaces)"}
+        "sbleu_words": "Self-BLEU, mots entiers (découpage aux espaces)", "sbleu_lemma": "Self-BLEU, lemmes"}
 EDGE_PUNCT = re.compile(r"^[^\w]+|[^\w]+$")
 
 
 def nopunct_tokens(doc):
     return [t.text.lower() for t in doc if not (t.is_space or t.is_punct)]
+
+
+_LEMMA_NLP = {}
+
+
+def lemma_nlp(lang):
+    """Modèle spaCy avec son lemmatiseur (text_rigidity.get_nlp le désactive)."""
+    if lang not in _LEMMA_NLP:
+        import spacy
+        _LEMMA_NLP[lang] = spacy.load(tr.SPACY_MODELS[lang], disable=["parser", "ner"])
+        _LEMMA_NLP[lang].max_length = 2_000_000
+    return _LEMMA_NLP[lang]
+
+
+def lemma_tokens(doc):
+    """Lemmes en minuscules ; signes gardés tels quels (le lemmatiseur allemand change « . » en « -- »)."""
+    return [(t.text if t.is_punct or not t.lemma_ else t.lemma_).lower() for t in doc if not t.is_space]
 
 
 def word_tokens(text):
@@ -126,9 +145,12 @@ def dataset_rows(name, win):
     raw_idx, masked_idx = BleuIndex([raw_tokens(p) for p in parsed]), BleuIndex([formula_tokens(p) for p in parsed])
     nopunct_idx = BleuIndex([nopunct_tokens(p) for p in parsed])
     words_idx = BleuIndex([word_tokens(c) for _, c in chunks])
+    lnlp = lemma_nlp(lang)
+    lemma_idx = BleuIndex([lemma_tokens(p) for p in lnlp.pipe([c for _, c in chunks], batch_size=64)])
     rows = []
     texts = [by_id[r.doc_id]["text"][r.start:r.end] for r in win.itertuples()]
-    for r, text, doc in zip(win.itertuples(), texts, nlp.pipe(texts, batch_size=32)):
+    for r, text, doc, ldoc in zip(win.itertuples(), texts, nlp.pipe(texts, batch_size=32),
+                                  lnlp.pipe(texts, batch_size=32)):
         doc_id = by_id[r.doc_id]["doc_id"]
         row = {"dataset": name, "size": r.size, "doc_id": r.doc_id, "start": r.start, "F_windows_csv": r.formularity}
         for col, (n, k, _) in VARIANTS.items():
@@ -147,6 +169,9 @@ def dataset_rows(name, win):
         row["sbleu_masked"] = bleu(pm)
         row["sbleu_nopunct"] = bleu(nopunct_idx.precisions(nopunct_tokens(doc), subset))
         row["sbleu_words"] = bleu(words_idx.precisions(word_tokens(text), subset))
+        lem = lemma_tokens(ldoc)
+        row["sbleu_lemma"] = bleu(lemma_idx.precisions(lem, subset))
+        row["lemma_change"] = 100 * float(np.mean([a != b for a, b in zip(lem, raw_tokens(ldoc))]))
         row["p4_masked"] = 100 * pm[3][0] / pm[3][1]
         rows.append(row)
     return rows
@@ -222,7 +247,7 @@ def compare_measures(df):
     return out
 
 
-TOKENIZATIONS = ["sbleu_raw", "sbleu_nopunct", "sbleu_words"]
+TOKENIZATIONS = ["sbleu_raw", "sbleu_nopunct", "sbleu_words", "sbleu_lemma"]
 
 
 def tokenization_test(x):
@@ -233,7 +258,7 @@ def tokenization_test(x):
     return {"rho_interne_avec_sbleu_raw": {c: within("sbleu_raw", c) for c in TOKENIZATIONS},
             "rho_interne_noms": {c: within(c, "name_density") for c in TOKENIZATIONS + ["F"]},
             "medianes": {c: x[x.dataset.str.startswith(tuple(MULTILINGUAL))].groupby("dataset")[c].median().round(1).to_dict()
-                         for c in TOKENIZATIONS + ["F"]}}
+                         for c in TOKENIZATIONS + ["F", "lemma_change"]}}
 
 
 ORDER = {"p1_raw": "1-grammes", "p2_raw": "2-grammes", "p3_raw": "3-grammes", "p4_raw": "4-grammes",
@@ -278,6 +303,9 @@ def write_comparison_md(cmp, path):
                   "| | " + " | ".join(labels[m] for m in names) + " |", "|---" * (1 + len(names)) + "|"]
         for ds in sorted(t["medianes"]["F"]):
             lines.append(f"| {ds} | " + " | ".join(str(t["medianes"][m][ds]) for m in names) + " |")
+        lines.append("| tokens modifiés par la lemmatisation (%, médiane) : "
+                     + ", ".join(f"{ds} {v}" for ds, v in sorted(t["medianes"]["lemma_change"].items())) + " |"
+                     + " |" * len(names))
         lines += ["| ρ interne avec le Self-BLEU spaCy | " + " | ".join(str(t["rho_interne_avec_sbleu_raw"].get(m, "—")) for m in names) + " |",
                   "| ρ interne avec la densité de noms | " + " | ".join(str(t["rho_interne_noms"][m]) for m in names) + " |"]
         lines.append("")

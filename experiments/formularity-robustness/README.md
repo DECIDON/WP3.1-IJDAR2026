@@ -148,6 +148,17 @@ des élisions françaises (« qu ' il » en trois tokens) ? On le recalcule sans
 lieu de 0,17 ; hipe2020 : 0,28 et 0,21 au lieu de 0,11) et la séparation baisse (0,68 au lieu de 0,76). Les signes,
 communs à toutes les langues, atténuent l'effet de la morphologie. On garde la tokenisation spaCy, signes compris.
 
+**Test des lemmes** (diagnostic, `comparaison.md`). L'effet de langue vient-il de la flexion ? On recalcule le
+Self-BLEU sur les lemmes spaCy, signes compris. La lemmatisation modifie environ 30 % des tokens de la presse, dans
+toutes les langues (newseye-fi 34 %, hipe2020-fr 33 %, hipe2020-de 31 %, newseye-sv 28 %). Pourtant l'effet de langue
+ne baisse pas : 0,17 / 0,14 / 0,09 au lieu de 0,17 / 0,11 / 0,10 (newseye / hipe2020 / ajmc). La lemmatisation profite
+surtout au français (hipe2020-fr 6,0 → 11,5 ; letemps 5,7 → 10,1), très peu au finnois et au suédois (3,0 → 3,8 ;
+3,5 → 4,0). En français, elle fusionne surtout des mots grammaticaux (« les » → « le », « des » → « un ») et des formes
+verbales, qui se retrouvent alors partout ; en finnois, les relations portées par les cas disparaissent sans être
+remplacées par des mots. L'effet de langue tient donc moins à la flexion qu'à la structure des langues : une langue
+analytique répète davantage de suites de mots grammaticaux. Le classement à l'intérieur d'un dataset ne change presque
+pas (ρ = 0,97 avec le Self-BLEU sur formes). La lemmatisation n'est donc pas une correction, et on ne la retient pas.
+
 La formularité reste utile pour décrire les corpus, pour illustrer ce que mesure le Self-BLEU, et pour une analyse de
 sensibilité du modèle NER. Le choix du Self-BLEU est provisoire ; la règle de décision après les expériences NER est
 dans [Mesurer la formulaicité : Self-BLEU ou formularité ?](../../docs/arbitrage-formulaicite.md).

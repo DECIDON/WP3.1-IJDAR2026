@@ -328,7 +328,8 @@ retenu, et non la formularité, pour cinq raisons :
   contre 0,24 dans hipe2020 et 0,10 contre 0,13 dans ajmc. Les deux mesures dépendent de la langue ; le
   faible effet de la formularité dans newseye tient à ce que la presse y vaut presque toujours 0. L'effet
   ne vient pas de la tokenisation : sans les signes, ou sur des mots entiers, il augmente (newseye : 0,26
-  et 0,33).
+  et 0,33). La lemmatisation ne le réduit pas non plus (newseye : 0,17) : il tient à la structure des
+  langues, plus ou moins analytiques, plus qu'à leur flexion.
 
 La formularité garde deux atouts : elle se lit directement, et elle reconnaît une formule dont seuls
 les noms changent (M-POPP : 80 % contre un Self-BLEU de 69). On la garde pour décrire les corpus et

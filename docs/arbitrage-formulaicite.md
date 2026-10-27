@@ -50,6 +50,12 @@ Trois points à retenir :
   de 0,17) et la séparation des datasets baisse (0,68 au lieu de 0,76). Les signes, partagés par toutes les langues,
   atténuent l'effet de la morphologie : les formes fléchies du finnois ou de l'allemand se retrouvent moins telles
   quelles d'un document à l'autre. On garde donc la tokenisation spaCy, signes compris.
+* **La lemmatisation ne corrige pas non plus.** Sur les lemmes, l'effet de langue reste le même (newseye 0,17,
+  hipe2020 0,14, ajmc 0,09), alors que la lemmatisation modifie environ 30 % des tokens de la presse dans toutes les
+  langues. Elle profite surtout au français (hipe2020-fr : 6,0 → 11,5), très peu au finnois (3,0 → 3,8) : elle
+  fusionne des mots grammaticaux français (« les » → « le »), alors que les relations que le finnois porte par ses
+  cas disparaissent sans être remplacées. L'effet de langue tient donc surtout à la structure des langues, plus ou
+  moins analytiques, et ne se corrige pas par un prétraitement. Il faut le neutraliser dans le modèle (3.1, point 3).
 
 ## 3. Préconisations
 

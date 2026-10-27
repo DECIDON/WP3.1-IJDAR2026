@@ -11,7 +11,8 @@
    "sbleu_masked": 0.75,
    "p4_masked": 0.73,
    "sbleu_nopunct": 0.68,
-   "sbleu_words": 0.68
+   "sbleu_words": 0.68,
+   "sbleu_lemma": 0.74
   },
   "rho_fenetres": {
    "F_docs2": 0.99,
@@ -22,7 +23,8 @@
    "sbleu_masked": 0.88,
    "p4_masked": 0.88,
    "sbleu_nopunct": 0.63,
-   "sbleu_words": 0.61
+   "sbleu_words": 0.61,
+   "sbleu_lemma": 0.76
   },
   "rho_medianes": {
    "F_docs2": 1.0,
@@ -33,7 +35,8 @@
    "sbleu_masked": 0.95,
    "p4_masked": 0.93,
    "sbleu_nopunct": 0.71,
-   "sbleu_words": 0.68
+   "sbleu_words": 0.68,
+   "sbleu_lemma": 0.88
   },
   "rho_interne_median": {
    "F_docs2": 0.99,
@@ -44,7 +47,8 @@
    "sbleu_masked": 0.59,
    "p4_masked": 0.61,
    "sbleu_nopunct": 0.28,
-   "sbleu_words": 0.3
+   "sbleu_words": 0.3,
+   "sbleu_lemma": 0.39
   },
   "medianes": {
    "7romans": {
@@ -57,7 +61,8 @@
     "sbleu_masked": 21.0,
     "p4_masked": 3.7,
     "sbleu_nopunct": 5.4,
-    "sbleu_words": 5.4
+    "sbleu_words": 5.4,
+    "sbleu_lemma": 22.0
    },
    "ajmc-de": {
     "F": 8.8,
@@ -69,7 +74,8 @@
     "sbleu_masked": 35.1,
     "p4_masked": 14.3,
     "sbleu_nopunct": 3.0,
-    "sbleu_words": 3.0
+    "sbleu_words": 3.0,
+    "sbleu_lemma": 11.4
    },
    "ajmc-en": {
     "F": 3.2,
@@ -81,7 +87,8 @@
     "sbleu_masked": 40.8,
     "p4_masked": 19.2,
     "sbleu_nopunct": 5.4,
-    "sbleu_words": 5.3
+    "sbleu_words": 5.3,
+    "sbleu_lemma": 17.3
    },
    "ajmc-fr": {
     "F": 5.8,
@@ -93,7 +100,8 @@
     "sbleu_masked": 31.7,
     "p4_masked": 12.2,
     "sbleu_nopunct": 4.1,
-    "sbleu_words": 3.3
+    "sbleu_words": 3.3,
+    "sbleu_lemma": 14.9
    },
    "basel": {
     "F": 20.9,
@@ -105,7 +113,8 @@
     "sbleu_masked": 48.6,
     "p4_masked": 23.4,
     "sbleu_nopunct": 19.4,
-    "sbleu_words": 19.1
+    "sbleu_words": 19.1,
+    "sbleu_lemma": 28.8
    },
    "copious": {
     "F": 7.0,
@@ -117,7 +126,8 @@
     "sbleu_masked": 41.3,
     "p4_masked": 18.1,
     "sbleu_nopunct": 8.8,
-    "sbleu_words": 8.8
+    "sbleu_words": 8.8,
+    "sbleu_lemma": 13.1
    },
    "e-ner": {
     "F": 9.0,
@@ -129,7 +139,8 @@
     "sbleu_masked": 33.4,
     "p4_masked": 12.4,
     "sbleu_nopunct": 17.0,
-    "sbleu_words": 15.8
+    "sbleu_words": 15.8,
+    "sbleu_lemma": 21.5
    },
    "geoedda": {
     "F": 13.2,
@@ -141,7 +152,8 @@
     "sbleu_masked": 34.4,
     "p4_masked": 12.9,
     "sbleu_nopunct": 12.3,
-    "sbleu_words": 9.5
+    "sbleu_words": 9.5,
+    "sbleu_lemma": 26.5
    },
    "hipe2020-de": {
     "F": 0.0,
@@ -153,7 +165,8 @@
     "sbleu_masked": 7.4,
     "p4_masked": 0.4,
     "sbleu_nopunct": 2.0,
-    "sbleu_words": 2.0
+    "sbleu_words": 2.0,
+    "sbleu_lemma": 6.1
    },
    "hipe2020-en": {
     "F": 4.9,
@@ -165,7 +178,8 @@
     "sbleu_masked": 23.6,
     "p4_masked": 5.6,
     "sbleu_nopunct": 4.3,
-    "sbleu_words": 4.5
+    "sbleu_words": 4.5,
+    "sbleu_lemma": 5.9
    },
    "hipe2020-fr": {
     "F": 0.0,
@@ -177,7 +191,8 @@
     "sbleu_masked": 16.3,
     "p4_masked": 2.3,
     "sbleu_nopunct": 4.9,
-    "sbleu_words": 3.9
+    "sbleu_words": 3.9,
+    "sbleu_lemma": 11.5
    },
    "letemps-fr": {
     "F": 0.0,
@@ -189,7 +204,8 @@
     "sbleu_masked": 17.1,
     "p4_masked": 2.6,
     "sbleu_nopunct": 4.9,
-    "sbleu_words": 3.9
+    "sbleu_words": 3.9,
+    "sbleu_lemma": 10.1
    },
    "litbank": {
     "F": 0.0,
@@ -201,7 +217,8 @@
     "sbleu_masked": 14.8,
     "p4_masked": 1.6,
     "sbleu_nopunct": 5.6,
-    "sbleu_words": 5.7
+    "sbleu_words": 5.7,
+    "sbleu_lemma": 11.4
    },
    "m-popp-handwritten": {
     "F": 64.3,
@@ -213,7 +230,8 @@
     "sbleu_masked": 78.3,
     "p4_masked": 61.1,
     "sbleu_nopunct": 55.0,
-    "sbleu_words": 51.9
+    "sbleu_words": 51.9,
+    "sbleu_lemma": 58.9
    },
    "m-popp-printed": {
     "F": 79.8,
@@ -225,7 +243,8 @@
     "sbleu_masked": 85.3,
     "p4_masked": 74.0,
     "sbleu_nopunct": 65.2,
-    "sbleu_words": 63.7
+    "sbleu_words": 63.7,
+    "sbleu_lemma": 68.5
    },
    "newseye-fi": {
     "F": 0.0,
@@ -237,7 +256,8 @@
     "sbleu_masked": 9.9,
     "p4_masked": 1.0,
     "sbleu_nopunct": 1.4,
-    "sbleu_words": 1.2
+    "sbleu_words": 1.2,
+    "sbleu_lemma": 3.8
    },
    "newseye-fr": {
     "F": 0.0,
@@ -249,7 +269,8 @@
     "sbleu_masked": 13.7,
     "p4_masked": 1.8,
     "sbleu_nopunct": 3.3,
-    "sbleu_words": 2.0
+    "sbleu_words": 2.0,
+    "sbleu_lemma": 5.9
    },
    "newseye-sv": {
     "F": 0.0,
@@ -261,7 +282,8 @@
     "sbleu_masked": 5.7,
     "p4_masked": 0.0,
     "sbleu_nopunct": 1.7,
-    "sbleu_words": 1.6
+    "sbleu_words": 1.6,
+    "sbleu_lemma": 4.0
    },
    "old-bailey": {
     "F": 17.4,
@@ -273,7 +295,8 @@
     "sbleu_masked": 44.9,
     "p4_masked": 18.1,
     "sbleu_nopunct": 23.7,
-    "sbleu_words": 18.9
+    "sbleu_words": 18.9,
+    "sbleu_lemma": 35.0
    },
    "soduco-pero": {
     "F": 24.8,
@@ -285,7 +308,8 @@
     "sbleu_masked": 67.1,
     "p4_masked": 47.6,
     "sbleu_nopunct": 4.6,
-    "sbleu_words": 3.8
+    "sbleu_words": 3.8,
+    "sbleu_lemma": 29.0
    },
    "soduco-ref": {
     "F": 28.8,
@@ -297,7 +321,8 @@
     "sbleu_masked": 71.0,
     "p4_masked": 51.6,
     "sbleu_nopunct": 7.0,
-    "sbleu_words": 5.0
+    "sbleu_words": 5.0,
+    "sbleu_lemma": 34.8
    }
   },
   "part_nulle": {
@@ -508,7 +533,8 @@
    "sbleu_masked": 0.84,
    "p4_masked": 0.83,
    "sbleu_nopunct": 0.78,
-   "sbleu_words": 0.79
+   "sbleu_words": 0.79,
+   "sbleu_lemma": 0.84
   },
   "rho_fenetres": {
    "F_docs2": 1.0,
@@ -519,7 +545,8 @@
    "sbleu_masked": 0.92,
    "p4_masked": 0.92,
    "sbleu_nopunct": 0.73,
-   "sbleu_words": 0.72
+   "sbleu_words": 0.72,
+   "sbleu_lemma": 0.84
   },
   "rho_medianes": {
    "F_docs2": 1.0,
@@ -530,7 +557,8 @@
    "sbleu_masked": 0.96,
    "p4_masked": 0.95,
    "sbleu_nopunct": 0.78,
-   "sbleu_words": 0.74
+   "sbleu_words": 0.74,
+   "sbleu_lemma": 0.89
   },
   "rho_interne_median": {
    "F_docs2": 0.99,
@@ -541,7 +569,8 @@
    "sbleu_masked": 0.65,
    "p4_masked": 0.68,
    "sbleu_nopunct": 0.33,
-   "sbleu_words": 0.33
+   "sbleu_words": 0.33,
+   "sbleu_lemma": 0.43
   },
   "medianes": {
    "7romans": {
@@ -554,7 +583,8 @@
     "sbleu_masked": 21.3,
     "p4_masked": 3.7,
     "sbleu_nopunct": 7.3,
-    "sbleu_words": 6.8
+    "sbleu_words": 6.8,
+    "sbleu_lemma": 22.2
    },
    "ajmc-de": {
     "F": 3.8,
@@ -566,7 +596,8 @@
     "sbleu_masked": 26.4,
     "p4_masked": 9.0,
     "sbleu_nopunct": 2.0,
-    "sbleu_words": 2.0
+    "sbleu_words": 2.0,
+    "sbleu_lemma": 9.1
    },
    "ajmc-en": {
     "F": 3.6,
@@ -578,7 +609,8 @@
     "sbleu_masked": 41.2,
     "p4_masked": 19.2,
     "sbleu_nopunct": 7.1,
-    "sbleu_words": 7.1
+    "sbleu_words": 7.1,
+    "sbleu_lemma": 16.9
    },
    "ajmc-fr": {
     "F": 3.1,
@@ -590,7 +622,8 @@
     "sbleu_masked": 30.4,
     "p4_masked": 10.5,
     "sbleu_nopunct": 7.0,
-    "sbleu_words": 4.9
+    "sbleu_words": 4.9,
+    "sbleu_lemma": 14.6
    },
    "basel": {
     "F": 21.6,
@@ -602,7 +635,8 @@
     "sbleu_masked": 48.4,
     "p4_masked": 24.6,
     "sbleu_nopunct": 19.6,
-    "sbleu_words": 18.9
+    "sbleu_words": 18.9,
+    "sbleu_lemma": 29.8
    },
    "copious": {
     "F": 7.1,
@@ -614,7 +648,8 @@
     "sbleu_masked": 38.4,
     "p4_masked": 16.7,
     "sbleu_nopunct": 7.0,
-    "sbleu_words": 7.1
+    "sbleu_words": 7.1,
+    "sbleu_lemma": 12.2
    },
    "e-ner": {
     "F": 10.3,
@@ -626,7 +661,8 @@
     "sbleu_masked": 32.8,
     "p4_masked": 11.8,
     "sbleu_nopunct": 16.5,
-    "sbleu_words": 16.3
+    "sbleu_words": 16.3,
+    "sbleu_lemma": 21.4
    },
    "geoedda": {
     "F": 16.7,
@@ -638,7 +674,8 @@
     "sbleu_masked": 39.9,
     "p4_masked": 18.6,
     "sbleu_nopunct": 13.7,
-    "sbleu_words": 11.1
+    "sbleu_words": 11.1,
+    "sbleu_lemma": 28.6
    },
    "hipe2020-de": {
     "F": 0.0,
@@ -650,7 +687,8 @@
     "sbleu_masked": 9.8,
     "p4_masked": 0.9,
     "sbleu_nopunct": 2.0,
-    "sbleu_words": 2.1
+    "sbleu_words": 2.1,
+    "sbleu_lemma": 7.4
    },
    "hipe2020-en": {
     "F": 3.5,
@@ -662,7 +700,8 @@
     "sbleu_masked": 18.6,
     "p4_masked": 3.5,
     "sbleu_nopunct": 5.1,
-    "sbleu_words": 5.3
+    "sbleu_words": 5.3,
+    "sbleu_lemma": 8.7
    },
    "hipe2020-fr": {
     "F": 1.1,
@@ -674,7 +713,8 @@
     "sbleu_masked": 16.2,
     "p4_masked": 2.5,
     "sbleu_nopunct": 6.8,
-    "sbleu_words": 3.4
+    "sbleu_words": 3.4,
+    "sbleu_lemma": 12.4
    },
    "letemps-fr": {
     "F": 1.2,
@@ -686,7 +726,8 @@
     "sbleu_masked": 14.4,
     "p4_masked": 1.6,
     "sbleu_nopunct": 5.9,
-    "sbleu_words": 3.0
+    "sbleu_words": 3.0,
+    "sbleu_lemma": 10.8
    },
    "litbank": {
     "F": 0.0,
@@ -698,7 +739,8 @@
     "sbleu_masked": 15.2,
     "p4_masked": 1.7,
     "sbleu_nopunct": 6.3,
-    "sbleu_words": 6.2
+    "sbleu_words": 6.2,
+    "sbleu_lemma": 11.8
    },
    "m-popp-handwritten": {
     "F": 61.0,
@@ -710,7 +752,8 @@
     "sbleu_masked": 75.2,
     "p4_masked": 56.6,
     "sbleu_nopunct": 55.8,
-    "sbleu_words": 54.1
+    "sbleu_words": 54.1,
+    "sbleu_lemma": 58.0
    },
    "m-popp-printed": {
     "F": 80.7,
@@ -722,7 +765,8 @@
     "sbleu_masked": 84.9,
     "p4_masked": 72.9,
     "sbleu_nopunct": 62.9,
-    "sbleu_words": 60.5
+    "sbleu_words": 60.5,
+    "sbleu_lemma": 67.4
    },
    "newseye-fi": {
     "F": 0.0,
@@ -734,7 +778,8 @@
     "sbleu_masked": 10.9,
     "p4_masked": 1.6,
     "sbleu_nopunct": 1.3,
-    "sbleu_words": 0.7
+    "sbleu_words": 0.7,
+    "sbleu_lemma": 3.2
    },
    "newseye-fr": {
     "F": 1.1,
@@ -746,7 +791,8 @@
     "sbleu_masked": 13.6,
     "p4_masked": 1.7,
     "sbleu_nopunct": 2.8,
-    "sbleu_words": 2.1
+    "sbleu_words": 2.1,
+    "sbleu_lemma": 8.6
    },
    "newseye-sv": {
     "F": 0.0,
@@ -758,7 +804,8 @@
     "sbleu_masked": 8.1,
     "p4_masked": 0.7,
     "sbleu_nopunct": 1.7,
-    "sbleu_words": 1.6
+    "sbleu_words": 1.6,
+    "sbleu_lemma": 4.3
    },
    "old-bailey": {
     "F": 17.5,
@@ -770,7 +817,8 @@
     "sbleu_masked": 43.9,
     "p4_masked": 17.6,
     "sbleu_nopunct": 23.7,
-    "sbleu_words": 18.9
+    "sbleu_words": 18.9,
+    "sbleu_lemma": 33.9
    },
    "soduco-pero": {
     "F": 24.9,
@@ -782,7 +830,8 @@
     "sbleu_masked": 68.1,
     "p4_masked": 47.9,
     "sbleu_nopunct": 6.0,
-    "sbleu_words": 4.7
+    "sbleu_words": 4.7,
+    "sbleu_lemma": 30.0
    },
    "soduco-ref": {
     "F": 27.8,
@@ -794,7 +843,8 @@
     "sbleu_masked": 69.1,
     "p4_masked": 50.4,
     "sbleu_nopunct": 7.6,
-    "sbleu_words": 5.8
+    "sbleu_words": 5.8,
+    "sbleu_lemma": 32.0
    }
   },
   "part_nulle": {

@@ -12,6 +12,7 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 | précision des 4-grammes masqués (`p4_masked`) | 0.73 | 0.06 / 0.26 / 0.08 | 12.7 | 0.88 | 0.75 | 0.51 | -0.46 |
 | Self-BLEU, tokens spaCy sans signes (`sbleu_nopunct`) | 0.68 | 0.26 / 0.28 / 0.13 | 0.0 | 0.63 | 0.13 | -0.09 | 0.08 |
 | Self-BLEU, mots entiers (découpage aux espaces) (`sbleu_words`) | 0.68 | 0.33 / 0.21 / 0.16 | 0.0 | 0.61 | 0.12 | -0.1 | 0.1 |
+| Self-BLEU, lemmes (`sbleu_lemma`) | 0.74 | 0.17 / 0.14 / 0.09 | 0.0 | 0.76 | 0.32 | 0.23 | -0.14 |
 | MATTR (50 mots) (`mattr`) | 0.49 | 0.41 / 0.34 / 0.29 | 0.0 | -0.21 | 0.05 | 0.17 | -0.2 |
 | ĥ (Bentz) (`h_rate`) | 0.53 | 0.44 / 0.37 / 0.33 | 0.0 | -0.27 | 0.04 | 0.22 | -0.22 |
 | Distinct-2 (`distinct2`) | 0.36 | 0.17 / 0.13 / 0.17 | 0.0 | -0.33 | -0.13 | 0.05 | -0.01 |
@@ -25,19 +26,20 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 
 **Test de tokenisation, 100 mots.** Médianes par langue dans les corpus multilingues ; ρ médian à l'intérieur d'un dataset avec le Self-BLEU spaCy et avec la densité de noms propres.
 
-| | Self-BLEU, texte brut | Self-BLEU, tokens spaCy sans signes | Self-BLEU, mots entiers (découpage aux espaces) | formularité |
-|---|---|---|---|---|
-| ajmc-de | 10.0 | 3.0 | 3.0 | 8.8 |
-| ajmc-en | 16.3 | 5.4 | 5.3 | 3.2 |
-| ajmc-fr | 14.0 | 4.1 | 3.3 | 5.8 |
-| hipe2020-de | 4.4 | 2.0 | 2.0 | 0.0 |
-| hipe2020-en | 5.2 | 4.3 | 4.5 | 4.9 |
-| hipe2020-fr | 6.0 | 4.9 | 3.9 | 0.0 |
-| newseye-fi | 3.0 | 1.4 | 1.2 | 0.0 |
-| newseye-fr | 4.7 | 3.3 | 2.0 | 0.0 |
-| newseye-sv | 3.5 | 1.7 | 1.6 | 0.0 |
-| ρ interne avec le Self-BLEU spaCy | 1.0 | 0.8 | 0.71 | — |
-| ρ interne avec la densité de noms | -0.01 | -0.1 | -0.11 | 0.31 |
+| | Self-BLEU, texte brut | Self-BLEU, tokens spaCy sans signes | Self-BLEU, mots entiers (découpage aux espaces) | Self-BLEU, lemmes | formularité |
+|---|---|---|---|---|---|
+| ajmc-de | 10.0 | 3.0 | 3.0 | 11.4 | 8.8 |
+| ajmc-en | 16.3 | 5.4 | 5.3 | 17.3 | 3.2 |
+| ajmc-fr | 14.0 | 4.1 | 3.3 | 14.9 | 5.8 |
+| hipe2020-de | 4.4 | 2.0 | 2.0 | 6.1 | 0.0 |
+| hipe2020-en | 5.2 | 4.3 | 4.5 | 5.9 | 4.9 |
+| hipe2020-fr | 6.0 | 4.9 | 3.9 | 11.5 | 0.0 |
+| newseye-fi | 3.0 | 1.4 | 1.2 | 3.8 | 0.0 |
+| newseye-fr | 4.7 | 3.3 | 2.0 | 5.9 | 0.0 |
+| newseye-sv | 3.5 | 1.7 | 1.6 | 4.0 | 0.0 |
+| tokens modifiés par la lemmatisation (%, médiane) : ajmc-de 13.9, ajmc-en 8.4, ajmc-fr 9.3, hipe2020-de 31.3, hipe2020-en 13.5, hipe2020-fr 32.6, newseye-fi 33.5, newseye-fr 28.3, newseye-sv 27.5 | | | | | |
+| ρ interne avec le Self-BLEU spaCy | 1.0 | 0.8 | 0.71 | 0.97 | — |
+| ρ interne avec la densité de noms | -0.01 | -0.1 | -0.11 | -0.04 | 0.31 |
 
 ## Fenêtres de 300 mots
 
@@ -49,6 +51,7 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 | précision des 4-grammes masqués (`p4_masked`) | 0.83 | 0.09 / 0.35 / 0.26 | 3.3 | 0.92 | 0.79 | 0.51 | -0.49 |
 | Self-BLEU, tokens spaCy sans signes (`sbleu_nopunct`) | 0.78 | 0.37 / 0.45 / 0.1 | 0.0 | 0.73 | 0.26 | -0.02 | 0.01 |
 | Self-BLEU, mots entiers (découpage aux espaces) (`sbleu_words`) | 0.79 | 0.43 / 0.37 / 0.12 | 0.0 | 0.72 | 0.26 | -0.03 | 0.02 |
+| Self-BLEU, lemmes (`sbleu_lemma`) | 0.84 | 0.26 / 0.26 / 0.22 | 0.0 | 0.84 | 0.44 | 0.28 | -0.2 |
 | MATTR (50 mots) (`mattr`) | 0.6 | 0.64 / 0.52 / 0.21 | 0.0 | -0.31 | -0.04 | 0.12 | -0.2 |
 | ĥ (Bentz) (`h_rate`) | 0.69 | 0.74 / 0.52 / 0.12 | 0.0 | -0.48 | -0.05 | 0.17 | -0.19 |
 | Distinct-2 (`distinct2`) | 0.64 | 0.39 / 0.37 / 0.1 | 0.0 | -0.61 | -0.25 | 0.04 | 0.03 |
@@ -62,16 +65,17 @@ Généré par `robustness.py`. η² dataset : séparation des datasets. η² lan
 
 **Test de tokenisation, 300 mots.** Médianes par langue dans les corpus multilingues ; ρ médian à l'intérieur d'un dataset avec le Self-BLEU spaCy et avec la densité de noms propres.
 
-| | Self-BLEU, texte brut | Self-BLEU, tokens spaCy sans signes | Self-BLEU, mots entiers (découpage aux espaces) | formularité |
-|---|---|---|---|---|
-| ajmc-de | 8.3 | 2.0 | 2.0 | 3.8 |
-| ajmc-en | 16.1 | 7.1 | 7.1 | 3.6 |
-| ajmc-fr | 13.9 | 7.0 | 4.9 | 3.1 |
-| hipe2020-de | 3.5 | 2.0 | 2.1 | 0.0 |
-| hipe2020-en | 7.4 | 5.1 | 5.3 | 3.5 |
-| hipe2020-fr | 9.2 | 6.8 | 3.4 | 1.1 |
-| newseye-fi | 2.2 | 1.3 | 0.7 | 0.0 |
-| newseye-fr | 6.0 | 2.8 | 2.1 | 1.1 |
-| newseye-sv | 2.9 | 1.7 | 1.6 | 0.0 |
-| ρ interne avec le Self-BLEU spaCy | 1.0 | 0.79 | 0.67 | — |
-| ρ interne avec la densité de noms | 0.01 | -0.14 | -0.03 | 0.42 |
+| | Self-BLEU, texte brut | Self-BLEU, tokens spaCy sans signes | Self-BLEU, mots entiers (découpage aux espaces) | Self-BLEU, lemmes | formularité |
+|---|---|---|---|---|---|
+| ajmc-de | 8.3 | 2.0 | 2.0 | 9.1 | 3.8 |
+| ajmc-en | 16.1 | 7.1 | 7.1 | 16.9 | 3.6 |
+| ajmc-fr | 13.9 | 7.0 | 4.9 | 14.6 | 3.1 |
+| hipe2020-de | 3.5 | 2.0 | 2.1 | 7.4 | 0.0 |
+| hipe2020-en | 7.4 | 5.1 | 5.3 | 8.7 | 3.5 |
+| hipe2020-fr | 9.2 | 6.8 | 3.4 | 12.4 | 1.1 |
+| newseye-fi | 2.2 | 1.3 | 0.7 | 3.2 | 0.0 |
+| newseye-fr | 6.0 | 2.8 | 2.1 | 8.6 | 1.1 |
+| newseye-sv | 2.9 | 1.7 | 1.6 | 4.3 | 0.0 |
+| tokens modifiés par la lemmatisation (%, médiane) : ajmc-de 19.6, ajmc-en 8.7, ajmc-fr 14.2, hipe2020-de 31.9, hipe2020-en 13.7, hipe2020-fr 33.3, newseye-fi 32.5, newseye-fr 29.4, newseye-sv 27.1 | | | | | |
+| ρ interne avec le Self-BLEU spaCy | 1.0 | 0.79 | 0.67 | 0.98 | — |
+| ρ interne avec la densité de noms | 0.01 | -0.14 | -0.03 | -0.02 | 0.42 |
