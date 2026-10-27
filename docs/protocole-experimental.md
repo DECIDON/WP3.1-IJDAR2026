@@ -558,7 +558,12 @@ langue ([note d'arbitrage, section 2](arbitrage-formulaicite.md)). Dans hipe2020
 l'allemand reprend moins de suites de mots telles quelles que le français et l'anglais : Self-BLEU médian
 de 4,4 contre 6,0 et 5,2 dans hipe2020, de 10,0 contre 14,0 et 16,3 dans ajmc. Cet écart ne vient ni de la
 tokenisation ni de la flexion : il augmente si l'on retire les signes et ne baisse pas sur les lemmes
-([`formularity-robustness`](../experiments/formularity-robustness/README.md)). Si le modèle NER réussit
+([`formularity-robustness`](../experiments/formularity-robustness/README.md)). Tirer la référence du même
+sous-corpus, donc de la même langue, ne suffit pas à l'effacer : à taille égale (20 000 tokens), une
+référence couvre moins bien une langue à forte morphologie. Dans NewsEye, la part des mots d'une fenêtre
+retrouvés dans la référence est de 57 % en finnois contre 71 % en français, celle des paires de mots de
+13 % contre 23 %. Le Self-BLEU classe donc bien les fenêtres d'un même sous-corpus, mais son niveau n'est
+pas comparable d'un sous-corpus à l'autre. Si le modèle NER réussit
 aussi moins bien dans une langue, un indicateur qui varie avec la langue paraîtra lié aux erreurs sans
 que la rigidité y soit pour rien. Or chaque sous-corpus est d'une seule langue : l'écart local et l'écart
 du document se lisent donc à langue constante, comme à OCR et à consignes constants. Les différences
