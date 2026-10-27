@@ -68,9 +68,11 @@ Trois points à retenir :
    documents d'entraînement en régime 2 (protocole, section 7.5). Elles partagent la référence ; le surcoût est
    négligeable.
 3. **Ne jamais comparer telles quelles les valeurs de deux langues**, pour l'une ou l'autre mesure. Une différence de
-   niveau entre datasets de langues différentes peut venir de la langue. Le modèle du protocole (section 10.5) s'en
-   protège déjà en partie : l'écart local est calculé à l'intérieur du document, et l'effet aléatoire du dataset
-   absorbe les différences de niveau entre datasets. Il faut le dire dans l'article.
+   niveau entre datasets de langues différentes peut venir de la langue. Le modèle du protocole (sections 10.4 et
+   10.5) décompose chaque indicateur en écart local, écart du document à son sous-corpus et moyenne du sous-corpus.
+   Chaque sous-corpus étant d'une seule langue, les deux premiers coefficients se lisent à langue constante ; la
+   langue ne joue que sur le troisième, qui n'est pas interprété. Un effet aléatoire du sous-corpus ne suffirait
+   pas : il absorbe le niveau de réussite du modèle, pas celui de l'indicateur. Il faut le dire dans l'article.
 4. **À l'échelle globale** (16 datasets), décrire les datasets avec les deux mesures, sans en tirer de conclusion
    entre langues.
 5. **Si la formularité entre dans un modèle**, la transformer en log(1 + x) et ajouter une variable « au moins un
@@ -80,7 +82,7 @@ Trois points à retenir :
 
 Le modèle principal (protocole, section 10.5) est ajusté avec le Self-BLEU, puis refait à l'identique avec la
 formularité (protocole, section 12). On compare, pour chaque régime, les deux coefficients de formulaicité :
-l'écart local et la moyenne du document. Les deux mesures « concluent pareil » sur un coefficient si les rapports de
+l'écart local et l'écart du document. Les deux mesures « concluent pareil » sur un coefficient si les rapports de
 cotes vont dans le même sens et si la conclusion au seuil de 5 % est la même (significatif ou non).
 
 | résultat | lecture | décision pour l'article |
@@ -91,8 +93,8 @@ cotes vont dans le même sens et si la conclusion au seuil de 5 % est la même (
 | **D. Effets de sens opposés** | Les deux mesures captent des choses différentes, que la NER traite différemment. | On rapporte les deux comme un résultat, sans mesure unique de la formulaicité. On examine les entités où elles divergent le plus. |
 
 Dans tous les cas :
-* **refaire le modèle retenu dans une seule langue**, le français, qui compte le plus de datasets. Si l'effet tient à
-  langue constante, il ne vient pas de la langue ;
+* **appliquer au modèle retenu les contrôles de langue du protocole** (section 12) : refit sur le français seul,
+  interaction avec la langue sur le français, l'anglais et l'allemand, réduction par sous-corpus ;
 * **rapporter les deux mesures** au moins en annexe, avec cette règle de décision, pour que le choix ne paraisse pas
   fait après coup.
 
