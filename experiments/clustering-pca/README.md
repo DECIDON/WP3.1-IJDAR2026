@@ -36,10 +36,12 @@ Groupes : un par dataset ; les langues d'un même corpus sont fusionnées (« hi
 
 ## Indicateurs
 
-Jeu « Claude-Bertrand » (les cinq premiers) et balance phrastique, tous orientés **+ = plus rigide**, puis centrés-réduits :
+Jeu « Claude-Bertrand » (formularité, ĥ, Distinct-2, KL, ponctuation), Self-BLEU et balance phrastique, tous orientés
+**+ = plus rigide**, puis centrés-réduits :
 
 | indicateur | source | transformation | sens rigide |
 |---|---|---|---|
+| Self-BLEU (Zhu et al. 2018), contre le reste du dataset | `windows.csv` (`compute_self_bleu`) | log(1 + x) | haut (suites de mots reprises) |
 | formularité | `windows.csv` | log(1 + x) | haute |
 | ĥ, taux d'entropie des mots (Bentz et al. 2017) | `entropy_rate_lz`, calculé ici | — | bas (texte prévisible) |
 | Distinct-2 | `windows.csv` | — | bas (texte répétitif) |
@@ -50,11 +52,11 @@ Jeu « Claude-Bertrand » (les cinq premiers) et balance phrastique, tous orient
 La ponctuation est la part « ponctuation » du formatage typographique : balisage Markdown retiré, une suite de signes
 compte pour une marque, sans parenthèses, tirets, filets ni symboles.
 
-À savoir avant de lire les résultats ([rapport](../rigidity-indicators/indicateurs-rigidite.md)) : seules la formularité
-et la balance phrastique font partie des indicateurs retenus ; ĥ et Distinct-2 font doublon (ρ = 0,81 à 100 mots, 0,91 à 300) ; la KL dépend
+À savoir avant de lire les résultats ([rapport](../rigidity-indicators/indicateurs-rigidite.md)) : seuls le Self-BLEU et
+la balance phrastique font partie des indicateurs retenus, la formularité servant de complément lisible au Self-BLEU ; ĥ et Distinct-2 font doublon (ρ = 0,81 à 100 mots, 0,91 à 300) ; la KL dépend
 d'une référence UD par langue et ne se compare qu'à langue égale.
 
-## Cinq jeux, deux traitements de NEM.fr
+## Six jeux, deux traitements de NEM.fr
 
 La formularité d'une fenêtre se mesure contre les autres documents de son sous-corpus. Un genre de NEM.fr n'en fournit
 que 600 à 3 300 tokens, sous le seuil de comparabilité de 15 000 (`analysis.MIN_REF_TOKENS`) : comme `analysis.py`,
@@ -67,6 +69,7 @@ que 600 à 3 300 tokens, sous le seuil de comparabilité de 15 000 (`analysis.MI
 | `indicateurs-claude-bertrand-sans-distinct2` | sans Distinct-2 | exclu | comme ci-dessus |
 | `indicateurs-claude-bertrand-sans-distinct2-NEMpool` | sans Distinct-2 | inclus | référence commune à tout NEM.fr |
 | `indicateurs-formularite-ponctuation-balance` | formularité, ponctuation, balance phrastique | exclu | règle de `analysis.py` |
+| `indicateurs-selfbleu-ponctuation-balance` | **jeu principal** : Self-BLEU, ponctuation, balance phrastique | exclu | règle de `analysis.py` (vaut aussi pour le Self-BLEU) |
 
 Avec la référence commune (20 150 tokens au moins), la formularité d'un genre est mesurée par rapport à NEM.fr, pas
 par rapport au genre lui-même.
@@ -83,7 +86,7 @@ par rapport au genre lui-même.
 # depuis ce dossier, après `uv sync --all-packages` à la racine et la construction de data/pivot/ (loaders.py)
 uv run python nem_formularity.py   # quelques secondes
 uv run python pca_indicators.py    # tous les jeux, une dizaine de minutes
-uv run python pca_indicators.py indicateurs-formularite-ponctuation-balance   # un seul jeu
+uv run python pca_indicators.py indicateurs-selfbleu-ponctuation-balance   # un seul jeu
 ```
 
 Pour chaque jeu, `results/<jeu>/` contient :
@@ -98,12 +101,12 @@ Pour chaque jeu, `results/<jeu>/` contient :
 
 Les classifications portent sur les **composantes de Kaiser** (valeur propre > 1, au moins 2). Dans les quatre jeux
 « Claude-Bertrand », Kaiser retient 2 composantes : on classe dans le plan PC1-PC2, qui porte 77 à 80 % de la variance.
-Dans le jeu formularité-ponctuation-balance, Kaiser n'en retient qu'une ; on classe quand même dans le plan PC1-PC2
-(89,2 %).
+Dans les jeux à trois indicateurs (Self-BLEU ou formularité, ponctuation, balance), Kaiser n'en retient qu'une ; on
+classe quand même dans le plan PC1-PC2 (89,2 % dans les deux cas).
 
 ## Résultats
 
-Fenêtres de 100 mots. Les résultats à 300 mots (commit caf7560 dans l'historique git) sont résumés au point 6.
+Fenêtres de 100 mots. Les résultats à 300 mots (commit caf7560 dans l'historique git) sont résumés au point 7.
 
 1. **Deux dimensions de rigidité.** C'est le plus net sans Distinct-2 :
    - PC1 (49,7 %) = **liste** : KL des POS, ponctuation, formularité. SoDUCo (+3,0 à +3,3) contre la presse
@@ -137,7 +140,27 @@ Fenêtres de 100 mots. Les résultats à 300 mots (commit caf7560 dans l'histori
    (newseye, letemps, hipe2020 fr et de, LitBank : 63 à 88 % ; 7romans 43 %). Elles forment la ligne diagonale en bas à gauche du plan PC1-PC2,
    que les classifications isolent comme un groupe : le troisième groupe de la CAH à k = 3 est d'abord celui des
    fenêtres sans formule. Ce groupe est réel (pas de gabarit), mais il ne dit rien des différences entre ces textes.
-6. **À 300 mots** (contrôle), les mêmes deux dimensions et les mêmes familles apparaissent, avec une séparation plus
+6. **Jeu principal : Self-BLEU, ponctuation, balance.** Le Self-BLEU est l'indicateur de formulaicité retenu
+   ([rapport §5](../rigidity-indicators/indicateurs-rigidite.md#s5)). Avec lui :
+   - PC1 (59,6 %) est le même axe de rigidité commun, porté surtout par la liste (ponctuation et balance +0,66,
+     Self-BLEU +0,35) : SoDUCo (+2,7 à +2,8) contre LitBank, hipe2020 et letemps (−1,0 à −1,1) ;
+   - PC2 (29,7 %) est la **reprise de suites de mots** (Self-BLEU +0,94) : M-POPP et Old Bailey (+1,4 à +1,6) contre
+     newseye (−1,1).
+
+   **La ligne des fenêtres à 0 disparaît** : le Self-BLEU n'en a pas, et la structure ne dépend plus de ce seuil. Elle
+   reste au-dessus du modèle nul (CAH Ward k = 3 : 0,36 contre 0,30 au plus ; k = 5 : 0,39 contre 0,29). À k = 3 : un
+   groupe « liste » (SoDUCo 100 %, ajmc 73 %, la moitié de Bâle et de COPIOUS) ; un groupe « reprise dans des
+   phrases » (M-POPP 99-100 %, Old Bailey 98 %, 7romans 90 %, E-NER 87 %, GeoEDdA 73 %, LitBank 55 %) ; la presse
+   (59-72 %). À k = 5, M-POPP (74-95 %) se détache d'Old Bailey (93 %), E-NER (83 %) et 7romans (90 %).
+
+   **Différence de fond avec la formularité : la littérature.** Le Self-BLEU compte toute suite de mots retrouvée au
+   moins une fois dans la référence, y compris la phraséologie ordinaire de la langue (« qu' il avait », « c' est
+   une », « for a long time »). La formularité n'en garde que les suites vues au moins 3 fois, noms masqués : des
+   formules (« was indicted for stealing », « i am the wife of »). Le Self-BLEU place donc 7romans (17,8) et LitBank
+   (9,3) au-dessus de la presse (3 à 6), là où la formularité les met à 0 ou presque, et range 7romans avec Old
+   Bailey et E-NER. La presse est aussi la plus bruitée par l'OCR, qui empêche les suites de se retrouver telles
+   quelles.
+7. **À 300 mots** (contrôle), les mêmes deux dimensions et les mêmes familles apparaissent, avec une séparation plus
    nette : PC1-PC2 portent 85 à 87 % de la variance (91,6 % dans le jeu sans ĥ ni KL), et 22 % des fenêtres seulement
    ont une formularité nulle. La place d'ajmc est instable : à 300 mots et k = 3, il se range avec la presse ; à
    100 mots, deux tiers de ses fenêtres rejoignent SoDUCo dans le jeu sans Distinct-2.

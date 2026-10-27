@@ -50,8 +50,9 @@ Le rapport sur les indicateurs distingue deux formes de rigidité :
   (« Martin, épicier, r. de Seine, 12 »). On le mesure par le formatage typographique et par la balance
   phrastique.
 * **la formularité.** Un texte formulaire garde la phrase mais la répète d'un document à l'autre (actes
-  de mariage, comptes rendus de procès). On la mesure par la part du texte prise dans des gabarits qui
-  reviennent ailleurs dans le dataset.
+  de mariage, comptes rendus de procès). On la mesure par le Self-BLEU de la fenêtre contre le reste du
+  dataset, mesure standard de la reprise de suites de mots ; la part du texte prise dans des gabarits
+  fréquents (la « formularité » du rapport) en est le complément lisible.
 
 La densité d'entités, mesurée par la part de noms propres, est traitée comme une variable distincte :
 un annuaire est à la fois rigide et très dense en entités, et il faut pouvoir séparer les deux effets.
@@ -86,7 +87,7 @@ L'étude pose quatre questions :
 | fenêtre | Une suite de 100 mots consécutifs sur laquelle on calcule les indicateurs de rigidité. |
 | ancrage | Le span sur lequel une fenêtre locale est centrée : une mention gold ou une prédiction. |
 | masquage | Le retrait des mots d'une entité des comptages, pour que les indicateurs décrivent son contexte et non l'entité elle-même. |
-| effet aléatoire | Dans un modèle statistique, un terme propre à chaque groupe (chaque dataset, chaque document) qui absorbe ce que les observations d'un même groupe ont en commun ([section 10](#s10)). |
+| effet aléatoire | Dans un modèle statistique, un terme propre à chaque groupe (chaque sous-corpus, chaque document) qui absorbe ce que les observations d'un même groupe ont en commun ([section 10](#s10)). |
 
 <a id="s3"></a>
 ## 3. Vue d'ensemble du protocole
@@ -117,8 +118,9 @@ Les étapes :
 6. **Analyser.**
    * Échelle globale : corrélations entre profils et scores, à titre descriptif ([section 9](#s9)).
    * Échelle locale : un modèle statistique qui explique le résultat de chaque entité par la rigidité de
-     son contexte, celle de son document, la densité de noms propres et des variables de contrôle
-     ([section 10](#s10)).
+     son contexte, celle de son document et celle de son sous-corpus, la densité de noms propres et des
+     variables de contrôle ; les effets de la rigidité y sont lus à l'intérieur des sous-corpus, donc à
+     langue constante ([section 10](#s10)).
 
 ```mermaid
 flowchart TB
@@ -377,7 +379,7 @@ locale, le modèle statistique est ajusté séparément pour chaque graine ([sec
 ### 7.5 La formularité vue par le modèle fine-tuné
 
 En régime 2, ce qui compte est la ressemblance d'une entité de test avec ce que *ce* modèle a vu. Pour
-l'analyse locale de ce régime, la référence de formularité est donc construite à partir des seuls
+l'analyse locale de ce régime, la référence du Self-BLEU est donc construite à partir des seuls
 documents d'entraînement, et non du dataset entier. Une entité de test est « dans une formule » si son
 contexte reprend des gabarits présents dans les documents d'entraînement.
 
@@ -454,6 +456,10 @@ au procès, une fois par rôle. Une personne correctement prédite mais non anno
   de Spearman. Avec 16 datasets, une corrélation n'est significative au seuil de 5 % qu'au-delà de
   |ρ| ≈ 0,50. Les 33 sous-corpus ne sont pas indépendants les uns des autres (trois langues de
   hipe2020, deux versions de SoDUCo…) : on ne peut donc pas les compter comme 33 observations.
+* **Langues.** Le Self-BLEU et la formularité dépendent de la langue, et aucun prétraitement ne corrige
+  cet écart ([section 10.4](#s10-4)). On ne compare donc pas leurs valeurs entre sous-corpus de langues
+  différentes : les graphiques distinguent les langues, et les corrélations sont aussi calculées sur les
+  seuls sous-corpus français.
 
 Cette analyse répond à Q1 de façon descriptive. Elle sert aussi à montrer que les datasets retenus
 couvrent bien l'éventail de la rigidité, de la prose libre aux annuaires.
@@ -464,8 +470,9 @@ couvrent bien l'éventail de la rigidité, de la prose libre aux annuaires.
 > **En bref.** On s'intéresse cette fois à chaque entité. Pour chacune, on mesure la rigidité des 100
 > mots qui l'entourent, sans compter l'entité elle-même, et on regarde si les entités en contexte
 > rigide sont plus souvent manquées. Un modèle statistique tient compte de ce que les entités d'un même
-> document ou d'un même dataset se ressemblent, et sépare la rigidité du contexte immédiat de celle du
-> document dans son ensemble.
+> document ou d'un même sous-corpus se ressemblent. Il sépare la rigidité du contexte immédiat, celle du
+> document et celle du sous-corpus, pour que les effets de la rigidité se lisent à langue, OCR et
+> consignes constants.
 
 <a id="s10-1"></a>
 ### 10.1 Deux analyses, deux ancrages
@@ -510,8 +517,8 @@ Une analyse complémentaire distingue les types d'erreur (frontière, type, manq
 **Variables de rigidité et de densité**, calculées sur la fenêtre de l'entité :
 * le formatage typographique ;
 * la balance phrastique ;
-* la formularité ; sa référence est le dataset en régime 1 et les documents d'entraînement en régime 2
-  ([section 7.5](#s7-5)) ;
+* la formularité, mesurée par le Self-BLEU ; sa référence est le dataset en régime 1 et les documents
+  d'entraînement en régime 2 ([section 7.5](#s7-5)) ;
 * la densité de noms propres.
 
 **Variables de contrôle**, qui décrivent l'entité elle-même :
@@ -527,20 +534,40 @@ Ces contrôles sont nécessaires : dans un annuaire, une entité peut être manq
 abrégée ou mal océrisée, et non parce que son contexte est une liste.
 
 <a id="s10-4"></a>
-### 10.4 Séparer le contexte immédiat et le document
+### 10.4 Séparer le contexte immédiat, le document et le sous-corpus
 
-Une entité peut se trouver dans un passage plus rigide ou moins rigide que son document. Pour séparer
-ces deux échelles, chaque indicateur entre dans le modèle sous deux formes :
+Une entité peut se trouver dans un passage plus rigide ou moins rigide que son document, et un document
+peut être plus rigide ou moins rigide que les autres documents de son sous-corpus. Pour séparer ces trois
+échelles, chaque indicateur entre dans le modèle sous trois formes :
 
-* **la moyenne du document** : la moyenne de l'indicateur sur toutes les fenêtres d'entités du
-  document. Elle décrit la rigidité du document dans son ensemble ;
 * **l'écart local** : la valeur de la fenêtre de l'entité moins la moyenne de son document. Il décrit ce
-  que le contexte immédiat a de plus ou de moins rigide que le reste du document.
+  que le contexte immédiat a de plus ou de moins rigide que le reste du document ;
+* **l'écart du document** : la moyenne de l'indicateur sur toutes les fenêtres d'entités du document,
+  moins la moyenne de son sous-corpus. Il décrit ce que le document a de plus ou de moins rigide que les
+  autres documents de la même source ;
+* **la moyenne du sous-corpus** : la moyenne de l'indicateur sur toutes les fenêtres d'entités du
+  sous-corpus.
 
-Cette décomposition en effet « intra » (l'écart local) et effet « inter » (la moyenne du document) vient
-de [[Mundlak 1978](#ref-mundlak)]. Sans elle, un coefficient unique mêlerait deux questions
-différentes : « les documents rigides sont-ils plus difficiles ? » et « dans un même document, les
-passages plus rigides sont-ils plus difficiles ? ».
+Cette décomposition en effets « intra » et « inter » vient de [[Mundlak 1978](#ref-mundlak)]. Sans elle,
+un coefficient unique mêlerait trois questions différentes : « les sources rigides sont-elles plus
+difficiles ? », « dans une même source, les documents plus rigides sont-ils plus difficiles ? » et
+« dans un même document, les passages plus rigides sont-ils plus difficiles ? ».
+
+**Pourquoi descendre jusqu'au sous-corpus : la langue.** Le Self-BLEU et la formularité dépendent de la
+langue ([note d'arbitrage, section 2](arbitrage-formulaicite.md)). Dans hipe2020 comme dans ajmc,
+l'allemand reprend moins de suites de mots telles quelles que le français et l'anglais : Self-BLEU médian
+de 4,4 contre 6,0 et 5,2 dans hipe2020, de 10,0 contre 14,0 et 16,3 dans ajmc. Cet écart ne vient ni de la
+tokenisation ni de la flexion : il augmente si l'on retire les signes et ne baisse pas sur les lemmes
+([`formularity-robustness`](../experiments/formularity-robustness/README.md)). Si le modèle NER réussit
+aussi moins bien dans une langue, un indicateur qui varie avec la langue paraîtra lié aux erreurs sans
+que la rigidité y soit pour rien. Or chaque sous-corpus est d'une seule langue : l'écart local et l'écart
+du document se lisent donc à langue constante, comme à OCR et à consignes constants. Les différences
+entre langues sont confinées à la moyenne du sous-corpus, dont le coefficient se lit, comme l'analyse
+globale ([section 9](#s9)), de façon descriptive.
+
+Un effet aléatoire du sous-corpus ne suffirait pas à lui seul. Il absorbe le niveau de réussite propre à
+chaque sous-corpus, pas le niveau de l'indicateur, et ne protège que si les deux ne sont pas liés ; c'est
+précisément ce qu'on ne peut pas supposer quand la langue agit sur l'un et sur l'autre.
 
 <a id="s10-5"></a>
 ### 10.5 Le modèle statistique
@@ -555,26 +582,35 @@ $$
 \operatorname{logit} P(y_{e} = 1) =
 \beta_0
 + \sum_{k} \beta_k^{\text{local}} \,(x_{k,e} - \bar x_{k,d})
-+ \sum_{k} \beta_k^{\text{doc}} \,\bar x_{k,d}
++ \sum_{k} \beta_k^{\text{doc}} \,(\bar x_{k,d} - \bar x_{k,s})
++ \sum_{k} \beta_k^{\text{sc}} \,\bar x_{k,s}
 + \gamma \cdot c_e
 + u_{s} + v_{d}
 $$
 
 * $y_e$ vaut 1 si l'entité $e$ est trouvée (analyse du rappel) ou correcte (analyse de la précision) ;
-* $x_{k,e}$ est la valeur de l'indicateur $k$ dans la fenêtre de l'entité, et $\bar x_{k,d}$ sa moyenne
-  dans le document $d$ ;
+* $x_{k,e}$ est la valeur de l'indicateur $k$ dans la fenêtre de l'entité, $\bar x_{k,d}$ sa moyenne
+  dans le document $d$ et $\bar x_{k,s}$ sa moyenne dans le sous-corpus $s$ ([section 10.4](#s10-4)) ;
 * $c_e$ regroupe les variables de contrôle de l'entité ;
-* $u_s$ et $v_d$ sont des effets aléatoires du dataset $s$ et du document $d$.
+* $u_s$ et $v_d$ sont des effets aléatoires du sous-corpus $s$ et du document $d$.
+
+Les coefficients qui répondent aux questions de l'étude sont $\beta^{\text{local}}$ et
+$\beta^{\text{doc}}$, estimés à langue constante. $\beta^{\text{sc}}$ repose sur une trentaine de
+sous-corpus qui diffèrent aussi par la langue, l'OCR et les consignes : il est rapporté sans être
+interprété comme un effet de la rigidité.
 
 Les effets aléatoires répondent à un problème simple. Les entités d'un même document ou d'un même
-dataset ne sont pas indépendantes : elles partagent la même qualité d'OCR, les mêmes consignes
+sous-corpus ne sont pas indépendantes : elles partagent la même qualité d'OCR, les mêmes consignes
 d'annotation, souvent les mêmes formules, et leurs fenêtres se chevauchent. Les traiter comme des
 observations indépendantes donnerait une fausse impression de précision. Les effets aléatoires
 absorbent ce que les entités d'un même groupe ont en commun.
 
 En pratique :
-* les indicateurs sont centrés et réduits, c'est-à-dire ramenés à une moyenne de 0 et un écart-type
-  de 1, pour que leurs coefficients soient comparables entre eux ;
+* les indicateurs sont centrés et réduits sur l'ensemble des fenêtres, c'est-à-dire ramenés à une
+  moyenne de 0 et un écart-type de 1, avant d'être décomposés, pour que leurs coefficients soient
+  comparables entre eux. Un écart d'un écart-type n'a pas forcément le même sens dans toutes les
+  langues : le Self-BLEU varie moins dans la presse finnoise que dans les commentaires anglais d'ajmc. Un
+  contrôle réduit les écarts à l'intérieur de chaque sous-corpus ([section 12](#s12)) ;
 * chaque coefficient est rapporté comme un rapport de cotes. La cote d'une entité est le rapport entre
   sa probabilité d'être trouvée et sa probabilité d'être manquée ; le rapport de cotes indique par
   combien cette cote est multipliée quand l'indicateur augmente d'un écart-type. Une valeur de 0,8
@@ -614,7 +650,7 @@ rapporte la moyenne et l'écart des coefficients.
 | H2 | Quelques exemples suffisent à lever cette gêne. | L'effet de H1 diminue nettement en régime 2 (interaction régime × indicateur). | 1 et 2 |
 | H3 | Un modèle fine-tuné sur un corpus formulaire s'appuie sur les formules. | En régime 2, dans les datasets formulaires, le rappel est plus élevé pour les entités dont le contexte est formulaire, et nettement plus bas pour celles qui en sortent. | 2 |
 | H4 | La densité d'entités a un effet propre. | La densité de noms propres reste associée aux erreurs, surtout de frontière, une fois la rigidité prise en compte, dans les deux régimes. | 1 et 2 |
-| H5 | La rigidité du contexte immédiat compte en plus de celle du document. | Les coefficients d'écart local sont non nuls, en plus de ceux de la moyenne du document. | 1 et 2 |
+| H5 | La rigidité du contexte immédiat compte en plus de celle du document. | Les coefficients d'écart local sont non nuls, en plus de ceux de l'écart du document. | 1 et 2 |
 
 Un résultat contraire à une hypothèse est aussi informatif. Si H1 n'est pas confirmée, par exemple,
 c'est que les modèles généralistes actuels gèrent bien les listes et que les écarts de score entre
@@ -629,6 +665,21 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 * **Correspondance souple au lieu de stricte.** Les conclusions doivent tenir avec les deux règles. Si un
   effet n'apparaît qu'en correspondance stricte, il porte sur les frontières et non sur la détection.
 * **Autres tailles de fenêtre.** On refait l'analyse locale avec des fenêtres de 50 et de 200 mots.
+* **Formularité au lieu du Self-BLEU.** On refait le modèle principal avec la formularité du rapport
+  (gabarits vus au moins 3 fois, noms et nombres masqués) à la place du Self-BLEU. Les deux mesures
+  classent les datasets de la même façon, mais divergent à l'intérieur d'un dataset : le Self-BLEU compte
+  aussi la phraséologie ordinaire, la formularité suit davantage la densité de noms propres. La lecture
+  des résultats et le choix de la mesure pour l'article suivent une règle fixée à l'avance :
+  [Mesurer la formulaicité : Self-BLEU ou formularité ?](arbitrage-formulaicite.md).
+* **Langue constante.** On refait le modèle principal sur les seuls sous-corpus français, les plus
+  nombreux. Un effet qui tient en français seul ne vient pas de la langue.
+* **Pente selon la langue.** Sur les sous-corpus français, anglais et allemands, on ajoute au modèle une
+  interaction entre la langue et l'écart local, puis l'écart du document, de chaque indicateur. Si la pente
+  change de sens d'une langue à l'autre, on ne rapporte pas d'effet commun. Le finnois et le suédois, qui ne
+  comptent qu'un sous-corpus chacun, n'entrent pas dans ce contrôle.
+* **Réduction par sous-corpus.** On refait le modèle en divisant l'écart local et l'écart du document par
+  l'écart-type de l'indicateur dans chaque sous-corpus. Les conclusions ne doivent pas dépendre de la
+  façon dont l'ampleur de la variation diffère d'une langue ou d'une source à l'autre.
 * **Profil par mot.** Pour chaque mot du texte, on calcule les indicateurs sur une fenêtre glissante
   centrée sur lui. On calcule ensuite le taux d'erreur des mots appartenant à une entité, par tranche
   de rigidité locale. Ce contrôle ne dépend d'aucun choix d'ancrage.
@@ -656,6 +707,12 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
   interne réduisent ce problème sans le supprimer.
 * **Peu de datasets.** Seize datasets ne suffisent pas pour une inférence solide à l'échelle globale ;
   les conclusions reposent sur l'échelle locale.
+* **Langue.** Le Self-BLEU et la formularité dépendent de la langue, et l'ampleur de cet effet ne peut
+  pas être mesurée proprement : dans nos corpus, la langue se confond presque toujours avec la source, et
+  aucun corpus parallèle n'est disponible. Le modèle s'en protège en ne lisant les effets de la rigidité
+  qu'à l'intérieur des sous-corpus ([section 10.4](#s10-4)). Le finnois et le suédois ne sont représentés
+  que par un sous-corpus de presse chacun (NewsEye) : on ne peut pas y comparer des sources plus ou moins
+  rigides, seulement des documents et des passages d'une même source.
 * **Consignes d'annotation.** L'harmonisation PER / LOC et la correspondance souple réduisent les écarts
   entre consignes, mais une part subsiste, surtout en zéro-shot.
 * **Annotation partielle.** Old Bailey n'annote que certains participants : seule l'analyse du rappel y
@@ -666,8 +723,9 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 * **Petit budget d'entraînement.** 500 mentions, c'est peu : les scores du régime 2 varient d'une graine
   à l'autre, d'où les trois graines.
 * **Indicateurs imparfaits.** Les indicateurs grammaticaux reposent sur un étiqueteur entraîné sur la
-  langue moderne. La formularité dépend de la taille et de l'homogénéité du dataset (rapport sur les
-  indicateurs, [section 8](../experiments/rigidity-indicators/indicateurs-rigidite.md#s8)).
+  langue moderne. Le Self-BLEU et la formularité dépendent de la taille et de l'homogénéité du dataset
+  (rapport sur les indicateurs, [section 8](../experiments/rigidity-indicators/indicateurs-rigidite.md#s8)),
+  ainsi que de la langue (voir plus haut).
 
 <a id="s14"></a>
 ## 14. Décisions restant à prendre
@@ -681,6 +739,8 @@ datasets viennent d'ailleurs : consignes, OCR ou langue.
 | hyperparamètres du fine-tuning | valeurs par défaut de la bibliothèque, valeurs d'un pilote | une valeur unique, gelée après le pilote | essai pilote |
 | mesure de la qualité de l'OCR | part de mots absents d'un lexique, perplexité normalisée | part de mots absents d'un lexique, plus simple et disponible dans toutes les langues | lexiques par langue |
 | second modèle zéro-shot | aucun, un grand modèle de langue génératif | optionnel : utile pour tester les omissions dans les longues énumérations, plus coûteux | budget |
+| finnois et suédois | garder, écarter | les garder si le checkpoint les couvre : avec la décomposition de la [section 10.4](#s10-4), ils ne pèsent que sur des coefficients estimés à langue constante ; ils n'apportent qu'un genre, la presse | couverture du checkpoint ; lexiques pour mesurer l'OCR |
+| mesure de la formulaicité | Self-BLEU, formularité | Self-BLEU à titre provisoire ; les deux calculées partout | analyse de sensibilité, selon la règle de [la note d'arbitrage](arbitrage-formulaicite.md) |
 | calcul | — | inférence zéro-shot : légère ; fine-tuning : une soixantaine de petits entraînements (une vingtaine de sous-corpus × 3 graines) | disponibilité du GPU |
 
 Actions préalables sur les données :
