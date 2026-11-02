@@ -1,6 +1,10 @@
-"""Formularité : part d'une fenêtre prise dans des gabarits (n-grammes) qui reviennent ailleurs dans son
+"""Formularité et Self-BLEU : répétition, dans une fenêtre, de suites de mots qui reviennent ailleurs dans son
 dataset. La référence est tirée des autres documents du dataset (laisser-un-document-dehors).
+
+- Self-BLEU (Zhu et al. 2018) : mesure standard, indicateur retenu ;
+- formularité : part de la fenêtre prise dans des gabarits, noms et nombres masqués ; complément lisible.
 """
+import math
 import random
 from collections import Counter
 
@@ -21,6 +25,12 @@ def formula_tokens(doc) -> list[str]:
         else:
             out.append(t.text.lower())
     return out
+
+
+def raw_tokens(doc) -> list[str]:
+    """Séquence de tokens pour le Self-BLEU : minuscules, signes conservés, espaces et sauts de ligne retirés,
+    sans masquage."""
+    return [t.text.lower() for t in doc if not t.is_space]
 
 
 def _ngrams(tokens, n):
@@ -60,11 +70,12 @@ class FormularityReference:
         self.n, self.ref_tokens = n, ref_tokens
         chunks = sample_reference_chunks(docs, chunk_tokens, pool_tokens, seed)
         nlp = get_nlp(lang)
-        self.chunks = []
+        self.chunks, self.raw = [], []
         for (doc_id, _), parsed in zip(chunks, nlp.pipe([c for _, c in chunks], batch_size=64)):
             toks = formula_tokens(parsed)
             self.chunks.append((doc_id, len(toks), Counter(_ngrams(toks, n))))
-        self._cache = {}
+            self.raw.append(raw_tokens(parsed))
+        self._cache, self._bleu_cache = {}, {}
 
     def chunks_for(self, doc_id):
         """Indices des extraits qui forment la référence de doc_id : hors doc_id, jusqu'à ref_tokens tokens."""
@@ -98,6 +109,19 @@ class FormularityReference:
             self._cache[doc_id] = (total, size, Counter({g: len(s) for g, s in docs.items()}))
         return self._cache[doc_id]
 
+    def clip_counts_for(self, doc_id, max_n=4):
+        """Pour n = 1..max_n, effectif maximal de chaque n-gramme brut dans un même extrait de la référence qui
+        exclut doc_id : le plafond d'écrêtage de BLEU à références multiples."""
+        if doc_id not in self._bleu_cache:
+            clip = [Counter() for _ in range(max_n)]
+            for i in self.chunks_for(doc_id):
+                for n in range(1, max_n + 1):
+                    for g, c in Counter(_ngrams(self.raw[i], n)).items():
+                        if c > clip[n - 1][g]:
+                            clip[n - 1][g] = c
+            self._bleu_cache[doc_id] = clip
+        return self._bleu_cache[doc_id]
+
 
 def compute_formularity(text: str, reference: FormularityReference, doc_id=None, lang: str = "fr", doc=None,
                         min_count: int = 3, min_docs: int = 1, exclude_spans=()) -> dict:
@@ -127,3 +151,32 @@ def compute_formularity(text: str, reference: FormularityReference, doc_id=None,
             for j in range(i, i + n):
                 covered[j] = True
     return {"formularity": 100 * sum(covered) / len(toks), "ref_tokens": size}
+
+
+def compute_self_bleu(text: str, reference: FormularityReference, doc_id=None, lang: str = "fr", doc=None,
+                      max_n: int = 4, exclude_spans=()) -> dict:
+    """Self-BLEU (Zhu et al. 2018) de la fenêtre contre la référence de formularité de son dataset, hors document
+    de la fenêtre : extraits de 500 mots, environ 20 000 tokens.
+
+    Pour n = 1..max_n, la précision p_n est la part des n-grammes de la fenêtre (tokens bruts en minuscules) retrouvés
+    dans la référence, chaque effectif écrêté au maximum observé dans un même extrait (BLEU à références multiples).
+    Score = 100 × moyenne géométrique des p_n, lissage « method1 » (0,1 au lieu d'un numérateur nul), sans
+    pénalité de brièveté : les fenêtres ont toutes la même taille. Les 3- et 4-grammes, rares, font l'essentiel des
+    écarts entre fenêtres : le score suit surtout la reprise de suites de mots.
+
+    Renvoie {"self_bleu": score de 0 à 100, "ref_tokens": taille effective de la référence}, comparable d'un
+    dataset à l'autre aux mêmes conditions que la formularité.
+    """
+    if doc is None:
+        doc = get_nlp(lang)(text)
+    toks = raw_tokens([t for t in doc if not in_spans(t, exclude_spans)])
+    size = reference.counts_for(doc_id)[1]
+    if len(toks) < max_n:
+        return {"self_bleu": float("nan"), "ref_tokens": size}
+    clip = reference.clip_counts_for(doc_id, max_n)
+    logs = []
+    for n in range(1, max_n + 1):
+        c = Counter(_ngrams(toks, n))
+        num = sum(min(k, clip[n - 1].get(g, 0)) for g, k in c.items())
+        logs.append(math.log((num or 0.1) / sum(c.values())))
+    return {"self_bleu": 100 * math.exp(sum(logs) / max_n), "ref_tokens": size}

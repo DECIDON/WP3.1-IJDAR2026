@@ -14,14 +14,16 @@ Indicateurs, tous orientés « + = plus rigide » puis centrés-réduits :
       langue ; bas = peu de mots de liaison, style liste.
 Formularité, ĥ, Distinct-2 et KL ne sont pas retenus par le rapport indicateurs-rigidite.md (sauf la formularité) :
 ĥ doublonne Distinct-2 (ρ ≈ 0,8 à 100 mots, 0,9 à 300) ; la KL dépend d'une référence par langue et ne se compare qu'à langue
-égale. Cinq jeux :
+égale. Six jeux :
   indicateurs-claude-bertrand                    = formularité, ĥ, Distinct-2, KL, ponctuation ; genres de NEM.fr exclus
       (formularité non comparable sous 15 000 tokens de référence, règle de analysis.py) ;
   indicateurs-claude-bertrand-sans-distinct2     = idem sans Distinct-2 ;
   ...-NEMpool (pour chacun des deux)             = genres de NEM.fr compris, leur formularité étant calculée contre une
       référence commune à tout NEM.fr (nem_formularity.py), donc mesurée par rapport à NEM.fr et non au genre lui-même ;
   indicateurs-formularite-ponctuation-balance    = formularité, ponctuation, balance phrastique : sans ĥ ni KL, qui
-      dépendent de la langue ; genres de NEM.fr exclus.
+      dépendent de la langue ; genres de NEM.fr exclus ;
+  indicateurs-selfbleu-ponctuation-balance       = idem avec le Self-BLEU (text_rigidity.compute_self_bleu ;
+      log(1 + x)) à la place de la formularité : le jeu principal, le Self-BLEU étant l'indicateur de formulaicité retenu.
 Pour chaque jeu, dans results/<jeu>/ :
   correlations.png / .csv   ρ de Spearman entre indicateurs (fenêtres, puis médianes de groupe)
   acp.png / composantes.md  variance par composante, poids et lecture de chaque composante, plan PC1-PC2 (médianes
@@ -47,13 +49,14 @@ from scipy.stats import spearmanr
 from common import (IND, KS, POLES, RESULTS, SIZE, boxplots, clustering, group_order, kaiser, load_windows, loaders,
                     other_algorithms, pca, plt, pole_labels, zs)
 
-LOG = {"formularity", "formularity_nempool", "kl", "punct"}
+LOG = {"formularity", "formularity_nempool", "self_bleu", "kl", "punct"}
 CB = ["formularity", "h_rate", "distinct2", "kl", "punct"]
 SETS = {"indicateurs-claude-bertrand": CB,
         "indicateurs-claude-bertrand-NEMpool": ["formularity_nempool"] + CB[1:],
         "indicateurs-claude-bertrand-sans-distinct2": [c for c in CB if c != "distinct2"],
         "indicateurs-claude-bertrand-sans-distinct2-NEMpool": ["formularity_nempool"] + [c for c in CB[1:] if c != "distinct2"],
-        "indicateurs-formularite-ponctuation-balance": ["formularity", "punct", "balance"]}
+        "indicateurs-formularite-ponctuation-balance": ["formularity", "punct", "balance"],
+        "indicateurs-selfbleu-ponctuation-balance": ["self_bleu", "punct", "balance"]}
 
 
 def add_text_indicators(w):

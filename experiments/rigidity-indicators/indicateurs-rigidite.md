@@ -24,7 +24,8 @@ médiane des fenêtres de 100 mots d'un sous-corpus.
 |---|---|---|---|---|---|---|
 | [Formatage typographique](#s3) | signes qui mettent le texte en page : ponctuation, parenthèses, tirets, filets… | liste ↔ phrase | caractères | oui | oui | valeur haute |
 | [Balance phrastique](#s4) | part des mots de liaison (verbes, déterminants, prépositions…), par rapport à la prose de référence de la langue | liste ↔ phrase | catégories grammaticales | oui | oui | valeur négative |
-| [Formularité](#s5) | part du texte prise dans des gabarits qui reviennent ailleurs dans le dataset | formularité | suites de 4 tokens | oui | oui | valeur haute |
+| [Self-BLEU](#s5) | reprise, dans la fenêtre, de suites de mots présentes ailleurs dans le dataset | formulaicité | suites de 1 à 4 tokens | oui | oui | valeur haute |
+| [Formularité](#s5-2) (complément) | part du texte prise dans des gabarits fréquents du dataset, noms et nombres masqués | formulaicité | suites de 4 tokens | oui | oui | valeur haute |
 | [Densité de noms propres](#s6) | part des mots qui sont des noms propres | covariable : densité d'entités | catégories grammaticales | oui | oui | aucun (ce n'est pas une mesure de rigidité) |
 | [Segments averbaux](#s4-2) (contrôle) | part des segments sans verbe conjugué | liste ↔ phrase | syntaxe | oui | oui | valeur haute |
 
@@ -34,7 +35,7 @@ médiane des fenêtres de 100 mots d'un sous-corpus.
 2. [Deux façons d'être rigide](#s2)
 3. [Formatage typographique](#s3)
 4. [Balance phrastique](#s4)
-5. [Formularité](#s5)
+5. [Formulaicité : Self-BLEU et formularité](#s5)
 6. [Densité de noms propres](#s6)
 7. [Stratégie d'analyse à deux échelles](#s7)
 8. [Limites](#s8)
@@ -87,21 +88,21 @@ au numéro 12 » et « Martin, épicier, r. de Seine, 12 » : les virgules et l'
 place de la relative et du verbe. Structure et syntaxe sont donc les deux faces d'un même axe,
 **liste ↔ phrase**, observé à deux niveaux, les caractères et les catégories grammaticales.
 
-Le second axe, la **formularité**, est d'une autre nature. Une formule se répète *d'une entrée à
+Le second axe, la **formulaicité**, est d'une autre nature. Une formule se répète *d'une entrée à
 l'autre*, pas à l'intérieur d'une fenêtre : un acte de mariage de 250 mots ne contient son gabarit
 qu'une fois. On ne la voit qu'en comparant la fenêtre au reste du dataset ([§5](#s5)).
 
-![Balance phrastique et formularité par dataset](figures/rigidity_axes.png)
+![Balance phrastique et Self-BLEU par dataset](figures/rigidity_axes.png)
 
 Les deux axes sont bien distincts :
 
-* **À l'intérieur des datasets**, la formularité ne suit pas la balance : la corrélation médiane entre
-  fenêtres est de 0,02.
-* **Entre datasets**, elles corrèlent à −0,48. Cette corrélation tient aux corpus qui sont les deux à la
-  fois (SoDUCo, M-POPP, Bâle).
-* **Les contre-exemples sont nets.** Old Bailey est formulaire (17 %) mais plus phrastique que la prose
-  de référence (+0,58). Les commentaires d'ajmc sont proches de la liste (−1,05) mais peu formulaires
-  (3 à 9 %).
+* **À l'intérieur des datasets**, le Self-BLEU ne suit pas la balance : la corrélation médiane entre
+  fenêtres est de 0,08 (0,02 pour la formularité).
+* **Entre datasets**, ils corrèlent à −0,29 (−0,48 pour la formularité). Cette corrélation tient aux
+  corpus qui sont les deux à la fois (SoDUCo, M-POPP, Bâle).
+* **Les contre-exemples sont nets.** Old Bailey est formulaire (Self-BLEU 33, formularité 17 %) mais
+  plus phrastique que la prose de référence (+0,58). Les commentaires d'ajmc sont proches de la liste
+  (−1,05) mais peu formulaires (Self-BLEU 10 à 16, formularité 3 à 9 %).
 
 <a id="s3"></a>
 ## 3. Formatage typographique
@@ -238,28 +239,52 @@ garde donc comme contrôle, hors du jeu de base.
 Code : `compute_verbless_rate` (`text_rigidity.phrastic`).
 
 <a id="s5"></a>
-## 5. Formularité
+## 5. Formulaicité : Self-BLEU et formularité
 
 > **En bref.** Un acte de mariage, une entrée d'annuaire ou un compte rendu de procès suivent un
-> gabarit : les mêmes tournures reviennent d'un document à l'autre, seuls les noms et les nombres
-> changent. Pour le voir, on compare la fenêtre au reste de son dataset : quelle part de son texte
-> est faite de suites de mots qu'on retrouve souvent ailleurs ? Les noms propres et les nombres sont
-> remplacés par un symbole, pour que « Martin, épicier, rue de Seine, 12 » et « Durand, boulanger,
-> rue du Bac, 3 » partagent le même gabarit.
+> gabarit : les mêmes tournures reviennent d'un document à l'autre. Pour le voir, on compare la
+> fenêtre au reste de son dataset : quelle part de ses suites de mots retrouve-t-on ailleurs ? On le
+> mesure avec le **Self-BLEU**, une mesure standard de la répétition entre textes. La **formularité**,
+> qui ne compte que les gabarits fréquents et masque les noms propres, sert de complément lisible :
+> « x % du texte est pris dans des gabarits ».
+
+Les deux mesures utilisent la même référence. On tire du dataset des extraits de 500 mots, à tour de
+rôle dans les documents, jusqu'à 20 000 tokens. Pour une fenêtre du document $d$, la référence ne
+contient que des extraits d'*autres* documents : ainsi, un document ne se reconnaît pas lui-même.
 
 <a id="s5-1"></a>
-### 5.1 Définition
+### 5.1 Self-BLEU (indicateur retenu)
+
+Le Self-BLEU [[Zhu 2018](#ref-zhu2018)] est le BLEU d'un texte contre les autres textes d'un ensemble.
+Ici, les tokens spaCy de la fenêtre sont mis en minuscules, signes compris, sans masquage. Pour
+$n = 1$ à $4$, la précision $p_n$ est la part des $n$-grammes de la fenêtre retrouvés dans la
+référence ; l'effectif de chaque $n$-gramme est écrêté au maximum observé dans un même extrait, comme
+dans BLEU à références multiples. Le score est leur moyenne géométrique :
+
+$$
+\text{Self-BLEU} = 100 \times \exp\Big(\tfrac{1}{4}\sum_{n=1}^{4} \log p_n\Big)
+$$
+
+avec le lissage « method1 » (0,1 au lieu d'un numérateur nul) et sans pénalité de brièveté : toutes
+les fenêtres ont la même taille. Les valeurs ne se comparent donc pas à celles des articles de
+génération de texte ; seuls les rangs comptent.
+
+**Ce qui le fait varier.** Les 3- et 4-grammes, rares, font l'essentiel des écarts entre fenêtres. À
+l'intérieur d'un dataset, le Self-BLEU suit la précision des 4-grammes (ρ médian = 0,95), beaucoup
+moins celle des mots seuls (0,49). Si l'on mélange les mots de la fenêtre, il chute et son classement
+ne tient plus (ρ = 0,31 avec l'original). Il mesure donc bien la reprise de *suites* de mots, pas un
+vocabulaire ou un thème communs.
+
+<a id="s5-2"></a>
+### 5.2 Formularité (complément lisible)
 
 1. **Séquence de tokens.** Chaque token spaCy est mis en minuscules ; les noms propres deviennent
    `<NAME>` et les nombres `<NUM>`. Les signes sont gardés, parce qu'ils font partie des gabarits ; les
    espaces et sauts de ligne sont retirés.
-2. **Référence.** On tire du dataset des extraits de 500 mots, à tour de rôle dans les documents,
-   jusqu'à 20 000 tokens. Pour une fenêtre du document $d$, la référence ne contient que des extraits
-   d'*autres* documents : ainsi, un document ne se reconnaît pas lui-même.
-3. **Gabarits.** Un 4-gramme de la fenêtre est un gabarit s'il apparaît au moins 3 fois dans la
+2. **Gabarits.** Un 4-gramme de la fenêtre est un gabarit s'il apparaît au moins 3 fois dans la
    référence et s'il contient au moins un mot. Une suite faite uniquement de `<NAME>`, de `<NUM>` et
    de signes ne compte pas.
-4. **Mesure.**
+3. **Mesure.**
 
 $$
 F = 100 \times \frac{\big|\{\text{tokens de la fenêtre couverts par au moins un gabarit}\}\big|}{\text{nombre de tokens de la fenêtre}}
@@ -270,45 +295,73 @@ de mots repérées par leur seule fréquence, qui servent à caractériser les r
 adapté de trois façons : la fréquence est comptée par rapport au dataset de la fenêtre, les noms
 propres et les nombres sont masqués, et on mesure une couverture.
 
-| sous-corpus | F (%) |
-|---|---|
-| M-POPP (dactylographiés / manuscrits) | 79,8 / 64,3 |
-| SoDUCo (référence / OCR Pero) | 28,8 / 24,8 |
-| Bâle (registres fonciers) | 20,9 |
-| Old Bailey (procès) | 17,4 |
-| GeoEDdA (Encyclopédie) | 13,2 |
-| E-NER (documents réglementaires) | 9,0 |
-| ajmc, COPIOUS | 3 – 9 |
-| hipe2020-en / 7romans | 4,9 / 3,1 |
-| presse fr, de, fi, sv ; LitBank | 0,0 |
+<a id="s5-3"></a>
+### 5.3 Valeurs et choix
 
-**Fiabilité.** C'est l'indicateur qui sépare le mieux les datasets : 0,69 sur 100 mots, 0,82 sur 300. Il
-dépend peu du seuil : les classements obtenus avec 2, 3 ou 5 occurrences corrèlent entre 0,97 et 0,99.
-L'effet de langue est nul dans newseye (0,02). Il est plus marqué dans hipe2020 (0,24), où la partie
-anglaise (4,9 %) se distingue des parties française et allemande (0 %).
+| sous-corpus | Self-BLEU | F (%) |
+|---|---|---|
+| M-POPP (dactylographiés / manuscrits) | 68,7 / 57,3 | 79,8 / 64,3 |
+| SoDUCo (référence / OCR Pero) | 34,4 / 28,4 | 28,8 / 24,8 |
+| Old Bailey (procès) | 33,2 | 17,4 |
+| Bâle (registres fonciers) | 28,5 | 20,9 |
+| GeoEDdA (Encyclopédie) | 23,9 | 13,2 |
+| E-NER (documents réglementaires) | 20,2 | 9,0 |
+| 7romans | 17,8 | 3,1 |
+| ajmc, COPIOUS | 10 – 16 | 3 – 9 |
+| LitBank | 9,3 | 0,0 |
+| presse fr, de, en, fi, sv | 3,0 – 6,0 | 0,0 (hipe2020-en : 4,9) |
+
+Les deux mesures classent les datasets de la même façon (ρ = 0,91 entre médianes). Le Self-BLEU est
+retenu, et non la formularité, pour cinq raisons :
+
+* **c'est une mesure standard**, connue des relecteurs ;
+* **il sépare mieux les datasets** : η² = 0,76 sur 100 mots, contre 0,69 ([§9](#s9)) ;
+* **il n'a pas de masse à 0.** 36 % des fenêtres de 100 mots n'ont aucun gabarit (63 à 88 % dans la
+  presse et LitBank). La formularité ne distingue donc pas deux textes peu formulaires, et ces zéros
+  forment un groupe à part dans les classifications ([ACP](../clustering-pca/README.md)) ;
+* **il dépend moins de la densité de noms propres à l'intérieur d'un dataset** : ρ médian = −0,01,
+  avec des exceptions (GeoEDdA 0,73, SoDUCo-pero 0,42). La formularité y corrèle à 0,31 en médiane,
+  jusqu'à 0,79 pour GeoEDdA : le masquage `<NAME>` fait d'une
+  formule pleine de noms (« Before Mr. Justice `<NAME>` », « `<NAME>` was indicted for ») un gabarit.
+  Pour une étude NER, où la densité d'entités est un facteur à part ([§6](#s6)), c'est un défaut ;
+* **l'effet de langue n'est pas plus fort** dans l'ensemble : 0,17 contre 0,02 dans newseye, mais 0,11
+  contre 0,24 dans hipe2020 et 0,10 contre 0,13 dans ajmc. Les deux mesures dépendent de la langue ; le
+  faible effet de la formularité dans newseye tient à ce que la presse y vaut presque toujours 0. L'effet
+  ne vient pas de la tokenisation : sans les signes, ou sur des mots entiers, il augmente (newseye : 0,26
+  et 0,33). La lemmatisation ne le réduit pas non plus (newseye : 0,17) : il tient à la structure des
+  langues, plus ou moins analytiques, plus qu'à leur flexion.
+
+La formularité garde deux atouts : elle se lit directement, et elle reconnaît une formule dont seuls
+les noms changent (M-POPP : 80 % contre un Self-BLEU de 69). On la garde pour décrire les corpus et
+illustrer ce que mesure le Self-BLEU, et pour une analyse de sensibilité du modèle. Le choix du Self-BLEU
+est **provisoire** : la règle qui le confirmera ou non après les expériences NER est fixée dans
+[Mesurer la formulaicité : Self-BLEU ou formularité ?](../../docs/arbitrage-formulaicite.md).
 
 **Robustesse** ([`../formularity-robustness/`](../formularity-robustness/README.md)).
 * Exiger que le gabarit apparaisse dans au moins 2 ou 3 documents distincts de la référence, comme pour les
   *lexical bundles*, ne change pas l'ordre des datasets (ρ = 0,98 à 0,99 sur 100 mots). La formularité n'est donc
   pas faite de répétitions propres à un seul document.
-* Elle classe les datasets comme le Self-BLEU [[Zhu 2018](#ref-zhu2018)], calculé sur la même référence (ρ = 0,95
-  entre médianes). Le Self-BLEU usuel dépend davantage de la langue dans newseye (η² de la langue = 0,17 contre
-  0,02), mais pas dans hipe2020 ni ajmc, où la langue se confond en partie avec la source.
-* Les 4-grammes sont un compromis : les 3-grammes captent des tournures banales de la langue, les 5-grammes
-  effacent les formules courtes.
+* Pour la formularité, les 4-grammes sont un compromis : les 3-grammes captent des tournures banales de la
+  langue, les 5-grammes effacent les formules courtes. Elle dépend peu du seuil : les classements obtenus avec 2,
+  3 ou 5 occurrences corrèlent entre 0,97 et 0,99.
 
 **Ce qu'il faut savoir.**
 
-* **La valeur dépend du dataset de référence.** Elle mesure ce qui est formulaire *dans ce corpus*,
-  donc ce qu'un modèle entraîné sur lui verrait souvent ([§7](#s7)). Un dataset hétérogène paraît
-  peu formulaire par construction.
+* **La valeur dépend du dataset de référence.** Elle mesure ce qui se répète *dans ce corpus*, donc ce
+  qu'un modèle entraîné sur lui verrait souvent ([§7](#s7)). Un dataset hétérogène paraît peu
+  formulaire par construction.
 * **Il faut une référence assez grande.** En dessous de 15 000 tokens, la valeur n'est pas comparable :
-  les genres de NEM.fr (2 000 à 5 000 tokens chacun) n'ont donc pas de formularité.
-* **Le masquage la rapproche de la densité de noms propres.** Une formule pleine de noms (« Before
-  Mr. Justice `<NAME>` », « `<NAME>` was indicted for ») compte comme gabarit. À l'intérieur des datasets,
-  la formularité corrèle à 0,31 en médiane avec la densité de noms propres, jusqu'à 0,79 pour GeoEDdA.
+  les genres de NEM.fr (2 000 à 5 000 tokens chacun) n'ont donc ni Self-BLEU ni formularité.
+* **Le Self-BLEU compte aussi la phraséologie ordinaire.** Toute suite retrouvée une seule fois dans la
+  référence compte, y compris les tournures banales de la langue (« qu' il avait », « c' est une »,
+  « for a long time »). C'est pourquoi la littérature (7romans 17,8, LitBank 9,3) passe au-dessus de la
+  presse, alors que sa formularité est nulle ou presque. La formularité, avec son seuil de 3
+  occurrences, ne garde que les formules (« was indicted for stealing », « i am the wife of »).
+* **L'OCR fait baisser les deux mesures**, parce qu'une suite bruitée ne se retrouve plus telle quelle :
+  SoDUCo passe de 34,4 à 28,4 entre la référence et l'OCR Pero. La presse, la plus bruitée, en est la
+  plus touchée.
 
-Code : `FormularityReference`, `compute_formularity` (`text_rigidity.formularity`).
+Code : `FormularityReference`, `compute_self_bleu`, `compute_formularity` (`text_rigidity.formularity`).
 
 <a id="s6"></a>
 ## 6. Densité de noms propres
@@ -412,41 +465,41 @@ Les principes qui concernent directement les indicateurs :
 **Profils par sous-corpus** (médianes, fenêtres de 100 mots ; écarts interquartiles dans
 `dataset-validation/results/iqr_100.csv`) :
 
-| dataset | langue | famille | fenêtres | typo | balance | segments averbaux | formularité (%) | noms propres (%) |
-|---|---|---|---|---|---|---|---|---|
-| soduco-pero | fr | Annuaires | 100 | 74,9 | −1,96 | 1,00 | 24,8 | 33,5 |
-| soduco-ref | fr | Annuaires | 100 | 77,5 | −1,90 | 1,00 | 28,8 | 33,8 |
-| m-popp-printed | fr | Actes et registres | 100 | 29,0 | −0,88 | 0,55 | 79,8 | 19,0 |
-| basel | de | Actes et registres | 100 | 22,0 | −0,74 | 0,50 | 20,9 | 20,0 |
-| m-popp-handwritten | fr | Actes et registres | 100 | 17,5 | −0,72 | 0,50 | 64,3 | 15,2 |
-| e-ner | en | Actes et registres | 100 | 12,0 | −0,12 | 0,17 | 9,0 | 9,5 |
-| old-bailey | en | Actes et registres | 100 | 19,0 | +0,58 | 0,13 | 17,4 | 9,6 |
-| ajmc-fr | fr | Textes savants | 100 | 47,5 | −1,05 | 0,50 | 5,8 | 13,1 |
-| ajmc-de | de | Textes savants | 100 | 38,0 | −0,78 | 0,40 | 8,8 | 21,0 |
-| copious | en | Textes savants | 100 | 25,5 | −0,63 | 0,50 | 7,0 | 17,9 |
-| ajmc-en | en | Textes savants | 100 | 37,0 | −0,36 | 0,35 | 3,2 | 19,0 |
-| geoedda | fr | Textes savants | 100 | 26,0 | −0,10 | 0,27 | 13,2 | 7,1 |
-| newseye-sv | sv | Presse | 100 | 17,0 | −0,46 | 0,25 | 0,0 | 4,5 |
-| newseye-fr | fr | Presse | 100 | 22,0 | −0,42 | 0,31 | 0,0 | 6,1 |
-| newseye-fi | fi | Presse | 100 | 27,0 | −0,42 | 0,17 | 0,0 | 10,0 |
-| hipe2020-de | de | Presse | 100 | 19,0 | −0,18 | 0,12 | 0,0 | 6,0 |
-| letemps-fr | fr | Presse | 100 | 14,0 | −0,18 | 0,20 | 0,0 | 5,2 |
-| hipe2020-fr | fr | Presse | 100 | 14,5 | −0,08 | 0,20 | 0,0 | 6,0 |
-| hipe2020-en | en | Presse | 100 | 17,0 | +0,07 | 0,20 | 4,9 | 11,9 |
-| 7romans | fr | Littérature | 100 | 24,0 | +0,19 | 0,20 | 3,1 | 3,0 |
-| litbank | en | Littérature | 100 | 16,0 | +0,36 | 0,11 | 0,0 | 3,5 |
-| nem-biomedical | fr | NEM.fr | 37 | 11,0 | −0,55 | 0,20 | — | 3,0 |
-| nem-information | fr | NEM.fr | 25 | 16,0 | −0,43 | 0,33 | — | 7,1 |
-| nem-juridique | fr | NEM.fr | 38 | 11,5 | −0,28 | 0,33 | — | 1,0 |
-| nem-tweets | fr | NEM.fr | 28 | 18,5 | −0,26 | 0,00 | — | 9,1 |
-| nem-encyclopedia | fr | NEM.fr | 50 | 12,5 | −0,18 | 0,15 | — | 9,0 |
-| nem-poetry | fr | NEM.fr | 48 | 14,0 | −0,03 | 0,20 | — | 2,0 |
-| nem-prose | fr | NEM.fr | 45 | 20,0 | −0,02 | 0,17 | — | 3,0 |
-| nem-multi | fr | NEM.fr | 24 | 13,5 | −0,02 | 0,09 | — | 7,0 |
-| nem-defense | fr | NEM.fr | 37 | 11,0 | +0,05 | 0,00 | — | 6,0 |
-| nem-mail | fr | NEM.fr | 19 | 14,0 | +0,12 | 0,14 | — | 4,9 |
-| nem-spoken | fr | NEM.fr | 50 | 1,0 | +0,16 | 0,00 | — | 2,0 |
-| nem-politique | fr | NEM.fr | 28 | 11,0 | +0,20 | 0,05 | — | 3,0 |
+| dataset | langue | famille | fenêtres | typo | balance | segments averbaux | Self-BLEU | formularité (%) | noms propres (%) |
+|---|---|---|---|---|---|---|---|---|---|
+| soduco-pero | fr | Annuaires | 100 | 74,9 | −1,96 | 1,00 | 28,4 | 24,8 | 33,5 |
+| soduco-ref | fr | Annuaires | 100 | 77,5 | −1,90 | 1,00 | 34,4 | 28,8 | 33,8 |
+| m-popp-printed | fr | Actes et registres | 100 | 29,0 | −0,88 | 0,55 | 68,7 | 79,8 | 19,0 |
+| basel | de | Actes et registres | 100 | 22,0 | −0,74 | 0,50 | 28,5 | 20,9 | 20,0 |
+| m-popp-handwritten | fr | Actes et registres | 100 | 17,5 | −0,72 | 0,50 | 57,3 | 64,3 | 15,2 |
+| e-ner | en | Actes et registres | 100 | 12,0 | −0,12 | 0,17 | 20,2 | 9,0 | 9,5 |
+| old-bailey | en | Actes et registres | 100 | 19,0 | +0,58 | 0,13 | 33,2 | 17,4 | 9,6 |
+| ajmc-fr | fr | Textes savants | 100 | 47,5 | −1,05 | 0,50 | 14,0 | 5,8 | 13,1 |
+| ajmc-de | de | Textes savants | 100 | 38,0 | −0,78 | 0,40 | 10,0 | 8,8 | 21,0 |
+| copious | en | Textes savants | 100 | 25,5 | −0,63 | 0,50 | 11,6 | 7,0 | 17,9 |
+| ajmc-en | en | Textes savants | 100 | 37,0 | −0,36 | 0,35 | 16,3 | 3,2 | 19,0 |
+| geoedda | fr | Textes savants | 100 | 26,0 | −0,10 | 0,27 | 23,9 | 13,2 | 7,1 |
+| newseye-sv | sv | Presse | 100 | 17,0 | −0,46 | 0,25 | 3,5 | 0,0 | 4,5 |
+| newseye-fr | fr | Presse | 100 | 22,0 | −0,42 | 0,31 | 4,7 | 0,0 | 6,1 |
+| newseye-fi | fi | Presse | 100 | 27,0 | −0,42 | 0,17 | 3,0 | 0,0 | 10,0 |
+| hipe2020-de | de | Presse | 100 | 19,0 | −0,18 | 0,12 | 4,4 | 0,0 | 6,0 |
+| letemps-fr | fr | Presse | 100 | 14,0 | −0,18 | 0,20 | 5,7 | 0,0 | 5,2 |
+| hipe2020-fr | fr | Presse | 100 | 14,5 | −0,08 | 0,20 | 6,0 | 0,0 | 6,0 |
+| hipe2020-en | en | Presse | 100 | 17,0 | +0,07 | 0,20 | 5,2 | 4,9 | 11,9 |
+| 7romans | fr | Littérature | 100 | 24,0 | +0,19 | 0,20 | 17,8 | 3,1 | 3,0 |
+| litbank | en | Littérature | 100 | 16,0 | +0,36 | 0,11 | 9,3 | 0,0 | 3,5 |
+| nem-biomedical | fr | NEM.fr | 37 | 11,0 | −0,55 | 0,20 | — | — | 3,0 |
+| nem-information | fr | NEM.fr | 25 | 16,0 | −0,43 | 0,33 | — | — | 7,1 |
+| nem-juridique | fr | NEM.fr | 38 | 11,5 | −0,28 | 0,33 | — | — | 1,0 |
+| nem-tweets | fr | NEM.fr | 28 | 18,5 | −0,26 | 0,00 | — | — | 9,1 |
+| nem-encyclopedia | fr | NEM.fr | 50 | 12,5 | −0,18 | 0,15 | — | — | 9,0 |
+| nem-poetry | fr | NEM.fr | 48 | 14,0 | −0,03 | 0,20 | — | — | 2,0 |
+| nem-prose | fr | NEM.fr | 45 | 20,0 | −0,02 | 0,17 | — | — | 3,0 |
+| nem-multi | fr | NEM.fr | 24 | 13,5 | −0,02 | 0,09 | — | — | 7,0 |
+| nem-defense | fr | NEM.fr | 37 | 11,0 | +0,05 | 0,00 | — | — | 6,0 |
+| nem-mail | fr | NEM.fr | 19 | 14,0 | +0,12 | 0,14 | — | — | 4,9 |
+| nem-spoken | fr | NEM.fr | 50 | 1,0 | +0,16 | 0,00 | — | — | 2,0 |
+| nem-politique | fr | NEM.fr | 28 | 11,0 | +0,20 | 0,05 | — | — | 3,0 |
 
 Sur les quatre documents de calibration du notebook, typo, balance et segments averbaux valent :
 - Proust : 10,9 / +0,46 / 0,06 ;
@@ -462,7 +515,8 @@ Sur les quatre documents de calibration du notebook, typo, balance et segments a
 
 | indicateur | séparation, 100 mots | séparation, 300 mots | langue hipe2020 (100 / 300) | langue newseye (100 / 300) |
 |---|---|---|---|---|
-| formularité | **0,69** | **0,82** | 0,24 / 0,32 | 0,02 / 0,02 |
+| Self-BLEU | **0,76** | **0,85** | 0,11 / 0,28 | 0,17 / 0,25 |
+| formularité (complément) | 0,69 | 0,82 | 0,24 / 0,32 | 0,02 / 0,02 |
 | typographie | 0,56 | 0,58 | 0,07 / 0,19 | 0,11 / 0,17 |
 | balance phrastique | 0,56 | 0,71 | 0,07 / 0,17 | 0,00 / 0,02 |
 | densité de noms propres | 0,58 | 0,66 | 0,18 / 0,11 | 0,10 / 0,17 |
@@ -477,10 +531,11 @@ utilisables à l'échelle locale.
 **Redondances** (Spearman entre fenêtres françaises de 100 mots) :
 * sur l'axe liste ↔ phrase, typographie et balance corrèlent à −0,65, et la balance aux segments
   averbaux à −0,71 ;
-* la formularité corrèle à −0,44 avec la balance et à 0,34 avec la typographie ; à l'intérieur des
-  datasets, elle est indépendante de la balance (corrélation médiane 0,02) ;
-* la densité de noms propres corrèle à 0,69 avec la typographie et à 0,63 avec la formularité
-  ([§6](#s6)).
+* le Self-BLEU corrèle à −0,32 avec la balance et à 0,29 avec la typographie ; à l'intérieur des
+  datasets, il est indépendant de la balance (corrélation médiane 0,08) ;
+* le Self-BLEU et la formularité corrèlent à 0,87 ;
+* la densité de noms propres corrèle à 0,69 avec la typographie, à 0,63 avec la formularité et à 0,50
+  avec le Self-BLEU ([§6](#s6)).
 
 <a id="s10"></a>
 ## 10. Indicateurs non retenus
@@ -492,13 +547,13 @@ utilisables à l'échelle locale.
 
 | indicateur | pourquoi il n'est pas retenu | remplacé par |
 |---|---|---|
-| Compression zlib | Mesure en octets, donc sensible à l'encodage (le grec pèse plus lourd) et au balisage. Additionne répétitions de structure et de langue. Peu discriminant (η² ≈ 0,3 sur les tests préliminaires). | formularité (répétitions), typographie (structure) |
+| Compression zlib | Mesure en octets, donc sensible à l'encodage (le grec pèse plus lourd) et au balisage. Additionne répétitions de structure et de langue. Peu discriminant (η² ≈ 0,3 sur les tests préliminaires). | Self-BLEU (répétitions), typographie (structure) |
 | Mots par ligne (« Uniformité ») | Dépend de la transcription (lignes physiques ou paragraphes) et n'est pas mesurable sur tous les datasets. Mesure une moyenne, pas une régularité. | rien dans le jeu de base ; descriptif pour les datasets à lignes physiques |
 | Densité de ponctuation | Ne comptait que la ponctuation, et comptait le balisage Markdown du format pivot. | formatage typographique |
-| Distinct-2 | Ne voit que les répétitions internes à la fenêtre, alors que les formules se répètent d'un document à l'autre. Sépare mal à 100 mots (0,36) et dépend de la langue (0,37 à 0,39 à 300 mots). | formularité |
+| Distinct-2 | Ne voit que les répétitions internes à la fenêtre, alors que les formules se répètent d'un document à l'autre. Sépare mal à 100 mots (0,36) et dépend de la langue (0,37 à 0,39 à 300 mots). | Self-BLEU |
 | Entropie POS (ancienne) | Entropie des proportions d'étiquettes, insensible à l'ordre des mots : elle ne mesurait pas la syntaxe. Redondante avec la KL (ρ = −0,75 en français). L'article cité [[Bentz 2017](#ref-bentz)] porte sur les mots, pas sur les POS. | balance phrastique |
-| Entropie des mots H₁, ĥ et ΔH = H₁ − ĥ | Voir ci-dessous. | formularité |
-| MATTR [[Covington 2010](#ref-covington)] (TTR moyen sur 50 mots) | Comme Distinct-2, ne voit que les répétitions internes à la fenêtre. Dépend surtout de la langue (η² de la langue dans newseye : 0,41 à 100 mots, 0,64 à 300) et sépare moins bien que la formularité (0,49 contre 0,69 à 100 mots). | formularité |
+| Entropie des mots H₁, ĥ et ΔH = H₁ − ĥ | Voir ci-dessous. | Self-BLEU |
+| MATTR [[Covington 2010](#ref-covington)] (TTR moyen sur 50 mots) | Comme Distinct-2, ne voit que les répétitions internes à la fenêtre. Dépend surtout de la langue (η² de la langue dans newseye : 0,41 à 100 mots, 0,64 à 300) et sépare moins bien que le Self-BLEU (0,49 contre 0,76 à 100 mots). | Self-BLEU |
 | Taux d'entropie des POS | Sépare les annuaires par leurs proportions d'étiquettes, pas par l'ordre. Construction sans précédent dans la littérature. | balance phrastique |
 | Divergence KL des POS | Ne donne qu'une ampleur, pas une direction : Proust (0,20) paraissait plus atypique que la presse (0,07). Sépare moins bien que la balance (0,47 contre 0,56 à 100 mots). | balance phrastique |
 | Perplexité KenLM (CCNet) | Mélange l'imprévisibilité propre du texte et sa distance à Wikipédia : log₂ PPL = H(p) + D<sub>KL</sub>(p ‖ q). Configuration différente de CCNet : chiffres et accents non normalisés, texte scoré d'un bloc. Modèle français seulement. | aucun ; éventuelle covariable de qualité OCR après normalisation CCNet [[Wenzek 2020](#ref-ccnet)] |
@@ -514,7 +569,7 @@ que leur différence ΔH varie peu d'une langue à l'autre. Nos tests montrent t
   Environ 70 % de l'écart entre SoDUCo et *Madame Bovary* vient de la forme du vocabulaire, et non
   de l'ordre des mots.
 
-La formularité mesure directement ce que ΔH visait, la répétition de suites de mots, et elle reste
+Le Self-BLEU mesure directement ce que ΔH visait, la répétition de suites de mots, et il reste
 fiable sur 100 mots.
 
 <a id="s11"></a>

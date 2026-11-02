@@ -5,12 +5,13 @@ Code and experiments for the IJDAR 2026 paper on NER &amp; textual rigidity
 
 | dossier | contenu |
 |---|---|
-| [`text-rigidity/`](text-rigidity/README.md) | package Python `text_rigidity` : les indicateurs de rigidité textuelle (formatage typographique, balance phrastique, formularité, densité de noms propres), avec ses tests |
+| [`text-rigidity/`](text-rigidity/README.md) | package Python `text_rigidity` : les indicateurs de rigidité textuelle (formatage typographique, balance phrastique, Self-BLEU et formularité, densité de noms propres), avec ses tests |
 | [`experiments/rigidity-indicators/`](experiments/rigidity-indicators/README.md) | expériences sur les indicateurs : notebook exploratoire, validation sur les datasets du projet, rapport [`indicateurs-rigidite.md`](experiments/rigidity-indicators/indicateurs-rigidite.md) |
 | [`experiments/clustering-pca/`](experiments/clustering-pca/README.md) | ACP et classifications (FCM, CAH, modèle nul, autres algorithmes) des fenêtres de 100 mots des datasets sur des jeux d'indicateurs du package : profil global des corpus |
-| [`experiments/formularity-robustness/`](experiments/formularity-robustness/README.md) | robustesse de la formularité : critère de dispersion, comparaison au Self-BLEU, taille des n-grammes |
+| [`experiments/formularity-robustness/`](experiments/formularity-robustness/README.md) | robustesse de la formularité et choix du Self-BLEU : critère de dispersion, comparaison au Self-BLEU, test du mélange, taille des n-grammes |
 | [`data/`](data/README.md) | datasets bruts partagés par les expériences : **non versionnés**, stockés hors GitHub ; seul `data/README.md` (provenance) est suivi |
 | [`docs/`](docs/protocole-experimental.md) | protocole expérimental : tester la sensibilité des modèles NER à la rigidité des textes |
+| [`docs/arbitrage-formulaicite.md`](docs/arbitrage-formulaicite.md) | note de décision : Self-BLEU ou formularité, et règle de choix après les expériences NER |
 
 ## Installation
 

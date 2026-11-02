@@ -1,0 +1,4 @@
+,Self-BLEU,Ponctuation,Balance phrastique
+Self-BLEU,1.0,0.216,0.185
+Ponctuation,0.216,1.0,0.577
+Balance phrastique,0.185,0.577,1.0
