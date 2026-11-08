@@ -1,0 +1,1162 @@
+{
+"key": "ajmc-de",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 106,
+"n_mentions_total": 961,
+"n_units": 95,
+"n_mentions": 874,
+"mentions_per_fold": [
+147,
+146,
+146,
+146,
+145,
+144
+],
+"units": [
+{
+"unit_id": "sophokle1v3soph_0057",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"sophokle1v3soph_0057",
+0,
+1586
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0055",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"Wecklein1894_0055",
+0,
+1264
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0027",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"Wecklein1894_0027",
+0,
+1338
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0021",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"Wecklein1894_0021",
+0,
+1280
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0123",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"sophokle1v3soph_0123",
+0,
+1072
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0010",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"sophokle1v3soph_0010",
+0,
+2363
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0007",
+"fold": 0,
+"mentions": 24,
+"segments": [
+[
+"Wecklein1894_0007",
+0,
+2075
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0069",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"sophokle1v3soph_0069",
+0,
+1284
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0074",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"sophokle1v3soph_0074",
+0,
+1181
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0082",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0082",
+0,
+1147
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0079",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"sophokle1v3soph_0079",
+0,
+1482
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0083",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"sophokle1v3soph_0083",
+0,
+1628
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0022",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"Wecklein1894_0022",
+0,
+1566
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0054",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"Wecklein1894_0054",
+0,
+1658
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0063",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"sophokle1v3soph_0063",
+0,
+1629
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0062",
+"fold": 5,
+"mentions": 17,
+"segments": [
+[
+"sophokle1v3soph_0062",
+0,
+2274
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0065",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0065",
+0,
+1279
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0096",
+"fold": 2,
+"mentions": 20,
+"segments": [
+[
+"Wecklein1894_0096",
+0,
+1342
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0046",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0046",
+0,
+1634
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0043",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"Wecklein1894_0043",
+0,
+754
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0064",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"sophokle1v3soph_0064",
+0,
+1278
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0049",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"sophokle1v3soph_0049",
+0,
+1602
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0068",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"sophokle1v3soph_0068",
+0,
+1079
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0039",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"Wecklein1894_0039",
+0,
+1548
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0017",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"sophokle1v3soph_0017",
+0,
+2152
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0020",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"Wecklein1894_0020",
+0,
+1467
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0034",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0034",
+0,
+1128
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0054",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"sophokle1v3soph_0054",
+0,
+660
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0045",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"Wecklein1894_0045",
+0,
+948
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0085",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"sophokle1v3soph_0085",
+0,
+859
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0050",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0050",
+0,
+1460
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0057",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0057",
+0,
+1726
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0077",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"sophokle1v3soph_0077",
+0,
+1983
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0121",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"sophokle1v3soph_0121",
+0,
+1038
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0063",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0063",
+0,
+1273
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0052",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"sophokle1v3soph_0052",
+0,
+1245
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0058",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"Wecklein1894_0058",
+0,
+579
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0062",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0062",
+0,
+1573
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0060",
+"fold": 3,
+"mentions": 12,
+"segments": [
+[
+"Wecklein1894_0060",
+0,
+2008
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0143",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"sophokle1v3soph_0143",
+0,
+1341
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0087",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0087",
+0,
+1309
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0093",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"sophokle1v3soph_0093",
+0,
+1615
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0024",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0024",
+0,
+1665
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0049",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"Wecklein1894_0049",
+0,
+1651
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0036",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"Wecklein1894_0036",
+0,
+1457
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0052",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0052",
+0,
+1292
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0053",
+"fold": 0,
+"mentions": 14,
+"segments": [
+[
+"Wecklein1894_0053",
+0,
+1523
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0031",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0031",
+0,
+834
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0078",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"sophokle1v3soph_0078",
+0,
+1279
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0017",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"Wecklein1894_0017",
+0,
+1459
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0037",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"Wecklein1894_0037",
+0,
+1550
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0019",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0019",
+0,
+1646
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0047",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"Wecklein1894_0047",
+0,
+1096
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0086",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0086",
+0,
+850
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0059",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"Wecklein1894_0059",
+0,
+1414
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0008",
+"fold": 4,
+"mentions": 18,
+"segments": [
+[
+"Wecklein1894_0008",
+0,
+1751
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0064",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0064",
+0,
+869
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0029",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"Wecklein1894_0029",
+0,
+1298
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0051",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0051",
+0,
+1140
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0051",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"sophokle1v3soph_0051",
+0,
+1350
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0200",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"sophokle1v3soph_0200",
+0,
+1328
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0035",
+"fold": 5,
+"mentions": 14,
+"segments": [
+[
+"Wecklein1894_0035",
+0,
+1600
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0018",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"Wecklein1894_0018",
+0,
+1667
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0061",
+"fold": 2,
+"mentions": 15,
+"segments": [
+[
+"Wecklein1894_0061",
+0,
+1605
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0091",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"sophokle1v3soph_0091",
+0,
+2296
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0118",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"sophokle1v3soph_0118",
+0,
+1302
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0066",
+"fold": 3,
+"mentions": 20,
+"segments": [
+[
+"sophokle1v3soph_0066",
+0,
+1863
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0117",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0117",
+0,
+1119
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0032",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"Wecklein1894_0032",
+0,
+1064
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0072",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0072",
+0,
+979
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0056",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0056",
+0,
+1227
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0108",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0108",
+0,
+1106
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0033",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0033",
+0,
+1415
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0006",
+"fold": 1,
+"mentions": 22,
+"segments": [
+[
+"Wecklein1894_0006",
+0,
+1482
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0125",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"sophokle1v3soph_0125",
+0,
+1156
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0109",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"sophokle1v3soph_0109",
+0,
+1101
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0009",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"sophokle1v3soph_0009",
+0,
+1953
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0122",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"sophokle1v3soph_0122",
+0,
+1584
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0080",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"Wecklein1894_0080",
+0,
+1506
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0114",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"sophokle1v3soph_0114",
+0,
+1451
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0038",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"Wecklein1894_0038",
+0,
+1759
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0067",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"sophokle1v3soph_0067",
+0,
+1621
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0092",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"sophokle1v3soph_0092",
+0,
+1644
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0075",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"sophokle1v3soph_0075",
+0,
+1903
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0055",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0055",
+0,
+1076
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0042",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"Wecklein1894_0042",
+0,
+1226
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0040",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"Wecklein1894_0040",
+0,
+1200
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0110",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"sophokle1v3soph_0110",
+0,
+1489
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0140",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0140",
+0,
+1025
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0016",
+"fold": 4,
+"mentions": 14,
+"segments": [
+[
+"Wecklein1894_0016",
+0,
+1891
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0082",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"Wecklein1894_0082",
+0,
+1048
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0073",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"sophokle1v3soph_0073",
+0,
+1444
+]
+]
+},
+{
+"unit_id": "Wecklein1894_0023",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"Wecklein1894_0023",
+0,
+1352
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0065",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"sophokle1v3soph_0065",
+0,
+1726
+]
+]
+},
+{
+"unit_id": "sophokle1v3soph_0120",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"sophokle1v3soph_0120",
+0,
+845
+]
+]
+}
+]
+}

@@ -1,0 +1,8758 @@
+{
+"key": "7romans",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "phrase (sous-unité du roman)",
+"n_units_total": 26785,
+"n_mentions_total": 33343,
+"n_units": 728,
+"n_mentions": 866,
+"mentions_per_fold": [
+145,
+145,
+144,
+144,
+144,
+144
+],
+"units": [
+{
+"unit_id": "Germinal#1089",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+347425,
+347489
+]
+]
+},
+{
+"unit_id": "Germinal#3005",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+1002583,
+1002606
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2985",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+509937,
+509979
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#905",
+"fold": 0,
+"mentions": 23,
+"segments": [
+[
+"NotreDameDeParis",
+230316,
+231598
+]
+]
+},
+{
+"unit_id": "Germinal#1941",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"Germinal",
+632116,
+633830
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7560",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+1236804,
+1237066
+]
+]
+},
+{
+"unit_id": "BelAmi#2846",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+520515,
+520526
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3342",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+1000902,
+1001047
+]
+]
+},
+{
+"unit_id": "Germinal#2199",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+713655,
+713777
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5391",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+884111,
+884189
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1262",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+263580,
+263614
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#950",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+324047,
+324155
+]
+]
+},
+{
+"unit_id": "MadameBovary#2303",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"MadameBovary",
+596286,
+597001
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3400",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+970628,
+970694
+]
+]
+},
+{
+"unit_id": "MadameBovary#1806",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+505279,
+505320
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4910",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+805795,
+806004
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5420",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+890371,
+890450
+]
+]
+},
+{
+"unit_id": "Germinal#3045",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+1012542,
+1012570
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#60",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"EugénieGrandet",
+58483,
+58560
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#554",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"LeRougeEtLeNoir",
+192297,
+192859
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1376",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+446092,
+446589
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#246",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+76206,
+76213
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3661",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"NotreDameDeParis",
+1048975,
+1049658
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1834",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+351094,
+351153
+]
+]
+},
+{
+"unit_id": "BelAmi#3305",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+588410,
+588484
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2670",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+461959,
+462073
+]
+]
+},
+{
+"unit_id": "BelAmi#1909",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+356261,
+356301
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1500",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+477348,
+477412
+]
+]
+},
+{
+"unit_id": "MadameBovary#2260",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+588488,
+588587
+]
+]
+},
+{
+"unit_id": "BelAmi#284",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+61067,
+61261
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7028",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+1155122,
+1155483
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#822",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+198184,
+198213
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3025",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+518758,
+518949
+]
+]
+},
+{
+"unit_id": "Germinal#2908",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+965895,
+965995
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#189",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+104544,
+104657
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#645",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"NotreDameDeParis",
+164362,
+165196
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2382",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+711179,
+711221
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4536",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+754321,
+754465
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8266",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1329710,
+1329735
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7375",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1214112,
+1214366
+]
+]
+},
+{
+"unit_id": "Germinal#1288",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+410740,
+410764
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#991",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+290440,
+291142
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3475",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+1034270,
+1034405
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#435",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+152638,
+153080
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#815",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+280672,
+280704
+]
+]
+},
+{
+"unit_id": "BelAmi#2987",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+540544,
+540622
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#527",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+132972,
+133074
+]
+]
+},
+{
+"unit_id": "Germinal#2952",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+982901,
+983985
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5616",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+921766,
+921900
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1368",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+461441,
+461615
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1598",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+320465,
+320565
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6506",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1050318,
+1050423
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1968",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"LeRougeEtLeNoir",
+614821,
+615478
+]
+]
+},
+{
+"unit_id": "BelAmi#35",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+9890,
+10375
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2806",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+821758,
+821820
+]
+]
+},
+{
+"unit_id": "MadameBovary#510",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+221086,
+221536
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2207",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+655544,
+655613
+]
+]
+},
+{
+"unit_id": "Germinal#2680",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+881387,
+881608
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1689",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"LesTroisMousquetaires",
+327552,
+327861
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#291",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+103345,
+103595
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1928",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+602373,
+602519
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8080",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1300351,
+1300621
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8072",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1298895,
+1299074
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2040",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+616211,
+616242
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#190",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+104658,
+104784
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2997",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+511753,
+512156
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2611",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+450069,
+450130
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4223",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+705173,
+705278
+]
+]
+},
+{
+"unit_id": "MadameBovary#1284",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+391855,
+392123
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#978",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+286017,
+286063
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1163",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+255265,
+255328
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7525",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1232328,
+1232352
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7285",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1203415,
+1203608
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#924",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+256487,
+256599
+]
+]
+},
+{
+"unit_id": "BelAmi#343",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+73155,
+73312
+]
+]
+},
+{
+"unit_id": "Germinal#1467",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+468867,
+468928
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5192",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+842580,
+842619
+]
+]
+},
+{
+"unit_id": "MadameBovary#2435",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+615446,
+615704
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2217",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+656528,
+656759
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2613",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+781771,
+782302
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2052",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+386095,
+386270
+]
+]
+},
+{
+"unit_id": "Germinal#2879",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+944388,
+945086
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7700",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1261291,
+1261692
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7803",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1276546,
+1276640
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#919",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+306658,
+307052
+]
+]
+},
+{
+"unit_id": "MadameBovary#2050",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+554075,
+554367
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2815",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+822521,
+822641
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#942",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"LeRougeEtLeNoir",
+321107,
+322133
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6504",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1049937,
+1050104
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#24",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+12648,
+12845
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#516",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"EugénieGrandet",
+176667,
+180719
+]
+]
+},
+{
+"unit_id": "Germinal#2315",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+761095,
+762181
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#252",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+76629,
+76769
+]
+]
+},
+{
+"unit_id": "BelAmi#1691",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+318431,
+318625
+]
+]
+},
+{
+"unit_id": "Germinal#2518",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+817598,
+817803
+]
+]
+},
+{
+"unit_id": "MadameBovary#2091",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"MadameBovary",
+558952,
+559806
+]
+]
+},
+{
+"unit_id": "MadameBovary#419",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+194670,
+194722
+]
+]
+},
+{
+"unit_id": "Germinal#2511",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+816163,
+816730
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1612",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+517017,
+517077
+]
+]
+},
+{
+"unit_id": "BelAmi#958",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+184188,
+184255
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2639",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+456850,
+457062
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3475",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+1001290,
+1001680
+]
+]
+},
+{
+"unit_id": "BelAmi#2401",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"BelAmi",
+441964,
+442430
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1150",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+376662,
+376762
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#1137",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+382674,
+382727
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3513",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+600434,
+600632
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#894",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+209324,
+209367
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4948",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+811461,
+811642
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2446",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+430163,
+430684
+]
+]
+},
+{
+"unit_id": "MadameBovary#2605",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+644169,
+644200
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6160",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+995822,
+996257
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#436",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+114362,
+114562
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7837",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1278620,
+1278748
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1215",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+257350,
+257372
+]
+]
+},
+{
+"unit_id": "MadameBovary#1264",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"MadameBovary",
+388261,
+388602
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3943",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+663005,
+663201
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#835",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+197586,
+197718
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#966",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+316926,
+317279
+]
+]
+},
+{
+"unit_id": "BelAmi#627",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+123386,
+123504
+]
+]
+},
+{
+"unit_id": "BelAmi#172",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+36741,
+36853
+]
+]
+},
+{
+"unit_id": "Germinal#583",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+173926,
+173994
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5392",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+884190,
+884317
+]
+]
+},
+{
+"unit_id": "Germinal#1081",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+345326,
+345392
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#268",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+64903,
+65035
+]
+]
+},
+{
+"unit_id": "BelAmi#544",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+109200,
+109335
+]
+]
+},
+{
+"unit_id": "BelAmi#1210",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+234269,
+234633
+]
+]
+},
+{
+"unit_id": "MadameBovary#31",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+10898,
+11377
+]
+]
+},
+{
+"unit_id": "BelAmi#3076",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+557818,
+557952
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#935",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+313107,
+313194
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3464",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+592824,
+592963
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5419",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+890270,
+890370
+]
+]
+},
+{
+"unit_id": "Germinal#2708",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+888701,
+888818
+]
+]
+},
+{
+"unit_id": "Germinal#1881",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+610008,
+610066
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6303",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1014651,
+1014729
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5099",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"LesTroisMousquetaires",
+830889,
+831250
+]
+]
+},
+{
+"unit_id": "BelAmi#248",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+53513,
+53715
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5710",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"LesTroisMousquetaires",
+936800,
+936965
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6672",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1088967,
+1090085
+]
+]
+},
+{
+"unit_id": "BelAmi#682",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+137277,
+137524
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2534",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+781520,
+782243
+]
+]
+},
+{
+"unit_id": "Germinal#1917",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+620576,
+620622
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#779",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+267348,
+267475
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8139",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1307469,
+1307536
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1743",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+554720,
+555099
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2837",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+864061,
+864303
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8390",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1347824,
+1347903
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1904",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+589179,
+589195
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2956",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+506382,
+506440
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1111",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+238834,
+238974
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5835",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+955617,
+955669
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8313",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1334631,
+1334717
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2687",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+799201,
+799233
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#401",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+109528,
+109582
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#787",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+193247,
+193353
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3009",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+514099,
+514199
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4242",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+707083,
+707179
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1849",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+575999,
+576065
+]
+]
+},
+{
+"unit_id": "Germinal#849",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+241354,
+241724
+]
+]
+},
+{
+"unit_id": "MadameBovary#1445",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+423504,
+423600
+]
+]
+},
+{
+"unit_id": "BelAmi#120",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+27212,
+27392
+]
+]
+},
+{
+"unit_id": "Germinal#2457",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"Germinal",
+802659,
+803179
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2004",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+606283,
+606339
+]
+]
+},
+{
+"unit_id": "Germinal#2674",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+880014,
+880244
+]
+]
+},
+{
+"unit_id": "BelAmi#752",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+151826,
+152089
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1978",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+375105,
+375131
+]
+]
+},
+{
+"unit_id": "Germinal#2867",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+940226,
+940292
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#159",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+54639,
+54914
+]
+]
+},
+{
+"unit_id": "Germinal#2840",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+929731,
+930894
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#999",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+223121,
+223290
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#162",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+32933,
+33009
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#600",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+212325,
+212383
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1829",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+572629,
+572652
+]
+]
+},
+{
+"unit_id": "Germinal#1939",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+630629,
+631448
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4188",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+700873,
+700994
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7614",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+1246862,
+1247214
+]
+]
+},
+{
+"unit_id": "MadameBovary#2231",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+583460,
+583710
+]
+]
+},
+{
+"unit_id": "Germinal#2346",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+770019,
+770104
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2453",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+431408,
+431565
+]
+]
+},
+{
+"unit_id": "BelAmi#3301",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+587901,
+588223
+]
+]
+},
+{
+"unit_id": "BelAmi#2821",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"BelAmi",
+518849,
+519183
+]
+]
+},
+{
+"unit_id": "BelAmi#3247",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+580275,
+580344
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1339",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"NotreDameDeParis",
+454340,
+454758
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#111",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+40994,
+41215
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8331",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1337594,
+1337669
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#396",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"EugénieGrandet",
+152100,
+152348
+]
+]
+},
+{
+"unit_id": "MadameBovary#1312",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+396825,
+396875
+]
+]
+},
+{
+"unit_id": "BelAmi#2561",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+472159,
+472215
+]
+]
+},
+{
+"unit_id": "Germinal#2827",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"Germinal",
+924180,
+925177
+]
+]
+},
+{
+"unit_id": "MadameBovary#2461",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+619234,
+619341
+]
+]
+},
+{
+"unit_id": "Germinal#2588",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"Germinal",
+846285,
+847258
+]
+]
+},
+{
+"unit_id": "MadameBovary#1730",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+492974,
+492981
+]
+]
+},
+{
+"unit_id": "Germinal#263",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+81631,
+81719
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1386",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+447890,
+448061
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5846",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+956804,
+957019
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1120",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+244285,
+244624
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3040",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+917129,
+917273
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1974",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+374934,
+374963
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#236",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"NotreDameDeParis",
+46531,
+48146
+]
+]
+},
+{
+"unit_id": "MadameBovary#775",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+274500,
+274715
+]
+]
+},
+{
+"unit_id": "BelAmi#1864",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+349977,
+350023
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2139",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+397737,
+397753
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5504",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+904335,
+904362
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#987",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+335157,
+335328
+]
+]
+},
+{
+"unit_id": "Germinal#2586",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+845683,
+846233
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5442",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+893293,
+893432
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#834",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+287822,
+288106
+]
+]
+},
+{
+"unit_id": "Germinal#30",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+9172,
+9393
+]
+]
+},
+{
+"unit_id": "BelAmi#2572",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+473417,
+473466
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6203",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1000948,
+1001178
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#124",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+34689,
+34920
+]
+]
+},
+{
+"unit_id": "MadameBovary#512",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+221570,
+221614
+]
+]
+},
+{
+"unit_id": "Germinal#241",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+74539,
+74611
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8204",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+1316501,
+1316764
+]
+]
+},
+{
+"unit_id": "Germinal#1170",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+371596,
+371930
+]
+]
+},
+{
+"unit_id": "Germinal#608",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+179108,
+179160
+]
+]
+},
+{
+"unit_id": "MadameBovary#2474",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+621785,
+621852
+]
+]
+},
+{
+"unit_id": "MadameBovary#2051",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+554368,
+554419
+]
+]
+},
+{
+"unit_id": "MadameBovary#568",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+235490,
+235526
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5934",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+970358,
+970434
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1634",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+322691,
+322722
+]
+]
+},
+{
+"unit_id": "MadameBovary#2278",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+590303,
+590425
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1057",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+350663,
+350745
+]
+]
+},
+{
+"unit_id": "MadameBovary#2697",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+653956,
+654214
+]
+]
+},
+{
+"unit_id": "BelAmi#1666",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+314763,
+314774
+]
+]
+},
+{
+"unit_id": "BelAmi#1146",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+222637,
+222790
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8167",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1310559,
+1310621
+]
+]
+},
+{
+"unit_id": "MadameBovary#2820",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+674321,
+674427
+]
+]
+},
+{
+"unit_id": "BelAmi#693",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+139745,
+139805
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2536",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+782723,
+783319
+]
+]
+},
+{
+"unit_id": "BelAmi#1352",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+264050,
+264126
+]
+]
+},
+{
+"unit_id": "Germinal#602",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+178350,
+178382
+]
+]
+},
+{
+"unit_id": "BelAmi#2975",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+539271,
+539373
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2834",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+862945,
+863353
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2582",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+793471,
+793634
+]
+]
+},
+{
+"unit_id": "Germinal#969",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+297635,
+297750
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3676",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+631236,
+631878
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6879",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1129297,
+1129410
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3239",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+555033,
+555159
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3956",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+664841,
+664875
+]
+]
+},
+{
+"unit_id": "BelAmi#1495",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+287513,
+287610
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3248",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+979416,
+979472
+]
+]
+},
+{
+"unit_id": "MadameBovary#1017",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+327890,
+327980
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4798",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+795463,
+795498
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2174",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+401016,
+401142
+]
+]
+},
+{
+"unit_id": "MadameBovary#720",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+263415,
+263532
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2336",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+697045,
+697240
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6781",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1112375,
+1112757
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4550",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+756858,
+757064
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#908",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+210551,
+210716
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7458",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1225345,
+1225439
+]
+]
+},
+{
+"unit_id": "Germinal#1124",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+356849,
+356867
+]
+]
+},
+{
+"unit_id": "Germinal#575",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+171940,
+172058
+]
+]
+},
+{
+"unit_id": "BelAmi#1649",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+312945,
+313103
+]
+]
+},
+{
+"unit_id": "Germinal#2916",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+973105,
+973860
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1349",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+279368,
+279536
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3349",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+577645,
+577899
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6083",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+987477,
+987648
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1813",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+348246,
+348377
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1309",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+427281,
+427410
+]
+]
+},
+{
+"unit_id": "Germinal#1361",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+427258,
+427345
+]
+]
+},
+{
+"unit_id": "BelAmi#161",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+33618,
+33807
+]
+]
+},
+{
+"unit_id": "BelAmi#3031",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+548692,
+548790
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2547",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+785101,
+785272
+]
+]
+},
+{
+"unit_id": "BelAmi#1062",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+201793,
+201843
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4069",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+682827,
+682858
+]
+]
+},
+{
+"unit_id": "BelAmi#1701",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+321673,
+321930
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5297",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+861553,
+861982
+]
+]
+},
+{
+"unit_id": "MadameBovary#783",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+278256,
+278610
+]
+]
+},
+{
+"unit_id": "BelAmi#3238",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+579842,
+579908
+]
+]
+},
+{
+"unit_id": "Germinal#878",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+255092,
+255114
+]
+]
+},
+{
+"unit_id": "Germinal#850",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+241725,
+241772
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2350",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+702771,
+703040
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6774",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1111163,
+1111375
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3043",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+887670,
+887711
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5788",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+947993,
+948032
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5579",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+912567,
+912597
+]
+]
+},
+{
+"unit_id": "BelAmi#473",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+98747,
+98890
+]
+]
+},
+{
+"unit_id": "BelAmi#1363",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+265210,
+265225
+]
+]
+},
+{
+"unit_id": "Germinal#291",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+87844,
+87997
+]
+]
+},
+{
+"unit_id": "BelAmi#1856",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+348227,
+348313
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1896",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+588415,
+588519
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2364",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+708658,
+708987
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2155",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+646058,
+646109
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#764",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+193035,
+193098
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5811",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+950667,
+950757
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7181",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1188156,
+1188254
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5688",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+932974,
+933309
+]
+]
+},
+{
+"unit_id": "BelAmi#2976",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+539374,
+539443
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#915",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+306321,
+306380
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5113",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+831997,
+832048
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#109",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+79047,
+79085
+]
+]
+},
+{
+"unit_id": "Germinal#2216",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+716656,
+716711
+]
+]
+},
+{
+"unit_id": "Germinal#1578",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"Germinal",
+500058,
+500809
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3419",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+587726,
+587765
+]
+]
+},
+{
+"unit_id": "Germinal#5",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+3271,
+3833
+]
+]
+},
+{
+"unit_id": "BelAmi#2626",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+481829,
+482206
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2074",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"LeRougeEtLeNoir",
+653285,
+654017
+]
+]
+},
+{
+"unit_id": "BelAmi#1010",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+194554,
+194881
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3289",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+991344,
+991398
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4061",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+681914,
+682012
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5428",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+891232,
+891294
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2967",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+508402,
+508475
+]
+]
+},
+{
+"unit_id": "Germinal#1855",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+599307,
+600225
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6072",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+986732,
+986795
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3192",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+960316,
+961071
+]
+]
+},
+{
+"unit_id": "BelAmi#3567",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+626394,
+626462
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5467",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+898244,
+898343
+]
+]
+},
+{
+"unit_id": "BelAmi#3243",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+579987,
+580009
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2871",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+830945,
+831117
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7094",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1167467,
+1167526
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2099",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+662089,
+662275
+]
+]
+},
+{
+"unit_id": "Germinal#1831",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+591366,
+591491
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1684",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+327229,
+327305
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4601",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+764135,
+764222
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5444",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+893570,
+893745
+]
+]
+},
+{
+"unit_id": "MadameBovary#140",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+77347,
+78073
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3468",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"NotreDameDeParis",
+998950,
+999116
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#538",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+186548,
+186738
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2658",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+811044,
+811277
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#734",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"LesTroisMousquetaires",
+189710,
+190096
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5594",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+914997,
+915090
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1337",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+435569,
+435928
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#289",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+85759,
+85784
+]
+]
+},
+{
+"unit_id": "BelAmi#1404",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+273245,
+273577
+]
+]
+},
+{
+"unit_id": "MadameBovary#116",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"MadameBovary",
+56440,
+58056
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#332",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+140912,
+141048
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6253",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1007180,
+1007429
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2137",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+397467,
+397615
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1005",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+298317,
+298881
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7146",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1181195,
+1181420
+]
+]
+},
+{
+"unit_id": "BelAmi#2011",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+373794,
+373826
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3152",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+544733,
+544858
+]
+]
+},
+{
+"unit_id": "Germinal#24",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+8074,
+8108
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1788",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+568068,
+568164
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7991",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1290287,
+1290468
+]
+]
+},
+{
+"unit_id": "BelAmi#3443",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+606917,
+607134
+]
+]
+},
+{
+"unit_id": "BelAmi#1774",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+336872,
+337105
+]
+]
+},
+{
+"unit_id": "MadameBovary#63",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+26277,
+26890
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3667",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+629780,
+629950
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3071",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+526858,
+527076
+]
+]
+},
+{
+"unit_id": "Germinal#414",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+121940,
+122013
+]
+]
+},
+{
+"unit_id": "BelAmi#2849",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+520591,
+520664
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1532",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+502494,
+502531
+]
+]
+},
+{
+"unit_id": "MadameBovary#2661",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+649668,
+649733
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#545",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"LeRougeEtLeNoir",
+189767,
+190144
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2820",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+860207,
+860247
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1114",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+365209,
+365812
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#757",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+188180,
+188262
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4141",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+692146,
+692381
+]
+]
+},
+{
+"unit_id": "BelAmi#3324",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+591408,
+591460
+]
+]
+},
+{
+"unit_id": "BelAmi#3427",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+605165,
+605172
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3168",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+952717,
+953273
+]
+]
+},
+{
+"unit_id": "BelAmi#3144",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+568811,
+568864
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#1131",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"EugénieGrandet",
+380006,
+380927
+]
+]
+},
+{
+"unit_id": "BelAmi#1727",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+326658,
+326673
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2818",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+822729,
+822855
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3174",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+546525,
+546677
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2471",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+764557,
+764903
+]
+]
+},
+{
+"unit_id": "BelAmi#1396",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+271609,
+271761
+]
+]
+},
+{
+"unit_id": "Germinal#2803",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+918222,
+918274
+]
+]
+},
+{
+"unit_id": "MadameBovary#1747",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+494181,
+494293
+]
+]
+},
+{
+"unit_id": "Germinal#435",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+126380,
+126821
+]
+]
+},
+{
+"unit_id": "Germinal#1729",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"Germinal",
+554179,
+555669
+]
+]
+},
+{
+"unit_id": "BelAmi#1248",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+242235,
+242410
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7249",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"LesTroisMousquetaires",
+1199035,
+1199767
+]
+]
+},
+{
+"unit_id": "Germinal#2859",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+936402,
+936464
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4085",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+684738,
+684764
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#732",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+182477,
+182761
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8541",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1365906,
+1365957
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5576",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+912334,
+912391
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2089",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+659537,
+660020
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#235",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+46027,
+46530
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5084",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+829011,
+829083
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4098",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+686171,
+686217
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2529",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+441881,
+442024
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2399",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+422017,
+422122
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2790",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+853172,
+853371
+]
+]
+},
+{
+"unit_id": "MadameBovary#1554",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"MadameBovary",
+454680,
+454948
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3592",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+616156,
+616273
+]
+]
+},
+{
+"unit_id": "BelAmi#169",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+35915,
+36046
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2078",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+655699,
+655984
+]
+]
+},
+{
+"unit_id": "BelAmi#2084",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+384894,
+385158
+]
+]
+},
+{
+"unit_id": "BelAmi#1097",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+208088,
+208326
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8015",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1292779,
+1292830
+]
+]
+},
+{
+"unit_id": "Germinal#1889",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+613661,
+613733
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#691",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+174178,
+174203
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1995",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"LesTroisMousquetaires",
+377445,
+377873
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2954",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+889003,
+889105
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2074",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+387790,
+387847
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#756",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+262149,
+262600
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5875",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+961633,
+961865
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#767",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+265057,
+265279
+]
+]
+},
+{
+"unit_id": "MadameBovary#2717",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+658367,
+658386
+]
+]
+},
+{
+"unit_id": "BelAmi#1436",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+278662,
+278696
+]
+]
+},
+{
+"unit_id": "BelAmi#3348",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+594602,
+594645
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2464",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"NotreDameDeParis",
+729421,
+729737
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3784",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+643272,
+643394
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1077",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"NotreDameDeParis",
+338735,
+339263
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2506",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+746194,
+746661
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1293",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+267538,
+267638
+]
+]
+},
+{
+"unit_id": "Germinal#1896",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+615979,
+615995
+]
+]
+},
+{
+"unit_id": "MadameBovary#611",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+240886,
+241024
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4193",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+701730,
+701850
+]
+]
+},
+{
+"unit_id": "BelAmi#1806",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+340989,
+341070
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2580",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+792783,
+793132
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2687",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+816943,
+817244
+]
+]
+},
+{
+"unit_id": "BelAmi#2436",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+447793,
+447860
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2212",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+404559,
+404589
+]
+]
+},
+{
+"unit_id": "Germinal#1012",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+315090,
+315152
+]
+]
+},
+{
+"unit_id": "MadameBovary#2715",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+658313,
+658350
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8173",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1311570,
+1311625
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#731",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"LesTroisMousquetaires",
+187936,
+188651
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#139",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+50089,
+50757
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1520",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+482623,
+482841
+]
+]
+},
+{
+"unit_id": "Germinal#343",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+98687,
+98747
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8348",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1341336,
+1341426
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4663",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+773823,
+773869
+]
+]
+},
+{
+"unit_id": "Germinal#2712",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+890586,
+890618
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#264",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+64260,
+64366
+]
+]
+},
+{
+"unit_id": "BelAmi#2997",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+542308,
+542372
+]
+]
+},
+{
+"unit_id": "BelAmi#1056",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+199970,
+200050
+]
+]
+},
+{
+"unit_id": "Germinal#1579",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+500810,
+501251
+]
+]
+},
+{
+"unit_id": "MadameBovary#1420",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+416977,
+417084
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#847",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+200870,
+200950
+]
+]
+},
+{
+"unit_id": "BelAmi#2504",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+460823,
+461323
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3278",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+987923,
+987973
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#315",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"EugénieGrandet",
+138889,
+139390
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2625",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+454963,
+455054
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3168",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"NotreDameDeParis",
+922300,
+922753
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4430",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+741345,
+741429
+]
+]
+},
+{
+"unit_id": "MadameBovary#1534",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"MadameBovary",
+447626,
+448789
+]
+]
+},
+{
+"unit_id": "BelAmi#2656",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+488159,
+488265
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4395",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+737159,
+737199
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3376",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+962894,
+962944
+]
+]
+},
+{
+"unit_id": "BelAmi#2204",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+408146,
+408352
+]
+]
+},
+{
+"unit_id": "MadameBovary#629",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+245138,
+245258
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#575",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"EugénieGrandet",
+197407,
+198087
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7550",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1236019,
+1236105
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5685",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+932404,
+932451
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4896",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+803060,
+803104
+]
+]
+},
+{
+"unit_id": "BelAmi#939",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+182424,
+182474
+]
+]
+},
+{
+"unit_id": "Germinal#2956",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+986011,
+986042
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1652",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+525001,
+525200
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5977",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+974358,
+974506
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#82",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+25069,
+25314
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5435",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+891981,
+892236
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2441",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+723998,
+724308
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4805",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+795901,
+796153
+]
+]
+},
+{
+"unit_id": "Germinal#578",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+172759,
+172856
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5557",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+910156,
+910172
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1530",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+313610,
+314530
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#1162",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+391261,
+391319
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2031",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"LeRougeEtLeNoir",
+637038,
+637344
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8051",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1296499,
+1296797
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6936",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1137520,
+1138079
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8449",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"LesTroisMousquetaires",
+1355346,
+1355542
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2773",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+847823,
+847948
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2509",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+440447,
+440524
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4547",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+756441,
+756462
+]
+]
+},
+{
+"unit_id": "Germinal#2366",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+775471,
+775605
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#251",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+76566,
+76628
+]
+]
+},
+{
+"unit_id": "Germinal#2763",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+904999,
+905024
+]
+]
+},
+{
+"unit_id": "Germinal#2054",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+666104,
+666198
+]
+]
+},
+{
+"unit_id": "BelAmi#3319",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+590961,
+590984
+]
+]
+},
+{
+"unit_id": "BelAmi#1511",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+289258,
+289320
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#707",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+177861,
+178323
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1291",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+430458,
+430516
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3471",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"NotreDameDeParis",
+999380,
+999821
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2440",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+429119,
+429220
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2122",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+639361,
+639976
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2726",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+808453,
+808713
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2324",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+724348,
+724586
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1236",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+406889,
+407361
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2565",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"NotreDameDeParis",
+763235,
+764064
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2348",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+702497,
+702710
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2899",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+838130,
+838559
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2980",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+509391,
+509493
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7753",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1270896,
+1271074
+]
+]
+},
+{
+"unit_id": "MadameBovary#1469",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+428712,
+428750
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3275",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+943703,
+943757
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1614",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+321414,
+321459
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5534",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+907568,
+907671
+]
+]
+},
+{
+"unit_id": "BelAmi#1921",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+357922,
+357973
+]
+]
+},
+{
+"unit_id": "MadameBovary#1900",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+521615,
+521709
+]
+]
+},
+{
+"unit_id": "Germinal#2994",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+1000470,
+1000555
+]
+]
+},
+{
+"unit_id": "BelAmi#1920",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+357835,
+357921
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4089",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+685357,
+685503
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1989",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+376347,
+376610
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2528",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+441864,
+441880
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#976",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+330941,
+331237
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2090",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+390402,
+390546
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1258",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+413139,
+413420
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#931",
+"fold": 1,
+"mentions": 22,
+"segments": [
+[
+"NotreDameDeParis",
+263495,
+265001
+]
+]
+},
+{
+"unit_id": "BelAmi#3007",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+543878,
+544195
+]
+]
+},
+{
+"unit_id": "Germinal#2343",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+769392,
+769843
+]
+]
+},
+{
+"unit_id": "Germinal#2258",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+728975,
+729129
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2395",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+745748,
+746129
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2934",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+504336,
+504359
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6702",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1098453,
+1098773
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1558",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+317774,
+317813
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1545",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+490930,
+491130
+]
+]
+},
+{
+"unit_id": "MadameBovary#332",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+162111,
+162135
+]
+]
+},
+{
+"unit_id": "MadameBovary#612",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"MadameBovary",
+241025,
+241621
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4796",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+795182,
+795423
+]
+]
+},
+{
+"unit_id": "Germinal#2679",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"Germinal",
+880783,
+881386
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5833",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+955334,
+955489
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2624",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+786708,
+786997
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1706",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+540541,
+540798
+]
+]
+},
+{
+"unit_id": "BelAmi#3377",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+598272,
+598437
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1801",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+570726,
+570802
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#617",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+217332,
+217551
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#698",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+175143,
+175182
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5094",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+830241,
+830303
+]
+]
+},
+{
+"unit_id": "MadameBovary#1731",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+492982,
+493064
+]
+]
+},
+{
+"unit_id": "Germinal#619",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+182695,
+182929
+]
+]
+},
+{
+"unit_id": "BelAmi#515",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+105163,
+105339
+]
+]
+},
+{
+"unit_id": "Germinal#261",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+81418,
+81588
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7275",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1202469,
+1202563
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2489",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+735391,
+735549
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3278",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+560757,
+560859
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4514",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+750345,
+750465
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2063",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"LeRougeEtLeNoir",
+648660,
+648872
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5432",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+891641,
+891724
+]
+]
+},
+{
+"unit_id": "BelAmi#1377",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+267153,
+267213
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3918",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+658267,
+658349
+]
+]
+},
+{
+"unit_id": "BelAmi#2681",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+494783,
+495172
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#36",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+14991,
+15475
+]
+]
+},
+{
+"unit_id": "Germinal#1456",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+465983,
+466921
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1122",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+366943,
+367110
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#876",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+206673,
+206905
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2921",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+503407,
+503484
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#978",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"EugénieGrandet",
+320339,
+320540
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3374",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+581516,
+582008
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5202",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+843659,
+843773
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4313",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+723503,
+723825
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1383",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+447267,
+447583
+]
+]
+},
+{
+"unit_id": "MadameBovary#1609",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+473887,
+473940
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#208",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"EugénieGrandet",
+115873,
+116284
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3216",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+968304,
+968461
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2808",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+856803,
+857260
+]
+]
+},
+{
+"unit_id": "BelAmi#1700",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+321434,
+321672
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6454",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1042749,
+1042864
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2889",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+874717,
+874804
+]
+]
+},
+{
+"unit_id": "BelAmi#2664",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+489770,
+490686
+]
+]
+},
+{
+"unit_id": "BelAmi#2164",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+400826,
+400861
+]
+]
+},
+{
+"unit_id": "Germinal#1514",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+479865,
+479915
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7878",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1282144,
+1282202
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1513",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+308335,
+308379
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4368",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+734158,
+734228
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3292",
+"fold": 2,
+"mentions": 17,
+"segments": [
+[
+"NotreDameDeParis",
+945139,
+946923
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1274",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+264607,
+264780
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1681",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+537658,
+537681
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7045",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1157970,
+1158154
+]
+]
+},
+{
+"unit_id": "BelAmi#1515",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+289520,
+289558
+]
+]
+},
+{
+"unit_id": "MadameBovary#2767",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+668156,
+668339
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2485",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+768566,
+768633
+]
+]
+},
+{
+"unit_id": "Germinal#1206",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+383115,
+383230
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#202",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+62633,
+63466
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1411",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+453254,
+453354
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1273",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+427512,
+427542
+]
+]
+},
+{
+"unit_id": "BelAmi#2535",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+466705,
+466786
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2328",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+415659,
+415693
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#495",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+171382,
+171631
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6685",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1092063,
+1092189
+]
+]
+},
+{
+"unit_id": "Germinal#1735",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+559662,
+560172
+]
+]
+},
+{
+"unit_id": "BelAmi#2909",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+527849,
+528130
+]
+]
+},
+{
+"unit_id": "Germinal#707",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+204942,
+205286
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1465",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+484255,
+484469
+]
+]
+},
+{
+"unit_id": "BelAmi#203",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+42676,
+43061
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#898",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+300413,
+300460
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#38",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+18766,
+18846
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6722",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1101545,
+1101843
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1268",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+426330,
+426437
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2614",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"LesTroisMousquetaires",
+450480,
+451785
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4215",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+703638,
+703941
+]
+]
+},
+{
+"unit_id": "MadameBovary#593",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+238765,
+238881
+]
+]
+},
+{
+"unit_id": "Germinal#1473",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+469424,
+469457
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1662",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+531116,
+531211
+]
+]
+},
+{
+"unit_id": "BelAmi#406",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+83690,
+83795
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3507",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+599850,
+599942
+]
+]
+},
+{
+"unit_id": "Germinal#1118",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+355594,
+356161
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4251",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"LesTroisMousquetaires",
+708829,
+709033
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1888",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+586324,
+586596
+]
+]
+},
+{
+"unit_id": "Germinal#1647",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"Germinal",
+522956,
+523884
+]
+]
+},
+{
+"unit_id": "BelAmi#898",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+177122,
+177204
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2808",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+821878,
+821955
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#8166",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1310521,
+1310558
+]
+]
+},
+{
+"unit_id": "Germinal#3013",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+1004517,
+1004766
+]
+]
+},
+{
+"unit_id": "BelAmi#3401",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"BelAmi",
+601187,
+601452
+]
+]
+},
+{
+"unit_id": "Germinal#131",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+35229,
+35717
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#490",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+170232,
+170411
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7073",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1165671,
+1165750
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2318",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+691733,
+691855
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7140",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1179529,
+1179721
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3137",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+943392,
+943725
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4235",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+706381,
+706493
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2165",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+647247,
+649041
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6834",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1121101,
+1121141
+]
+]
+},
+{
+"unit_id": "MadameBovary#2313",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+600465,
+600814
+]
+]
+},
+{
+"unit_id": "Germinal#254",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+78850,
+78885
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1148",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"NotreDameDeParis",
+354899,
+355174
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2768",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+846128,
+846576
+]
+]
+},
+{
+"unit_id": "BelAmi#497",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+102378,
+102484
+]
+]
+},
+{
+"unit_id": "MadameBovary#1694",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+487516,
+487552
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#461",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+117151,
+117192
+]
+]
+},
+{
+"unit_id": "BelAmi#558",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+112497,
+112548
+]
+]
+},
+{
+"unit_id": "Germinal#2118",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+684378,
+684418
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6971",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1144826,
+1145068
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2580",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+769931,
+770155
+]
+]
+},
+{
+"unit_id": "BelAmi#3064",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+555774,
+555940
+]
+]
+},
+{
+"unit_id": "MadameBovary#2212",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+578876,
+578890
+]
+]
+},
+{
+"unit_id": "MadameBovary#380",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"MadameBovary",
+177112,
+177956
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#45",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+54091,
+54137
+]
+]
+},
+{
+"unit_id": "MadameBovary#1077",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+337375,
+337597
+]
+]
+},
+{
+"unit_id": "Germinal#1132",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+358390,
+358490
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5586",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+913061,
+913151
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1927",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+602336,
+602372
+]
+]
+},
+{
+"unit_id": "BelAmi#3552",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+621951,
+622024
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1184",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+385396,
+385569
+]
+]
+},
+{
+"unit_id": "BelAmi#1703",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+322096,
+322607
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#354",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+91004,
+91234
+]
+]
+},
+{
+"unit_id": "BelAmi#3368",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+597102,
+597188
+]
+]
+},
+{
+"unit_id": "BelAmi#1571",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+296751,
+296815
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1766",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+565122,
+565208
+]
+]
+},
+{
+"unit_id": "Germinal#121",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+33264,
+33543
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4529",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+753622,
+753687
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1825",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+572334,
+572445
+]
+]
+},
+{
+"unit_id": "Germinal#3003",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+1001993,
+1002270
+]
+]
+},
+{
+"unit_id": "Germinal#1927",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+622815,
+623151
+]
+]
+},
+{
+"unit_id": "MadameBovary#2224",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+580462,
+580769
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#982",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+286524,
+286717
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#348",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+119518,
+119982
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#816",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+280705,
+280731
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5908",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+966077,
+966133
+]
+]
+},
+{
+"unit_id": "BelAmi#1903",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+355595,
+355617
+]
+]
+},
+{
+"unit_id": "Germinal#2778",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+913345,
+913416
+]
+]
+},
+{
+"unit_id": "Germinal#762",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+219719,
+219758
+]
+]
+},
+{
+"unit_id": "MadameBovary#1141",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+350181,
+350239
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2768",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"LesTroisMousquetaires",
+478503,
+478726
+]
+]
+},
+{
+"unit_id": "BelAmi#3532",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+618594,
+618660
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#274",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+82672,
+83209
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7624",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1249951,
+1250107
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1398",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+466317,
+466350
+]
+]
+},
+{
+"unit_id": "BelAmi#52",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+12804,
+12824
+]
+]
+},
+{
+"unit_id": "BelAmi#2677",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+494018,
+494096
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#310",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"EugénieGrandet",
+137603,
+137738
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1178",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+377648,
+378224
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#119",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+80037,
+80271
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#231",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+79254,
+79353
+]
+]
+},
+{
+"unit_id": "Germinal#2053",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+665101,
+666103
+]
+]
+},
+{
+"unit_id": "Germinal#933",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"Germinal",
+282953,
+283790
+]
+]
+},
+{
+"unit_id": "BelAmi#2183",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+404841,
+404878
+]
+]
+},
+{
+"unit_id": "Germinal#85",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+24876,
+25016
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3715",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+635263,
+635314
+]
+]
+},
+{
+"unit_id": "Germinal#3119",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+1036736,
+1036772
+]
+]
+},
+{
+"unit_id": "Germinal#1349",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+424070,
+425413
+]
+]
+},
+{
+"unit_id": "Germinal#2528",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+819307,
+819341
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7479",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1227127,
+1227175
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2362",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+708094,
+708355
+]
+]
+},
+{
+"unit_id": "BelAmi#1319",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"BelAmi",
+257004,
+258059
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#719",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+248163,
+248255
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#1283",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+429142,
+429165
+]
+]
+},
+{
+"unit_id": "MadameBovary#523",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+222434,
+222451
+]
+]
+},
+{
+"unit_id": "MadameBovary#322",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+159733,
+159747
+]
+]
+},
+{
+"unit_id": "Germinal#739",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+213161,
+213669
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1188",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+256245,
+256264
+]
+]
+},
+{
+"unit_id": "BelAmi#177",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+37994,
+38098
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1815",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"LesTroisMousquetaires",
+348783,
+348879
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6857",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1125288,
+1125838
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3259",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+557722,
+557952
+]
+]
+},
+{
+"unit_id": "Germinal#1808",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+584458,
+584487
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#875",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+305380,
+305429
+]
+]
+},
+{
+"unit_id": "MadameBovary#329",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+161504,
+161699
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1494",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+475739,
+475894
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3366",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+580005,
+580093
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3339",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"NotreDameDeParis",
+955310,
+955640
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#370",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"EugénieGrandet",
+146346,
+146781
+]
+]
+},
+{
+"unit_id": "MadameBovary#2385",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"MadameBovary",
+608700,
+609237
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3953",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+664669,
+664715
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#425",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"EugénieGrandet",
+157019,
+157121
+]
+]
+},
+{
+"unit_id": "Germinal#148",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+40557,
+41194
+]
+]
+},
+{
+"unit_id": "BelAmi#929",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+181007,
+181082
+]
+]
+},
+{
+"unit_id": "MadameBovary#2777",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+669017,
+669100
+]
+]
+},
+{
+"unit_id": "MadameBovary#1087",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+338131,
+338220
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1053",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+350126,
+350150
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#7556",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1236527,
+1236612
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2702",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+467352,
+467421
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2420",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+719307,
+719367
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#820",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"EugénieGrandet",
+282082,
+283374
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3246",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"LeRougeEtLeNoir",
+978947,
+979221
+]
+]
+},
+{
+"unit_id": "Germinal#2894",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"Germinal",
+957977,
+958972
+]
+]
+},
+{
+"unit_id": "BelAmi#239",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+51675,
+51923
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#1179",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+255967,
+256008
+]
+]
+},
+{
+"unit_id": "MadameBovary#1153",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"MadameBovary",
+353305,
+353328
+]
+]
+},
+{
+"unit_id": "Germinal#2633",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"Germinal",
+857621,
+858098
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3271",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"NotreDameDeParis",
+942458,
+942567
+]
+]
+},
+{
+"unit_id": "Germinal#630",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+184379,
+184439
+]
+]
+},
+{
+"unit_id": "Germinal#215",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"Germinal",
+63177,
+63274
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6259",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1008213,
+1008329
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6730",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+1103151,
+1103317
+]
+]
+},
+{
+"unit_id": "Germinal#56",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"Germinal",
+15376,
+17193
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#1558",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+494245,
+494495
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3357",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"NotreDameDeParis",
+959000,
+960152
+]
+]
+},
+{
+"unit_id": "Germinal#2475",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+806020,
+806142
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#4673",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+775574,
+775590
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#884",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"LesTroisMousquetaires",
+208234,
+208651
+]
+]
+},
+{
+"unit_id": "BelAmi#1525",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+290154,
+290289
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#5890",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+964316,
+964351
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2011",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+379460,
+379556
+]
+]
+},
+{
+"unit_id": "BelAmi#51",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"BelAmi",
+12654,
+12803
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6957",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+1141993,
+1142052
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#3321",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+997090,
+997215
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#2913",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"LeRougeEtLeNoir",
+879389,
+879507
+]
+]
+},
+{
+"unit_id": "Germinal#2655",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"Germinal",
+867803,
+867832
+]
+]
+},
+{
+"unit_id": "LeRougeEtLeNoir#918",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LeRougeEtLeNoir",
+313840,
+314125
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3966",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"LesTroisMousquetaires",
+665833,
+665863
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#546",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+135375,
+135437
+]
+]
+},
+{
+"unit_id": "MadameBovary#1538",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"MadameBovary",
+449885,
+450923
+]
+]
+},
+{
+"unit_id": "BelAmi#2005",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"BelAmi",
+372887,
+372946
+]
+]
+},
+{
+"unit_id": "BelAmi#1742",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+329732,
+329961
+]
+]
+},
+{
+"unit_id": "BelAmi#3200",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"BelAmi",
+572342,
+572424
+]
+]
+},
+{
+"unit_id": "EugénieGrandet#404",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"EugénieGrandet",
+153666,
+153857
+]
+]
+},
+{
+"unit_id": "MadameBovary#1",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"MadameBovary",
+241,
+334
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#2760",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+476917,
+476978
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#3214",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"NotreDameDeParis",
+931672,
+931812
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#3537",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"LesTroisMousquetaires",
+604243,
+604462
+]
+]
+},
+{
+"unit_id": "NotreDameDeParis#2766",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"NotreDameDeParis",
+817106,
+817147
+]
+]
+},
+{
+"unit_id": "LesTroisMousquetaires#6636",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"LesTroisMousquetaires",
+1081799,
+1082197
+]
+]
+}
+]
+}

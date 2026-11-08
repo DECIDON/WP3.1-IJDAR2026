@@ -1,0 +1,274 @@
+{
+"key": "newseye-sv",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 84,
+"n_mentions_total": 3019,
+"n_units": 21,
+"n_mentions": 868,
+"mentions_per_fold": [
+177,
+142,
+135,
+141,
+139,
+134
+],
+"units": [
+{
+"unit_id": "test_sv_8",
+"fold": 2,
+"mentions": 17,
+"segments": [
+[
+"test_sv_8",
+0,
+1443
+]
+]
+},
+{
+"unit_id": "test_sv_4",
+"fold": 4,
+"mentions": 20,
+"segments": [
+[
+"test_sv_4",
+0,
+2184
+]
+]
+},
+{
+"unit_id": "hidden_test_sv_7",
+"fold": 3,
+"mentions": 25,
+"segments": [
+[
+"hidden_test_sv_7",
+0,
+8587
+]
+]
+},
+{
+"unit_id": "hidden_test_sv_18",
+"fold": 5,
+"mentions": 27,
+"segments": [
+[
+"hidden_test_sv_18",
+0,
+1628
+]
+]
+},
+{
+"unit_id": "test_sv_3",
+"fold": 5,
+"mentions": 31,
+"segments": [
+[
+"test_sv_3",
+0,
+2355
+]
+]
+},
+{
+"unit_id": "train_sv_11",
+"fold": 2,
+"mentions": 116,
+"segments": [
+[
+"train_sv_11",
+0,
+18661
+]
+]
+},
+{
+"unit_id": "train_sv_5",
+"fold": 3,
+"mentions": 91,
+"segments": [
+[
+"train_sv_5",
+0,
+13533
+]
+]
+},
+{
+"unit_id": "dev_sv_8",
+"fold": 4,
+"mentions": 18,
+"segments": [
+[
+"dev_sv_8",
+0,
+1871
+]
+]
+},
+{
+"unit_id": "test_sv_9",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"test_sv_9",
+0,
+1967
+]
+]
+},
+{
+"unit_id": "hidden_test_sv_14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_sv_14",
+0,
+331
+]
+]
+},
+{
+"unit_id": "train_sv_18",
+"fold": 5,
+"mentions": 53,
+"segments": [
+[
+"train_sv_18",
+0,
+13606
+]
+]
+},
+{
+"unit_id": "train_sv_19",
+"fold": 0,
+"mentions": 177,
+"segments": [
+[
+"train_sv_19",
+0,
+20353
+]
+]
+},
+{
+"unit_id": "dev_sv_9",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"dev_sv_9",
+0,
+1251
+]
+]
+},
+{
+"unit_id": "test_sv_17",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"test_sv_17",
+0,
+1110
+]
+]
+},
+{
+"unit_id": "dev_sv_4",
+"fold": 5,
+"mentions": 19,
+"segments": [
+[
+"dev_sv_4",
+0,
+2596
+]
+]
+},
+{
+"unit_id": "hidden_test_sv_20",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"hidden_test_sv_20",
+0,
+1805
+]
+]
+},
+{
+"unit_id": "train_sv_16",
+"fold": 4,
+"mentions": 63,
+"segments": [
+[
+"train_sv_16",
+0,
+9311
+]
+]
+},
+{
+"unit_id": "train_sv_8",
+"fold": 1,
+"mentions": 130,
+"segments": [
+[
+"train_sv_8",
+0,
+14822
+]
+]
+},
+{
+"unit_id": "dev_sv_17",
+"fold": 3,
+"mentions": 12,
+"segments": [
+[
+"dev_sv_17",
+0,
+1163
+]
+]
+},
+{
+"unit_id": "dev_sv_20",
+"fold": 1,
+"mentions": 12,
+"segments": [
+[
+"dev_sv_20",
+0,
+1484
+]
+]
+},
+{
+"unit_id": "train_sv_12",
+"fold": 4,
+"mentions": 29,
+"segments": [
+[
+"train_sv_12",
+0,
+6596
+]
+]
+}
+]
+}

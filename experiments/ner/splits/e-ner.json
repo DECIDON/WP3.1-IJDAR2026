@@ -1,0 +1,514 @@
+{
+"key": "e-ner",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "document (dépôt EDGAR)",
+"n_units_total": 52,
+"n_mentions_total": 1662,
+"n_units": 41,
+"n_mentions": 884,
+"mentions_per_fold": [
+147,
+148,
+148,
+148,
+147,
+146
+],
+"units": [
+{
+"unit_id": "edgar-10",
+"fold": 4,
+"mentions": 14,
+"segments": [
+[
+"edgar-10",
+0,
+14776
+]
+]
+},
+{
+"unit_id": "edgar-24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"edgar-24",
+0,
+39078
+]
+]
+},
+{
+"unit_id": "edgar-26",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"edgar-26",
+0,
+10256
+]
+]
+},
+{
+"unit_id": "edgar-04",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"edgar-04",
+0,
+21222
+]
+]
+},
+{
+"unit_id": "edgar-22",
+"fold": 4,
+"mentions": 51,
+"segments": [
+[
+"edgar-22",
+0,
+133068
+]
+]
+},
+{
+"unit_id": "edgar-39",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"edgar-39",
+0,
+4650
+]
+]
+},
+{
+"unit_id": "edgar-17",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"edgar-17",
+0,
+17489
+]
+]
+},
+{
+"unit_id": "edgar-40",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"edgar-40",
+0,
+10479
+]
+]
+},
+{
+"unit_id": "edgar-20",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"edgar-20",
+0,
+29811
+]
+]
+},
+{
+"unit_id": "edgar-12",
+"fold": 4,
+"mentions": 41,
+"segments": [
+[
+"edgar-12",
+0,
+54877
+]
+]
+},
+{
+"unit_id": "edgar-47",
+"fold": 5,
+"mentions": 49,
+"segments": [
+[
+"edgar-47",
+0,
+45968
+]
+]
+},
+{
+"unit_id": "edgar-25",
+"fold": 2,
+"mentions": 80,
+"segments": [
+[
+"edgar-25",
+0,
+52607
+]
+]
+},
+{
+"unit_id": "edgar-34",
+"fold": 1,
+"mentions": 22,
+"segments": [
+[
+"edgar-34",
+0,
+38983
+]
+]
+},
+{
+"unit_id": "edgar-30",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"edgar-30",
+0,
+59198
+]
+]
+},
+{
+"unit_id": "edgar-32",
+"fold": 5,
+"mentions": 20,
+"segments": [
+[
+"edgar-32",
+0,
+31578
+]
+]
+},
+{
+"unit_id": "edgar-44",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"edgar-44",
+0,
+5896
+]
+]
+},
+{
+"unit_id": "edgar-05",
+"fold": 5,
+"mentions": 14,
+"segments": [
+[
+"edgar-05",
+0,
+46046
+]
+]
+},
+{
+"unit_id": "edgar-29",
+"fold": 1,
+"mentions": 88,
+"segments": [
+[
+"edgar-29",
+0,
+28886
+]
+]
+},
+{
+"unit_id": "edgar-11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"edgar-11",
+0,
+4174
+]
+]
+},
+{
+"unit_id": "edgar-27",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"edgar-27",
+0,
+13981
+]
+]
+},
+{
+"unit_id": "edgar-37",
+"fold": 3,
+"mentions": 33,
+"segments": [
+[
+"edgar-37",
+0,
+12530
+]
+]
+},
+{
+"unit_id": "edgar-01",
+"fold": 0,
+"mentions": 92,
+"segments": [
+[
+"edgar-01",
+0,
+54195
+]
+]
+},
+{
+"unit_id": "edgar-45",
+"fold": 0,
+"mentions": 20,
+"segments": [
+[
+"edgar-45",
+0,
+18247
+]
+]
+},
+{
+"unit_id": "edgar-19",
+"fold": 2,
+"mentions": 15,
+"segments": [
+[
+"edgar-19",
+0,
+54589
+]
+]
+},
+{
+"unit_id": "edgar-43",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"edgar-43",
+0,
+47937
+]
+]
+},
+{
+"unit_id": "edgar-51",
+"fold": 3,
+"mentions": 18,
+"segments": [
+[
+"edgar-51",
+0,
+58805
+]
+]
+},
+{
+"unit_id": "edgar-36",
+"fold": 1,
+"mentions": 15,
+"segments": [
+[
+"edgar-36",
+0,
+16071
+]
+]
+},
+{
+"unit_id": "edgar-49",
+"fold": 4,
+"mentions": 19,
+"segments": [
+[
+"edgar-49",
+0,
+10754
+]
+]
+},
+{
+"unit_id": "edgar-31",
+"fold": 1,
+"mentions": 12,
+"segments": [
+[
+"edgar-31",
+0,
+6668
+]
+]
+},
+{
+"unit_id": "edgar-21",
+"fold": 0,
+"mentions": 14,
+"segments": [
+[
+"edgar-21",
+0,
+18071
+]
+]
+},
+{
+"unit_id": "edgar-23",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"edgar-23",
+0,
+4140
+]
+]
+},
+{
+"unit_id": "edgar-13",
+"fold": 3,
+"mentions": 65,
+"segments": [
+[
+"edgar-13",
+0,
+167719
+]
+]
+},
+{
+"unit_id": "edgar-52",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"edgar-52",
+0,
+16374
+]
+]
+},
+{
+"unit_id": "edgar-33",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"edgar-33",
+0,
+13093
+]
+]
+},
+{
+"unit_id": "edgar-46",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"edgar-46",
+0,
+15070
+]
+]
+},
+{
+"unit_id": "edgar-14",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"edgar-14",
+0,
+53425
+]
+]
+},
+{
+"unit_id": "edgar-50",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"edgar-50",
+0,
+10348
+]
+]
+},
+{
+"unit_id": "edgar-03",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"edgar-03",
+0,
+17027
+]
+]
+},
+{
+"unit_id": "edgar-28",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"edgar-28",
+0,
+13161
+]
+]
+},
+{
+"unit_id": "edgar-38",
+"fold": 5,
+"mentions": 42,
+"segments": [
+[
+"edgar-38",
+0,
+61893
+]
+]
+},
+{
+"unit_id": "edgar-06",
+"fold": 2,
+"mentions": 28,
+"segments": [
+[
+"edgar-06",
+0,
+40371
+]
+]
+}
+]
+}

@@ -1,0 +1,5986 @@
+{
+"key": "litbank",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "ligne (sous-unité de l'extrait)",
+"n_units_total": 8562,
+"n_mentions_total": 13585,
+"n_units": 497,
+"n_mentions": 867,
+"mentions_per_fold": [
+145,
+145,
+145,
+144,
+144,
+144
+],
+"units": [
+{
+"unit_id": "174_the_picture_of_dorian_gray#46",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+5209,
+5235
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+2637,
+2673
+]
+]
+},
+{
+"unit_id": "1342_pride_and_prejudice#38",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1342_pride_and_prejudice",
+2837,
+2873
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"155_the_moonstone",
+3944,
+4046
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#36",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+2119,
+2249
+]
+]
+},
+{
+"unit_id": "829_gullivers_travels_into_several_remote_nations_of_the_world#31",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"829_gullivers_travels_into_several_remote_nations_of_the_world",
+4714,
+4907
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#11",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"45_anne_of_green_gables",
+3167,
+3234
+]
+]
+},
+{
+"unit_id": "2489_moby_dick#47",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2489_moby_dick",
+4464,
+4550
+]
+]
+},
+{
+"unit_id": "105_persuasion#16",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"105_persuasion",
+4403,
+4740
+]
+]
+},
+{
+"unit_id": "12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock#95",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock",
+8519,
+8573
+]
+]
+},
+{
+"unit_id": "4300_ulysses#165",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"4300_ulysses",
+8958,
+8995
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#87",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+9318,
+9371
+]
+]
+},
+{
+"unit_id": "1206_the_flying_u_ranch#32",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1206_the_flying_u_ranch",
+5165,
+5339
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#85",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+8999,
+9077
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#7",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+663,
+704
+]
+]
+},
+{
+"unit_id": "432_the_ambassadors#21",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"432_the_ambassadors",
+5228,
+5247
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+3365,
+3408
+]
+]
+},
+{
+"unit_id": "1661_the_adventures_of_sherlock_holmes#96",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1661_the_adventures_of_sherlock_holmes",
+8691,
+8781
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#102",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+12830,
+13101
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#43",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+6429,
+6666
+]
+]
+},
+{
+"unit_id": "876_life_in_the_ironmills_or_the_korl_woman#31",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"876_life_in_the_ironmills_or_the_korl_woman",
+3440,
+3690
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#33",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+2924,
+3016
+]
+]
+},
+{
+"unit_id": "3457_the_man_of_the_forest#76",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"3457_the_man_of_the_forest",
+7078,
+7249
+]
+]
+},
+{
+"unit_id": "969_the_tenant_of_wildfell_hall#5",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"969_the_tenant_of_wildfell_hall",
+1119,
+1473
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#120",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+9119,
+9153
+]
+]
+},
+{
+"unit_id": "2489_moby_dick#11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"2489_moby_dick",
+1516,
+1558
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"215_the_call_of_the_wild",
+5736,
+5818
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#11",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"24_o_pioneers",
+1678,
+1772
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#6",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"215_the_call_of_the_wild",
+823,
+979
+]
+]
+},
+{
+"unit_id": "4300_ulysses#157",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"4300_ulysses",
+8541,
+8580
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#53",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+4492,
+4603
+]
+]
+},
+{
+"unit_id": "502_desert_gold#28",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"502_desert_gold",
+2774,
+2825
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#10",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+1371,
+1639
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#60",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"113_the_secret_garden",
+5680,
+5732
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#62",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"805_this_side_of_paradise",
+8713,
+8852
+]
+]
+},
+{
+"unit_id": "502_desert_gold#19",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"502_desert_gold",
+1956,
+2063
+]
+]
+},
+{
+"unit_id": "2775_the_good_soldier#83",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2775_the_good_soldier",
+9998,
+10035
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#61",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"45_anne_of_green_gables",
+9252,
+9358
+]
+]
+},
+{
+"unit_id": "2775_the_good_soldier#89",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"2775_the_good_soldier",
+10389,
+10409
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#89",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+6290,
+6318
+]
+]
+},
+{
+"unit_id": "1245_night_and_day#38",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"1245_night_and_day",
+6500,
+6603
+]
+]
+},
+{
+"unit_id": "514_little_women#22",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"514_little_women",
+2614,
+2695
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#39",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"155_the_moonstone",
+6117,
+6167
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#5",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"238_dear_enemy",
+379,
+526
+]
+]
+},
+{
+"unit_id": "2891_howards_end#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2891_howards_end",
+1020,
+1048
+]
+]
+},
+{
+"unit_id": "4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life#16",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life",
+2811,
+2916
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#85",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+6918,
+6965
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#81",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+6342,
+6421
+]
+]
+},
+{
+"unit_id": "766_david_copperfield#55",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"766_david_copperfield",
+9197,
+9228
+]
+]
+},
+{
+"unit_id": "62_a_princess_of_mars#18",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"62_a_princess_of_mars",
+3074,
+3203
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#24",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1155_the_secret_adversary",
+1454,
+1463
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#32",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+3030,
+3126
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#121",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+9419,
+9483
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#58",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"238_dear_enemy",
+5560,
+5678
+]
+]
+},
+{
+"unit_id": "1400_great_expectations#26",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1400_great_expectations",
+3194,
+3207
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#58",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+9619,
+9727
+]
+]
+},
+{
+"unit_id": "514_little_women#16",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"514_little_women",
+1824,
+1918
+]
+]
+},
+{
+"unit_id": "6593_history_of_tom_jones_a_foundling#19",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"6593_history_of_tom_jones_a_foundling",
+3998,
+4139
+]
+]
+},
+{
+"unit_id": "940_the_last_of_the_mohicans_a_narrative_of_1757#38",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"940_the_last_of_the_mohicans_a_narrative_of_1757",
+8253,
+8673
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#62",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+7719,
+7885
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"217_sons_and_lovers",
+5328,
+5367
+]
+]
+},
+{
+"unit_id": "271_black_beauty#63",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"271_black_beauty",
+6953,
+6993
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+6272,
+6288
+]
+]
+},
+{
+"unit_id": "543_main_street#13",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"543_main_street",
+1560,
+1719
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#63",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"113_the_secret_garden",
+6044,
+6155
+]
+]
+},
+{
+"unit_id": "6593_history_of_tom_jones_a_foundling#5",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"6593_history_of_tom_jones_a_foundling",
+758,
+821
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#103",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"351_of_human_bondage",
+5434,
+5561
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#19",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"44_the_song_of_the_lark",
+2091,
+2127
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+2365,
+2529
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#39",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"113_the_secret_garden",
+4357,
+4388
+]
+]
+},
+{
+"unit_id": "766_david_copperfield#18",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"766_david_copperfield",
+3521,
+3606
+]
+]
+},
+{
+"unit_id": "11231_bartleby_the_scrivener_a_story_of_wallstreet#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"11231_bartleby_the_scrivener_a_story_of_wallstreet",
+8862,
+9013
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#20",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+2327,
+2463
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#27",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"155_the_moonstone",
+4260,
+4381
+]
+]
+},
+{
+"unit_id": "11231_bartleby_the_scrivener_a_story_of_wallstreet#54",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"11231_bartleby_the_scrivener_a_story_of_wallstreet",
+8548,
+8645
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#31",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+1531,
+1703
+]
+]
+},
+{
+"unit_id": "1206_the_flying_u_ranch#38",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1206_the_flying_u_ranch",
+5906,
+6051
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#14",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+1355,
+1436
+]
+]
+},
+{
+"unit_id": "76_adventures_of_huckleberry_finn#48",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"76_adventures_of_huckleberry_finn",
+4888,
+4959
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#36",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+5742,
+6067
+]
+]
+},
+{
+"unit_id": "120_treasure_island#25",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"120_treasure_island",
+3541,
+3816
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"155_the_moonstone",
+8798,
+8849
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#91",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+7586,
+7653
+]
+]
+},
+{
+"unit_id": "32_herland#57",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"32_herland",
+5232,
+5257
+]
+]
+},
+{
+"unit_id": "1400_great_expectations#96",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1400_great_expectations",
+7946,
+7969
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#56",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"24_o_pioneers",
+5122,
+5448
+]
+]
+},
+{
+"unit_id": "345_dracula#49",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"345_dracula",
+6143,
+6348
+]
+]
+},
+{
+"unit_id": "110_tess_of_the_durbervilles_a_pure_woman#44",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"110_tess_of_the_durbervilles_a_pure_woman",
+4868,
+4985
+]
+]
+},
+{
+"unit_id": "120_treasure_island#24",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"120_treasure_island",
+3384,
+3540
+]
+]
+},
+{
+"unit_id": "41286_miss_marjoribanks#50",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"41286_miss_marjoribanks",
+11794,
+12083
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#35",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"44_the_song_of_the_lark",
+3448,
+3490
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#144",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1155_the_secret_adversary",
+8033,
+8076
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#14",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"711_allan_quatermain",
+2169,
+2298
+]
+]
+},
+{
+"unit_id": "62_a_princess_of_mars#7",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"62_a_princess_of_mars",
+1080,
+1197
+]
+]
+},
+{
+"unit_id": "78_tarzan_of_the_apes#47",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"78_tarzan_of_the_apes",
+8862,
+8937
+]
+]
+},
+{
+"unit_id": "60_the_scarlet_pimpernel#8",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"60_the_scarlet_pimpernel",
+1663,
+1878
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#91",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+9622,
+9668
+]
+]
+},
+{
+"unit_id": "4300_ulysses#163",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4300_ulysses",
+8883,
+8936
+]
+]
+},
+{
+"unit_id": "11231_bartleby_the_scrivener_a_story_of_wallstreet#71",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"11231_bartleby_the_scrivener_a_story_of_wallstreet",
+10626,
+10803
+]
+]
+},
+{
+"unit_id": "730_oliver_twist#41",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"730_oliver_twist",
+6296,
+6318
+]
+]
+},
+{
+"unit_id": "6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world#24",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world",
+4795,
+4889
+]
+]
+},
+{
+"unit_id": "209_the_turn_of_the_screw#52",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"209_the_turn_of_the_screw",
+4291,
+4362
+]
+]
+},
+{
+"unit_id": "6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world#28",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world",
+5382,
+5671
+]
+]
+},
+{
+"unit_id": "158_emma#69",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"158_emma",
+9095,
+9302
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#97",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+9978,
+10002
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+5299,
+5369
+]
+]
+},
+{
+"unit_id": "8867_the_magnificent_ambersons#31",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"8867_the_magnificent_ambersons",
+5737,
+6169
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"45_anne_of_green_gables",
+6117,
+6211
+]
+]
+},
+{
+"unit_id": "502_desert_gold#114",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"502_desert_gold",
+9770,
+9813
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#86",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"113_the_secret_garden",
+8148,
+8224
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#89",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"113_the_secret_garden",
+8401,
+8489
+]
+]
+},
+{
+"unit_id": "171_charlotte_temple#3",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"171_charlotte_temple",
+152,
+210
+]
+]
+},
+{
+"unit_id": "4300_ulysses#76",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"4300_ulysses",
+4300,
+4405
+]
+]
+},
+{
+"unit_id": "84_frankenstein_or_the_modern_prometheus#69",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"84_frankenstein_or_the_modern_prometheus",
+10667,
+10773
+]
+]
+},
+{
+"unit_id": "12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock#49",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock",
+4675,
+4738
+]
+]
+},
+{
+"unit_id": "12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock#104",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock",
+9188,
+9326
+]
+]
+},
+{
+"unit_id": "1023_bleak_house#25",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"1023_bleak_house",
+5525,
+5747
+]
+]
+},
+{
+"unit_id": "4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life",
+5640,
+5751
+]
+]
+},
+{
+"unit_id": "110_tess_of_the_durbervilles_a_pure_woman#22",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"110_tess_of_the_durbervilles_a_pure_woman",
+2265,
+2399
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#68",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"215_the_call_of_the_wild",
+8158,
+8277
+]
+]
+},
+{
+"unit_id": "2807_to_have_and_to_hold#69",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"2807_to_have_and_to_hold",
+7952,
+8049
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#47",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+6896,
+7021
+]
+]
+},
+{
+"unit_id": "78_tarzan_of_the_apes#30",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"78_tarzan_of_the_apes",
+6156,
+6313
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#80",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"711_allan_quatermain",
+6779,
+6794
+]
+]
+},
+{
+"unit_id": "4300_ulysses#143",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4300_ulysses",
+7947,
+7960
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1155_the_secret_adversary",
+443,
+489
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#45",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+4064,
+4084
+]
+]
+},
+{
+"unit_id": "4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life#12",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4051_lady_bridget_in_the_nevernever_land_a_story_of_australian_life",
+2175,
+2279
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#165",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1155_the_secret_adversary",
+9527,
+9668
+]
+]
+},
+{
+"unit_id": "158_emma#15",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"158_emma",
+2276,
+2564
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#79",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+6414,
+6441
+]
+]
+},
+{
+"unit_id": "145_middlemarch#24",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"145_middlemarch",
+5540,
+5774
+]
+]
+},
+{
+"unit_id": "2891_howards_end#16",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"2891_howards_end",
+1164,
+1278
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+7193,
+7225
+]
+]
+},
+{
+"unit_id": "1206_the_flying_u_ranch#4",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"1206_the_flying_u_ranch",
+687,
+890
+]
+]
+},
+{
+"unit_id": "1661_the_adventures_of_sherlock_holmes#63",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1661_the_adventures_of_sherlock_holmes",
+6517,
+6529
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#96",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+8007,
+8055
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#51",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+5461,
+5566
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#62",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"219_heart_of_darkness",
+8046,
+8266
+]
+]
+},
+{
+"unit_id": "543_main_street#84",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"543_main_street",
+8708,
+8793
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#42",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+6236,
+6422
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#24",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+2825,
+2877
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#49",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+7149,
+7176
+]
+]
+},
+{
+"unit_id": "2166_king_solomons_mines#63",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2166_king_solomons_mines",
+7321,
+7556
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#68",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+7067,
+7137
+]
+]
+},
+{
+"unit_id": "4300_ulysses#27",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4300_ulysses",
+1945,
+1966
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#5",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+1523,
+2037
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#10",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+1393,
+1521
+]
+]
+},
+{
+"unit_id": "2814_dubliners#36",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"2814_dubliners",
+2799,
+2820
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#99",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+12678,
+12722
+]
+]
+},
+{
+"unit_id": "1245_night_and_day#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1245_night_and_day",
+145,
+410
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+4182,
+4280
+]
+]
+},
+{
+"unit_id": "543_main_street#65",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"543_main_street",
+7643,
+7658
+]
+]
+},
+{
+"unit_id": "12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock#1",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock",
+201,
+542
+]
+]
+},
+{
+"unit_id": "32_herland#104",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"32_herland",
+8521,
+8619
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#31",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+3429,
+3456
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#148",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"351_of_human_bondage",
+8392,
+8429
+]
+]
+},
+{
+"unit_id": "1661_the_adventures_of_sherlock_holmes#29",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1661_the_adventures_of_sherlock_holmes",
+3803,
+3891
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#9",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+1030,
+1170
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#28",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+2490,
+2601
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#20",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+2660,
+2806
+]
+]
+},
+{
+"unit_id": "76_adventures_of_huckleberry_finn#3",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"76_adventures_of_huckleberry_finn",
+212,
+280
+]
+]
+},
+{
+"unit_id": "541_the_age_of_innocence#46",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"541_the_age_of_innocence",
+9744,
+9926
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#32",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+3457,
+3572
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#4",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+290,
+459
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#47",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+7985,
+8123
+]
+]
+},
+{
+"unit_id": "41_the_legend_of_sleepy_hollow#11",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"41_the_legend_of_sleepy_hollow",
+2013,
+2323
+]
+]
+},
+{
+"unit_id": "36_the_war_of_the_worlds#52",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"36_the_war_of_the_worlds",
+8222,
+8316
+]
+]
+},
+{
+"unit_id": "599_vanity_fair#1",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"599_vanity_fair",
+371,
+677
+]
+]
+},
+{
+"unit_id": "876_life_in_the_ironmills_or_the_korl_woman#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"876_life_in_the_ironmills_or_the_korl_woman",
+394,
+471
+]
+]
+},
+{
+"unit_id": "2166_king_solomons_mines#26",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2166_king_solomons_mines",
+2933,
+2971
+]
+]
+},
+{
+"unit_id": "876_life_in_the_ironmills_or_the_korl_woman#51",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"876_life_in_the_ironmills_or_the_korl_woman",
+5469,
+5489
+]
+]
+},
+{
+"unit_id": "76_adventures_of_huckleberry_finn#74",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"76_adventures_of_huckleberry_finn",
+7529,
+7563
+]
+]
+},
+{
+"unit_id": "502_desert_gold#53",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"502_desert_gold",
+4764,
+4793
+]
+]
+},
+{
+"unit_id": "2166_king_solomons_mines#33",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"2166_king_solomons_mines",
+3554,
+3588
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#104",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+9074,
+9190
+]
+]
+},
+{
+"unit_id": "84_frankenstein_or_the_modern_prometheus#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"84_frankenstein_or_the_modern_prometheus",
+706,
+787
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#22",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+4446,
+4552
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#66",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"219_heart_of_darkness",
+8643,
+8686
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#38",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+3939,
+4060
+]
+]
+},
+{
+"unit_id": "3457_the_man_of_the_forest#70",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"3457_the_man_of_the_forest",
+6628,
+6704
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"351_of_human_bondage",
+32,
+114
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#21",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+1811,
+1893
+]
+]
+},
+{
+"unit_id": "120_treasure_island#2",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"120_treasure_island",
+924,
+1157
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#37",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+6725,
+6835
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#56",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+6962,
+7039
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#29",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"711_allan_quatermain",
+3756,
+3800
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#28",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+3650,
+3899
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#39",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"24_o_pioneers",
+4354,
+4367
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#78",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"238_dear_enemy",
+7503,
+7759
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#3",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+637,
+693
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#98",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+8647,
+8681
+]
+]
+},
+{
+"unit_id": "766_david_copperfield#45",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"766_david_copperfield",
+8326,
+8471
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#22",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"351_of_human_bondage",
+1345,
+1393
+]
+]
+},
+{
+"unit_id": "1260_jane_eyre_an_autobiography#61",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1260_jane_eyre_an_autobiography",
+9251,
+9382
+]
+]
+},
+{
+"unit_id": "2891_howards_end#77",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2891_howards_end",
+6197,
+6224
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#38",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+6836,
+6894
+]
+]
+},
+{
+"unit_id": "932_the_fall_of_the_house_of_usher#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"932_the_fall_of_the_house_of_usher",
+8363,
+8410
+]
+]
+},
+{
+"unit_id": "1661_the_adventures_of_sherlock_holmes#44",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1661_the_adventures_of_sherlock_holmes",
+4693,
+4825
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#18",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+2582,
+2840
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#82",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"711_allan_quatermain",
+6802,
+6874
+]
+]
+},
+{
+"unit_id": "543_main_street#75",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"543_main_street",
+8232,
+8275
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#78",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+10010,
+10148
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#62",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+8338,
+8429
+]
+]
+},
+{
+"unit_id": "502_desert_gold#108",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"502_desert_gold",
+9364,
+9391
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#108",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+8505,
+8515
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#37",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"219_heart_of_darkness",
+5022,
+5096
+]
+]
+},
+{
+"unit_id": "120_treasure_island#41",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"120_treasure_island",
+6389,
+6634
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+482,
+596
+]
+]
+},
+{
+"unit_id": "829_gullivers_travels_into_several_remote_nations_of_the_world#77",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"829_gullivers_travels_into_several_remote_nations_of_the_world",
+15160,
+15681
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#90",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+7755,
+7844
+]
+]
+},
+{
+"unit_id": "2891_howards_end#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2891_howards_end",
+1098,
+1163
+]
+]
+},
+{
+"unit_id": "158_emma#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"158_emma",
+5117,
+5140
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#28",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"44_the_song_of_the_lark",
+2941,
+3031
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#68",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"1155_the_secret_adversary",
+3185,
+3306
+]
+]
+},
+{
+"unit_id": "1342_pride_and_prejudice#92",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1342_pride_and_prejudice",
+7225,
+7322
+]
+]
+},
+{
+"unit_id": "730_oliver_twist#53",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"730_oliver_twist",
+8323,
+8751
+]
+]
+},
+{
+"unit_id": "84_frankenstein_or_the_modern_prometheus#14",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"84_frankenstein_or_the_modern_prometheus",
+2208,
+2610
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#87",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+7038,
+7223
+]
+]
+},
+{
+"unit_id": "105_persuasion#40",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"105_persuasion",
+9550,
+9961
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#5",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+396,
+527
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#71",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+6322,
+6450
+]
+]
+},
+{
+"unit_id": "4276_north_and_south#48",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4276_north_and_south",
+7460,
+7475
+]
+]
+},
+{
+"unit_id": "110_tess_of_the_durbervilles_a_pure_woman#42",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"110_tess_of_the_durbervilles_a_pure_woman",
+4808,
+4849
+]
+]
+},
+{
+"unit_id": "969_the_tenant_of_wildfell_hall#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"969_the_tenant_of_wildfell_hall",
+0,
+58
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#8",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"45_anne_of_green_gables",
+2468,
+2666
+]
+]
+},
+{
+"unit_id": "110_tess_of_the_durbervilles_a_pure_woman#20",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"110_tess_of_the_durbervilles_a_pure_woman",
+2068,
+2134
+]
+]
+},
+{
+"unit_id": "2807_to_have_and_to_hold#75",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2807_to_have_and_to_hold",
+8561,
+8633
+]
+]
+},
+{
+"unit_id": "1327_elizabeth_and_her_german_garden#28",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"1327_elizabeth_and_her_german_garden",
+5593,
+6442
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#55",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+4288,
+4480
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#126",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+9765,
+9825
+]
+]
+},
+{
+"unit_id": "550_silas_marner#4",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"550_silas_marner",
+991,
+1190
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#98",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+8219,
+8320
+]
+]
+},
+{
+"unit_id": "541_the_age_of_innocence#38",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"541_the_age_of_innocence",
+8046,
+8464
+]
+]
+},
+{
+"unit_id": "345_dracula#24",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"345_dracula",
+2921,
+3020
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#58",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+4986,
+5012
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#48",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"434_the_circular_staircase",
+7171,
+7219
+]
+]
+},
+{
+"unit_id": "41286_miss_marjoribanks#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"41286_miss_marjoribanks",
+9595,
+9733
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#90",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+5890,
+5931
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#10",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"805_this_side_of_paradise",
+1800,
+2177
+]
+]
+},
+{
+"unit_id": "940_the_last_of_the_mohicans_a_narrative_of_1757#28",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"940_the_last_of_the_mohicans_a_narrative_of_1757",
+6244,
+6399
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#86",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+6966,
+7037
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#125",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+9344,
+9413
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#77",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+6513,
+6555
+]
+]
+},
+{
+"unit_id": "502_desert_gold#20",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"502_desert_gold",
+2064,
+2165
+]
+]
+},
+{
+"unit_id": "3457_the_man_of_the_forest#23",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"3457_the_man_of_the_forest",
+2878,
+2983
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#59",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+7866,
+8132
+]
+]
+},
+{
+"unit_id": "2891_howards_end#86",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"2891_howards_end",
+6717,
+6778
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#42",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"155_the_moonstone",
+6406,
+6575
+]
+]
+},
+{
+"unit_id": "208_daisy_miller_a_study#96",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"208_daisy_miller_a_study",
+9562,
+9624
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#68",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"805_this_side_of_paradise",
+9626,
+9837
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#170",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1155_the_secret_adversary",
+9825,
+9856
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#9",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"219_heart_of_darkness",
+1069,
+1142
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#7",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"155_the_moonstone",
+1068,
+1182
+]
+]
+},
+{
+"unit_id": "2891_howards_end#8",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"2891_howards_end",
+536,
+601
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#111",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+9909,
+10139
+]
+]
+},
+{
+"unit_id": "4276_north_and_south#55",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"4276_north_and_south",
+8360,
+8614
+]
+]
+},
+{
+"unit_id": "2814_dubliners#80",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2814_dubliners",
+6971,
+7171
+]
+]
+},
+{
+"unit_id": "1342_pride_and_prejudice#7",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1342_pride_and_prejudice",
+719,
+747
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#31",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"24_o_pioneers",
+3918,
+3985
+]
+]
+},
+{
+"unit_id": "932_the_fall_of_the_house_of_usher#36",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"932_the_fall_of_the_house_of_usher",
+7382,
+7465
+]
+]
+},
+{
+"unit_id": "543_main_street#66",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"543_main_street",
+7659,
+7739
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#80",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+5532,
+5592
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2005_piccadilly_jim",
+6303,
+6324
+]
+]
+},
+{
+"unit_id": "367_country_of_the_pointed_firs#2",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"367_country_of_the_pointed_firs",
+149,
+413
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#78",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"215_the_call_of_the_wild",
+9032,
+9131
+]
+]
+},
+{
+"unit_id": "345_dracula#89",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"345_dracula",
+9972,
+10123
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#104",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"351_of_human_bondage",
+5562,
+5641
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#29",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+3399,
+3408
+]
+]
+},
+{
+"unit_id": "32_herland#25",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"32_herland",
+2159,
+2370
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#18",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"45_anne_of_green_gables",
+4191,
+4259
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#5",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+716,
+780
+]
+]
+},
+{
+"unit_id": "4300_ulysses#74",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"4300_ulysses",
+4210,
+4260
+]
+]
+},
+{
+"unit_id": "766_david_copperfield#26",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"766_david_copperfield",
+5304,
+5378
+]
+]
+},
+{
+"unit_id": "2814_dubliners#21",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"2814_dubliners",
+1874,
+1909
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#29",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+3043,
+3093
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#27",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"711_allan_quatermain",
+3640,
+3672
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#97",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+7883,
+7910
+]
+]
+},
+{
+"unit_id": "74_the_adventures_of_tom_sawyer#70",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"74_the_adventures_of_tom_sawyer",
+5433,
+5474
+]
+]
+},
+{
+"unit_id": "8867_the_magnificent_ambersons#24",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"8867_the_magnificent_ambersons",
+4761,
+4950
+]
+]
+},
+{
+"unit_id": "11231_bartleby_the_scrivener_a_story_of_wallstreet#55",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"11231_bartleby_the_scrivener_a_story_of_wallstreet",
+8646,
+8699
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#87",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+9135,
+9152
+]
+]
+},
+{
+"unit_id": "171_charlotte_temple#28",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"171_charlotte_temple",
+4571,
+4855
+]
+]
+},
+{
+"unit_id": "105_persuasion#41",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"105_persuasion",
+9962,
+10130
+]
+]
+},
+{
+"unit_id": "6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world#9",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world",
+1341,
+1823
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#11",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+946,
+1039
+]
+]
+},
+{
+"unit_id": "6593_history_of_tom_jones_a_foundling#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"6593_history_of_tom_jones_a_foundling",
+5774,
+6131
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#79",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+5487,
+5538
+]
+]
+},
+{
+"unit_id": "3268_the_mysteries_of_udolpho#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"3268_the_mysteries_of_udolpho",
+9863,
+9941
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#37",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+6665,
+6928
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#28",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"238_dear_enemy",
+2822,
+2951
+]
+]
+},
+{
+"unit_id": "158_emma#38",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"158_emma",
+6617,
+6861
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"219_heart_of_darkness",
+7623,
+7656
+]
+]
+},
+{
+"unit_id": "11_alices_adventures_in_wonderland#53",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"11_alices_adventures_in_wonderland",
+6064,
+6292
+]
+]
+},
+{
+"unit_id": "2641_a_room_with_a_view#116",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2641_a_room_with_a_view",
+8679,
+8762
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#46",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"805_this_side_of_paradise",
+6091,
+6353
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#43",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+5452,
+5513
+]
+]
+},
+{
+"unit_id": "2166_king_solomons_mines#57",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2166_king_solomons_mines",
+6468,
+6549
+]
+]
+},
+{
+"unit_id": "969_the_tenant_of_wildfell_hall#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"969_the_tenant_of_wildfell_hall",
+5670,
+5678
+]
+]
+},
+{
+"unit_id": "271_black_beauty#27",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"271_black_beauty",
+3194,
+3476
+]
+]
+},
+{
+"unit_id": "78_tarzan_of_the_apes#45",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"78_tarzan_of_the_apes",
+8590,
+8682
+]
+]
+},
+{
+"unit_id": "41286_miss_marjoribanks#7",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"41286_miss_marjoribanks",
+1595,
+1708
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#9",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+828,
+924
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#20",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1155_the_secret_adversary",
+1260,
+1323
+]
+]
+},
+{
+"unit_id": "1400_great_expectations#64",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1400_great_expectations",
+5461,
+5576
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#24",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+1428,
+1501
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#11",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+1640,
+1853
+]
+]
+},
+{
+"unit_id": "208_daisy_miller_a_study#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"208_daisy_miller_a_study",
+4810,
+4901
+]
+]
+},
+{
+"unit_id": "541_the_age_of_innocence#18",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"541_the_age_of_innocence",
+4256,
+4403
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#38",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+2505,
+2545
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"24_o_pioneers",
+4450,
+4477
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#56",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"711_allan_quatermain",
+5525,
+5643
+]
+]
+},
+{
+"unit_id": "2775_the_good_soldier#54",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"2775_the_good_soldier",
+7375,
+7451
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#51",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"215_the_call_of_the_wild",
+6742,
+6806
+]
+]
+},
+{
+"unit_id": "2489_moby_dick#1",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"2489_moby_dick",
+37,
+253
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#66",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"351_of_human_bondage",
+3448,
+3497
+]
+]
+},
+{
+"unit_id": "32_herland#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"32_herland",
+2887,
+2932
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#9",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"805_this_side_of_paradise",
+1665,
+1799
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#39",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"351_of_human_bondage",
+2246,
+2338
+]
+]
+},
+{
+"unit_id": "521_the_life_and_adventures_of_robinson_crusoe#21",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"521_the_life_and_adventures_of_robinson_crusoe",
+8780,
+9152
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#54",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+4770,
+4808
+]
+]
+},
+{
+"unit_id": "3268_the_mysteries_of_udolpho#40",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"3268_the_mysteries_of_udolpho",
+9541,
+9656
+]
+]
+},
+{
+"unit_id": "2641_a_room_with_a_view#114",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2641_a_room_with_a_view",
+8609,
+8632
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#93",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+6079,
+6130
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#48",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"238_dear_enemy",
+4340,
+4590
+]
+]
+},
+{
+"unit_id": "2489_moby_dick#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2489_moby_dick",
+3689,
+3727
+]
+]
+},
+{
+"unit_id": "1155_the_secret_adversary#146",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"1155_the_secret_adversary",
+8105,
+8259
+]
+]
+},
+{
+"unit_id": "24_o_pioneers#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"24_o_pioneers",
+3986,
+4048
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#60",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"434_the_circular_staircase",
+8869,
+8927
+]
+]
+},
+{
+"unit_id": "77_the_house_of_the_seven_gables#18",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"77_the_house_of_the_seven_gables",
+4327,
+4624
+]
+]
+},
+{
+"unit_id": "1400_great_expectations#6",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1400_great_expectations",
+897,
+1372
+]
+]
+},
+{
+"unit_id": "16357_mary_a_fiction#22",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"16357_mary_a_fiction",
+4001,
+4139
+]
+]
+},
+{
+"unit_id": "8867_the_magnificent_ambersons#12",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"8867_the_magnificent_ambersons",
+2322,
+2562
+]
+]
+},
+{
+"unit_id": "2814_dubliners#90",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"2814_dubliners",
+8727,
+8799
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#118",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+9053,
+9078
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#104",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+8473,
+8487
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#57",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+4731,
+4833
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#105",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+9302,
+9322
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#60",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+9883,
+9917
+]
+]
+},
+{
+"unit_id": "74_the_adventures_of_tom_sawyer#82",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"74_the_adventures_of_tom_sawyer",
+6024,
+6031
+]
+]
+},
+{
+"unit_id": "209_the_turn_of_the_screw#31",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"209_the_turn_of_the_screw",
+3048,
+3107
+]
+]
+},
+{
+"unit_id": "4300_ulysses#166",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"4300_ulysses",
+8996,
+9061
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#70",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+9678,
+9725
+]
+]
+},
+{
+"unit_id": "2489_moby_dick#28",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"2489_moby_dick",
+2587,
+2637
+]
+]
+},
+{
+"unit_id": "550_silas_marner#14",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"550_silas_marner",
+4350,
+4576
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#53",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+4128,
+4206
+]
+]
+},
+{
+"unit_id": "16357_mary_a_fiction#29",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"16357_mary_a_fiction",
+4893,
+4985
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#36",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+3201,
+3244
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#58",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+5752,
+5788
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#12",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+633,
+697
+]
+]
+},
+{
+"unit_id": "3268_the_mysteries_of_udolpho#45",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"3268_the_mysteries_of_udolpho",
+10395,
+10513
+]
+]
+},
+{
+"unit_id": "2775_the_good_soldier#30",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"2775_the_good_soldier",
+4125,
+4332
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#26",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"434_the_circular_staircase",
+4018,
+4185
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+410,
+448
+]
+]
+},
+{
+"unit_id": "271_black_beauty#23",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"271_black_beauty",
+2783,
+2853
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#81",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"711_allan_quatermain",
+6795,
+6801
+]
+]
+},
+{
+"unit_id": "521_the_life_and_adventures_of_robinson_crusoe#11",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"521_the_life_and_adventures_of_robinson_crusoe",
+2940,
+3327
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#83",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+6686,
+6731
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#118",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+8412,
+8429
+]
+]
+},
+{
+"unit_id": "472_the_house_behind_the_cedars#39",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"472_the_house_behind_the_cedars",
+6341,
+6457
+]
+]
+},
+{
+"unit_id": "768_wuthering_heights#37",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"768_wuthering_heights",
+5893,
+6176
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#74",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+9171,
+9274
+]
+]
+},
+{
+"unit_id": "550_silas_marner#0",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"550_silas_marner",
+0,
+413
+]
+]
+},
+{
+"unit_id": "829_gullivers_travels_into_several_remote_nations_of_the_world#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"829_gullivers_travels_into_several_remote_nations_of_the_world",
+132,
+176
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#55",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+6608,
+6637
+]
+]
+},
+{
+"unit_id": "9830_the_beautiful_and_damned#37",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"9830_the_beautiful_and_damned",
+6796,
+7035
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#11",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"113_the_secret_garden",
+1957,
+2011
+]
+]
+},
+{
+"unit_id": "78_tarzan_of_the_apes#22",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"78_tarzan_of_the_apes",
+4585,
+5048
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#105",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"217_sons_and_lovers",
+9410,
+9436
+]
+]
+},
+{
+"unit_id": "27_far_from_the_madding_crowd#46",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"27_far_from_the_madding_crowd",
+7967,
+8185
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+4358,
+4419
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#23",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"434_the_circular_staircase",
+3405,
+3680
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#8",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+966,
+1029
+]
+]
+},
+{
+"unit_id": "84_frankenstein_or_the_modern_prometheus#21",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"84_frankenstein_or_the_modern_prometheus",
+3593,
+3722
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+527,
+552
+]
+]
+},
+{
+"unit_id": "6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world#16",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world",
+3329,
+3418
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+2988,
+3106
+]
+]
+},
+{
+"unit_id": "15265_the_quest_of_the_silver_fleece_a_novel#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"15265_the_quest_of_the_silver_fleece_a_novel",
+83,
+266
+]
+]
+},
+{
+"unit_id": "4300_ulysses#58",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"4300_ulysses",
+3378,
+3397
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#111",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"351_of_human_bondage",
+6076,
+6123
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+4246,
+4299
+]
+]
+},
+{
+"unit_id": "4276_north_and_south#11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"4276_north_and_south",
+2092,
+2226
+]
+]
+},
+{
+"unit_id": "4300_ulysses#41",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"4300_ulysses",
+2739,
+2784
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#49",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+3389,
+3550
+]
+]
+},
+{
+"unit_id": "711_allan_quatermain#12",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"711_allan_quatermain",
+1855,
+2036
+]
+]
+},
+{
+"unit_id": "1245_night_and_day#26",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"1245_night_and_day",
+4198,
+4424
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#9",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+1094,
+1392
+]
+]
+},
+{
+"unit_id": "41286_miss_marjoribanks#44",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"41286_miss_marjoribanks",
+10276,
+10531
+]
+]
+},
+{
+"unit_id": "1206_the_flying_u_ranch#12",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1206_the_flying_u_ranch",
+2178,
+2400
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"238_dear_enemy",
+1201,
+1297
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#60",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+6336,
+6452
+]
+]
+},
+{
+"unit_id": "12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock#71",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"12677_personality_plus_some_experiences_of_emma_mcchesney_and_her_son_jock",
+6857,
+6999
+]
+]
+},
+{
+"unit_id": "514_little_women#12",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"514_little_women",
+1421,
+1529
+]
+]
+},
+{
+"unit_id": "32_herland#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"32_herland",
+4049,
+4097
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#24",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"217_sons_and_lovers",
+3860,
+3997
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#84",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+9009,
+9096
+]
+]
+},
+{
+"unit_id": "160_the_awakening_and_selected_short_stories#96",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"160_the_awakening_and_selected_short_stories",
+8061,
+8149
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#39",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"2005_piccadilly_jim",
+5007,
+5024
+]
+]
+},
+{
+"unit_id": "4217_a_portrait_of_the_artist_as_a_young_man#114",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4217_a_portrait_of_the_artist_as_a_young_man",
+8117,
+8204
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#55",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"155_the_moonstone",
+8227,
+8323
+]
+]
+},
+{
+"unit_id": "1695_the_man_who_was_thursday_a_nightmare#71",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1695_the_man_who_was_thursday_a_nightmare",
+7945,
+8003
+]
+]
+},
+{
+"unit_id": "514_little_women#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"514_little_women",
+3757,
+3780
+]
+]
+},
+{
+"unit_id": "521_the_life_and_adventures_of_robinson_crusoe#19",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"521_the_life_and_adventures_of_robinson_crusoe",
+7186,
+8075
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#1",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+12,
+30
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#65",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+7505,
+7651
+]
+]
+},
+{
+"unit_id": "1400_great_expectations#100",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1400_great_expectations",
+8432,
+8571
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#115",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+8851,
+8933
+]
+]
+},
+{
+"unit_id": "158_emma#1",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"158_emma",
+266,
+458
+]
+]
+},
+{
+"unit_id": "1327_elizabeth_and_her_german_garden#25",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"1327_elizabeth_and_her_german_garden",
+4955,
+5178
+]
+]
+},
+{
+"unit_id": "2095_clotelle_a_tale_of_the_southern_states#11",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"2095_clotelle_a_tale_of_the_southern_states",
+1522,
+1712
+]
+]
+},
+{
+"unit_id": "768_wuthering_heights#36",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"768_wuthering_heights",
+5624,
+5892
+]
+]
+},
+{
+"unit_id": "77_the_house_of_the_seven_gables#36",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"77_the_house_of_the_seven_gables",
+8595,
+8769
+]
+]
+},
+{
+"unit_id": "766_david_copperfield#30",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"766_david_copperfield",
+5932,
+5975
+]
+]
+},
+{
+"unit_id": "768_wuthering_heights#45",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"768_wuthering_heights",
+7138,
+7407
+]
+]
+},
+{
+"unit_id": "829_gullivers_travels_into_several_remote_nations_of_the_world#11",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"829_gullivers_travels_into_several_remote_nations_of_the_world",
+1281,
+1544
+]
+]
+},
+{
+"unit_id": "541_the_age_of_innocence#44",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"541_the_age_of_innocence",
+9571,
+9655
+]
+]
+},
+{
+"unit_id": "2814_dubliners#44",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"2814_dubliners",
+3225,
+3269
+]
+]
+},
+{
+"unit_id": "3457_the_man_of_the_forest#7",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"3457_the_man_of_the_forest",
+1212,
+1313
+]
+]
+},
+{
+"unit_id": "521_the_life_and_adventures_of_robinson_crusoe#24",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"521_the_life_and_adventures_of_robinson_crusoe",
+10165,
+10267
+]
+]
+},
+{
+"unit_id": "41_the_legend_of_sleepy_hollow#0",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"41_the_legend_of_sleepy_hollow",
+0,
+59
+]
+]
+},
+{
+"unit_id": "1327_elizabeth_and_her_german_garden#33",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1327_elizabeth_and_her_german_garden",
+7222,
+7321
+]
+]
+},
+{
+"unit_id": "2891_howards_end#57",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"2891_howards_end",
+4392,
+4420
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#99",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+8025,
+8293
+]
+]
+},
+{
+"unit_id": "238_dear_enemy#90",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"238_dear_enemy",
+9093,
+9142
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+4679,
+4785
+]
+]
+},
+{
+"unit_id": "3457_the_man_of_the_forest#60",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"3457_the_man_of_the_forest",
+5523,
+5591
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#87",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+7605,
+7884
+]
+]
+},
+{
+"unit_id": "9830_the_beautiful_and_damned#25",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"9830_the_beautiful_and_damned",
+4630,
+4862
+]
+]
+},
+{
+"unit_id": "45_anne_of_green_gables#26",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"45_anne_of_green_gables",
+5300,
+5399
+]
+]
+},
+{
+"unit_id": "5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks#6",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"5348_ragged_dick_or_street_life_in_new_york_with_the_bootblacks",
+392,
+411
+]
+]
+},
+{
+"unit_id": "1064_the_masque_of_the_red_death#50",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1064_the_masque_of_the_red_death",
+6156,
+6237
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#39",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"434_the_circular_staircase",
+5594,
+5741
+]
+]
+},
+{
+"unit_id": "60_the_scarlet_pimpernel#0",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"60_the_scarlet_pimpernel",
+0,
+245
+]
+]
+},
+{
+"unit_id": "208_daisy_miller_a_study#89",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"208_daisy_miller_a_study",
+8687,
+8769
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#108",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+9357,
+9447
+]
+]
+},
+{
+"unit_id": "6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"6053_evelina_or_the_history_of_a_young_ladys_entrance_into_the_world",
+619,
+680
+]
+]
+},
+{
+"unit_id": "2084_the_way_of_all_flesh#16",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"2084_the_way_of_all_flesh",
+2312,
+2458
+]
+]
+},
+{
+"unit_id": "730_oliver_twist#16",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"730_oliver_twist",
+4075,
+4113
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#107",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2005_piccadilly_jim",
+8182,
+8250
+]
+]
+},
+{
+"unit_id": "543_main_street#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"543_main_street",
+841,
+946
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#40",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"44_the_song_of_the_lark",
+3789,
+3870
+]
+]
+},
+{
+"unit_id": "73_the_red_badge_of_courage_an_episode_of_the_american_civil_war#78",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"73_the_red_badge_of_courage_an_episode_of_the_american_civil_war",
+6172,
+6208
+]
+]
+},
+{
+"unit_id": "155_the_moonstone#66",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"155_the_moonstone",
+9296,
+9475
+]
+]
+},
+{
+"unit_id": "521_the_life_and_adventures_of_robinson_crusoe#2",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"521_the_life_and_adventures_of_robinson_crusoe",
+614,
+838
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#57",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"217_sons_and_lovers",
+6183,
+6229
+]
+]
+},
+{
+"unit_id": "876_life_in_the_ironmills_or_the_korl_woman#58",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"876_life_in_the_ironmills_or_the_korl_woman",
+6231,
+6366
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#13",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"217_sons_and_lovers",
+2132,
+2363
+]
+]
+},
+{
+"unit_id": "120_treasure_island#52",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"120_treasure_island",
+8362,
+8485
+]
+]
+},
+{
+"unit_id": "974_the_secret_agent_a_simple_tale#49",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"974_the_secret_agent_a_simple_tale",
+6762,
+7058
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#19",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"2005_piccadilly_jim",
+2003,
+2335
+]
+]
+},
+{
+"unit_id": "829_gullivers_travels_into_several_remote_nations_of_the_world#41",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"829_gullivers_travels_into_several_remote_nations_of_the_world",
+6447,
+6552
+]
+]
+},
+{
+"unit_id": "2852_the_hound_of_the_baskervilles#68",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"2852_the_hound_of_the_baskervilles",
+5803,
+5953
+]
+]
+},
+{
+"unit_id": "76_adventures_of_huckleberry_finn#94",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"76_adventures_of_huckleberry_finn",
+9030,
+9075
+]
+]
+},
+{
+"unit_id": "768_wuthering_heights#63",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"768_wuthering_heights",
+9982,
+10087
+]
+]
+},
+{
+"unit_id": "2641_a_room_with_a_view#6",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"2641_a_room_with_a_view",
+418,
+785
+]
+]
+},
+{
+"unit_id": "174_the_picture_of_dorian_gray#11",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"174_the_picture_of_dorian_gray",
+2441,
+2483
+]
+]
+},
+{
+"unit_id": "110_tess_of_the_durbervilles_a_pure_woman#10",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"110_tess_of_the_durbervilles_a_pure_woman",
+1132,
+1178
+]
+]
+},
+{
+"unit_id": "876_life_in_the_ironmills_or_the_korl_woman#18",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"876_life_in_the_ironmills_or_the_korl_woman",
+1578,
+1727
+]
+]
+},
+{
+"unit_id": "95_the_prisoner_of_zenda#17",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"95_the_prisoner_of_zenda",
+1568,
+1655
+]
+]
+},
+{
+"unit_id": "76_adventures_of_huckleberry_finn#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"76_adventures_of_huckleberry_finn",
+3429,
+3486
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#122",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"2005_piccadilly_jim",
+9662,
+9830
+]
+]
+},
+{
+"unit_id": "1342_pride_and_prejudice#56",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1342_pride_and_prejudice",
+4388,
+4432
+]
+]
+},
+{
+"unit_id": "209_the_turn_of_the_screw#83",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"209_the_turn_of_the_screw",
+5971,
+5997
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#93",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"2005_piccadilly_jim",
+7709,
+7744
+]
+]
+},
+{
+"unit_id": "472_the_house_behind_the_cedars#65",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"472_the_house_behind_the_cedars",
+9899,
+10014
+]
+]
+},
+{
+"unit_id": "543_main_street#72",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"543_main_street",
+8067,
+8171
+]
+]
+},
+{
+"unit_id": "2005_piccadilly_jim#37",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"2005_piccadilly_jim",
+4761,
+4950
+]
+]
+},
+{
+"unit_id": "472_the_house_behind_the_cedars#52",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"472_the_house_behind_the_cedars",
+7635,
+7675
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#73",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"351_of_human_bondage",
+3838,
+4049
+]
+]
+},
+{
+"unit_id": "969_the_tenant_of_wildfell_hall#39",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"969_the_tenant_of_wildfell_hall",
+6286,
+6309
+]
+]
+},
+{
+"unit_id": "44_the_song_of_the_lark#18",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"44_the_song_of_the_lark",
+1962,
+2090
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#3",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"219_heart_of_darkness",
+355,
+609
+]
+]
+},
+{
+"unit_id": "233_sister_carrie_a_novel#7",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"233_sister_carrie_a_novel",
+1044,
+1132
+]
+]
+},
+{
+"unit_id": "120_treasure_island#58",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"120_treasure_island",
+9503,
+9844
+]
+]
+},
+{
+"unit_id": "5230_the_invisible_man_a_grotesque_romance#56",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"5230_the_invisible_man_a_grotesque_romance",
+5921,
+6001
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#72",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+5677,
+5725
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#51",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"351_of_human_bondage",
+2818,
+2871
+]
+]
+},
+{
+"unit_id": "2641_a_room_with_a_view#44",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"2641_a_room_with_a_view",
+3223,
+3314
+]
+]
+},
+{
+"unit_id": "78_tarzan_of_the_apes#33",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"78_tarzan_of_the_apes",
+6491,
+6592
+]
+]
+},
+{
+"unit_id": "434_the_circular_staircase#9",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"434_the_circular_staircase",
+1425,
+1678
+]
+]
+},
+{
+"unit_id": "472_the_house_behind_the_cedars#63",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"472_the_house_behind_the_cedars",
+9497,
+9726
+]
+]
+},
+{
+"unit_id": "1661_the_adventures_of_sherlock_holmes#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"1661_the_adventures_of_sherlock_holmes",
+274,
+383
+]
+]
+},
+{
+"unit_id": "4300_ulysses#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"4300_ulysses",
+2472,
+2514
+]
+]
+},
+{
+"unit_id": "18581_adrift_in_new_york_tom_and_florence_braving_the_world#67",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"18581_adrift_in_new_york_tom_and_florence_braving_the_world",
+5282,
+5338
+]
+]
+},
+{
+"unit_id": "599_vanity_fair#39",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"599_vanity_fair",
+5859,
+5962
+]
+]
+},
+{
+"unit_id": "367_country_of_the_pointed_firs#13",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"367_country_of_the_pointed_firs",
+2602,
+2761
+]
+]
+},
+{
+"unit_id": "16357_mary_a_fiction#5",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"16357_mary_a_fiction",
+1172,
+1578
+]
+]
+},
+{
+"unit_id": "113_the_secret_garden#105",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"113_the_secret_garden",
+9355,
+9434
+]
+]
+},
+{
+"unit_id": "219_heart_of_darkness#34",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"219_heart_of_darkness",
+4449,
+4722
+]
+]
+},
+{
+"unit_id": "969_the_tenant_of_wildfell_hall#55",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"969_the_tenant_of_wildfell_hall",
+6838,
+6895
+]
+]
+},
+{
+"unit_id": "932_the_fall_of_the_house_of_usher#60",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"932_the_fall_of_the_house_of_usher",
+10832,
+10956
+]
+]
+},
+{
+"unit_id": "502_desert_gold#66",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"502_desert_gold",
+5893,
+5935
+]
+]
+},
+{
+"unit_id": "432_the_ambassadors#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"432_the_ambassadors",
+9607,
+9841
+]
+]
+},
+{
+"unit_id": "805_this_side_of_paradise#2",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"805_this_side_of_paradise",
+187,
+513
+]
+]
+},
+{
+"unit_id": "217_sons_and_lovers#2",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"217_sons_and_lovers",
+200,
+276
+]
+]
+},
+{
+"unit_id": "351_of_human_bondage#153",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"351_of_human_bondage",
+8787,
+8890
+]
+]
+},
+{
+"unit_id": "215_the_call_of_the_wild#33",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"215_the_call_of_the_wild",
+4795,
+4889
+]
+]
+}
+]
+}
