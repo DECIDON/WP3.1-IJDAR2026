@@ -1,0 +1,1270 @@
+{
+"key": "ajmc-fr",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 104,
+"n_mentions_total": 866,
+"n_units": 104,
+"n_mentions": 866,
+"mentions_per_fold": [
+145,
+145,
+144,
+144,
+144,
+144
+],
+"units": [
+{
+"unit_id": "lestragdiesdeso00tourgoog_0116",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0116",
+0,
+1899
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0093",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0093",
+0,
+1655
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0064",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0064",
+0,
+1394
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0057",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0057",
+0,
+1778
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0151",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0151",
+0,
+928
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0109",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0109",
+0,
+1436
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0017",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0017",
+0,
+2093
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0124",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0124",
+0,
+914
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0143",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0143",
+0,
+1153
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0156",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0156",
+0,
+312
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0131",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0131",
+0,
+955
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0128",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0128",
+0,
+846
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0059",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0059",
+0,
+1035
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0092",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0092",
+0,
+1503
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0118",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0118",
+0,
+1864
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0117",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0117",
+0,
+966
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0103",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0103",
+0,
+830
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0107",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0107",
+0,
+2064
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0084",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0084",
+0,
+1565
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0081",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0081",
+0,
+885
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0119",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0119",
+0,
+1674
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0111",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0111",
+0,
+1803
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0123",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0123",
+0,
+540
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0076",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0076",
+0,
+1491
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0110",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0110",
+0,
+1090
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0055",
+"fold": 2,
+"mentions": 17,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0055",
+0,
+1913
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0070",
+"fold": 1,
+"mentions": 18,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0070",
+0,
+2072
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0114",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0114",
+0,
+604
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0083",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0083",
+0,
+1384
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0136",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0136",
+0,
+1037
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0088",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0088",
+0,
+1553
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0095",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0095",
+0,
+1435
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0134",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0134",
+0,
+1727
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0149",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0149",
+0,
+1176
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0101",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0101",
+0,
+939
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0113",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0113",
+0,
+1633
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0096",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0096",
+0,
+1250
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0100",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0100",
+0,
+714
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0098",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0098",
+0,
+1643
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0155",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0155",
+0,
+1036
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0106",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0106",
+0,
+1255
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0141",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0141",
+0,
+1385
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0061",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0061",
+0,
+1802
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0087",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0087",
+0,
+1202
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0073",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0073",
+0,
+1388
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0090",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0090",
+0,
+2193
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0091",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0091",
+0,
+2660
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0067",
+"fold": 3,
+"mentions": 17,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0067",
+0,
+1957
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0130",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0130",
+0,
+1412
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0023",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0023",
+0,
+2126
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0074",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0074",
+0,
+1547
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0025",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0025",
+0,
+2148
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0085",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0085",
+0,
+1240
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0137",
+"fold": 2,
+"mentions": 14,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0137",
+0,
+1396
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0097",
+"fold": 1,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0097",
+0,
+2105
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0018",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0018",
+0,
+2129
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0102",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0102",
+0,
+2091
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0065",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0065",
+0,
+716
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0089",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0089",
+0,
+1215
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0112",
+"fold": 0,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0112",
+0,
+1824
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0132",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0132",
+0,
+796
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0071",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0071",
+0,
+1201
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0024",
+"fold": 4,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0024",
+0,
+2120
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0099",
+"fold": 2,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0099",
+0,
+1801
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0146",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0146",
+0,
+1578
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0148",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0148",
+0,
+1209
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0121",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0121",
+0,
+1025
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0138",
+"fold": 5,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0138",
+0,
+1396
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0068",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0068",
+0,
+1627
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0125",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0125",
+0,
+1072
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0094",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0094",
+0,
+1657
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0142",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0142",
+0,
+1318
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0069",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0069",
+0,
+1391
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0014",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0014",
+0,
+1530
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0152",
+"fold": 3,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0152",
+0,
+1517
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0108",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0108",
+0,
+1011
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0150",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0150",
+0,
+608
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0104",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0104",
+0,
+997
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0145",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0145",
+0,
+1266
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0075",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0075",
+0,
+2011
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0122",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0122",
+0,
+1060
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0140",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0140",
+0,
+1587
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0129",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0129",
+0,
+1648
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0115",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0115",
+0,
+1523
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0080",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0080",
+0,
+1853
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0077",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0077",
+0,
+1745
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0144",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0144",
+0,
+1436
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0154",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0154",
+0,
+1040
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0021",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0021",
+0,
+1931
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0105",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0105",
+0,
+1439
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0126",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0126",
+0,
+1801
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0060",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0060",
+0,
+1716
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0120",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0120",
+0,
+943
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0139",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0139",
+0,
+1929
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0062",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0062",
+0,
+1403
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0153",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0153",
+0,
+618
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0066",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0066",
+0,
+2034
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0078",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0078",
+0,
+1246
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0082",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0082",
+0,
+1506
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0086",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0086",
+0,
+1526
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0147",
+"fold": 0,
+"mentions": 21,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0147",
+0,
+1979
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0019",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0019",
+0,
+2158
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0063",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0063",
+0,
+1019
+]
+]
+},
+{
+"unit_id": "lestragdiesdeso00tourgoog_0133",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"lestragdiesdeso00tourgoog_0133",
+0,
+1771
+]
+]
+}
+]
+}

@@ -1,0 +1,358 @@
+{
+"key": "hipe2020-fr",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "article",
+"n_units_total": 244,
+"n_mentions_total": 8977,
+"n_units": 28,
+"n_mentions": 885,
+"mentions_per_fold": [
+146,
+145,
+150,
+148,
+148,
+148
+],
+"units": [
+{
+"unit_id": "EXP-1948-09-11-a-i0104",
+"fold": 4,
+"mentions": 54,
+"segments": [
+[
+"EXP-1948-09-11-a-i0104",
+0,
+4073
+]
+]
+},
+{
+"unit_id": "GDL-1838-05-22-a-i0005",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"GDL-1838-05-22-a-i0005",
+0,
+976
+]
+]
+},
+{
+"unit_id": "EXP-1908-01-21-a-i0053",
+"fold": 5,
+"mentions": 47,
+"segments": [
+[
+"EXP-1908-01-21-a-i0053",
+0,
+4740
+]
+]
+},
+{
+"unit_id": "GDL-1798-07-18-a-i0001",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"GDL-1798-07-18-a-i0001",
+0,
+1736
+]
+]
+},
+{
+"unit_id": "GDL-1828-08-08-a-i0012",
+"fold": 4,
+"mentions": 43,
+"segments": [
+[
+"GDL-1828-08-08-a-i0012",
+0,
+3875
+]
+]
+},
+{
+"unit_id": "GDL-1968-03-02-a-i0316",
+"fold": 2,
+"mentions": 41,
+"segments": [
+[
+"GDL-1968-03-02-a-i0316",
+0,
+4436
+]
+]
+},
+{
+"unit_id": "GDL-1978-06-23-a-i0197",
+"fold": 4,
+"mentions": 27,
+"segments": [
+[
+"GDL-1978-06-23-a-i0197",
+0,
+2907
+]
+]
+},
+{
+"unit_id": "GDL-1868-10-16-a-i0010",
+"fold": 0,
+"mentions": 83,
+"segments": [
+[
+"GDL-1868-10-16-a-i0010",
+0,
+11449
+]
+]
+},
+{
+"unit_id": "GDL-1948-10-19-a-i0040",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"GDL-1948-10-19-a-i0040",
+0,
+3204
+]
+]
+},
+{
+"unit_id": "EXP-1948-08-25-a-i0008",
+"fold": 1,
+"mentions": 23,
+"segments": [
+[
+"EXP-1948-08-25-a-i0008",
+0,
+1830
+]
+]
+},
+{
+"unit_id": "GDL-1858-08-10-a-i0010",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"GDL-1858-08-10-a-i0010",
+0,
+3003
+]
+]
+},
+{
+"unit_id": "GDL-1958-07-29-a-i0071",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"GDL-1958-07-29-a-i0071",
+0,
+2583
+]
+]
+},
+{
+"unit_id": "EXP-1928-08-15-a-i0065",
+"fold": 5,
+"mentions": 34,
+"segments": [
+[
+"EXP-1928-08-15-a-i0065",
+0,
+4028
+]
+]
+},
+{
+"unit_id": "EXP-2008-04-19-a-i0202",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"EXP-2008-04-19-a-i0202",
+0,
+3888
+]
+]
+},
+{
+"unit_id": "GDL-1838-10-19-a-i0004",
+"fold": 3,
+"mentions": 26,
+"segments": [
+[
+"GDL-1838-10-19-a-i0004",
+0,
+3038
+]
+]
+},
+{
+"unit_id": "GDL-1888-03-07-a-i0002",
+"fold": 0,
+"mentions": 22,
+"segments": [
+[
+"GDL-1888-03-07-a-i0002",
+0,
+7462
+]
+]
+},
+{
+"unit_id": "EXP-1918-09-10-a-i0035",
+"fold": 5,
+"mentions": 44,
+"segments": [
+[
+"EXP-1918-09-10-a-i0035",
+0,
+9290
+]
+]
+},
+{
+"unit_id": "GDL-1858-02-24-a-i0002",
+"fold": 1,
+"mentions": 39,
+"segments": [
+[
+"GDL-1858-02-24-a-i0002",
+0,
+4779
+]
+]
+},
+{
+"unit_id": "GDL-1958-01-04-a-i0112",
+"fold": 3,
+"mentions": 55,
+"segments": [
+[
+"GDL-1958-01-04-a-i0112",
+0,
+9064
+]
+]
+},
+{
+"unit_id": "GDL-1978-04-01-a-i0088",
+"fold": 3,
+"mentions": 43,
+"segments": [
+[
+"GDL-1978-04-01-a-i0088",
+0,
+3346
+]
+]
+},
+{
+"unit_id": "GDL-1908-06-09-a-i0014",
+"fold": 2,
+"mentions": 24,
+"segments": [
+[
+"GDL-1908-06-09-a-i0014",
+0,
+3842
+]
+]
+},
+{
+"unit_id": "GDL-1938-04-18-a-i0003",
+"fold": 3,
+"mentions": 19,
+"segments": [
+[
+"GDL-1938-04-18-a-i0003",
+0,
+7114
+]
+]
+},
+{
+"unit_id": "EXP-1988-04-05-a-i0346",
+"fold": 1,
+"mentions": 83,
+"segments": [
+[
+"EXP-1988-04-05-a-i0346",
+0,
+3028
+]
+]
+},
+{
+"unit_id": "GDL-1848-10-03-a-i0001",
+"fold": 2,
+"mentions": 67,
+"segments": [
+[
+"GDL-1848-10-03-a-i0001",
+0,
+8370
+]
+]
+},
+{
+"unit_id": "IMP-1888-02-16-a-i0015",
+"fold": 4,
+"mentions": 16,
+"segments": [
+[
+"IMP-1888-02-16-a-i0015",
+0,
+959
+]
+]
+},
+{
+"unit_id": "GDL-1798-06-09-a-i0010",
+"fold": 1,
+"mentions": 0,
+"segments": [
+[
+"GDL-1798-06-09-a-i0010",
+0,
+1255
+]
+]
+},
+{
+"unit_id": "GDL-1948-12-11-a-i0039",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"GDL-1948-12-11-a-i0039",
+0,
+1798
+]
+]
+},
+{
+"unit_id": "GDL-1968-10-12-a-i0299",
+"fold": 0,
+"mentions": 40,
+"segments": [
+[
+"GDL-1968-10-12-a-i0299",
+0,
+3386
+]
+]
+}
+]
+}

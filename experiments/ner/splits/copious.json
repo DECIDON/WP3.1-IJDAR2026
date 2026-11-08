@@ -1,0 +1,538 @@
+{
+"key": "copious",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 668,
+"n_mentions_total": 12839,
+"n_units": 43,
+"n_mentions": 907,
+"mentions_per_fold": [
+153,
+151,
+152,
+151,
+150,
+150
+],
+"units": [
+{
+"unit_id": "34014422",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"34014422",
+0,
+2776
+]
+]
+},
+{
+"unit_id": "25985_English_20192_4463901_1954",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"25985_English_20192_4463901_1954",
+0,
+997
+]
+]
+},
+{
+"unit_id": "97630_English_31189393_2006",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"97630_English_31189393_2006",
+0,
+3223
+]
+]
+},
+{
+"unit_id": "114137_English_37096887_unknown",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"114137_English_37096887_unknown",
+0,
+2729
+]
+]
+},
+{
+"unit_id": "43218_English_11739617_1968",
+"fold": 1,
+"mentions": 18,
+"segments": [
+[
+"43218_English_11739617_1968",
+0,
+4101
+]
+]
+},
+{
+"unit_id": "28549914",
+"fold": 1,
+"mentions": 25,
+"segments": [
+[
+"28549914",
+0,
+3370
+]
+]
+},
+{
+"unit_id": "42271_English_11364556_1904-1905.",
+"fold": 4,
+"mentions": 17,
+"segments": [
+[
+"42271_English_11364556_1904-1905.",
+0,
+1584
+]
+]
+},
+{
+"unit_id": "33193_English_70792_7857624_1930",
+"fold": 2,
+"mentions": 56,
+"segments": [
+[
+"33193_English_70792_7857624_1930",
+0,
+2866
+]
+]
+},
+{
+"unit_id": "104421_English_33451120_1922-26.",
+"fold": 3,
+"mentions": 28,
+"segments": [
+[
+"104421_English_33451120_1922-26.",
+0,
+2639
+]
+]
+},
+{
+"unit_id": "61098_English_18402221_unknown",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"61098_English_18402221_unknown",
+0,
+1868
+]
+]
+},
+{
+"unit_id": "22416_English_75050_3163450_1963",
+"fold": 3,
+"mentions": 53,
+"segments": [
+[
+"22416_English_75050_3163450_1963",
+0,
+2769
+]
+]
+},
+{
+"unit_id": "42439016",
+"fold": 3,
+"mentions": 17,
+"segments": [
+[
+"42439016",
+0,
+3094
+]
+]
+},
+{
+"unit_id": "129644_English_41507317_unknown",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"129644_English_41507317_unknown",
+0,
+1659
+]
+]
+},
+{
+"unit_id": "111121_English_36025386_1908",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"111121_English_36025386_1908",
+0,
+2659
+]
+]
+},
+{
+"unit_id": "109841_English_35421964_1906",
+"fold": 4,
+"mentions": 0,
+"segments": [
+[
+"109841_English_35421964_1906",
+0,
+1122
+]
+]
+},
+{
+"unit_id": "107004_English_78294_34354188_1912",
+"fold": 5,
+"mentions": 19,
+"segments": [
+[
+"107004_English_78294_34354188_1912",
+0,
+1861
+]
+]
+},
+{
+"unit_id": "35334_English_8689451_unknown",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"35334_English_8689451_unknown",
+0,
+2052
+]
+]
+},
+{
+"unit_id": "20768_English_37060_2750903_1961",
+"fold": 1,
+"mentions": 12,
+"segments": [
+[
+"20768_English_37060_2750903_1961",
+0,
+3109
+]
+]
+},
+{
+"unit_id": "119097_English_38679276_2008",
+"fold": 1,
+"mentions": 15,
+"segments": [
+[
+"119097_English_38679276_2008",
+0,
+4673
+]
+]
+},
+{
+"unit_id": "1124_English_14568_701782_1919",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"1124_English_14568_701782_1919",
+0,
+2309
+]
+]
+},
+{
+"unit_id": "37458453",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"37458453",
+0,
+1853
+]
+]
+},
+{
+"unit_id": "53426_English_51790_15659624_1997",
+"fold": 4,
+"mentions": 25,
+"segments": [
+[
+"53426_English_51790_15659624_1997",
+0,
+4408
+]
+]
+},
+{
+"unit_id": "127504_English_78466_41009322_1999",
+"fold": 1,
+"mentions": 74,
+"segments": [
+[
+"127504_English_78466_41009322_1999",
+0,
+3825
+]
+]
+},
+{
+"unit_id": "28549918",
+"fold": 2,
+"mentions": 28,
+"segments": [
+[
+"28549918",
+0,
+3284
+]
+]
+},
+{
+"unit_id": "43585703",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"43585703",
+0,
+2960
+]
+]
+},
+{
+"unit_id": "34179041",
+"fold": 5,
+"mentions": 28,
+"segments": [
+[
+"34179041",
+0,
+4050
+]
+]
+},
+{
+"unit_id": "104421_English_33451510_1922-26.",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"104421_English_33451510_1922-26.",
+0,
+2480
+]
+]
+},
+{
+"unit_id": "43586352",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"43586352",
+0,
+3544
+]
+]
+},
+{
+"unit_id": "119833_English_38846520_unknown",
+"fold": 3,
+"mentions": 24,
+"segments": [
+[
+"119833_English_38846520_unknown",
+0,
+1915
+]
+]
+},
+{
+"unit_id": "119833_English_38846502_unknown",
+"fold": 5,
+"mentions": 30,
+"segments": [
+[
+"119833_English_38846502_unknown",
+0,
+1905
+]
+]
+},
+{
+"unit_id": "32667_English_7667058_1919",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"32667_English_7667058_1919",
+0,
+1693
+]
+]
+},
+{
+"unit_id": "53426_English_51790_15659619_1997",
+"fold": 2,
+"mentions": 24,
+"segments": [
+[
+"53426_English_51790_15659619_1997",
+0,
+2924
+]
+]
+},
+{
+"unit_id": "41827929",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"41827929",
+0,
+2576
+]
+]
+},
+{
+"unit_id": "116013_English_37697386_unknown",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"116013_English_37697386_unknown",
+0,
+546
+]
+]
+},
+{
+"unit_id": "788386",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"788386",
+0,
+1510
+]
+]
+},
+{
+"unit_id": "42152651",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"42152651",
+0,
+2025
+]
+]
+},
+{
+"unit_id": "33502487",
+"fold": 4,
+"mentions": 49,
+"segments": [
+[
+"33502487",
+0,
+2949
+]
+]
+},
+{
+"unit_id": "694861",
+"fold": 5,
+"mentions": 38,
+"segments": [
+[
+"694861",
+0,
+2457
+]
+]
+},
+{
+"unit_id": "34179046",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"34179046",
+0,
+3704
+]
+]
+},
+{
+"unit_id": "11482451",
+"fold": 4,
+"mentions": 29,
+"segments": [
+[
+"11482451",
+0,
+3142
+]
+]
+},
+{
+"unit_id": "21188_English_36829_2821697_1993",
+"fold": 2,
+"mentions": 17,
+"segments": [
+[
+"21188_English_36829_2821697_1993",
+0,
+895
+]
+]
+},
+{
+"unit_id": "38985_English_10226363_1951",
+"fold": 5,
+"mentions": 17,
+"segments": [
+[
+"38985_English_10226363_1951",
+0,
+2052
+]
+]
+},
+{
+"unit_id": "694858",
+"fold": 0,
+"mentions": 130,
+"segments": [
+[
+"694858",
+0,
+2551
+]
+]
+}
+]
+}

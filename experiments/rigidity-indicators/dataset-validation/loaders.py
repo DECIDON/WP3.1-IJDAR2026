@@ -5,6 +5,12 @@ Chaque document devient un dict {dataset, doc_id, lang, text, entities}, où ent
 quand la source les fournit. Les fichiers bruts sont dans data/ (voir data/README.md).
 
 Usage : python loaders.py  -> écrit data/pivot/<dataset>.jsonl et affiche un résumé.
+
+NER : ce pivot garde les étiquettes d'origine et sert aux indicateurs de rigidité. Le pivot de référence pour les
+expériences NER (PER / LOC selon la Matrice des entités du Sheet, unités de tirage, sous-datasets équilibrés) est
+celui de experiments/ner/ (normalize.py, pivot.py, sample.py ; voir experiments/ner/README.md). Les deux
+diffèrent par endroits (sources SoDUCo plate vs imbriquée, Bâle TEI imbriqué, Old Bailey depuis nov. 1834,
+DECIDON présent, NEM.fr en un seul jeu).
 """
 import csv
 import glob

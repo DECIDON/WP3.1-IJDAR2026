@@ -1,0 +1,490 @@
+{
+"key": "hipe2020-de",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "article",
+"n_units_total": 185,
+"n_mentions_total": 4981,
+"n_units": 39,
+"n_mentions": 867,
+"mentions_per_fold": [
+145,
+144,
+144,
+145,
+145,
+144
+],
+"units": [
+{
+"unit_id": "NZZ-1798-02-17-a-p0001",
+"fold": 2,
+"mentions": 14,
+"segments": [
+[
+"NZZ-1798-02-17-a-p0001",
+0,
+3396
+]
+]
+},
+{
+"unit_id": "NZZ-1808-12-23-a-p0012",
+"fold": 5,
+"mentions": 13,
+"segments": [
+[
+"NZZ-1808-12-23-a-p0012",
+0,
+1224
+]
+]
+},
+{
+"unit_id": "luxwort-1848-08-13-a-i0003",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"luxwort-1848-08-13-a-i0003",
+0,
+3531
+]
+]
+},
+{
+"unit_id": "luxwort-1938-06-15-a-i0017",
+"fold": 3,
+"mentions": 17,
+"segments": [
+[
+"luxwort-1938-06-15-a-i0017",
+0,
+5111
+]
+]
+},
+{
+"unit_id": "NZZ-1908-06-12-d-p0001",
+"fold": 5,
+"mentions": 31,
+"segments": [
+[
+"NZZ-1908-06-12-d-p0001",
+0,
+4017
+]
+]
+},
+{
+"unit_id": "NZZ-1848-10-21-a-p0003",
+"fold": 2,
+"mentions": 27,
+"segments": [
+[
+"NZZ-1848-10-21-a-p0003",
+0,
+4478
+]
+]
+},
+{
+"unit_id": "luxwort-1948-11-11-a-i0044",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"luxwort-1948-11-11-a-i0044",
+0,
+886
+]
+]
+},
+{
+"unit_id": "NZZ-1878-10-16-a-p0011",
+"fold": 1,
+"mentions": 70,
+"segments": [
+[
+"NZZ-1878-10-16-a-p0011",
+0,
+7470
+]
+]
+},
+{
+"unit_id": "luxwort-1858-02-07-a-i0009",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"luxwort-1858-02-07-a-i0009",
+0,
+1023
+]
+]
+},
+{
+"unit_id": "NZZ-1808-10-18-a-p0011",
+"fold": 3,
+"mentions": 29,
+"segments": [
+[
+"NZZ-1808-10-18-a-p0011",
+0,
+3100
+]
+]
+},
+{
+"unit_id": "luxwort-1938-05-06-a-i0025",
+"fold": 3,
+"mentions": 21,
+"segments": [
+[
+"luxwort-1938-05-06-a-i0025",
+0,
+1758
+]
+]
+},
+{
+"unit_id": "NZZ-1818-01-06-a-p0001",
+"fold": 5,
+"mentions": 19,
+"segments": [
+[
+"NZZ-1818-01-06-a-p0001",
+0,
+1753
+]
+]
+},
+{
+"unit_id": "tageblatt-1928-05-09-a-i0020",
+"fold": 4,
+"mentions": 19,
+"segments": [
+[
+"tageblatt-1928-05-09-a-i0020",
+0,
+3394
+]
+]
+},
+{
+"unit_id": "NZZ-1848-01-05-a-p0002",
+"fold": 0,
+"mentions": 17,
+"segments": [
+[
+"NZZ-1848-01-05-a-p0002",
+0,
+3057
+]
+]
+},
+{
+"unit_id": "NZZ-1828-05-21-a-p0002",
+"fold": 0,
+"mentions": 21,
+"segments": [
+[
+"NZZ-1828-05-21-a-p0002",
+0,
+4154
+]
+]
+},
+{
+"unit_id": "luxwort-1858-12-25-a-i0001",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"luxwort-1858-12-25-a-i0001",
+0,
+1054
+]
+]
+},
+{
+"unit_id": "luxwort-1878-01-09-a-i0002",
+"fold": 1,
+"mentions": 0,
+"segments": [
+[
+"luxwort-1878-01-09-a-i0002",
+0,
+1063
+]
+]
+},
+{
+"unit_id": "tageblatt-1928-02-15-a-i0018",
+"fold": 2,
+"mentions": 21,
+"segments": [
+[
+"tageblatt-1928-02-15-a-i0018",
+0,
+2168
+]
+]
+},
+{
+"unit_id": "NZZ-1798-12-12-a-p0003",
+"fold": 1,
+"mentions": 26,
+"segments": [
+[
+"NZZ-1798-12-12-a-p0003",
+0,
+4179
+]
+]
+},
+{
+"unit_id": "NZZ-1888-12-08-a-p0001",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"NZZ-1888-12-08-a-p0001",
+0,
+4623
+]
+]
+},
+{
+"unit_id": "luxwort-1938-01-29-a-i0025",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"luxwort-1938-01-29-a-i0025",
+0,
+1214
+]
+]
+},
+{
+"unit_id": "luxwort-1938-10-03-a-i0001",
+"fold": 1,
+"mentions": 20,
+"segments": [
+[
+"luxwort-1938-10-03-a-i0001",
+0,
+4769
+]
+]
+},
+{
+"unit_id": "NZZ-1818-05-26-a-p0003",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"NZZ-1818-05-26-a-p0003",
+0,
+1882
+]
+]
+},
+{
+"unit_id": "NZZ-1838-02-26-a-p0002",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"NZZ-1838-02-26-a-p0002",
+0,
+4079
+]
+]
+},
+{
+"unit_id": "NZZ-1948-05-03-a-p0001",
+"fold": 4,
+"mentions": 34,
+"segments": [
+[
+"NZZ-1948-05-03-a-p0001",
+0,
+8951
+]
+]
+},
+{
+"unit_id": "NZZ-1948-12-31-a-p0002",
+"fold": 4,
+"mentions": 46,
+"segments": [
+[
+"NZZ-1948-12-31-a-p0002",
+0,
+7943
+]
+]
+},
+{
+"unit_id": "NZZ-1928-06-05-a-p0002",
+"fold": 5,
+"mentions": 22,
+"segments": [
+[
+"NZZ-1928-06-05-a-p0002",
+0,
+3099
+]
+]
+},
+{
+"unit_id": "NZZ-1838-11-23-a-p0002",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"NZZ-1838-11-23-a-p0002",
+0,
+8140
+]
+]
+},
+{
+"unit_id": "NZZ-1878-02-06-b-p0001",
+"fold": 3,
+"mentions": 60,
+"segments": [
+[
+"NZZ-1878-02-06-b-p0001",
+0,
+5950
+]
+]
+},
+{
+"unit_id": "tageblatt-1948-12-17-a-i0051",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"tageblatt-1948-12-17-a-i0051",
+0,
+885
+]
+]
+},
+{
+"unit_id": "NZZ-1838-04-23-a-p0001",
+"fold": 3,
+"mentions": 12,
+"segments": [
+[
+"NZZ-1838-04-23-a-p0001",
+0,
+2106
+]
+]
+},
+{
+"unit_id": "NZZ-1878-08-23-b-p0001",
+"fold": 0,
+"mentions": 92,
+"segments": [
+[
+"NZZ-1878-08-23-b-p0001",
+0,
+9588
+]
+]
+},
+{
+"unit_id": "luxwort-1938-06-29-a-i0018",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"luxwort-1938-06-29-a-i0018",
+0,
+842
+]
+]
+},
+{
+"unit_id": "NZZ-1888-09-11-d-p0008",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"NZZ-1888-09-11-d-p0008",
+0,
+4370
+]
+]
+},
+{
+"unit_id": "NZZ-1948-07-18-a-p0001",
+"fold": 2,
+"mentions": 66,
+"segments": [
+[
+"NZZ-1948-07-18-a-p0001",
+0,
+9917
+]
+]
+},
+{
+"unit_id": "luxwort-1938-07-15-a-i0015",
+"fold": 2,
+"mentions": 12,
+"segments": [
+[
+"luxwort-1938-07-15-a-i0015",
+0,
+1037
+]
+]
+},
+{
+"unit_id": "NZZ-1868-02-17-a-p0001",
+"fold": 5,
+"mentions": 46,
+"segments": [
+[
+"NZZ-1868-02-17-a-p0001",
+0,
+5849
+]
+]
+},
+{
+"unit_id": "NZZ-1898-05-02-d-p0001",
+"fold": 4,
+"mentions": 22,
+"segments": [
+[
+"NZZ-1898-05-02-d-p0001",
+0,
+7379
+]
+]
+},
+{
+"unit_id": "NZZ-1848-09-11-a-p0003",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"NZZ-1848-09-11-a-p0003",
+0,
+2375
+]
+]
+}
+]
+}

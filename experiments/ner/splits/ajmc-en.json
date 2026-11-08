@@ -1,0 +1,1059 @@
+{
+"key": "ajmc-en",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 86,
+"n_mentions_total": 891,
+"n_units": 86,
+"n_mentions": 891,
+"mentions_per_fold": [
+149,
+149,
+148,
+148,
+149,
+148
+],
+"units": [
+{
+"unit_id": "cu31924087948174_0119",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0119",
+0,
+2309
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0108",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"cu31924087948174_0108",
+0,
+1937
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0071",
+"fold": 1,
+"mentions": 28,
+"segments": [
+[
+"cu31924087948174_0071",
+0,
+2385
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0060",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0060",
+0,
+2463
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0081",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"cu31924087948174_0081",
+0,
+1601
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0150",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"cu31924087948174_0150",
+0,
+2130
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0291",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0291",
+0,
+2183
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0048",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0048",
+0,
+2150
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0050",
+"fold": 4,
+"mentions": 13,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0050",
+0,
+2285
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0056",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0056",
+0,
+1985
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0101",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0101",
+0,
+2160
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0116",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"cu31924087948174_0116",
+0,
+1685
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0049",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"cu31924087948174_0049",
+0,
+1838
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0096",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0096",
+0,
+3048
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0044",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"cu31924087948174_0044",
+0,
+2381
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0063",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"cu31924087948174_0063",
+0,
+1803
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0099",
+"fold": 3,
+"mentions": 25,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0099",
+0,
+3010
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0288",
+"fold": 2,
+"mentions": 19,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0288",
+0,
+1708
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0035",
+"fold": 4,
+"mentions": 24,
+"segments": [
+[
+"cu31924087948174_0035",
+0,
+2945
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0039",
+"fold": 5,
+"mentions": 22,
+"segments": [
+[
+"cu31924087948174_0039",
+0,
+2963
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0014",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0014",
+0,
+1493
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0066",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"cu31924087948174_0066",
+0,
+1488
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0145",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0145",
+0,
+2103
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0082",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0082",
+0,
+2759
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0147",
+"fold": 0,
+"mentions": 18,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0147",
+0,
+2532
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0079",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"cu31924087948174_0079",
+0,
+2871
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0011",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0011",
+0,
+2055
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0072",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"cu31924087948174_0072",
+0,
+667
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0073",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"cu31924087948174_0073",
+0,
+2573
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0075",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0075",
+0,
+2721
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0062",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0062",
+0,
+1748
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0053",
+"fold": 5,
+"mentions": 13,
+"segments": [
+[
+"cu31924087948174_0053",
+0,
+1969
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0047",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0047",
+0,
+2535
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0077",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"cu31924087948174_0077",
+0,
+2550
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0102",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0102",
+0,
+2457
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0034",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"cu31924087948174_0034",
+0,
+1609
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0064",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"cu31924087948174_0064",
+0,
+2182
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0105",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0105",
+0,
+2315
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0012",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"cu31924087948174_0012",
+0,
+1938
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0045",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0045",
+0,
+1711
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0070",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"cu31924087948174_0070",
+0,
+1644
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0074",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0074",
+0,
+2234
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0052",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0052",
+0,
+1762
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0078",
+"fold": 0,
+"mentions": 13,
+"segments": [
+[
+"cu31924087948174_0078",
+0,
+1561
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0054",
+"fold": 1,
+"mentions": 15,
+"segments": [
+[
+"cu31924087948174_0054",
+0,
+2331
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0022",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"cu31924087948174_0022",
+0,
+1808
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0028",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"cu31924087948174_0028",
+0,
+1645
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0084",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0084",
+0,
+2189
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0128",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"cu31924087948174_0128",
+0,
+2039
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0106",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0106",
+0,
+2226
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0036",
+"fold": 4,
+"mentions": 16,
+"segments": [
+[
+"cu31924087948174_0036",
+0,
+2512
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0118",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"cu31924087948174_0118",
+0,
+1776
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0051",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0051",
+0,
+1844
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0098",
+"fold": 5,
+"mentions": 23,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0098",
+0,
+2312
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0076",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0076",
+0,
+1757
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0037",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"cu31924087948174_0037",
+0,
+2877
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0117",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"cu31924087948174_0117",
+0,
+2388
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0080",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0080",
+0,
+2236
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0010",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"cu31924087948174_0010",
+0,
+1549
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0088",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0088",
+0,
+1641
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0083",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0083",
+0,
+1839
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0107",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0107",
+0,
+1929
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0067",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"cu31924087948174_0067",
+0,
+1595
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0100",
+"fold": 4,
+"mentions": 22,
+"segments": [
+[
+"cu31924087948174_0100",
+0,
+2423
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0108",
+"fold": 0,
+"mentions": 15,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0108",
+0,
+1952
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0085",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"cu31924087948174_0085",
+0,
+56
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0055",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"cu31924087948174_0055",
+0,
+2220
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0100",
+"fold": 1,
+"mentions": 19,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0100",
+0,
+2280
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0138",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"cu31924087948174_0138",
+0,
+1747
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0059",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"cu31924087948174_0059",
+0,
+2926
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0057",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"cu31924087948174_0057",
+0,
+1573
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0104",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0104",
+0,
+1891
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0168",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0168",
+0,
+2268
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0016",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"cu31924087948174_0016",
+0,
+1823
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0086",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"cu31924087948174_0086",
+0,
+56
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0103",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0103",
+0,
+2234
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0038",
+"fold": 3,
+"mentions": 22,
+"segments": [
+[
+"cu31924087948174_0038",
+0,
+3015
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0097",
+"fold": 2,
+"mentions": 18,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0097",
+0,
+3120
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0040",
+"fold": 5,
+"mentions": 17,
+"segments": [
+[
+"cu31924087948174_0040",
+0,
+2746
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0046",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0046",
+0,
+2255
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0058",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"cu31924087948174_0058",
+0,
+2692
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0061",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"cu31924087948174_0061",
+0,
+2443
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0065",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"cu31924087948174_0065",
+0,
+2486
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0014",
+"fold": 0,
+"mentions": 31,
+"segments": [
+[
+"cu31924087948174_0014",
+0,
+1844
+]
+]
+},
+{
+"unit_id": "cu31924087948174_0041",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"cu31924087948174_0041",
+0,
+2086
+]
+]
+},
+{
+"unit_id": "sophoclesplaysa05campgoog_0146",
+"fold": 2,
+"mentions": 26,
+"segments": [
+[
+"sophoclesplaysa05campgoog_0146",
+0,
+1862
+],
+[
+"sophoclesplaysa05campgoog_0146",
+0,
+1862
+]
+]
+}
+]
+}

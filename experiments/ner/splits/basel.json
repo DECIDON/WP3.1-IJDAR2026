@@ -1,0 +1,1150 @@
+{
+"key": "basel",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "fiche de registre",
+"n_units_total": 829,
+"n_mentions_total": 7118,
+"n_units": 94,
+"n_mentions": 868,
+"mentions_per_fold": [
+145,
+145,
+144,
+145,
+145,
+144
+],
+"units": [
+{
+"unit_id": "HGB_1_014_016_005",
+"fold": 5,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_014_016_005",
+0,
+398
+]
+]
+},
+{
+"unit_id": "HGB_1_056_017_014",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_056_017_014",
+0,
+342
+]
+]
+},
+{
+"unit_id": "HGB_1_113_055_022",
+"fold": 3,
+"mentions": 12,
+"segments": [
+[
+"HGB_1_113_055_022",
+0,
+460
+]
+]
+},
+{
+"unit_id": "HGB_1_181_036_027",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"HGB_1_181_036_027",
+0,
+220
+]
+]
+},
+{
+"unit_id": "HGB_1_136_012_006",
+"fold": 4,
+"mentions": 17,
+"segments": [
+[
+"HGB_1_136_012_006",
+0,
+570
+]
+]
+},
+{
+"unit_id": "HGB_1_170_052_020",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"HGB_1_170_052_020",
+0,
+316
+]
+]
+},
+{
+"unit_id": "HGB_1_146_025_004",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_146_025_004",
+0,
+363
+]
+]
+},
+{
+"unit_id": "HGB_1_197_078_007",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"HGB_1_197_078_007",
+0,
+383
+]
+]
+},
+{
+"unit_id": "HGB_1_194_101_026",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_194_101_026",
+0,
+232
+]
+]
+},
+{
+"unit_id": "HGB_1_194_068_015",
+"fold": 4,
+"mentions": 18,
+"segments": [
+[
+"HGB_1_194_068_015",
+0,
+547
+]
+]
+},
+{
+"unit_id": "HGB_1_120_062_005",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_120_062_005",
+0,
+208
+]
+]
+},
+{
+"unit_id": "HGB_1_122_034_005",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"HGB_1_122_034_005",
+0,
+452
+]
+]
+},
+{
+"unit_id": "HGB_1_120_036_019",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_120_036_019",
+0,
+234
+]
+]
+},
+{
+"unit_id": "HGB_1_215_066_022",
+"fold": 0,
+"mentions": 14,
+"segments": [
+[
+"HGB_1_215_066_022",
+0,
+402
+]
+]
+},
+{
+"unit_id": "HGB_1_010_141_005",
+"fold": 5,
+"mentions": 18,
+"segments": [
+[
+"HGB_1_010_141_005",
+0,
+384
+]
+]
+},
+{
+"unit_id": "HGB_1_058_089_018",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"HGB_1_058_089_018",
+0,
+530
+]
+]
+},
+{
+"unit_id": "HGB_1_024_022_050",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_024_022_050",
+0,
+283
+]
+]
+},
+{
+"unit_id": "HGB_1_068_008_039",
+"fold": 5,
+"mentions": 17,
+"segments": [
+[
+"HGB_1_068_008_039",
+0,
+578
+]
+]
+},
+{
+"unit_id": "HGB_1_085_018_012",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_085_018_012",
+0,
+240
+]
+]
+},
+{
+"unit_id": "HGB_1_063_088_021",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"HGB_1_063_088_021",
+0,
+155
+]
+]
+},
+{
+"unit_id": "HGB_1_024_040_092",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_024_040_092",
+0,
+196
+]
+]
+},
+{
+"unit_id": "HGB_1_058_050_026",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"HGB_1_058_050_026",
+0,
+331
+]
+]
+},
+{
+"unit_id": "HGB_1_004_006_004",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_004_006_004",
+0,
+559
+]
+]
+},
+{
+"unit_id": "HGB_1_184_032_033",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_184_032_033",
+0,
+223
+]
+]
+},
+{
+"unit_id": "HGB_1_194_051_056",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_194_051_056",
+0,
+263
+]
+]
+},
+{
+"unit_id": "HGB_1_194_047_042",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"HGB_1_194_047_042",
+0,
+570
+]
+]
+},
+{
+"unit_id": "HGB_1_085_041_040",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"HGB_1_085_041_040",
+0,
+201
+]
+]
+},
+{
+"unit_id": "HGB_1_184_027_029",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"HGB_1_184_027_029",
+0,
+110
+]
+]
+},
+{
+"unit_id": "HGB_1_002_080_010",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_002_080_010",
+0,
+238
+]
+]
+},
+{
+"unit_id": "HGB_1_190_027_037",
+"fold": 0,
+"mentions": 8,
+"segments": [
+[
+"HGB_1_190_027_037",
+0,
+276
+]
+]
+},
+{
+"unit_id": "HGB_1_154_040_010",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_154_040_010",
+0,
+173
+]
+]
+},
+{
+"unit_id": "HGB_1_074_085_006",
+"fold": 0,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_074_085_006",
+0,
+381
+]
+]
+},
+{
+"unit_id": "HGB_1_063_116_035",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_063_116_035",
+0,
+401
+]
+]
+},
+{
+"unit_id": "HGB_1_002_097_046",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_002_097_046",
+0,
+330
+]
+]
+},
+{
+"unit_id": "HGB_1_184_059_025",
+"fold": 1,
+"mentions": 20,
+"segments": [
+[
+"HGB_1_184_059_025",
+0,
+529
+]
+]
+},
+{
+"unit_id": "HGB_1_218_018_023",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"HGB_1_218_018_023",
+0,
+119
+]
+]
+},
+{
+"unit_id": "HGB_1_189_019_025",
+"fold": 4,
+"mentions": 14,
+"segments": [
+[
+"HGB_1_189_019_025",
+0,
+440
+]
+]
+},
+{
+"unit_id": "HGB_1_010_055_021",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_010_055_021",
+0,
+278
+]
+]
+},
+{
+"unit_id": "HGB_1_063_019_024",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_063_019_024",
+0,
+171
+]
+]
+},
+{
+"unit_id": "HGB_1_194_022_039",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_194_022_039",
+0,
+264
+]
+]
+},
+{
+"unit_id": "HGB_1_063_046_008",
+"fold": 1,
+"mentions": 17,
+"segments": [
+[
+"HGB_1_063_046_008",
+0,
+438
+]
+]
+},
+{
+"unit_id": "HGB_1_063_045_008",
+"fold": 0,
+"mentions": 12,
+"segments": [
+[
+"HGB_1_063_045_008",
+0,
+443
+]
+]
+},
+{
+"unit_id": "HGB_1_227_018_020",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_227_018_020",
+0,
+316
+]
+]
+},
+{
+"unit_id": "HGB_1_153_015_011",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_153_015_011",
+0,
+329
+]
+]
+},
+{
+"unit_id": "HGB_1_153_031_031",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_153_031_031",
+0,
+258
+]
+]
+},
+{
+"unit_id": "HGB_1_104_025_019",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_104_025_019",
+0,
+591
+]
+]
+},
+{
+"unit_id": "HGB_1_118_008_013",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_118_008_013",
+0,
+141
+]
+]
+},
+{
+"unit_id": "HGB_1_145_028_027",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_145_028_027",
+0,
+126
+]
+]
+},
+{
+"unit_id": "HGB_1_002_089_010",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"HGB_1_002_089_010",
+0,
+146
+]
+]
+},
+{
+"unit_id": "HGB_1_150_019_024",
+"fold": 0,
+"mentions": 10,
+"segments": [
+[
+"HGB_1_150_019_024",
+0,
+420
+]
+]
+},
+{
+"unit_id": "HGB_1_002_116_012",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"HGB_1_002_116_012",
+0,
+396
+]
+]
+},
+{
+"unit_id": "HGB_1_122_020_049",
+"fold": 2,
+"mentions": 16,
+"segments": [
+[
+"HGB_1_122_020_049",
+0,
+774
+]
+]
+},
+{
+"unit_id": "HGB_1_194_069_028",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_194_069_028",
+0,
+453
+]
+]
+},
+{
+"unit_id": "HGB_1_085_012_019",
+"fold": 0,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_085_012_019",
+0,
+457
+]
+]
+},
+{
+"unit_id": "HGB_1_154_064_058",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_154_064_058",
+0,
+145
+]
+]
+},
+{
+"unit_id": "HGB_1_154_027_008",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_154_027_008",
+0,
+393
+]
+]
+},
+{
+"unit_id": "HGB_1_002_107_027",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_002_107_027",
+0,
+274
+]
+]
+},
+{
+"unit_id": "HGB_1_159_072_006",
+"fold": 2,
+"mentions": 20,
+"segments": [
+[
+"HGB_1_159_072_006",
+0,
+559
+]
+]
+},
+{
+"unit_id": "HGB_1_117_018_026",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"HGB_1_117_018_026",
+0,
+162
+]
+]
+},
+{
+"unit_id": "HGB_1_058_204_022",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"HGB_1_058_204_022",
+0,
+383
+]
+]
+},
+{
+"unit_id": "HGB_1_194_032_025",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"HGB_1_194_032_025",
+0,
+314
+]
+]
+},
+{
+"unit_id": "HGB_1_050_037_030",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"HGB_1_050_037_030",
+0,
+126
+]
+]
+},
+{
+"unit_id": "HGB_1_194_077_030",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_194_077_030",
+0,
+168
+]
+]
+},
+{
+"unit_id": "HGB_1_154_024_023",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_154_024_023",
+0,
+337
+]
+]
+},
+{
+"unit_id": "HGB_1_133_031_050",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_133_031_050",
+0,
+263
+]
+]
+},
+{
+"unit_id": "HGB_1_064_023_009",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_064_023_009",
+0,
+321
+]
+]
+},
+{
+"unit_id": "HGB_1_068_010_016",
+"fold": 3,
+"mentions": 20,
+"segments": [
+[
+"HGB_1_068_010_016",
+0,
+630
+]
+]
+},
+{
+"unit_id": "HGB_1_225_059_009",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_225_059_009",
+0,
+665
+]
+]
+},
+{
+"unit_id": "HGB_1_184_060_045",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"HGB_1_184_060_045",
+0,
+508
+]
+]
+},
+{
+"unit_id": "HGB_1_085_035_031",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"HGB_1_085_035_031",
+0,
+104
+]
+]
+},
+{
+"unit_id": "HGB_1_050_042_030",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_050_042_030",
+0,
+136
+]
+]
+},
+{
+"unit_id": "HGB_1_189_063_004",
+"fold": 5,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_189_063_004",
+0,
+682
+]
+]
+},
+{
+"unit_id": "HGB_1_056_015_014",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"HGB_1_056_015_014",
+0,
+494
+]
+]
+},
+{
+"unit_id": "HGB_1_189_071_020",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_189_071_020",
+0,
+323
+]
+]
+},
+{
+"unit_id": "HGB_1_063_120_014",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"HGB_1_063_120_014",
+0,
+456
+]
+]
+},
+{
+"unit_id": "HGB_1_113_034_068",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"HGB_1_113_034_068",
+0,
+336
+]
+]
+},
+{
+"unit_id": "HGB_1_074_046_013",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_074_046_013",
+0,
+106
+]
+]
+},
+{
+"unit_id": "HGB_1_013_012_044",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_013_012_044",
+0,
+164
+]
+]
+},
+{
+"unit_id": "HGB_1_063_059_006",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_063_059_006",
+0,
+123
+]
+]
+},
+{
+"unit_id": "HGB_1_122_049_015",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"HGB_1_122_049_015",
+0,
+352
+]
+]
+},
+{
+"unit_id": "HGB_1_002_071_004",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"HGB_1_002_071_004",
+0,
+179
+]
+]
+},
+{
+"unit_id": "HGB_1_218_028_085",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"HGB_1_218_028_085",
+0,
+253
+]
+]
+},
+{
+"unit_id": "HGB_1_010_057_005",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_010_057_005",
+0,
+177
+]
+]
+},
+{
+"unit_id": "HGB_1_194_101_008",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_194_101_008",
+0,
+459
+]
+]
+},
+{
+"unit_id": "HGB_1_146_045_015",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_146_045_015",
+0,
+514
+]
+]
+},
+{
+"unit_id": "HGB_1_122_024_017",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"HGB_1_122_024_017",
+0,
+223
+]
+]
+},
+{
+"unit_id": "HGB_1_181_019_123",
+"fold": 2,
+"mentions": 15,
+"segments": [
+[
+"HGB_1_181_019_123",
+0,
+655
+]
+]
+},
+{
+"unit_id": "HGB_1_010_121_040",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_010_121_040",
+0,
+251
+]
+]
+},
+{
+"unit_id": "HGB_1_002_085_022",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"HGB_1_002_085_022",
+0,
+495
+]
+]
+},
+{
+"unit_id": "HGB_1_194_101_031",
+"fold": 0,
+"mentions": 28,
+"segments": [
+[
+"HGB_1_194_101_031",
+0,
+924
+]
+]
+},
+{
+"unit_id": "HGB_1_225_042_029",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"HGB_1_225_042_029",
+0,
+104
+]
+]
+},
+{
+"unit_id": "HGB_1_161_016_032",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"HGB_1_161_016_032",
+0,
+255
+]
+]
+},
+{
+"unit_id": "HGB_1_197_053_023",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"HGB_1_197_053_023",
+0,
+115
+]
+]
+},
+{
+"unit_id": "HGB_1_218_021_008",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"HGB_1_218_021_008",
+0,
+417
+]
+]
+}
+]
+}

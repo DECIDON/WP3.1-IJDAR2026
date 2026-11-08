@@ -1,0 +1,9406 @@
+{
+"key": "decidon-august",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "bloc Chandra (sous-unité de la page)",
+"n_units_total": 4994,
+"n_mentions_total": 5697,
+"n_units": 782,
+"n_mentions": 869,
+"mentions_per_fold": [
+145,
+145,
+145,
+145,
+145,
+144
+],
+"units": [
+{
+"unit_id": "113#31",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"113",
+7327,
+7364
+]
+]
+},
+{
+"unit_id": "998#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"998",
+5891,
+6025
+]
+]
+},
+{
+"unit_id": "162#20",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"162",
+3626,
+3977
+]
+]
+},
+{
+"unit_id": "112#28",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"112",
+5187,
+6013
+]
+]
+},
+{
+"unit_id": "124#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"124",
+1540,
+1576
+]
+]
+},
+{
+"unit_id": "120#53",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"120",
+7610,
+7875
+]
+]
+},
+{
+"unit_id": "1066#25",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1066",
+3657,
+3698
+]
+]
+},
+{
+"unit_id": "111#42",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"111",
+10228,
+10338
+]
+]
+},
+{
+"unit_id": "1066#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1066",
+4053,
+4189
+]
+]
+},
+{
+"unit_id": "111#38",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"111",
+9125,
+9612
+]
+]
+},
+{
+"unit_id": "146#58",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"146",
+5697,
+5828
+]
+]
+},
+{
+"unit_id": "116#38",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"116",
+8949,
+9407
+]
+]
+},
+{
+"unit_id": "143#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"143",
+1415,
+1448
+]
+]
+},
+{
+"unit_id": "140#14",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"140",
+3452,
+3534
+]
+]
+},
+{
+"unit_id": "910#6",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"910",
+1805,
+1925
+]
+]
+},
+{
+"unit_id": "1062#22",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1062",
+3898,
+3940
+]
+]
+},
+{
+"unit_id": "996#69",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"996",
+6760,
+6919
+]
+]
+},
+{
+"unit_id": "923#20",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"923",
+4196,
+4270
+]
+]
+},
+{
+"unit_id": "114#23",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"114",
+5072,
+5313
+]
+]
+},
+{
+"unit_id": "1076#12",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1076",
+2559,
+2675
+]
+]
+},
+{
+"unit_id": "137#37",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"137",
+6958,
+7037
+]
+]
+},
+{
+"unit_id": "157#56",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"157",
+7637,
+7845
+]
+]
+},
+{
+"unit_id": "120#3",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"120",
+492,
+554
+]
+]
+},
+{
+"unit_id": "158#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"158",
+5954,
+6085
+]
+]
+},
+{
+"unit_id": "1006#6",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1006",
+1718,
+2716
+]
+]
+},
+{
+"unit_id": "158#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"158",
+3445,
+3513
+]
+]
+},
+{
+"unit_id": "1073#38",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"1073",
+9996,
+10061
+]
+]
+},
+{
+"unit_id": "1076#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1076",
+3527,
+3559
+]
+]
+},
+{
+"unit_id": "123#21",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"123",
+3572,
+4305
+]
+]
+},
+{
+"unit_id": "159#28",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"159",
+5265,
+5330
+]
+]
+},
+{
+"unit_id": "149#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+1458,
+1495
+]
+]
+},
+{
+"unit_id": "915#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"915",
+0,
+131
+]
+]
+},
+{
+"unit_id": "154#31",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"154",
+7372,
+7677
+]
+]
+},
+{
+"unit_id": "997#19",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"997",
+5911,
+5965
+]
+]
+},
+{
+"unit_id": "147#69",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"147",
+8226,
+8662
+]
+]
+},
+{
+"unit_id": "916#28",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"916",
+7419,
+7994
+]
+]
+},
+{
+"unit_id": "1000#22",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1000",
+6870,
+6921
+]
+]
+},
+{
+"unit_id": "921#30",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"921",
+9447,
+9494
+]
+]
+},
+{
+"unit_id": "918#9",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"918",
+1130,
+1160
+]
+]
+},
+{
+"unit_id": "136#51",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"136",
+9790,
+9855
+]
+]
+},
+{
+"unit_id": "158#10",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"158",
+3047,
+3116
+]
+]
+},
+{
+"unit_id": "995#24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+2934,
+2969
+]
+]
+},
+{
+"unit_id": "159#26",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"159",
+4565,
+4950
+]
+]
+},
+{
+"unit_id": "917#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"917",
+3439,
+3702
+]
+]
+},
+{
+"unit_id": "913#3",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"913",
+382,
+899
+]
+]
+},
+{
+"unit_id": "133#25",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"133",
+6500,
+6736
+]
+]
+},
+{
+"unit_id": "121#23",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"121",
+2376,
+2419
+]
+]
+},
+{
+"unit_id": "988#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"988",
+7164,
+7253
+]
+]
+},
+{
+"unit_id": "121#60",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+5996,
+6047
+]
+]
+},
+{
+"unit_id": "161#2",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"161",
+318,
+433
+]
+]
+},
+{
+"unit_id": "125#51",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+8985,
+8993
+]
+]
+},
+{
+"unit_id": "139#5",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"139",
+1629,
+2123
+]
+]
+},
+{
+"unit_id": "109#50",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"109",
+8714,
+9120
+]
+]
+},
+{
+"unit_id": "1066#9",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1066",
+1354,
+1492
+]
+]
+},
+{
+"unit_id": "131#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"131",
+386,
+651
+]
+]
+},
+{
+"unit_id": "155#20",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+3089,
+3161
+]
+]
+},
+{
+"unit_id": "122#11",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"122",
+1908,
+1979
+]
+]
+},
+{
+"unit_id": "124#41",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"124",
+5488,
+5556
+]
+]
+},
+{
+"unit_id": "125#52",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"125",
+8995,
+9100
+]
+]
+},
+{
+"unit_id": "109#20",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"109",
+3648,
+3766
+]
+]
+},
+{
+"unit_id": "160#1",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"160",
+89,
+139
+]
+]
+},
+{
+"unit_id": "1006#21",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1006",
+7177,
+7947
+]
+]
+},
+{
+"unit_id": "996#51",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+5235,
+5268
+]
+]
+},
+{
+"unit_id": "1000#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1000",
+7209,
+7371
+]
+]
+},
+{
+"unit_id": "152#2",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"152",
+313,
+560
+]
+]
+},
+{
+"unit_id": "122#40",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"122",
+6746,
+6822
+]
+]
+},
+{
+"unit_id": "995#37",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+3918,
+3958
+]
+]
+},
+{
+"unit_id": "135#17",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"135",
+3871,
+4076
+]
+]
+},
+{
+"unit_id": "141#8",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"141",
+1787,
+1834
+]
+]
+},
+{
+"unit_id": "157#51",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"157",
+6503,
+6744
+]
+]
+},
+{
+"unit_id": "147#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"147",
+522,
+616
+]
+]
+},
+{
+"unit_id": "122#59",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"122",
+9366,
+9454
+]
+]
+},
+{
+"unit_id": "987#29",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"987",
+6894,
+7219
+]
+]
+},
+{
+"unit_id": "1072#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+203,
+574
+]
+]
+},
+{
+"unit_id": "120#4",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"120",
+556,
+956
+]
+]
+},
+{
+"unit_id": "918#28",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"918",
+6972,
+7165
+]
+]
+},
+{
+"unit_id": "121#56",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"121",
+5719,
+5794
+]
+]
+},
+{
+"unit_id": "156#1",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"156",
+54,
+235
+]
+]
+},
+{
+"unit_id": "162#42",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"162",
+7495,
+7704
+]
+]
+},
+{
+"unit_id": "1073#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1073",
+7457,
+7640
+]
+]
+},
+{
+"unit_id": "152#21",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"152",
+3684,
+3842
+]
+]
+},
+{
+"unit_id": "151#10",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"151",
+1949,
+1997
+]
+]
+},
+{
+"unit_id": "109#33",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"109",
+5697,
+5708
+]
+]
+},
+{
+"unit_id": "157#34",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"157",
+3996,
+4239
+]
+]
+},
+{
+"unit_id": "911#14",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"911",
+3249,
+3448
+]
+]
+},
+{
+"unit_id": "111#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+4773,
+5356
+]
+]
+},
+{
+"unit_id": "921#7",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"921",
+2249,
+2574
+]
+]
+},
+{
+"unit_id": "925#34",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"925",
+4662,
+5038
+]
+]
+},
+{
+"unit_id": "112#5",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"112",
+1230,
+1522
+]
+]
+},
+{
+"unit_id": "997#53",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+8401,
+8438
+]
+]
+},
+{
+"unit_id": "1071#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1071",
+4507,
+5167
+]
+]
+},
+{
+"unit_id": "135#20",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"135",
+4834,
+5108
+]
+]
+},
+{
+"unit_id": "1009#21",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1009",
+6428,
+7050
+]
+]
+},
+{
+"unit_id": "133#30",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"133",
+7111,
+7399
+]
+]
+},
+{
+"unit_id": "917#28",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"917",
+9025,
+9043
+]
+]
+},
+{
+"unit_id": "110#25",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"110",
+4392,
+4618
+]
+]
+},
+{
+"unit_id": "112#41",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"112",
+8748,
+9067
+]
+]
+},
+{
+"unit_id": "1065#35",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1065",
+5222,
+5778
+]
+]
+},
+{
+"unit_id": "125#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+4030,
+4038
+]
+]
+},
+{
+"unit_id": "1061#17",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1061",
+4358,
+4412
+]
+]
+},
+{
+"unit_id": "120#21",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"120",
+3660,
+3713
+]
+]
+},
+{
+"unit_id": "1074#8",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1074",
+1851,
+2143
+]
+]
+},
+{
+"unit_id": "156#44",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"156",
+7140,
+7292
+]
+]
+},
+{
+"unit_id": "913#13",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"913",
+1948,
+2172
+]
+]
+},
+{
+"unit_id": "132#29",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"132",
+5867,
+5942
+]
+]
+},
+{
+"unit_id": "132#49",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"132",
+9708,
+9912
+]
+]
+},
+{
+"unit_id": "131#6",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"131",
+983,
+1186
+]
+]
+},
+{
+"unit_id": "921#21",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"921",
+6254,
+6669
+]
+]
+},
+{
+"unit_id": "1009#8",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1009",
+3058,
+3310
+]
+]
+},
+{
+"unit_id": "997#26",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+6547,
+6571
+]
+]
+},
+{
+"unit_id": "120#30",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"120",
+4488,
+4546
+]
+]
+},
+{
+"unit_id": "916#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"916",
+2251,
+2642
+]
+]
+},
+{
+"unit_id": "159#40",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"159",
+7065,
+7144
+]
+]
+},
+{
+"unit_id": "132#36",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"132",
+6854,
+6881
+]
+]
+},
+{
+"unit_id": "158#38",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"158",
+7930,
+8113
+]
+]
+},
+{
+"unit_id": "146#13",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"146",
+1275,
+1391
+]
+]
+},
+{
+"unit_id": "131#38",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"131",
+7256,
+7526
+]
+]
+},
+{
+"unit_id": "989#3",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"989",
+288,
+344
+]
+]
+},
+{
+"unit_id": "917#12",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"917",
+4842,
+5353
+]
+]
+},
+{
+"unit_id": "110#10",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"110",
+2329,
+2549
+]
+]
+},
+{
+"unit_id": "921#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"921",
+3518,
+3735
+]
+]
+},
+{
+"unit_id": "158#47",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"158",
+9702,
+9751
+]
+]
+},
+{
+"unit_id": "1073#24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1073",
+5890,
+6244
+]
+]
+},
+{
+"unit_id": "159#38",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"159",
+6811,
+6982
+]
+]
+},
+{
+"unit_id": "112#42",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"112",
+9069,
+9128
+]
+]
+},
+{
+"unit_id": "922#30",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"922",
+6330,
+6477
+]
+]
+},
+{
+"unit_id": "1064#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1064",
+6543,
+6793
+]
+]
+},
+{
+"unit_id": "161#3",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"161",
+435,
+669
+]
+]
+},
+{
+"unit_id": "110#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"110",
+9920,
+10048
+]
+]
+},
+{
+"unit_id": "114#16",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"114",
+3590,
+3819
+]
+]
+},
+{
+"unit_id": "1068#25",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"1068",
+6142,
+6659
+]
+]
+},
+{
+"unit_id": "155#16",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"155",
+2218,
+2311
+]
+]
+},
+{
+"unit_id": "141#13",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"141",
+2367,
+2465
+]
+]
+},
+{
+"unit_id": "159#52",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"159",
+8300,
+8407
+]
+]
+},
+{
+"unit_id": "1072#35",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1072",
+8640,
+8820
+]
+]
+},
+{
+"unit_id": "920#1",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"920",
+202,
+279
+]
+]
+},
+{
+"unit_id": "912#46",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+6158,
+6325
+]
+]
+},
+{
+"unit_id": "1074#24",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1074",
+6743,
+6914
+]
+]
+},
+{
+"unit_id": "131#3",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"131",
+653,
+874
+]
+]
+},
+{
+"unit_id": "996#42",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+4231,
+4236
+]
+]
+},
+{
+"unit_id": "141#21",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"141",
+3327,
+3824
+]
+]
+},
+{
+"unit_id": "1068#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1068",
+477,
+986
+]
+]
+},
+{
+"unit_id": "156#2",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"156",
+237,
+291
+]
+]
+},
+{
+"unit_id": "1069#37",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1069",
+6332,
+6412
+]
+]
+},
+{
+"unit_id": "118#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"118",
+1280,
+1355
+]
+]
+},
+{
+"unit_id": "145#53",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"145",
+8696,
+8809
+]
+]
+},
+{
+"unit_id": "154#26",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"154",
+5820,
+6266
+]
+]
+},
+{
+"unit_id": "920#8",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"920",
+1505,
+1650
+]
+]
+},
+{
+"unit_id": "1071#16",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"1071",
+6002,
+6878
+]
+]
+},
+{
+"unit_id": "136#34",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"136",
+7224,
+7261
+]
+]
+},
+{
+"unit_id": "915#6",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"915",
+1962,
+2771
+]
+]
+},
+{
+"unit_id": "160#51",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"160",
+8080,
+8201
+]
+]
+},
+{
+"unit_id": "115#45",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"115",
+6517,
+6571
+]
+]
+},
+{
+"unit_id": "144#5",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"144",
+496,
+602
+]
+]
+},
+{
+"unit_id": "1071#28",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1071",
+9170,
+9446
+]
+]
+},
+{
+"unit_id": "1068#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1068",
+8219,
+8335
+]
+]
+},
+{
+"unit_id": "133#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"133",
+4626,
+4828
+]
+]
+},
+{
+"unit_id": "989#44",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"989",
+3020,
+3032
+]
+]
+},
+{
+"unit_id": "1072#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+5259,
+5534
+]
+]
+},
+{
+"unit_id": "148#45",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"148",
+7981,
+8382
+]
+]
+},
+{
+"unit_id": "1062#50",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1062",
+9151,
+9227
+]
+]
+},
+{
+"unit_id": "158#46",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"158",
+9607,
+9700
+]
+]
+},
+{
+"unit_id": "134#21",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"134",
+2649,
+2697
+]
+]
+},
+{
+"unit_id": "925#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"925",
+292,
+486
+]
+]
+},
+{
+"unit_id": "150#8",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"150",
+1010,
+1123
+]
+]
+},
+{
+"unit_id": "999#16",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"999",
+5506,
+5760
+]
+]
+},
+{
+"unit_id": "139#39",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"139",
+9759,
+10132
+]
+]
+},
+{
+"unit_id": "122#60",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"122",
+9456,
+9591
+]
+]
+},
+{
+"unit_id": "1068#22",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1068",
+5481,
+5634
+]
+]
+},
+{
+"unit_id": "115#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"115",
+2432,
+2652
+]
+]
+},
+{
+"unit_id": "1007#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1007",
+6743,
+7015
+]
+]
+},
+{
+"unit_id": "919#23",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"919",
+4850,
+4904
+]
+]
+},
+{
+"unit_id": "131#39",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"131",
+7528,
+7719
+]
+]
+},
+{
+"unit_id": "146#7",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"146",
+773,
+951
+]
+]
+},
+{
+"unit_id": "1008#10",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1008",
+5247,
+5308
+]
+]
+},
+{
+"unit_id": "920#26",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+4715,
+4952
+]
+]
+},
+{
+"unit_id": "913#17",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"913",
+2453,
+2627
+]
+]
+},
+{
+"unit_id": "116#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"116",
+6174,
+6329
+]
+]
+},
+{
+"unit_id": "1010#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1010",
+3101,
+3355
+]
+]
+},
+{
+"unit_id": "131#1",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"131",
+69,
+384
+]
+]
+},
+{
+"unit_id": "120#55",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"120",
+8112,
+8204
+]
+]
+},
+{
+"unit_id": "162#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"162",
+5303,
+5388
+]
+]
+},
+{
+"unit_id": "921#31",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"921",
+9496,
+9894
+]
+]
+},
+{
+"unit_id": "1075#23",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1075",
+9299,
+9552
+]
+]
+},
+{
+"unit_id": "125#6",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"125",
+752,
+899
+]
+]
+},
+{
+"unit_id": "156#7",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"156",
+811,
+1199
+]
+]
+},
+{
+"unit_id": "134#38",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"134",
+4868,
+4910
+]
+]
+},
+{
+"unit_id": "987#6",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"987",
+3631,
+3741
+]
+]
+},
+{
+"unit_id": "146#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+5313,
+5334
+]
+]
+},
+{
+"unit_id": "1006#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1006",
+999,
+1388
+]
+]
+},
+{
+"unit_id": "922#15",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"922",
+4446,
+4526
+]
+]
+},
+{
+"unit_id": "147#53",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"147",
+5724,
+5822
+]
+]
+},
+{
+"unit_id": "121#46",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"121",
+4897,
+5044
+]
+]
+},
+{
+"unit_id": "1000#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1000",
+0,
+56
+]
+]
+},
+{
+"unit_id": "922#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"922",
+6748,
+6865
+]
+]
+},
+{
+"unit_id": "120#34",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"120",
+4861,
+4930
+]
+]
+},
+{
+"unit_id": "1068#10",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1068",
+2474,
+2681
+]
+]
+},
+{
+"unit_id": "996#7",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"996",
+585,
+885
+]
+]
+},
+{
+"unit_id": "125#33",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+6216,
+6224
+]
+]
+},
+{
+"unit_id": "124#61",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"124",
+8077,
+8226
+]
+]
+},
+{
+"unit_id": "996#72",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+7046,
+7069
+]
+]
+},
+{
+"unit_id": "111#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+278,
+436
+]
+]
+},
+{
+"unit_id": "1061#15",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1061",
+4040,
+4087
+]
+]
+},
+{
+"unit_id": "156#6",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"156",
+745,
+809
+]
+]
+},
+{
+"unit_id": "121#7",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"121",
+675,
+774
+]
+]
+},
+{
+"unit_id": "153#13",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"153",
+2544,
+2741
+]
+]
+},
+{
+"unit_id": "144#6",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"144",
+604,
+632
+]
+]
+},
+{
+"unit_id": "125#9",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"125",
+967,
+1048
+]
+]
+},
+{
+"unit_id": "124#24",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"124",
+3677,
+3739
+]
+]
+},
+{
+"unit_id": "152#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"152",
+3415,
+3470
+]
+]
+},
+{
+"unit_id": "1006#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1006",
+4946,
+5158
+]
+]
+},
+{
+"unit_id": "997#17",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"997",
+5649,
+5841
+]
+]
+},
+{
+"unit_id": "150#6",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"150",
+704,
+937
+]
+]
+},
+{
+"unit_id": "1005#14",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1005",
+4189,
+4404
+]
+]
+},
+{
+"unit_id": "997#33",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"997",
+7044,
+7102
+]
+]
+},
+{
+"unit_id": "914#19",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"914",
+3675,
+3993
+]
+]
+},
+{
+"unit_id": "123#34",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"123",
+7035,
+7097
+]
+]
+},
+{
+"unit_id": "120#36",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"120",
+4958,
+5149
+]
+]
+},
+{
+"unit_id": "146#35",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"146",
+3966,
+4048
+]
+]
+},
+{
+"unit_id": "142#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"142",
+6994,
+7313
+]
+]
+},
+{
+"unit_id": "996#74",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"996",
+7146,
+7428
+]
+]
+},
+{
+"unit_id": "1068#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1068",
+7985,
+8217
+]
+]
+},
+{
+"unit_id": "136#50",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"136",
+9645,
+9788
+]
+]
+},
+{
+"unit_id": "125#60",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+9539,
+9558
+]
+]
+},
+{
+"unit_id": "1002#20",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1002",
+6712,
+6905
+]
+]
+},
+{
+"unit_id": "153#6",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"153",
+932,
+983
+]
+]
+},
+{
+"unit_id": "1002#11",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1002",
+3516,
+3914
+]
+]
+},
+{
+"unit_id": "150#2",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"150",
+147,
+311
+]
+]
+},
+{
+"unit_id": "156#34",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"156",
+5272,
+5367
+]
+]
+},
+{
+"unit_id": "113#37",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"113",
+8172,
+8288
+]
+]
+},
+{
+"unit_id": "140#36",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"140",
+8242,
+8386
+]
+]
+},
+{
+"unit_id": "1001#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1001",
+7331,
+7578
+]
+]
+},
+{
+"unit_id": "915#25",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"915",
+8180,
+8238
+]
+]
+},
+{
+"unit_id": "911#51",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"911",
+9802,
+10391
+]
+]
+},
+{
+"unit_id": "148#13",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"148",
+2668,
+2710
+]
+]
+},
+{
+"unit_id": "1061#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1061",
+7892,
+7921
+]
+]
+},
+{
+"unit_id": "999#14",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"999",
+3955,
+5191
+]
+]
+},
+{
+"unit_id": "1062#35",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1062",
+6461,
+6679
+]
+]
+},
+{
+"unit_id": "997#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+6207,
+6273
+]
+]
+},
+{
+"unit_id": "143#39",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"143",
+6857,
+6902
+]
+]
+},
+{
+"unit_id": "130#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"130",
+7863,
+8064
+]
+]
+},
+{
+"unit_id": "109#40",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"109",
+6535,
+6705
+]
+]
+},
+{
+"unit_id": "124#11",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"124",
+1464,
+1538
+]
+]
+},
+{
+"unit_id": "1063#35",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1063",
+6411,
+6528
+]
+]
+},
+{
+"unit_id": "145#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"145",
+5275,
+5288
+]
+]
+},
+{
+"unit_id": "146#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+4388,
+4442
+]
+]
+},
+{
+"unit_id": "158#4",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"158",
+1517,
+1623
+]
+]
+},
+{
+"unit_id": "161#9",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"161",
+1139,
+1280
+]
+]
+},
+{
+"unit_id": "131#27",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"131",
+5490,
+5644
+]
+]
+},
+{
+"unit_id": "131#30",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"131",
+5910,
+6030
+]
+]
+},
+{
+"unit_id": "110#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"110",
+3681,
+3944
+]
+]
+},
+{
+"unit_id": "158#49",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"158",
+9900,
+10049
+]
+]
+},
+{
+"unit_id": "914#44",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"914",
+7909,
+8131
+]
+]
+},
+{
+"unit_id": "1004#10",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1004",
+4466,
+4521
+]
+]
+},
+{
+"unit_id": "150#38",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"150",
+5977,
+6129
+]
+]
+},
+{
+"unit_id": "160#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"160",
+6993,
+7089
+]
+]
+},
+{
+"unit_id": "1008#7",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"1008",
+4510,
+4855
+]
+]
+},
+{
+"unit_id": "995#9",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"995",
+553,
+625
+]
+]
+},
+{
+"unit_id": "111#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+552,
+732
+]
+]
+},
+{
+"unit_id": "144#15",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"144",
+1765,
+1875
+]
+]
+},
+{
+"unit_id": "916#3",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"916",
+720,
+767
+]
+]
+},
+{
+"unit_id": "150#14",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"150",
+2030,
+2081
+]
+]
+},
+{
+"unit_id": "1005#29",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1005",
+9881,
+9961
+]
+]
+},
+{
+"unit_id": "1001#0",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1001",
+0,
+594
+]
+]
+},
+{
+"unit_id": "120#46",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"120",
+6384,
+6592
+]
+]
+},
+{
+"unit_id": "1009#1",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1009",
+670,
+852
+]
+]
+},
+{
+"unit_id": "145#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"145",
+1146,
+1573
+]
+]
+},
+{
+"unit_id": "912#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+2073,
+2103
+]
+]
+},
+{
+"unit_id": "144#33",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+3736,
+3925
+]
+]
+},
+{
+"unit_id": "921#3",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"921",
+917,
+1159
+]
+]
+},
+{
+"unit_id": "143#16",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"143",
+3359,
+3723
+]
+]
+},
+{
+"unit_id": "136#10",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"136",
+1902,
+1974
+]
+]
+},
+{
+"unit_id": "120#17",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"120",
+3329,
+3381
+]
+]
+},
+{
+"unit_id": "161#30",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"161",
+4208,
+4577
+]
+]
+},
+{
+"unit_id": "121#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+549,
+590
+]
+]
+},
+{
+"unit_id": "1061#18",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1061",
+4414,
+4446
+]
+]
+},
+{
+"unit_id": "1066#59",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1066",
+9330,
+9377
+]
+]
+},
+{
+"unit_id": "112#2",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"112",
+626,
+953
+]
+]
+},
+{
+"unit_id": "1062#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1062",
+5627,
+5858
+]
+]
+},
+{
+"unit_id": "1066#2",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1066",
+301,
+561
+]
+]
+},
+{
+"unit_id": "1000#8",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1000",
+3975,
+4346
+]
+]
+},
+{
+"unit_id": "910#23",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"910",
+4415,
+4455
+]
+]
+},
+{
+"unit_id": "150#9",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"150",
+1125,
+1313
+]
+]
+},
+{
+"unit_id": "143#51",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"143",
+7696,
+7753
+]
+]
+},
+{
+"unit_id": "135#27",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"135",
+6472,
+6717
+]
+]
+},
+{
+"unit_id": "1071#20",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1071",
+7144,
+7295
+]
+]
+},
+{
+"unit_id": "150#26",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"150",
+3202,
+3246
+]
+]
+},
+{
+"unit_id": "1075#26",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1075",
+10209,
+10249
+]
+]
+},
+{
+"unit_id": "925#58",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"925",
+9165,
+9270
+]
+]
+},
+{
+"unit_id": "1071#1",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1071",
+188,
+1073
+]
+]
+},
+{
+"unit_id": "134#31",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"134",
+4214,
+4384
+]
+]
+},
+{
+"unit_id": "120#66",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"120",
+9664,
+9818
+]
+]
+},
+{
+"unit_id": "1070#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1070",
+7492,
+7595
+]
+]
+},
+{
+"unit_id": "115#36",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"115",
+5722,
+5842
+]
+]
+},
+{
+"unit_id": "119#30",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"119",
+6405,
+6462
+]
+]
+},
+{
+"unit_id": "1001#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1001",
+8942,
+9039
+]
+]
+},
+{
+"unit_id": "125#17",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+3747,
+3755
+]
+]
+},
+{
+"unit_id": "155#39",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"155",
+6304,
+6428
+]
+]
+},
+{
+"unit_id": "115#69",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"115",
+9741,
+9910
+]
+]
+},
+{
+"unit_id": "144#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+2750,
+3014
+]
+]
+},
+{
+"unit_id": "997#55",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"997",
+8542,
+8713
+]
+]
+},
+{
+"unit_id": "1072#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+2248,
+2875
+]
+]
+},
+{
+"unit_id": "109#16",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"109",
+3464,
+3500
+]
+]
+},
+{
+"unit_id": "1063#31",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1063",
+5294,
+5363
+]
+]
+},
+{
+"unit_id": "160#69",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"160",
+9654,
+9730
+]
+]
+},
+{
+"unit_id": "133#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"133",
+1076,
+1580
+]
+]
+},
+{
+"unit_id": "149#3",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"149",
+255,
+304
+]
+]
+},
+{
+"unit_id": "1064#32",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1064",
+5934,
+6094
+]
+]
+},
+{
+"unit_id": "919#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"919",
+2318,
+2558
+]
+]
+},
+{
+"unit_id": "114#53",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"114",
+9760,
+9813
+]
+]
+},
+{
+"unit_id": "1061#54",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1061",
+8172,
+8226
+]
+]
+},
+{
+"unit_id": "109#23",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"109",
+3921,
+4017
+]
+]
+},
+{
+"unit_id": "134#37",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"134",
+4809,
+4866
+]
+]
+},
+{
+"unit_id": "113#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"113",
+632,
+817
+]
+]
+},
+{
+"unit_id": "988#16",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"988",
+2070,
+2121
+]
+]
+},
+{
+"unit_id": "1067#9",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1067",
+1345,
+1499
+]
+]
+},
+{
+"unit_id": "110#4",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"110",
+1159,
+1469
+]
+]
+},
+{
+"unit_id": "113#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"113",
+3405,
+3485
+]
+]
+},
+{
+"unit_id": "147#32",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"147",
+3278,
+3471
+]
+]
+},
+{
+"unit_id": "154#19",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"154",
+4173,
+4285
+]
+]
+},
+{
+"unit_id": "1064#18",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"1064",
+3647,
+3929
+]
+]
+},
+{
+"unit_id": "141#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"141",
+7328,
+7483
+]
+]
+},
+{
+"unit_id": "923#3",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"923",
+1313,
+1381
+]
+]
+},
+{
+"unit_id": "152#29",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"152",
+4975,
+5300
+]
+]
+},
+{
+"unit_id": "1072#24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+5729,
+6168
+]
+]
+},
+{
+"unit_id": "133#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"133",
+7930,
+8132
+]
+]
+},
+{
+"unit_id": "1061#14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1061",
+4021,
+4038
+]
+]
+},
+{
+"unit_id": "1001#8",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1001",
+3091,
+3332
+]
+]
+},
+{
+"unit_id": "1064#17",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1064",
+3569,
+3645
+]
+]
+},
+{
+"unit_id": "912#57",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+8658,
+8891
+]
+]
+},
+{
+"unit_id": "987#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"987",
+8337,
+8378
+]
+]
+},
+{
+"unit_id": "920#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+2291,
+2315
+]
+]
+},
+{
+"unit_id": "132#20",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"132",
+3937,
+4014
+]
+]
+},
+{
+"unit_id": "155#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+5894,
+5997
+]
+]
+},
+{
+"unit_id": "916#19",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"916",
+5024,
+5078
+]
+]
+},
+{
+"unit_id": "1062#1",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1062",
+246,
+416
+]
+]
+},
+{
+"unit_id": "115#46",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"115",
+6573,
+6655
+]
+]
+},
+{
+"unit_id": "125#53",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+9102,
+9110
+]
+]
+},
+{
+"unit_id": "153#7",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"153",
+985,
+1451
+]
+]
+},
+{
+"unit_id": "146#83",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+8135,
+8233
+]
+]
+},
+{
+"unit_id": "911#20",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"911",
+4504,
+4716
+]
+]
+},
+{
+"unit_id": "1063#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1063",
+3660,
+3922
+]
+]
+},
+{
+"unit_id": "131#31",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"131",
+6032,
+6081
+]
+]
+},
+{
+"unit_id": "144#55",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+7197,
+7291
+]
+]
+},
+{
+"unit_id": "131#40",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"131",
+7721,
+8022
+]
+]
+},
+{
+"unit_id": "920#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+1917,
+1947
+]
+]
+},
+{
+"unit_id": "142#33",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"142",
+6053,
+6139
+]
+]
+},
+{
+"unit_id": "1004#22",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1004",
+8674,
+8839
+]
+]
+},
+{
+"unit_id": "916#20",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"916",
+5080,
+5843
+]
+]
+},
+{
+"unit_id": "918#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"918",
+471,
+538
+]
+]
+},
+{
+"unit_id": "117#20",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"117",
+4391,
+4580
+]
+]
+},
+{
+"unit_id": "110#28",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"110",
+4814,
+5023
+]
+]
+},
+{
+"unit_id": "109#12",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"109",
+2856,
+2907
+]
+]
+},
+{
+"unit_id": "150#55",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"150",
+7787,
+7843
+]
+]
+},
+{
+"unit_id": "145#16",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"145",
+4301,
+4528
+]
+]
+},
+{
+"unit_id": "161#48",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"161",
+8105,
+8151
+]
+]
+},
+{
+"unit_id": "111#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+3173,
+3269
+]
+]
+},
+{
+"unit_id": "121#43",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"121",
+4476,
+4793
+]
+]
+},
+{
+"unit_id": "155#48",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"155",
+7413,
+7490
+]
+]
+},
+{
+"unit_id": "125#22",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"125",
+4245,
+4421
+]
+]
+},
+{
+"unit_id": "157#64",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"157",
+9182,
+9299
+]
+]
+},
+{
+"unit_id": "111#6",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+734,
+1005
+]
+]
+},
+{
+"unit_id": "1067#38",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1067",
+5813,
+5911
+]
+]
+},
+{
+"unit_id": "923#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"923",
+5454,
+5566
+]
+]
+},
+{
+"unit_id": "122#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"122",
+1820,
+1906
+]
+]
+},
+{
+"unit_id": "1062#46",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1062",
+8055,
+8232
+]
+]
+},
+{
+"unit_id": "139#38",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"139",
+9302,
+9757
+]
+]
+},
+{
+"unit_id": "139#36",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"139",
+8186,
+8735
+]
+]
+},
+{
+"unit_id": "996#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+4004,
+4149
+]
+]
+},
+{
+"unit_id": "110#7",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"110",
+1651,
+1826
+]
+]
+},
+{
+"unit_id": "1063#32",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1063",
+5365,
+5623
+]
+]
+},
+{
+"unit_id": "916#37",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"916",
+10081,
+10126
+]
+]
+},
+{
+"unit_id": "923#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"923",
+9566,
+9645
+]
+]
+},
+{
+"unit_id": "1002#27",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1002",
+9439,
+10033
+]
+]
+},
+{
+"unit_id": "154#25",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"154",
+5354,
+5818
+]
+]
+},
+{
+"unit_id": "139#22",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"139",
+5067,
+5684
+]
+]
+},
+{
+"unit_id": "921#29",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"921",
+8917,
+9445
+]
+]
+},
+{
+"unit_id": "156#17",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"156",
+2777,
+2861
+]
+]
+},
+{
+"unit_id": "1062#58",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1062",
+9926,
+9962
+]
+]
+},
+{
+"unit_id": "1065#42",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1065",
+7421,
+7792
+]
+]
+},
+{
+"unit_id": "134#52",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"134",
+7772,
+7845
+]
+]
+},
+{
+"unit_id": "160#12",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"160",
+1816,
+2052
+]
+]
+},
+{
+"unit_id": "911#37",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"911",
+6428,
+6831
+]
+]
+},
+{
+"unit_id": "109#46",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"109",
+7661,
+7892
+]
+]
+},
+{
+"unit_id": "159#42",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"159",
+7198,
+7241
+]
+]
+},
+{
+"unit_id": "1000#18",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1000",
+6008,
+6198
+]
+]
+},
+{
+"unit_id": "922#20",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"922",
+5136,
+5171
+]
+]
+},
+{
+"unit_id": "151#18",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"151",
+4860,
+5525
+]
+]
+},
+{
+"unit_id": "916#25",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"916",
+6492,
+6618
+]
+]
+},
+{
+"unit_id": "136#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"136",
+1279,
+1614
+]
+]
+},
+{
+"unit_id": "111#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+1497,
+2435
+]
+]
+},
+{
+"unit_id": "122#18",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"122",
+3629,
+4009
+]
+]
+},
+{
+"unit_id": "161#40",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"161",
+6372,
+6435
+]
+]
+},
+{
+"unit_id": "120#27",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"120",
+4258,
+4293
+]
+]
+},
+{
+"unit_id": "1074#36",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1074",
+8650,
+8813
+]
+]
+},
+{
+"unit_id": "145#51",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"145",
+8529,
+8639
+]
+]
+},
+{
+"unit_id": "114#48",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"114",
+8977,
+9095
+]
+]
+},
+{
+"unit_id": "138#4",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"138",
+608,
+654
+]
+]
+},
+{
+"unit_id": "1068#42",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1068",
+9791,
+10213
+]
+]
+},
+{
+"unit_id": "1062#24",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1062",
+3992,
+4099
+]
+]
+},
+{
+"unit_id": "152#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"152",
+4703,
+4767
+]
+]
+},
+{
+"unit_id": "138#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"138",
+5232,
+5487
+]
+]
+},
+{
+"unit_id": "134#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"134",
+1459,
+1654
+]
+]
+},
+{
+"unit_id": "1066#21",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1066",
+3132,
+3181
+]
+]
+},
+{
+"unit_id": "912#42",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+5310,
+5665
+]
+]
+},
+{
+"unit_id": "911#42",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"911",
+7797,
+7838
+]
+]
+},
+{
+"unit_id": "988#58",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"988",
+8058,
+8084
+]
+]
+},
+{
+"unit_id": "121#35",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"121",
+3236,
+3481
+]
+]
+},
+{
+"unit_id": "141#51",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"141",
+9048,
+9096
+]
+]
+},
+{
+"unit_id": "1063#28",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1063",
+5067,
+5094
+]
+]
+},
+{
+"unit_id": "133#21",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"133",
+5255,
+5627
+]
+]
+},
+{
+"unit_id": "150#3",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"150",
+313,
+426
+]
+]
+},
+{
+"unit_id": "142#54",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"142",
+8843,
+8951
+]
+]
+},
+{
+"unit_id": "995#1",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+20,
+46
+]
+]
+},
+{
+"unit_id": "1002#8",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1002",
+2440,
+3054
+]
+]
+},
+{
+"unit_id": "1004#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1004",
+6620,
+7138
+]
+]
+},
+{
+"unit_id": "150#62",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"150",
+8985,
+9181
+]
+]
+},
+{
+"unit_id": "143#31",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"143",
+5728,
+5924
+]
+]
+},
+{
+"unit_id": "912#26",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"912",
+2451,
+2632
+]
+]
+},
+{
+"unit_id": "1076#6",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1076",
+2180,
+2207
+]
+]
+},
+{
+"unit_id": "157#52",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"157",
+6746,
+6957
+]
+]
+},
+{
+"unit_id": "152#52",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"152",
+8697,
+8835
+]
+]
+},
+{
+"unit_id": "123#35",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"123",
+7099,
+7322
+]
+]
+},
+{
+"unit_id": "110#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"110",
+3285,
+3316
+]
+]
+},
+{
+"unit_id": "1010#22",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1010",
+6815,
+6932
+]
+]
+},
+{
+"unit_id": "143#50",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"143",
+7600,
+7694
+]
+]
+},
+{
+"unit_id": "923#22",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"923",
+4426,
+4580
+]
+]
+},
+{
+"unit_id": "162#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"162",
+1842,
+2182
+]
+]
+},
+{
+"unit_id": "1067#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1067",
+5944,
+6300
+]
+]
+},
+{
+"unit_id": "920#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+0,
+200
+]
+]
+},
+{
+"unit_id": "139#25",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"139",
+5857,
+6134
+]
+]
+},
+{
+"unit_id": "156#55",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"156",
+8780,
+8838
+]
+]
+},
+{
+"unit_id": "149#49",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"149",
+9136,
+9344
+]
+]
+},
+{
+"unit_id": "1069#11",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1069",
+3475,
+3518
+]
+]
+},
+{
+"unit_id": "119#8",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"119",
+1099,
+1663
+]
+]
+},
+{
+"unit_id": "910#1",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"910",
+97,
+131
+]
+]
+},
+{
+"unit_id": "913#31",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"913",
+6384,
+6489
+]
+]
+},
+{
+"unit_id": "996#44",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+4313,
+4349
+]
+]
+},
+{
+"unit_id": "912#28",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+2713,
+2758
+]
+]
+},
+{
+"unit_id": "1001#4",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1001",
+1644,
+2678
+]
+]
+},
+{
+"unit_id": "924#28",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"924",
+4301,
+4542
+]
+]
+},
+{
+"unit_id": "156#52",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"156",
+8515,
+8574
+]
+]
+},
+{
+"unit_id": "114#55",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"114",
+9904,
+9956
+]
+]
+},
+{
+"unit_id": "161#45",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"161",
+7397,
+7503
+]
+]
+},
+{
+"unit_id": "996#57",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+5476,
+5625
+]
+]
+},
+{
+"unit_id": "111#43",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"111",
+10340,
+10426
+]
+]
+},
+{
+"unit_id": "149#35",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"149",
+6439,
+6655
+]
+]
+},
+{
+"unit_id": "1061#39",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1061",
+6350,
+6452
+]
+]
+},
+{
+"unit_id": "123#14",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"123",
+2421,
+2498
+]
+]
+},
+{
+"unit_id": "161#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"161",
+0,
+122
+]
+]
+},
+{
+"unit_id": "1068#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1068",
+7002,
+7246
+]
+]
+},
+{
+"unit_id": "1004#19",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"1004",
+7140,
+8234
+]
+]
+},
+{
+"unit_id": "149#36",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"149",
+6657,
+6860
+]
+]
+},
+{
+"unit_id": "116#31",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"116",
+7476,
+7778
+]
+]
+},
+{
+"unit_id": "121#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+2916,
+2955
+]
+]
+},
+{
+"unit_id": "117#29",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"117",
+5708,
+6086
+]
+]
+},
+{
+"unit_id": "1067#17",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1067",
+2326,
+2393
+]
+]
+},
+{
+"unit_id": "149#39",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+7467,
+7733
+]
+]
+},
+{
+"unit_id": "139#16",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"139",
+3784,
+3975
+]
+]
+},
+{
+"unit_id": "1065#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1065",
+8578,
+8618
+]
+]
+},
+{
+"unit_id": "148#21",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"148",
+3660,
+3727
+]
+]
+},
+{
+"unit_id": "144#11",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"144",
+1132,
+1379
+]
+]
+},
+{
+"unit_id": "125#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+3498,
+3506
+]
+]
+},
+{
+"unit_id": "1007#6",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1007",
+2828,
+2852
+]
+]
+},
+{
+"unit_id": "146#68",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"146",
+6782,
+6829
+]
+]
+},
+{
+"unit_id": "116#22",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"116",
+5622,
+5869
+]
+]
+},
+{
+"unit_id": "1069#12",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1069",
+3520,
+3571
+]
+]
+},
+{
+"unit_id": "142#23",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"142",
+4243,
+4604
+]
+]
+},
+{
+"unit_id": "114#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"114",
+6724,
+6783
+]
+]
+},
+{
+"unit_id": "922#33",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"922",
+6575,
+6679
+]
+]
+},
+{
+"unit_id": "110#17",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"110",
+3238,
+3283
+]
+]
+},
+{
+"unit_id": "123#6",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"123",
+1421,
+1481
+]
+]
+},
+{
+"unit_id": "1070#16",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1070",
+4158,
+4463
+]
+]
+},
+{
+"unit_id": "120#49",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"120",
+7111,
+7189
+]
+]
+},
+{
+"unit_id": "995#32",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"995",
+3525,
+3600
+]
+]
+},
+{
+"unit_id": "998#4",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"998",
+2351,
+2912
+]
+]
+},
+{
+"unit_id": "914#39",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"914",
+7291,
+7354
+]
+]
+},
+{
+"unit_id": "988#20",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"988",
+2639,
+2899
+]
+]
+},
+{
+"unit_id": "1062#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1062",
+8684,
+9149
+]
+]
+},
+{
+"unit_id": "155#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+1609,
+1702
+]
+]
+},
+{
+"unit_id": "1004#0",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1004",
+0,
+49
+]
+]
+},
+{
+"unit_id": "1069#42",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1069",
+6837,
+6920
+]
+]
+},
+{
+"unit_id": "157#63",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"157",
+9123,
+9180
+]
+]
+},
+{
+"unit_id": "1076#13",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1076",
+2677,
+2841
+]
+]
+},
+{
+"unit_id": "157#26",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"157",
+3075,
+3140
+]
+]
+},
+{
+"unit_id": "911#47",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"911",
+8249,
+8546
+]
+]
+},
+{
+"unit_id": "155#34",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+5549,
+5718
+]
+]
+},
+{
+"unit_id": "988#19",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"988",
+2372,
+2637
+]
+]
+},
+{
+"unit_id": "122#57",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"122",
+9300,
+9335
+]
+]
+},
+{
+"unit_id": "1072#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+3539,
+3806
+]
+]
+},
+{
+"unit_id": "120#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"120",
+3715,
+3739
+]
+]
+},
+{
+"unit_id": "158#16",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"158",
+4130,
+4424
+]
+]
+},
+{
+"unit_id": "135#6",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"135",
+1455,
+1547
+]
+]
+},
+{
+"unit_id": "988#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"988",
+6168,
+6250
+]
+]
+},
+{
+"unit_id": "1001#17",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1001",
+6848,
+7329
+]
+]
+},
+{
+"unit_id": "161#1",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"161",
+124,
+316
+]
+]
+},
+{
+"unit_id": "997#42",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+7663,
+7703
+]
+]
+},
+{
+"unit_id": "132#4",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"132",
+1053,
+1157
+]
+]
+},
+{
+"unit_id": "149#44",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+8398,
+8521
+]
+]
+},
+{
+"unit_id": "917#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"917",
+8828,
+9023
+]
+]
+},
+{
+"unit_id": "1002#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1002",
+7114,
+7373
+]
+]
+},
+{
+"unit_id": "146#53",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+5505,
+5536
+]
+]
+},
+{
+"unit_id": "146#16",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"146",
+1716,
+1788
+]
+]
+},
+{
+"unit_id": "921#17",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"921",
+4683,
+4776
+]
+]
+},
+{
+"unit_id": "914#25",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"914",
+4955,
+5176
+]
+]
+},
+{
+"unit_id": "125#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+6760,
+6768
+]
+]
+},
+{
+"unit_id": "132#26",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"132",
+5404,
+5728
+]
+]
+},
+{
+"unit_id": "148#23",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"148",
+3913,
+4201
+]
+]
+},
+{
+"unit_id": "130#1",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"130",
+218,
+253
+]
+]
+},
+{
+"unit_id": "146#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+2317,
+2397
+]
+]
+},
+{
+"unit_id": "911#36",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"911",
+6381,
+6426
+]
+]
+},
+{
+"unit_id": "115#31",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"115",
+5097,
+5125
+]
+]
+},
+{
+"unit_id": "1071#19",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1071",
+7034,
+7142
+]
+]
+},
+{
+"unit_id": "153#21",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"153",
+4438,
+4508
+]
+]
+},
+{
+"unit_id": "114#46",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"114",
+8438,
+8912
+]
+]
+},
+{
+"unit_id": "123#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"123",
+7324,
+7594
+]
+]
+},
+{
+"unit_id": "115#59",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"115",
+8465,
+8722
+]
+]
+},
+{
+"unit_id": "117#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"117",
+4144,
+4389
+]
+]
+},
+{
+"unit_id": "140#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"140",
+4128,
+4292
+]
+]
+},
+{
+"unit_id": "1064#27",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1064",
+5058,
+5334
+]
+]
+},
+{
+"unit_id": "996#68",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"996",
+6401,
+6758
+]
+]
+},
+{
+"unit_id": "156#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"156",
+428,
+686
+]
+]
+},
+{
+"unit_id": "1064#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1064",
+4792,
+4994
+]
+]
+},
+{
+"unit_id": "989#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"989",
+2929,
+3018
+]
+]
+},
+{
+"unit_id": "115#12",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"115",
+1567,
+1645
+]
+]
+},
+{
+"unit_id": "1071#14",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1071",
+5169,
+5368
+]
+]
+},
+{
+"unit_id": "1010#20",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"1010",
+6044,
+6703
+]
+]
+},
+{
+"unit_id": "995#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+3389,
+3419
+]
+]
+},
+{
+"unit_id": "154#15",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"154",
+2963,
+3338
+]
+]
+},
+{
+"unit_id": "1063#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1063",
+5185,
+5292
+]
+]
+},
+{
+"unit_id": "150#28",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"150",
+3296,
+3365
+]
+]
+},
+{
+"unit_id": "1076#30",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1076",
+4956,
+4967
+]
+]
+},
+{
+"unit_id": "1076#25",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"1076",
+3793,
+4047
+]
+]
+},
+{
+"unit_id": "117#49",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"117",
+8831,
+8998
+]
+]
+},
+{
+"unit_id": "916#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"916",
+7996,
+8281
+]
+]
+},
+{
+"unit_id": "915#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"915",
+3546,
+3798
+]
+]
+},
+{
+"unit_id": "912#14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+1641,
+1670
+]
+]
+},
+{
+"unit_id": "147#23",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"147",
+2155,
+2255
+]
+]
+},
+{
+"unit_id": "135#39",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"135",
+8652,
+8761
+]
+]
+},
+{
+"unit_id": "1070#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1070",
+8799,
+8848
+]
+]
+},
+{
+"unit_id": "124#31",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"124",
+4186,
+4223
+]
+]
+},
+{
+"unit_id": "916#10",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"916",
+1831,
+2249
+]
+]
+},
+{
+"unit_id": "110#8",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"110",
+1828,
+2005
+]
+]
+},
+{
+"unit_id": "162#31",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"162",
+5390,
+5525
+]
+]
+},
+{
+"unit_id": "137#15",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"137",
+2447,
+2503
+]
+]
+},
+{
+"unit_id": "159#31",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"159",
+5586,
+5635
+]
+]
+},
+{
+"unit_id": "996#45",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"996",
+4351,
+4632
+]
+]
+},
+{
+"unit_id": "155#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+2842,
+3087
+]
+]
+},
+{
+"unit_id": "920#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+780,
+886
+]
+]
+},
+{
+"unit_id": "136#7",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"136",
+1019,
+1277
+]
+]
+},
+{
+"unit_id": "137#26",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"137",
+4944,
+5107
+]
+]
+},
+{
+"unit_id": "134#20",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"134",
+2503,
+2647
+]
+]
+},
+{
+"unit_id": "1001#12",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"1001",
+4488,
+4720
+]
+]
+},
+{
+"unit_id": "113#44",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"113",
+8797,
+8851
+]
+]
+},
+{
+"unit_id": "117#28",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"117",
+5560,
+5706
+]
+]
+},
+{
+"unit_id": "1069#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1069",
+6600,
+6703
+]
+]
+},
+{
+"unit_id": "988#39",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"988",
+5510,
+5770
+]
+]
+},
+{
+"unit_id": "146#62",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+6548,
+6592
+]
+]
+},
+{
+"unit_id": "147#16",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"147",
+1917,
+1948
+]
+]
+},
+{
+"unit_id": "1070#9",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1070",
+2215,
+2613
+]
+]
+},
+{
+"unit_id": "1006#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1006",
+3881,
+4093
+]
+]
+},
+{
+"unit_id": "1073#26",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1073",
+6632,
+6864
+]
+]
+},
+{
+"unit_id": "995#41",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+4093,
+4098
+]
+]
+},
+{
+"unit_id": "995#47",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"995",
+4300,
+4361
+]
+]
+},
+{
+"unit_id": "116#32",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"116",
+7780,
+7811
+]
+]
+},
+{
+"unit_id": "998#23",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"998",
+7898,
+8516
+]
+]
+},
+{
+"unit_id": "133#24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"133",
+6195,
+6498
+]
+]
+},
+{
+"unit_id": "155#54",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"155",
+8581,
+8665
+]
+]
+},
+{
+"unit_id": "109#5",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"109",
+146,
+713
+]
+]
+},
+{
+"unit_id": "155#56",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+9155,
+9223
+]
+]
+},
+{
+"unit_id": "146#60",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"146",
+6002,
+6366
+]
+]
+},
+{
+"unit_id": "995#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+489,
+551
+]
+]
+},
+{
+"unit_id": "1010#6",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1010",
+1444,
+1519
+]
+]
+},
+{
+"unit_id": "1075#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1075",
+1681,
+2042
+]
+]
+},
+{
+"unit_id": "1002#15",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1002",
+5552,
+5860
+]
+]
+},
+{
+"unit_id": "112#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"112",
+1745,
+1827
+]
+]
+},
+{
+"unit_id": "145#37",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"145",
+6736,
+6952
+]
+]
+},
+{
+"unit_id": "1061#25",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1061",
+4990,
+5089
+]
+]
+},
+{
+"unit_id": "121#14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+1536,
+1568
+]
+]
+},
+{
+"unit_id": "125#24",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"125",
+4433,
+4548
+]
+]
+},
+{
+"unit_id": "987#3",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"987",
+3330,
+3421
+]
+]
+},
+{
+"unit_id": "151#17",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"151",
+4593,
+4858
+]
+]
+},
+{
+"unit_id": "1000#15",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1000",
+5302,
+5389
+]
+]
+},
+{
+"unit_id": "1004#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1004",
+1334,
+1671
+]
+]
+},
+{
+"unit_id": "1069#26",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1069",
+5047,
+5109
+]
+]
+},
+{
+"unit_id": "1065#26",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"1065",
+3539,
+3618
+]
+]
+},
+{
+"unit_id": "120#37",
+"fold": 1,
+"mentions": 21,
+"segments": [
+[
+"120",
+5151,
+5443
+]
+]
+},
+{
+"unit_id": "121#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+1223,
+1323
+]
+]
+},
+{
+"unit_id": "111#22",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"111",
+6203,
+6364
+]
+]
+},
+{
+"unit_id": "917#33",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"917",
+9866,
+10112
+]
+]
+},
+{
+"unit_id": "157#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"157",
+1089,
+1243
+]
+]
+},
+{
+"unit_id": "154#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"154",
+6833,
+7152
+]
+]
+},
+{
+"unit_id": "113#32",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"113",
+7366,
+7589
+]
+]
+},
+{
+"unit_id": "144#56",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+7293,
+7481
+]
+]
+},
+{
+"unit_id": "144#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+3137,
+3262
+]
+]
+},
+{
+"unit_id": "125#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+2779,
+2787
+]
+]
+},
+{
+"unit_id": "147#39",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"147",
+4176,
+4429
+]
+]
+},
+{
+"unit_id": "923#42",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"923",
+8730,
+9564
+]
+]
+},
+{
+"unit_id": "1000#16",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"1000",
+5391,
+5932
+]
+]
+},
+{
+"unit_id": "151#16",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"151",
+4190,
+4591
+]
+]
+},
+{
+"unit_id": "141#41",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"141",
+7485,
+7519
+]
+]
+},
+{
+"unit_id": "133#29",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"133",
+7057,
+7109
+]
+]
+},
+{
+"unit_id": "162#6",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"162",
+723,
+808
+]
+]
+},
+{
+"unit_id": "146#65",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+6676,
+6720
+]
+]
+},
+{
+"unit_id": "144#72",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+9401,
+9483
+]
+]
+},
+{
+"unit_id": "1071#7",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1071",
+2680,
+2918
+]
+]
+},
+{
+"unit_id": "997#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+514,
+902
+]
+]
+},
+{
+"unit_id": "925#13",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"925",
+2106,
+2306
+]
+]
+},
+{
+"unit_id": "915#21",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"915",
+6905,
+7134
+]
+]
+},
+{
+"unit_id": "150#20",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"150",
+2639,
+2686
+]
+]
+},
+{
+"unit_id": "125#28",
+"fold": 0,
+"mentions": 43,
+"segments": [
+[
+"125",
+4664,
+5219
+]
+]
+},
+{
+"unit_id": "132#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"132",
+0,
+103
+]
+]
+},
+{
+"unit_id": "1072#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+737,
+984
+]
+]
+},
+{
+"unit_id": "1073#5",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1073",
+1290,
+1597
+]
+]
+},
+{
+"unit_id": "1073#23",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1073",
+5579,
+5888
+]
+]
+},
+{
+"unit_id": "160#2",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"160",
+141,
+234
+]
+]
+},
+{
+"unit_id": "117#4",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"117",
+1750,
+1963
+]
+]
+},
+{
+"unit_id": "1004#14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1004",
+5542,
+5875
+]
+]
+},
+{
+"unit_id": "153#41",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"153",
+7313,
+7550
+]
+]
+},
+{
+"unit_id": "1006#8",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1006",
+2962,
+3332
+]
+]
+},
+{
+"unit_id": "922#13",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"922",
+4327,
+4399
+]
+]
+},
+{
+"unit_id": "155#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"155",
+6430,
+6536
+]
+]
+},
+{
+"unit_id": "921#11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"921",
+3737,
+3851
+]
+]
+},
+{
+"unit_id": "144#13",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"144",
+1551,
+1673
+]
+]
+},
+{
+"unit_id": "119#33",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"119",
+6803,
+6844
+]
+]
+},
+{
+"unit_id": "152#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"152",
+3331,
+3413
+]
+]
+},
+{
+"unit_id": "912#59",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"912",
+9386,
+9552
+]
+]
+},
+{
+"unit_id": "139#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"139",
+3436,
+3565
+]
+]
+},
+{
+"unit_id": "918#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"918",
+1306,
+1500
+]
+]
+},
+{
+"unit_id": "921#23",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"921",
+7034,
+7439
+]
+]
+},
+{
+"unit_id": "138#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"138",
+9626,
+9879
+]
+]
+},
+{
+"unit_id": "109#51",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"109",
+9122,
+9506
+]
+]
+},
+{
+"unit_id": "135#41",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"135",
+8815,
+9114
+]
+]
+},
+{
+"unit_id": "109#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"109",
+0,
+19
+]
+]
+},
+{
+"unit_id": "137#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"137",
+9646,
+9767
+]
+]
+},
+{
+"unit_id": "915#1",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"915",
+133,
+360
+]
+]
+},
+{
+"unit_id": "131#7",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"131",
+1188,
+1696
+]
+]
+},
+{
+"unit_id": "116#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"116",
+594,
+1512
+]
+]
+},
+{
+"unit_id": "145#28",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"145",
+5853,
+5898
+]
+]
+},
+{
+"unit_id": "130#20",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"130",
+5191,
+5330
+]
+]
+},
+{
+"unit_id": "1001#3",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1001",
+1559,
+1642
+]
+]
+},
+{
+"unit_id": "157#27",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"157",
+3142,
+3407
+]
+]
+},
+{
+"unit_id": "925#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"925",
+4201,
+4260
+]
+]
+},
+{
+"unit_id": "161#42",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"161",
+6519,
+6772
+]
+]
+},
+{
+"unit_id": "121#71",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"121",
+8057,
+8373
+]
+]
+},
+{
+"unit_id": "1076#7",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1076",
+2209,
+2265
+]
+]
+},
+{
+"unit_id": "1072#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+6170,
+6479
+]
+]
+},
+{
+"unit_id": "925#32",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"925",
+4402,
+4436
+]
+]
+},
+{
+"unit_id": "987#9",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"987",
+4039,
+4197
+]
+]
+},
+{
+"unit_id": "1066#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1066",
+2216,
+2254
+]
+]
+},
+{
+"unit_id": "151#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"151",
+9706,
+9965
+]
+]
+},
+{
+"unit_id": "115#11",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"115",
+1432,
+1565
+]
+]
+},
+{
+"unit_id": "144#21",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"144",
+2218,
+2379
+]
+]
+},
+{
+"unit_id": "1065#12",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1065",
+1974,
+2084
+]
+]
+},
+{
+"unit_id": "1076#29",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"1076",
+4664,
+4954
+]
+]
+},
+{
+"unit_id": "914#37",
+"fold": 4,
+"mentions": 11,
+"segments": [
+[
+"914",
+6992,
+7174
+]
+]
+},
+{
+"unit_id": "1006#3",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1006",
+474,
+997
+]
+]
+},
+{
+"unit_id": "996#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+407,
+461
+]
+]
+},
+{
+"unit_id": "123#18",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"123",
+2972,
+3309
+]
+]
+},
+{
+"unit_id": "1076#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1076",
+1788,
+2133
+]
+]
+},
+{
+"unit_id": "158#48",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"158",
+9753,
+9898
+]
+]
+},
+{
+"unit_id": "148#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"148",
+768,
+959
+]
+]
+},
+{
+"unit_id": "137#12",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"137",
+1897,
+1992
+]
+]
+},
+{
+"unit_id": "134#32",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"134",
+4386,
+4541
+]
+]
+},
+{
+"unit_id": "145#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"145",
+3481,
+3571
+]
+]
+},
+{
+"unit_id": "134#6",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"134",
+324,
+402
+]
+]
+},
+{
+"unit_id": "913#37",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"913",
+7436,
+7664
+]
+]
+},
+{
+"unit_id": "146#27",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"146",
+2940,
+3109
+]
+]
+},
+{
+"unit_id": "1066#49",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1066",
+8095,
+8255
+]
+]
+},
+{
+"unit_id": "996#60",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"996",
+5849,
+5861
+]
+]
+},
+{
+"unit_id": "115#48",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"115",
+6918,
+7137
+]
+]
+},
+{
+"unit_id": "136#20",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"136",
+4210,
+4260
+]
+]
+},
+{
+"unit_id": "1063#51",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1063",
+9164,
+9290
+]
+]
+},
+{
+"unit_id": "113#24",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"113",
+6658,
+6695
+]
+]
+},
+{
+"unit_id": "919#37",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"919",
+8236,
+8582
+]
+]
+},
+{
+"unit_id": "132#43",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"132",
+8193,
+8476
+]
+]
+},
+{
+"unit_id": "110#37",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"110",
+7380,
+7652
+]
+]
+},
+{
+"unit_id": "138#13",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"138",
+2219,
+2554
+]
+]
+},
+{
+"unit_id": "120#58",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"120",
+8351,
+8576
+]
+]
+},
+{
+"unit_id": "151#14",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"151",
+3339,
+3767
+]
+]
+},
+{
+"unit_id": "115#68",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"115",
+9672,
+9739
+]
+]
+},
+{
+"unit_id": "152#36",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"152",
+5886,
+5919
+]
+]
+},
+{
+"unit_id": "157#15",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"157",
+1465,
+1527
+]
+]
+},
+{
+"unit_id": "121#9",
+"fold": 2,
+"mentions": 18,
+"segments": [
+[
+"121",
+945,
+1221
+]
+]
+},
+{
+"unit_id": "1070#10",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1070",
+2615,
+2971
+]
+]
+},
+{
+"unit_id": "1074#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1074",
+8075,
+8128
+]
+]
+},
+{
+"unit_id": "919#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"919",
+5701,
+5924
+]
+]
+},
+{
+"unit_id": "135#35",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"135",
+7835,
+8045
+]
+]
+},
+{
+"unit_id": "1072#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+0,
+55
+]
+]
+},
+{
+"unit_id": "988#60",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"988",
+8139,
+8167
+]
+]
+},
+{
+"unit_id": "109#25",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"109",
+4162,
+4193
+]
+]
+},
+{
+"unit_id": "144#19",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"144",
+2061,
+2124
+]
+]
+},
+{
+"unit_id": "1068#15",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1068",
+3476,
+3929
+]
+]
+},
+{
+"unit_id": "119#3",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"119",
+232,
+308
+]
+]
+},
+{
+"unit_id": "919#6",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"919",
+1134,
+1204
+]
+]
+},
+{
+"unit_id": "161#41",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"161",
+6437,
+6517
+]
+]
+},
+{
+"unit_id": "1068#41",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1068",
+9699,
+9789
+]
+]
+},
+{
+"unit_id": "115#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"115",
+368,
+437
+]
+]
+},
+{
+"unit_id": "144#63",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"144",
+8428,
+8470
+]
+]
+},
+{
+"unit_id": "161#44",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"161",
+7057,
+7395
+]
+]
+},
+{
+"unit_id": "146#47",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+5046,
+5141
+]
+]
+},
+{
+"unit_id": "1069#27",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1069",
+5111,
+5131
+]
+]
+},
+{
+"unit_id": "125#58",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+9435,
+9486
+]
+]
+},
+{
+"unit_id": "112#46",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"112",
+9617,
+9648
+]
+]
+},
+{
+"unit_id": "1062#5",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"1062",
+792,
+995
+]
+]
+},
+{
+"unit_id": "143#3",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"143",
+365,
+484
+]
+]
+},
+{
+"unit_id": "121#67",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"121",
+7478,
+7685
+]
+]
+},
+{
+"unit_id": "109#24",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"109",
+4019,
+4160
+]
+]
+},
+{
+"unit_id": "153#39",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"153",
+6683,
+6977
+]
+]
+},
+{
+"unit_id": "155#46",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"155",
+7209,
+7275
+]
+]
+},
+{
+"unit_id": "922#22",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"922",
+5301,
+5368
+]
+]
+},
+{
+"unit_id": "162#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"162",
+0,
+88
+]
+]
+},
+{
+"unit_id": "1004#7",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1004",
+2979,
+3300
+]
+]
+},
+{
+"unit_id": "161#32",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"161",
+4606,
+4896
+]
+]
+},
+{
+"unit_id": "149#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+0,
+96
+]
+]
+},
+{
+"unit_id": "1066#33",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1066",
+5323,
+5372
+]
+]
+},
+{
+"unit_id": "989#1",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"989",
+147,
+263
+]
+]
+},
+{
+"unit_id": "150#39",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"150",
+6131,
+6578
+]
+]
+},
+{
+"unit_id": "110#16",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"110",
+3164,
+3236
+]
+]
+},
+{
+"unit_id": "147#55",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"147",
+6036,
+6098
+]
+]
+},
+{
+"unit_id": "111#41",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"111",
+10193,
+10226
+]
+]
+},
+{
+"unit_id": "116#37",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"116",
+8783,
+8947
+]
+]
+},
+{
+"unit_id": "134#29",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"134",
+3940,
+4160
+]
+]
+},
+{
+"unit_id": "1066#32",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1066",
+5283,
+5321
+]
+]
+},
+{
+"unit_id": "122#48",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"122",
+8018,
+8044
+]
+]
+},
+{
+"unit_id": "157#14",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"157",
+1384,
+1463
+]
+]
+},
+{
+"unit_id": "917#29",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"917",
+9045,
+9077
+]
+]
+},
+{
+"unit_id": "1064#14",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"1064",
+3286,
+3357
+]
+]
+},
+{
+"unit_id": "149#33",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+5856,
+6370
+]
+]
+},
+{
+"unit_id": "920#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"920",
+10119,
+10375
+]
+]
+},
+{
+"unit_id": "159#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"159",
+750,
+1262
+]
+]
+},
+{
+"unit_id": "997#18",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+5843,
+5909
+]
+]
+},
+{
+"unit_id": "158#23",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"158",
+5564,
+5750
+]
+]
+},
+{
+"unit_id": "118#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"118",
+966,
+1110
+]
+]
+},
+{
+"unit_id": "162#5",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"162",
+670,
+721
+]
+]
+},
+{
+"unit_id": "111#16",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"111",
+3999,
+4534
+]
+]
+},
+{
+"unit_id": "145#19",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"145",
+4750,
+4840
+]
+]
+},
+{
+"unit_id": "156#40",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"156",
+6614,
+6695
+]
+]
+},
+{
+"unit_id": "1010#19",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"1010",
+6004,
+6042
+]
+]
+},
+{
+"unit_id": "917#23",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"917",
+8510,
+8648
+]
+]
+},
+{
+"unit_id": "109#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"109",
+6203,
+6229
+]
+]
+},
+{
+"unit_id": "1067#10",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"1067",
+1501,
+1543
+]
+]
+},
+{
+"unit_id": "1008#14",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"1008",
+5576,
+6580
+]
+]
+},
+{
+"unit_id": "1063#44",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"1063",
+8282,
+8389
+]
+]
+},
+{
+"unit_id": "1068#14",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"1068",
+3095,
+3474
+]
+]
+},
+{
+"unit_id": "997#10",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"997",
+3167,
+3337
+]
+]
+},
+{
+"unit_id": "157#46",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"157",
+5646,
+5825
+]
+]
+},
+{
+"unit_id": "1001#19",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1001",
+7580,
+8116
+]
+]
+},
+{
+"unit_id": "997#38",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+7462,
+7518
+]
+]
+},
+{
+"unit_id": "1007#7",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"1007",
+2854,
+3254
+]
+]
+},
+{
+"unit_id": "125#57",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"125",
+9406,
+9433
+]
+]
+},
+{
+"unit_id": "917#11",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"917",
+4285,
+4840
+]
+]
+},
+{
+"unit_id": "124#60",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"124",
+7847,
+8075
+]
+]
+},
+{
+"unit_id": "918#10",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"918",
+1162,
+1243
+]
+]
+},
+{
+"unit_id": "989#40",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"989",
+2816,
+2828
+]
+]
+},
+{
+"unit_id": "1006#17",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"1006",
+5868,
+6072
+]
+]
+},
+{
+"unit_id": "997#48",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"997",
+8079,
+8149
+]
+]
+},
+{
+"unit_id": "146#54",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+5538,
+5569
+]
+]
+},
+{
+"unit_id": "160#15",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"160",
+2277,
+2324
+]
+]
+},
+{
+"unit_id": "123#2",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"123",
+126,
+501
+]
+]
+},
+{
+"unit_id": "146#44",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"146",
+4568,
+4849
+]
+]
+},
+{
+"unit_id": "1065#0",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1065",
+0,
+266
+]
+]
+},
+{
+"unit_id": "1001#11",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1001",
+4204,
+4486
+]
+]
+},
+{
+"unit_id": "136#16",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"136",
+3432,
+3527
+]
+]
+},
+{
+"unit_id": "121#45",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"121",
+4819,
+4895
+]
+]
+},
+{
+"unit_id": "1002#4",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1002",
+1718,
+1960
+]
+]
+},
+{
+"unit_id": "913#25",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"913",
+4384,
+4585
+]
+]
+},
+{
+"unit_id": "146#69",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"146",
+6831,
+6931
+]
+]
+},
+{
+"unit_id": "160#25",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"160",
+3929,
+3966
+]
+]
+},
+{
+"unit_id": "1074#31",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1074",
+8196,
+8251
+]
+]
+},
+{
+"unit_id": "997#34",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"997",
+7104,
+7110
+]
+]
+},
+{
+"unit_id": "1072#5",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"1072",
+986,
+1443
+]
+]
+},
+{
+"unit_id": "996#15",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"996",
+1501,
+1685
+]
+]
+},
+{
+"unit_id": "1063#29",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"1063",
+5096,
+5183
+]
+]
+},
+{
+"unit_id": "920#35",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"920",
+7682,
+8196
+]
+]
+},
+{
+"unit_id": "995#2",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+48,
+72
+]
+]
+},
+{
+"unit_id": "134#18",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"134",
+2264,
+2329
+]
+]
+},
+{
+"unit_id": "149#52",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"149",
+9706,
+9945
+]
+]
+},
+{
+"unit_id": "1009#16",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"1009",
+5739,
+5914
+]
+]
+},
+{
+"unit_id": "995#36",
+"fold": 5,
+"mentions": 0,
+"segments": [
+[
+"995",
+3858,
+3916
+]
+]
+},
+{
+"unit_id": "1069#41",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"1069",
+6705,
+6835
+]
+]
+},
+{
+"unit_id": "125#36",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"125",
+6770,
+6890
+]
+]
+}
+]
+}

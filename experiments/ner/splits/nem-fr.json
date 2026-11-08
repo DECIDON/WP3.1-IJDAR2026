@@ -1,0 +1,514 @@
+{
+"key": "nem-fr",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "échantillon (genres confondus)",
+"n_units_total": 68,
+"n_mentions_total": 1459,
+"n_units": 41,
+"n_mentions": 883,
+"mentions_per_fold": [
+260,
+125,
+125,
+125,
+124,
+124
+],
+"units": [
+{
+"unit_id": "juridique03-conseil_detat",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"juridique03-conseil_detat",
+0,
+4899
+]
+]
+},
+{
+"unit_id": "poetry04-fleurs_sauvages_leonise_vallois",
+"fold": 3,
+"mentions": 13,
+"segments": [
+[
+"poetry04-fleurs_sauvages_leonise_vallois",
+0,
+5981
+]
+]
+},
+{
+"unit_id": "mail_20",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"mail_20",
+0,
+335
+]
+]
+},
+{
+"unit_id": "mail_17",
+"fold": 2,
+"mentions": 12,
+"segments": [
+[
+"mail_17",
+0,
+849
+]
+]
+},
+{
+"unit_id": "defense04-PopCorn_test",
+"fold": 1,
+"mentions": 25,
+"segments": [
+[
+"defense04-PopCorn_test",
+0,
+5539
+]
+]
+},
+{
+"unit_id": "prose04-colette_cheri",
+"fold": 4,
+"mentions": 23,
+"segments": [
+[
+"prose04-colette_cheri",
+0,
+5731
+]
+]
+},
+{
+"unit_id": "multi02-Sequoia",
+"fold": 3,
+"mentions": 30,
+"segments": [
+[
+"multi02-Sequoia",
+0,
+5042
+]
+]
+},
+{
+"unit_id": "spoken05-eslo01",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"spoken05-eslo01",
+0,
+5450
+]
+]
+},
+{
+"unit_id": "juridique04-cours_administrative_dappel",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"juridique04-cours_administrative_dappel",
+0,
+6223
+]
+]
+},
+{
+"unit_id": "poetry05-les_vivants_et_les_morts_anna_de_noailles",
+"fold": 4,
+"mentions": 13,
+"segments": [
+[
+"poetry05-les_vivants_et_les_morts_anna_de_noailles",
+0,
+5598
+]
+]
+},
+{
+"unit_id": "encyclopedia02-wikiner_gold",
+"fold": 0,
+"mentions": 260,
+"segments": [
+[
+"encyclopedia02-wikiner_gold",
+0,
+24492
+]
+]
+},
+{
+"unit_id": "mail_24",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"mail_24",
+0,
+1751
+]
+]
+},
+{
+"unit_id": "mail_21",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"mail_21",
+0,
+488
+]
+]
+},
+{
+"unit_id": "mail_12",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"mail_12",
+0,
+623
+]
+]
+},
+{
+"unit_id": "mail_10",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"mail_10",
+0,
+559
+]
+]
+},
+{
+"unit_id": "poetry01-Baudelaire",
+"fold": 5,
+"mentions": 25,
+"segments": [
+[
+"poetry01-Baudelaire",
+0,
+4921
+]
+]
+},
+{
+"unit_id": "mail_15",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"mail_15",
+0,
+137
+]
+]
+},
+{
+"unit_id": "mail_6",
+"fold": 3,
+"mentions": 19,
+"segments": [
+[
+"mail_6",
+0,
+1414
+]
+]
+},
+{
+"unit_id": "multi03-FQB",
+"fold": 1,
+"mentions": 56,
+"segments": [
+[
+"multi03-FQB",
+0,
+4814
+]
+]
+},
+{
+"unit_id": "spoken03-Rhapsodie",
+"fold": 5,
+"mentions": 37,
+"segments": [
+[
+"spoken03-Rhapsodie",
+0,
+4916
+]
+]
+},
+{
+"unit_id": "mail_11",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"mail_11",
+0,
+999
+]
+]
+},
+{
+"unit_id": "mail_14",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"mail_14",
+0,
+296
+]
+]
+},
+{
+"unit_id": "information02-Wikinews",
+"fold": 5,
+"mentions": 32,
+"segments": [
+[
+"information02-Wikinews",
+0,
+5497
+]
+]
+},
+{
+"unit_id": "mail_7",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"mail_7",
+0,
+297
+]
+]
+},
+{
+"unit_id": "prose05-les_sevriennes_gabrielle_reval",
+"fold": 3,
+"mentions": 46,
+"segments": [
+[
+"prose05-les_sevriennes_gabrielle_reval",
+0,
+6405
+]
+]
+},
+{
+"unit_id": "politique02-Macron_francais",
+"fold": 2,
+"mentions": 48,
+"segments": [
+[
+"politique02-Macron_francais",
+0,
+5508
+]
+]
+},
+{
+"unit_id": "tweets02-TREMoLo_familier",
+"fold": 4,
+"mentions": 41,
+"segments": [
+[
+"tweets02-TREMoLo_familier",
+0,
+5384
+]
+]
+},
+{
+"unit_id": "mail_9",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"mail_9",
+0,
+457
+]
+]
+},
+{
+"unit_id": "mail_16",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"mail_16",
+0,
+1955
+]
+]
+},
+{
+"unit_id": "spoken01-Rhapsodie",
+"fold": 2,
+"mentions": 28,
+"segments": [
+[
+"spoken01-Rhapsodie",
+0,
+5068
+]
+]
+},
+{
+"unit_id": "defense01-PopCorn_train",
+"fold": 4,
+"mentions": 31,
+"segments": [
+[
+"defense01-PopCorn_train",
+0,
+5680
+]
+]
+},
+{
+"unit_id": "mail_3",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"mail_3",
+0,
+1117
+]
+]
+},
+{
+"unit_id": "mail_13",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"mail_13",
+0,
+801
+]
+]
+},
+{
+"unit_id": "politique03-DeGaulle_appel_18_juin_1940",
+"fold": 1,
+"mentions": 17,
+"segments": [
+[
+"politique03-DeGaulle_appel_18_juin_1940",
+0,
+2187
+]
+]
+},
+{
+"unit_id": "biomedical01-Morfitt_chemistry",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"biomedical01-Morfitt_chemistry",
+0,
+5693
+]
+]
+},
+{
+"unit_id": "mail_1",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"mail_1",
+0,
+995
+]
+]
+},
+{
+"unit_id": "politique04-DeGaulle_algerie",
+"fold": 5,
+"mentions": 16,
+"segments": [
+[
+"politique04-DeGaulle_algerie",
+0,
+2981
+]
+]
+},
+{
+"unit_id": "spoken04-eslo01",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"spoken04-eslo01",
+0,
+5649
+]
+]
+},
+{
+"unit_id": "poetry03-anatomie_du_mouvement_huguette_bertrand",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"poetry03-anatomie_du_mouvement_huguette_bertrand",
+0,
+6113
+]
+]
+},
+{
+"unit_id": "mail_18",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"mail_18",
+0,
+583
+]
+]
+},
+{
+"unit_id": "prose02-Zola",
+"fold": 2,
+"mentions": 21,
+"segments": [
+[
+"prose02-Zola",
+0,
+4643
+]
+]
+}
+]
+}

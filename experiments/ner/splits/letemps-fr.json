@@ -1,0 +1,394 @@
+{
+"key": "letemps-fr",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "article",
+"n_units_total": 516,
+"n_mentions_total": 10544,
+"n_units": 31,
+"n_mentions": 870,
+"mentions_per_fold": [
+148,
+146,
+143,
+147,
+143,
+143
+],
+"units": [
+{
+"unit_id": "JDG-1826-11-23-5",
+"fold": 2,
+"mentions": 26,
+"segments": [
+[
+"JDG-1826-11-23-5",
+0,
+3856
+]
+]
+},
+{
+"unit_id": "GDL-1961-06-10-57",
+"fold": 0,
+"mentions": 148,
+"segments": [
+[
+"GDL-1961-06-10-57",
+0,
+6988
+]
+]
+},
+{
+"unit_id": "JDG-1981-10-24-12",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1981-10-24-12",
+0,
+6307
+]
+]
+},
+{
+"unit_id": "GDL-1881-04-06-9",
+"fold": 5,
+"mentions": 31,
+"segments": [
+[
+"GDL-1881-04-06-9",
+0,
+4055
+]
+]
+},
+{
+"unit_id": "JDG-1841-06-24-17",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1841-06-24-17",
+0,
+1824
+]
+]
+},
+{
+"unit_id": "GDL-1841-04-13-9",
+"fold": 2,
+"mentions": 75,
+"segments": [
+[
+"GDL-1841-04-13-9",
+0,
+16053
+]
+]
+},
+{
+"unit_id": "JDG-1981-01-08-34",
+"fold": 5,
+"mentions": 52,
+"segments": [
+[
+"JDG-1981-01-08-34",
+0,
+1895
+]
+]
+},
+{
+"unit_id": "JDG-1826-12-07-1",
+"fold": 4,
+"mentions": 39,
+"segments": [
+[
+"JDG-1826-12-07-1",
+0,
+17564
+]
+]
+},
+{
+"unit_id": "GDL-1961-01-23-48",
+"fold": 3,
+"mentions": 23,
+"segments": [
+[
+"GDL-1961-01-23-48",
+0,
+3981
+]
+]
+},
+{
+"unit_id": "JDG-1921-08-13-29",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1921-08-13-29",
+0,
+3568
+]
+]
+},
+{
+"unit_id": "JDG-1981-03-10-58",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1981-03-10-58",
+0,
+801
+]
+]
+},
+{
+"unit_id": "GDL-1921-10-05-19",
+"fold": 4,
+"mentions": 66,
+"segments": [
+[
+"GDL-1921-10-05-19",
+0,
+8206
+]
+]
+},
+{
+"unit_id": "GDL-1841-04-16-10",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"GDL-1841-04-16-10",
+0,
+2115
+]
+]
+},
+{
+"unit_id": "GDL-1881-08-22-10",
+"fold": 1,
+"mentions": 86,
+"segments": [
+[
+"GDL-1881-08-22-10",
+0,
+10252
+]
+]
+},
+{
+"unit_id": "JDG-1981-12-02-31",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1981-12-02-31",
+0,
+1749
+]
+]
+},
+{
+"unit_id": "GDL-1804-09-28-17",
+"fold": 5,
+"mentions": 14,
+"segments": [
+[
+"GDL-1804-09-28-17",
+0,
+693
+]
+]
+},
+{
+"unit_id": "GDL-1804-06-01-13",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"GDL-1804-06-01-13",
+0,
+3661
+]
+]
+},
+{
+"unit_id": "GDL-1881-01-04-3",
+"fold": 3,
+"mentions": 75,
+"segments": [
+[
+"GDL-1881-01-04-3",
+0,
+12784
+]
+]
+},
+{
+"unit_id": "GDL-1921-08-05-30",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"GDL-1921-08-05-30",
+0,
+1267
+]
+]
+},
+{
+"unit_id": "GDL-1921-04-12-17",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"GDL-1921-04-12-17",
+0,
+330
+]
+]
+},
+{
+"unit_id": "GDL-1981-12-09-109",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"GDL-1981-12-09-109",
+0,
+810
+]
+]
+},
+{
+"unit_id": "GDL-1961-06-21-18",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"GDL-1961-06-21-18",
+0,
+548
+]
+]
+},
+{
+"unit_id": "JDG-1921-06-08-14",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1921-06-08-14",
+0,
+1147
+]
+]
+},
+{
+"unit_id": "GDL-1826-02-28-9",
+"fold": 1,
+"mentions": 32,
+"segments": [
+[
+"GDL-1826-02-28-9",
+0,
+5147
+]
+]
+},
+{
+"unit_id": "GDL-1961-10-21-45",
+"fold": 2,
+"mentions": 38,
+"segments": [
+[
+"GDL-1961-10-21-45",
+0,
+10941
+]
+]
+},
+{
+"unit_id": "JDG-1881-05-21-19",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1881-05-21-19",
+0,
+2438
+]
+]
+},
+{
+"unit_id": "GDL-1804-11-27-6",
+"fold": 4,
+"mentions": 31,
+"segments": [
+[
+"GDL-1804-11-27-6",
+0,
+2493
+]
+]
+},
+{
+"unit_id": "JDG-1961-07-01-53",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1961-07-01-53",
+0,
+2609
+]
+]
+},
+{
+"unit_id": "GDL-1804-05-22-10",
+"fold": 5,
+"mentions": 42,
+"segments": [
+[
+"GDL-1804-05-22-10",
+0,
+7516
+]
+]
+},
+{
+"unit_id": "JDG-1921-06-24-18",
+"fold": 2,
+"mentions": 0,
+"segments": [
+[
+"JDG-1921-06-24-18",
+0,
+9734
+]
+]
+},
+{
+"unit_id": "GDL-1961-12-14-21",
+"fold": 3,
+"mentions": 38,
+"segments": [
+[
+"GDL-1961-12-14-21",
+0,
+2564
+]
+]
+}
+]
+}

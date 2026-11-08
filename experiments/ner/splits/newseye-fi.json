@@ -1,0 +1,478 @@
+{
+"key": "newseye-fi",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "page",
+"n_units_total": 93,
+"n_mentions_total": 2990,
+"n_units": 38,
+"n_mentions": 893,
+"mentions_per_fold": [
+196,
+140,
+140,
+139,
+139,
+139
+],
+"units": [
+{
+"unit_id": "test_fi_21",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"test_fi_21",
+0,
+1474
+]
+]
+},
+{
+"unit_id": "dev_fi_19",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"dev_fi_19",
+0,
+531
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_6",
+"fold": 2,
+"mentions": 24,
+"segments": [
+[
+"hidden_test_fi_6",
+0,
+3599
+]
+]
+},
+{
+"unit_id": "dev_fi_10",
+"fold": 5,
+"mentions": 8,
+"segments": [
+[
+"dev_fi_10",
+0,
+4062
+]
+]
+},
+{
+"unit_id": "test_fi_7",
+"fold": 1,
+"mentions": 16,
+"segments": [
+[
+"test_fi_7",
+0,
+2722
+]
+]
+},
+{
+"unit_id": "test_fi_20",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"test_fi_20",
+0,
+612
+]
+]
+},
+{
+"unit_id": "dev_fi_23",
+"fold": 2,
+"mentions": 14,
+"segments": [
+[
+"dev_fi_23",
+0,
+787
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_11",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fi_11",
+0,
+269
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_4",
+"fold": 2,
+"mentions": 79,
+"segments": [
+[
+"hidden_test_fi_4",
+0,
+7685
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_17",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fi_17",
+0,
+362
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_9",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"hidden_test_fi_9",
+0,
+2930
+]
+]
+},
+{
+"unit_id": "test_fi_11",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"test_fi_11",
+0,
+369
+]
+]
+},
+{
+"unit_id": "train_fi_13",
+"fold": 5,
+"mentions": 54,
+"segments": [
+[
+"train_fi_13",
+0,
+5651
+]
+]
+},
+{
+"unit_id": "dev_fi_5",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"dev_fi_5",
+0,
+751
+]
+]
+},
+{
+"unit_id": "test_fi_3",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"test_fi_3",
+0,
+3051
+]
+]
+},
+{
+"unit_id": "test_fi_19",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fi_19",
+0,
+999
+]
+]
+},
+{
+"unit_id": "test_fi_2",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"test_fi_2",
+0,
+1133
+]
+]
+},
+{
+"unit_id": "train_fi_12",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fi_12",
+0,
+1032
+]
+]
+},
+{
+"unit_id": "train_fi_21",
+"fold": 5,
+"mentions": 45,
+"segments": [
+[
+"train_fi_21",
+0,
+10339
+]
+]
+},
+{
+"unit_id": "test_fi_12",
+"fold": 4,
+"mentions": 21,
+"segments": [
+[
+"test_fi_12",
+0,
+1398
+]
+]
+},
+{
+"unit_id": "test_fi_13",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"test_fi_13",
+0,
+1095
+]
+]
+},
+{
+"unit_id": "train_fi_5",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"train_fi_5",
+0,
+6545
+]
+]
+},
+{
+"unit_id": "train_fi_18",
+"fold": 4,
+"mentions": 59,
+"segments": [
+[
+"train_fi_18",
+0,
+4194
+]
+]
+},
+{
+"unit_id": "test_fi_6",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"test_fi_6",
+0,
+270
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_18",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fi_18",
+0,
+809
+]
+]
+},
+{
+"unit_id": "dev_fi_17",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fi_17",
+0,
+1045
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_21",
+"fold": 3,
+"mentions": 22,
+"segments": [
+[
+"hidden_test_fi_21",
+0,
+4595
+]
+]
+},
+{
+"unit_id": "train_fi_14",
+"fold": 3,
+"mentions": 26,
+"segments": [
+[
+"train_fi_14",
+0,
+6040
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fi_15",
+0,
+2355
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_7",
+"fold": 3,
+"mentions": 74,
+"segments": [
+[
+"hidden_test_fi_7",
+0,
+7272
+]
+]
+},
+{
+"unit_id": "train_fi_17",
+"fold": 2,
+"mentions": 18,
+"segments": [
+[
+"train_fi_17",
+0,
+5318
+]
+]
+},
+{
+"unit_id": "test_fi_4",
+"fold": 5,
+"mentions": 24,
+"segments": [
+[
+"test_fi_4",
+0,
+1468
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_3",
+"fold": 0,
+"mentions": 196,
+"segments": [
+[
+"hidden_test_fi_3",
+0,
+9822
+]
+]
+},
+{
+"unit_id": "train_fi_8",
+"fold": 1,
+"mentions": 108,
+"segments": [
+[
+"train_fi_8",
+0,
+20867
+]
+]
+},
+{
+"unit_id": "test_fi_10",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"test_fi_10",
+0,
+1749
+]
+]
+},
+{
+"unit_id": "dev_fi_20",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"dev_fi_20",
+0,
+943
+]
+]
+},
+{
+"unit_id": "hidden_test_fi_20",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"hidden_test_fi_20",
+0,
+3050
+]
+]
+},
+{
+"unit_id": "dev_fi_9",
+"fold": 4,
+"mentions": 43,
+"segments": [
+[
+"dev_fi_9",
+0,
+3819
+]
+]
+}
+]
+}

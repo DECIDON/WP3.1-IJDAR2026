@@ -1,0 +1,1376 @@
+{
+"key": "geoedda",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "article de l'Encyclopédie",
+"n_units_total": 2001,
+"n_mentions_total": 17498,
+"n_units": 112,
+"n_mentions": 873,
+"mentions_per_fold": [
+146,
+146,
+146,
+145,
+145,
+145
+],
+"units": [
+{
+"unit_id": "v14-a4819",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v14-a4819-p1",
+0,
+393
+]
+]
+},
+{
+"unit_id": "v8-a2172",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v8-a2172-p5",
+0,
+580
+]
+]
+},
+{
+"unit_id": "v11-a4213",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"v11-a4213-p19",
+0,
+86
+]
+]
+},
+{
+"unit_id": "v14-a5117",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v14-a5117-p16",
+0,
+94
+]
+]
+},
+{
+"unit_id": "v6-a1218",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v6-a1218-p1",
+0,
+99
+]
+]
+},
+{
+"unit_id": "v8-a2076",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"v8-a2076-p1",
+0,
+315
+]
+]
+},
+{
+"unit_id": "v8-a2432",
+"fold": 2,
+"mentions": 19,
+"segments": [
+[
+"v8-a2432-p1",
+0,
+468
+]
+]
+},
+{
+"unit_id": "v4-a138",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"v4-a138-p1",
+0,
+126
+]
+]
+},
+{
+"unit_id": "v1-a180",
+"fold": 0,
+"mentions": 14,
+"segments": [
+[
+"v1-a180-p1",
+0,
+156
+]
+]
+},
+{
+"unit_id": "v9-a3768",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"v9-a3768-p372",
+0,
+288
+]
+]
+},
+{
+"unit_id": "v9-a2848",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"v9-a2848-p11",
+0,
+839
+]
+]
+},
+{
+"unit_id": "v9-a1850",
+"fold": 5,
+"mentions": 23,
+"segments": [
+[
+"v9-a1850-p1",
+0,
+368
+]
+]
+},
+{
+"unit_id": "v16-a4292",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"v16-a4292-p1",
+0,
+213
+]
+]
+},
+{
+"unit_id": "v15-a3855",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v15-a3855-p16",
+0,
+337
+]
+]
+},
+{
+"unit_id": "v14-a3801",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v14-a3801-p193",
+0,
+216
+]
+]
+},
+{
+"unit_id": "v6-a1673",
+"fold": 1,
+"mentions": 31,
+"segments": [
+[
+"v6-a1673-p1",
+0,
+515
+]
+]
+},
+{
+"unit_id": "v8-a3344",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v8-a3344-p7",
+0,
+295
+]
+]
+},
+{
+"unit_id": "v7-a2464",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v7-a2464-p1",
+0,
+190
+]
+]
+},
+{
+"unit_id": "v17-a1775",
+"fold": 1,
+"mentions": 19,
+"segments": [
+[
+"v17-a1775-p1",
+0,
+273
+]
+]
+},
+{
+"unit_id": "v9-a202",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v9-a202-p25",
+0,
+64
+]
+]
+},
+{
+"unit_id": "v16-a3398",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"v16-a3398-p1",
+0,
+163
+]
+]
+},
+{
+"unit_id": "v14-a4714",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"v14-a4714-p1",
+0,
+241
+]
+]
+},
+{
+"unit_id": "v14-a3782",
+"fold": 0,
+"mentions": 39,
+"segments": [
+[
+"v14-a3782-p3",
+0,
+603
+]
+]
+},
+{
+"unit_id": "v2-a5178",
+"fold": 2,
+"mentions": 9,
+"segments": [
+[
+"v2-a5178-p1",
+0,
+99
+]
+]
+},
+{
+"unit_id": "v10-a2985",
+"fold": 0,
+"mentions": 15,
+"segments": [
+[
+"v10-a2985-p1",
+0,
+299
+]
+]
+},
+{
+"unit_id": "v1-a899",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"v1-a899-p1",
+0,
+116
+]
+]
+},
+{
+"unit_id": "v9-a101",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"v9-a101-p1",
+0,
+502
+]
+]
+},
+{
+"unit_id": "v1-a1286",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"v1-a1286-p1",
+0,
+65
+]
+]
+},
+{
+"unit_id": "v12-a1729",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v12-a1729-p1",
+0,
+107
+]
+]
+},
+{
+"unit_id": "v1-a2058",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"v1-a2058-p1",
+0,
+104
+]
+]
+},
+{
+"unit_id": "v17-a194",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v17-a194-p1",
+0,
+73
+]
+]
+},
+{
+"unit_id": "v8-a789",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"v8-a789-p1",
+0,
+176
+]
+]
+},
+{
+"unit_id": "v16-a39",
+"fold": 5,
+"mentions": 16,
+"segments": [
+[
+"v16-a39-p1",
+0,
+224
+]
+]
+},
+{
+"unit_id": "v7-a327",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v7-a327-p1",
+0,
+98
+]
+]
+},
+{
+"unit_id": "v5-a2510",
+"fold": 3,
+"mentions": 7,
+"segments": [
+[
+"v5-a2510-p1",
+0,
+102
+]
+]
+},
+{
+"unit_id": "v15-a1383",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"v15-a1383-p6",
+0,
+430
+]
+]
+},
+{
+"unit_id": "v15-a1716",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"v15-a1716-p1",
+0,
+178
+]
+]
+},
+{
+"unit_id": "v17-a31",
+"fold": 2,
+"mentions": 28,
+"segments": [
+[
+"v17-a31-p1",
+0,
+717
+]
+]
+},
+{
+"unit_id": "v14-a1549",
+"fold": 4,
+"mentions": 13,
+"segments": [
+[
+"v14-a1549-p1",
+0,
+835
+]
+]
+},
+{
+"unit_id": "v10-a2704",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"v10-a2704-p1",
+0,
+202
+]
+]
+},
+{
+"unit_id": "v7-a1392",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"v7-a1392-p1",
+0,
+648
+]
+]
+},
+{
+"unit_id": "v4-a3632",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"v4-a3632-p1",
+0,
+186
+]
+]
+},
+{
+"unit_id": "v14-a5058",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"v14-a5058-p1",
+0,
+210
+]
+]
+},
+{
+"unit_id": "v15-a1199",
+"fold": 3,
+"mentions": 16,
+"segments": [
+[
+"v15-a1199-p1",
+0,
+487
+]
+]
+},
+{
+"unit_id": "v2-a6558",
+"fold": 1,
+"mentions": 11,
+"segments": [
+[
+"v2-a6558-p7",
+0,
+1081
+]
+]
+},
+{
+"unit_id": "v7-a1312",
+"fold": 4,
+"mentions": 16,
+"segments": [
+[
+"v7-a1312-p1",
+0,
+389
+]
+]
+},
+{
+"unit_id": "v6-a1522",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v6-a1522-p1",
+0,
+135
+]
+]
+},
+{
+"unit_id": "v9-a4172",
+"fold": 3,
+"mentions": 20,
+"segments": [
+[
+"v9-a4172-p7",
+0,
+959
+]
+]
+},
+{
+"unit_id": "v3-a2569",
+"fold": 3,
+"mentions": 9,
+"segments": [
+[
+"v3-a2569-p1",
+0,
+117
+]
+]
+},
+{
+"unit_id": "v9-a2194",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v9-a2194-p1",
+0,
+158
+]
+]
+},
+{
+"unit_id": "v1-a3072",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"v1-a3072-p1",
+0,
+398
+]
+]
+},
+{
+"unit_id": "v1-a539",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"v1-a539-p1",
+0,
+59
+]
+]
+},
+{
+"unit_id": "v8-a1143",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"v8-a1143-p1",
+0,
+211
+]
+]
+},
+{
+"unit_id": "v1-a1219",
+"fold": 4,
+"mentions": 7,
+"segments": [
+[
+"v1-a1219-p1",
+0,
+55
+]
+]
+},
+{
+"unit_id": "v1-a954",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"v1-a954-p1",
+0,
+131
+]
+]
+},
+{
+"unit_id": "v4-a3458",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v4-a3458-p9",
+0,
+244
+]
+]
+},
+{
+"unit_id": "v17-a390",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v17-a390-p355",
+0,
+101
+]
+]
+},
+{
+"unit_id": "v8-a317",
+"fold": 4,
+"mentions": 15,
+"segments": [
+[
+"v8-a317-p1",
+0,
+402
+]
+]
+},
+{
+"unit_id": "v3-a3300",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"v3-a3300-p14",
+0,
+321
+]
+]
+},
+{
+"unit_id": "v11-a1923",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v11-a1923-p1",
+0,
+343
+]
+]
+},
+{
+"unit_id": "v1-a891",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v1-a891-p1",
+0,
+306
+]
+]
+},
+{
+"unit_id": "v1-a3897",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v1-a3897-p1",
+0,
+74
+]
+]
+},
+{
+"unit_id": "v10-a2021",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"v10-a2021-p16",
+0,
+112
+],
+[
+"v10-a2021-p3",
+0,
+182
+]
+]
+},
+{
+"unit_id": "v14-a2437",
+"fold": 4,
+"mentions": 24,
+"segments": [
+[
+"v14-a2437-p1",
+0,
+471
+]
+]
+},
+{
+"unit_id": "v1-a792",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"v1-a792-p1",
+0,
+76
+]
+]
+},
+{
+"unit_id": "v16-a1953",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v16-a1953-p2",
+0,
+415
+]
+]
+},
+{
+"unit_id": "v11-a1168",
+"fold": 5,
+"mentions": 14,
+"segments": [
+[
+"v11-a1168-p1",
+0,
+327
+]
+]
+},
+{
+"unit_id": "v8-a2311",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v8-a2311-p1",
+0,
+89
+]
+]
+},
+{
+"unit_id": "v9-a536",
+"fold": 5,
+"mentions": 7,
+"segments": [
+[
+"v9-a536-p1",
+0,
+159
+]
+]
+},
+{
+"unit_id": "v1-a780",
+"fold": 4,
+"mentions": 9,
+"segments": [
+[
+"v1-a780-p1",
+0,
+118
+]
+]
+},
+{
+"unit_id": "v10-a2999",
+"fold": 2,
+"mentions": 13,
+"segments": [
+[
+"v10-a2999-p1",
+0,
+176
+]
+]
+},
+{
+"unit_id": "v6-a704",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"v6-a704-p19",
+0,
+574
+]
+]
+},
+{
+"unit_id": "v9-a1563",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"v9-a1563-p1",
+0,
+44
+]
+]
+},
+{
+"unit_id": "v15-a3274",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v15-a3274-p1",
+0,
+178
+]
+]
+},
+{
+"unit_id": "v8-a2426",
+"fold": 5,
+"mentions": 22,
+"segments": [
+[
+"v8-a2426-p1",
+0,
+349
+]
+]
+},
+{
+"unit_id": "v17-a179",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v17-a179-p1",
+0,
+392
+]
+]
+},
+{
+"unit_id": "v9-a2587",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"v9-a2587-p1",
+0,
+329
+]
+]
+},
+{
+"unit_id": "v8-a2078",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"v8-a2078-p1",
+0,
+462
+]
+]
+},
+{
+"unit_id": "v5-a111",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"v5-a111-p1",
+0,
+79
+]
+]
+},
+{
+"unit_id": "v15-a2487",
+"fold": 3,
+"mentions": 26,
+"segments": [
+[
+"v15-a2487-p1",
+0,
+482
+]
+]
+},
+{
+"unit_id": "v9-a3235",
+"fold": 0,
+"mentions": 19,
+"segments": [
+[
+"v9-a3235-p1",
+0,
+337
+]
+]
+},
+{
+"unit_id": "v1-a4119",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v1-a4119-p1",
+0,
+195
+]
+]
+},
+{
+"unit_id": "v1-a147",
+"fold": 1,
+"mentions": 13,
+"segments": [
+[
+"v1-a147-p1",
+0,
+192
+]
+]
+},
+{
+"unit_id": "v12-a4057",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"v12-a4057-p1",
+0,
+510
+]
+]
+},
+{
+"unit_id": "v1-a196",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"v1-a196-p1",
+0,
+113
+]
+]
+},
+{
+"unit_id": "v1-a1509",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"v1-a1509-p1",
+0,
+106
+]
+]
+},
+{
+"unit_id": "v14-a276",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"v14-a276-p1",
+0,
+155
+]
+]
+},
+{
+"unit_id": "v16-a3001",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v16-a3001-p1",
+0,
+202
+]
+]
+},
+{
+"unit_id": "v14-a3776",
+"fold": 2,
+"mentions": 15,
+"segments": [
+[
+"v14-a3776-p10",
+0,
+178
+],
+[
+"v14-a3776-p3",
+0,
+143
+]
+]
+},
+{
+"unit_id": "v7-a638",
+"fold": 0,
+"mentions": 13,
+"segments": [
+[
+"v7-a638-p1",
+0,
+318
+]
+]
+},
+{
+"unit_id": "v3-a2465",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"v3-a2465-p1",
+0,
+99
+]
+]
+},
+{
+"unit_id": "v3-a3620",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v3-a3620-p1",
+0,
+131
+]
+]
+},
+{
+"unit_id": "v2-a4190",
+"fold": 3,
+"mentions": 14,
+"segments": [
+[
+"v2-a4190-p1",
+0,
+125
+]
+]
+},
+{
+"unit_id": "v1-a297",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"v1-a297-p1",
+0,
+98
+]
+]
+},
+{
+"unit_id": "v2-a4875",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"v2-a4875-p1",
+0,
+786
+]
+]
+},
+{
+"unit_id": "v16-a4527",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v16-a4527-p50",
+0,
+64
+]
+]
+},
+{
+"unit_id": "v15-a801",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"v15-a801-p1",
+0,
+155
+]
+]
+},
+{
+"unit_id": "v2-a1625",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"v2-a1625-p4",
+0,
+746
+]
+]
+},
+{
+"unit_id": "v7-a1795",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"v7-a1795-p1",
+0,
+180
+]
+]
+},
+{
+"unit_id": "v1-a2664",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v1-a2664-p1",
+0,
+170
+]
+]
+},
+{
+"unit_id": "v5-a593",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v5-a593-p1",
+0,
+589
+]
+]
+},
+{
+"unit_id": "v12-a1722",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v12-a1722-p1",
+0,
+236
+]
+]
+},
+{
+"unit_id": "v5-a781",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"v5-a781-p1",
+0,
+167
+]
+]
+},
+{
+"unit_id": "v17-a2802",
+"fold": 4,
+"mentions": 22,
+"segments": [
+[
+"v17-a2802-p1",
+0,
+314
+]
+]
+},
+{
+"unit_id": "v16-a3597",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"v16-a3597-p9",
+0,
+590
+]
+]
+},
+{
+"unit_id": "v1-a457",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"v1-a457-p1",
+0,
+357
+]
+]
+},
+{
+"unit_id": "v9-a912",
+"fold": 1,
+"mentions": 15,
+"segments": [
+[
+"v9-a912-p1",
+0,
+304
+]
+]
+},
+{
+"unit_id": "v9-a25",
+"fold": 2,
+"mentions": 16,
+"segments": [
+[
+"v9-a25-p1",
+0,
+218
+]
+]
+},
+{
+"unit_id": "v3-a1631",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"v3-a1631-p1",
+0,
+134
+]
+]
+},
+{
+"unit_id": "v11-a349",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"v11-a349-p1",
+0,
+207
+]
+]
+},
+{
+"unit_id": "v2-a1942",
+"fold": 5,
+"mentions": 11,
+"segments": [
+[
+"v2-a1942-p1",
+0,
+175
+]
+]
+},
+{
+"unit_id": "v11-a1225",
+"fold": 1,
+"mentions": 16,
+"segments": [
+[
+"v11-a1225-p1",
+0,
+478
+]
+]
+}
+]
+}

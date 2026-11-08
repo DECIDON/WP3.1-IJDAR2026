@@ -1,0 +1,6670 @@
+{
+"key": "newseye-fr",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "ligne (sous-unité de la page)",
+"n_units_total": 8435,
+"n_mentions_total": 13228,
+"n_units": 554,
+"n_mentions": 867,
+"mentions_per_fold": [
+145,
+145,
+145,
+144,
+144,
+144
+],
+"units": [
+{
+"unit_id": "train_fr_13#27",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+4266,
+4396
+]
+]
+},
+{
+"unit_id": "train_fr_26#58",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+8825,
+8858
+]
+]
+},
+{
+"unit_id": "train_fr_33#744",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+145678,
+145723
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#94",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+12618,
+12686
+]
+]
+},
+{
+"unit_id": "train_fr_32#187",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_32",
+35118,
+35263
+]
+]
+},
+{
+"unit_id": "train_fr_26#145",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+21081,
+21113
+]
+]
+},
+{
+"unit_id": "train_fr_14#21",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+2778,
+2921
+]
+]
+},
+{
+"unit_id": "train_fr_30#655",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+103478,
+103560
+]
+]
+},
+{
+"unit_id": "train_fr_33#361",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_33",
+57683,
+58134
+]
+]
+},
+{
+"unit_id": "train_fr_18#78",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_18",
+17405,
+17630
+]
+]
+},
+{
+"unit_id": "train_fr_16#67",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_16",
+8175,
+8369
+]
+]
+},
+{
+"unit_id": "train_fr_31#115",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+17371,
+17469
+]
+]
+},
+{
+"unit_id": "train_fr_30#789",
+"fold": 0,
+"mentions": 21,
+"segments": [
+[
+"train_fr_30",
+142936,
+143607
+]
+]
+},
+{
+"unit_id": "train_fr_19#65",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"train_fr_19",
+16118,
+16653
+]
+]
+},
+{
+"unit_id": "train_fr_25#321",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+59199,
+59237
+]
+]
+},
+{
+"unit_id": "dev_fr_34#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_34",
+553,
+837
+]
+]
+},
+{
+"unit_id": "train_fr_33#662",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+128493,
+128606
+]
+]
+},
+{
+"unit_id": "train_fr_31#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+7457,
+7525
+]
+]
+},
+{
+"unit_id": "train_fr_26#109",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+16249,
+16282
+]
+]
+},
+{
+"unit_id": "train_fr_23#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_23",
+8293,
+8337
+]
+]
+},
+{
+"unit_id": "dev_fr_32#10",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_32",
+1055,
+1413
+]
+]
+},
+{
+"unit_id": "train_fr_30#628",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+98008,
+98085
+]
+]
+},
+{
+"unit_id": "test_fr_33#2",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"test_fr_33",
+501,
+614
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#17",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+2051,
+2084
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_8#0",
+"fold": 2,
+"mentions": 11,
+"segments": [
+[
+"hidden_test_fr_8",
+0,
+566
+]
+]
+},
+{
+"unit_id": "dev_fr_34#50",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_34",
+5944,
+5990
+]
+]
+},
+{
+"unit_id": "test_fr_25#16",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_25",
+2577,
+2627
+]
+]
+},
+{
+"unit_id": "test_fr_31#9",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_31",
+1359,
+1461
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_4#27",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_4",
+3548,
+3978
+]
+]
+},
+{
+"unit_id": "train_fr_22#61",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+10157,
+10242
+]
+]
+},
+{
+"unit_id": "train_fr_31#160",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"train_fr_31",
+24227,
+24345
+]
+]
+},
+{
+"unit_id": "train_fr_6#185",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_6",
+32882,
+32923
+]
+]
+},
+{
+"unit_id": "train_fr_32#132",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+26944,
+27057
+]
+]
+},
+{
+"unit_id": "train_fr_30#713",
+"fold": 3,
+"mentions": 17,
+"segments": [
+[
+"train_fr_30",
+113499,
+113989
+]
+]
+},
+{
+"unit_id": "test_fr_16#34",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"test_fr_16",
+4253,
+4346
+]
+]
+},
+{
+"unit_id": "train_fr_26#63",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_26",
+9616,
+9717
+]
+]
+},
+{
+"unit_id": "dev_fr_25#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_25",
+3850,
+3935
+]
+]
+},
+{
+"unit_id": "train_fr_30#374",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+50107,
+50250
+]
+]
+},
+{
+"unit_id": "test_fr_26#18",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_26",
+1252,
+1288
+]
+]
+},
+{
+"unit_id": "train_fr_10#9",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_10",
+1280,
+1597
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+199,
+235
+]
+]
+},
+{
+"unit_id": "train_fr_31#3",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+332,
+401
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_24#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_24",
+2347,
+2516
+]
+]
+},
+{
+"unit_id": "train_fr_23#27",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_23",
+4800,
+4844
+]
+]
+},
+{
+"unit_id": "train_fr_6#84",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_6",
+11594,
+11834
+]
+]
+},
+{
+"unit_id": "test_fr_2#10",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"test_fr_2",
+1056,
+1274
+]
+]
+},
+{
+"unit_id": "train_fr_32#203",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"train_fr_32",
+37613,
+37669
+]
+]
+},
+{
+"unit_id": "test_fr_1#2",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"test_fr_1",
+393,
+780
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_2#2",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_2",
+167,
+324
+]
+]
+},
+{
+"unit_id": "train_fr_9#77",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"train_fr_9",
+14878,
+15078
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_21#17",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_21",
+4963,
+5131
+]
+]
+},
+{
+"unit_id": "train_fr_14#53",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_14",
+7210,
+7464
+]
+]
+},
+{
+"unit_id": "train_fr_33#703",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"train_fr_33",
+135734,
+135986
+]
+]
+},
+{
+"unit_id": "train_fr_29#37",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_29",
+5142,
+5769
+]
+]
+},
+{
+"unit_id": "test_fr_11#18",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_11",
+3318,
+3421
+]
+]
+},
+{
+"unit_id": "train_fr_33#670",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_33",
+129668,
+129782
+]
+]
+},
+{
+"unit_id": "train_fr_9#45",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_9",
+9488,
+9594
+]
+]
+},
+{
+"unit_id": "train_fr_26#53",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+8317,
+8351
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_33#19",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_33",
+7501,
+7670
+]
+]
+},
+{
+"unit_id": "train_fr_9#62",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"train_fr_9",
+12464,
+12604
+]
+]
+},
+{
+"unit_id": "dev_fr_19",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"dev_fr_19",
+0,
+457
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_2#10",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_2",
+2448,
+2576
+]
+]
+},
+{
+"unit_id": "test_fr_34#8",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"test_fr_34",
+979,
+1194
+]
+]
+},
+{
+"unit_id": "dev_fr_24#0",
+"fold": 1,
+"mentions": 8,
+"segments": [
+[
+"dev_fr_24",
+0,
+241
+]
+]
+},
+{
+"unit_id": "train_fr_3#71",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+10602,
+10680
+]
+]
+},
+{
+"unit_id": "test_fr_31#17",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"test_fr_31",
+2408,
+2538
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#68",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+11396,
+11444
+]
+]
+},
+{
+"unit_id": "train_fr_13#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+4397,
+4481
+]
+]
+},
+{
+"unit_id": "train_fr_21#40",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"train_fr_21",
+8635,
+9141
+]
+]
+},
+{
+"unit_id": "train_fr_30#495",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+80003,
+80096
+]
+]
+},
+{
+"unit_id": "train_fr_30#659",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"train_fr_30",
+104020,
+104209
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_3#13",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_3",
+1551,
+1847
+]
+]
+},
+{
+"unit_id": "test_fr_12#21",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_12",
+4399,
+4452
+]
+]
+},
+{
+"unit_id": "train_fr_21#127",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+26716,
+26960
+]
+]
+},
+{
+"unit_id": "train_fr_25#330",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"train_fr_25",
+62034,
+62078
+]
+]
+},
+{
+"unit_id": "dev_fr_34#66",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"dev_fr_34",
+8485,
+8772
+]
+]
+},
+{
+"unit_id": "test_fr_7#36",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_7",
+4251,
+4326
+]
+]
+},
+{
+"unit_id": "train_fr_2#74",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_2",
+13046,
+13129
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_13#35",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_13",
+6894,
+6996
+]
+]
+},
+{
+"unit_id": "train_fr_23#14",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_23",
+2223,
+2263
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+2369,
+2410
+]
+]
+},
+{
+"unit_id": "train_fr_18#140",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"train_fr_18",
+27529,
+27834
+]
+]
+},
+{
+"unit_id": "train_fr_30#524",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"train_fr_30",
+83994,
+84389
+]
+]
+},
+{
+"unit_id": "train_fr_14#240",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+49695,
+49890
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_13#23",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_13",
+4584,
+4629
+]
+]
+},
+{
+"unit_id": "test_fr_8#10",
+"fold": 4,
+"mentions": 14,
+"segments": [
+[
+"test_fr_8",
+1335,
+2050
+]
+]
+},
+{
+"unit_id": "dev_fr_31#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_31",
+199,
+266
+]
+]
+},
+{
+"unit_id": "train_fr_10#11",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_10",
+1712,
+2018
+]
+]
+},
+{
+"unit_id": "train_fr_32#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+675,
+699
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+260,
+407
+]
+]
+},
+{
+"unit_id": "train_fr_30#203",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+26249,
+26314
+]
+]
+},
+{
+"unit_id": "train_fr_30#111",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+16619,
+16809
+]
+]
+},
+{
+"unit_id": "train_fr_2#48",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"train_fr_2",
+7985,
+8844
+]
+]
+},
+{
+"unit_id": "dev_fr_31#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_31",
+102,
+198
+]
+]
+},
+{
+"unit_id": "train_fr_26#40",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_26",
+6783,
+6985
+]
+]
+},
+{
+"unit_id": "train_fr_32#55",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_32",
+12711,
+12856
+]
+]
+},
+{
+"unit_id": "train_fr_11#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_11",
+5180,
+5222
+]
+]
+},
+{
+"unit_id": "train_fr_14#0",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_14",
+0,
+44
+]
+]
+},
+{
+"unit_id": "train_fr_2#3",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"train_fr_2",
+364,
+578
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_26#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_26",
+4263,
+4299
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_9#1",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_9",
+399,
+656
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_24#64",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_24",
+14360,
+14447
+]
+]
+},
+{
+"unit_id": "dev_fr_16#9",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_16",
+1966,
+2006
+]
+]
+},
+{
+"unit_id": "test_fr_10#3",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"test_fr_10",
+825,
+897
+]
+]
+},
+{
+"unit_id": "test_fr_10#27",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"test_fr_10",
+5611,
+5797
+]
+]
+},
+{
+"unit_id": "train_fr_21#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+2349,
+2487
+]
+]
+},
+{
+"unit_id": "train_fr_27#1",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_27",
+116,
+226
+]
+]
+},
+{
+"unit_id": "test_fr_17#12",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_17",
+1626,
+1716
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_19#11",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_19",
+4649,
+4950
+]
+]
+},
+{
+"unit_id": "train_fr_5#110",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"train_fr_5",
+14560,
+14758
+]
+]
+},
+{
+"unit_id": "train_fr_30#813",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+146988,
+147140
+]
+]
+},
+{
+"unit_id": "train_fr_14#284",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+57655,
+57702
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_12#1",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_12",
+265,
+409
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_16#44",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_16",
+6399,
+6496
+]
+]
+},
+{
+"unit_id": "dev_fr_35#36",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_35",
+6567,
+7091
+]
+]
+},
+{
+"unit_id": "train_fr_25#118",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_25",
+17570,
+17869
+]
+]
+},
+{
+"unit_id": "train_fr_3#87",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+12469,
+12585
+]
+]
+},
+{
+"unit_id": "train_fr_33#603",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"train_fr_33",
+116410,
+116686
+]
+]
+},
+{
+"unit_id": "train_fr_20#15",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"train_fr_20",
+11863,
+12467
+]
+]
+},
+{
+"unit_id": "dev_fr_29#6",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_29",
+422,
+518
+]
+]
+},
+{
+"unit_id": "train_fr_33#739",
+"fold": 4,
+"mentions": 17,
+"segments": [
+[
+"train_fr_33",
+143987,
+145021
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_25#0",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"hidden_test_fr_25",
+0,
+282
+]
+]
+},
+{
+"unit_id": "train_fr_24#49",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+10463,
+10551
+]
+]
+},
+{
+"unit_id": "train_fr_27#88",
+"fold": 1,
+"mentions": 10,
+"segments": [
+[
+"train_fr_27",
+16636,
+17144
+]
+]
+},
+{
+"unit_id": "train_fr_30#748",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"train_fr_30",
+133177,
+133336
+]
+]
+},
+{
+"unit_id": "train_fr_33#678",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+131713,
+131755
+]
+]
+},
+{
+"unit_id": "train_fr_30#220",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+28564,
+28629
+]
+]
+},
+{
+"unit_id": "train_fr_32#27",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+6386,
+6530
+]
+]
+},
+{
+"unit_id": "test_fr_26#17",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_26",
+1054,
+1251
+]
+]
+},
+{
+"unit_id": "train_fr_6#72",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_6",
+9921,
+9957
+]
+]
+},
+{
+"unit_id": "train_fr_7#37",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+5454,
+5490
+]
+]
+},
+{
+"unit_id": "train_fr_33#46",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+5951,
+6028
+]
+]
+},
+{
+"unit_id": "train_fr_11#12",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"train_fr_11",
+2888,
+4883
+]
+]
+},
+{
+"unit_id": "train_fr_22#85",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"train_fr_22",
+14769,
+15125
+]
+]
+},
+{
+"unit_id": "train_fr_25#110",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+16869,
+16944
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_5#1",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_5",
+40,
+87
+]
+]
+},
+{
+"unit_id": "train_fr_16#95",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_16",
+12019,
+12061
+]
+]
+},
+{
+"unit_id": "test_fr_8#12",
+"fold": 2,
+"mentions": 8,
+"segments": [
+[
+"test_fr_8",
+2391,
+2762
+]
+]
+},
+{
+"unit_id": "train_fr_34#147",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_34",
+17092,
+17281
+]
+]
+},
+{
+"unit_id": "train_fr_34#163",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+24235,
+24274
+]
+]
+},
+{
+"unit_id": "train_fr_34#285",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+43682,
+43875
+]
+]
+},
+{
+"unit_id": "train_fr_30#107",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+16159,
+16224
+]
+]
+},
+{
+"unit_id": "test_fr_31#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_31",
+612,
+645
+]
+]
+},
+{
+"unit_id": "dev_fr_9#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_9",
+0,
+83
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_11#20",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_11",
+3334,
+3625
+]
+]
+},
+{
+"unit_id": "train_fr_14#66",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+10241,
+10333
+]
+]
+},
+{
+"unit_id": "train_fr_33#426",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+72986,
+73023
+]
+]
+},
+{
+"unit_id": "train_fr_2#11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"train_fr_2",
+2391,
+2643
+]
+]
+},
+{
+"unit_id": "test_fr_25#11",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_25",
+1637,
+1680
+]
+]
+},
+{
+"unit_id": "train_fr_25#27",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_25",
+4585,
+4734
+]
+]
+},
+{
+"unit_id": "dev_fr_1#6",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_1",
+738,
+1050
+]
+]
+},
+{
+"unit_id": "train_fr_28#13",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_28",
+1611,
+1909
+]
+]
+},
+{
+"unit_id": "test_fr_32#61",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_32",
+9482,
+9517
+]
+]
+},
+{
+"unit_id": "test_fr_31#8",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_31",
+1257,
+1358
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_17#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_17",
+162,
+205
+]
+]
+},
+{
+"unit_id": "train_fr_33#637",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"train_fr_33",
+122403,
+122977
+]
+]
+},
+{
+"unit_id": "train_fr_14#235",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+49259,
+49401
+]
+]
+},
+{
+"unit_id": "train_fr_30#496",
+"fold": 3,
+"mentions": 8,
+"segments": [
+[
+"train_fr_30",
+80097,
+80342
+]
+]
+},
+{
+"unit_id": "train_fr_30#81",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+13546,
+13671
+]
+]
+},
+{
+"unit_id": "dev_fr_24#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_24",
+242,
+369
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_13#25",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_13",
+4766,
+5146
+]
+]
+},
+{
+"unit_id": "train_fr_30#538",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+86456,
+86676
+]
+]
+},
+{
+"unit_id": "train_fr_30#858",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+154070,
+154103
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_23#50",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_23",
+9785,
+9825
+]
+]
+},
+{
+"unit_id": "train_fr_2#10",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"train_fr_2",
+2109,
+2390
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_35#1",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_35",
+734,
+964
+]
+]
+},
+{
+"unit_id": "train_fr_30#325",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+43885,
+43918
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_9#20",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_9",
+4782,
+5176
+]
+]
+},
+{
+"unit_id": "train_fr_14#52",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+7061,
+7209
+]
+]
+},
+{
+"unit_id": "test_fr_8#2",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_8",
+118,
+158
+]
+]
+},
+{
+"unit_id": "train_fr_33#347",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+55184,
+55432
+]
+]
+},
+{
+"unit_id": "train_fr_30#23",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"train_fr_30",
+5804,
+6097
+]
+]
+},
+{
+"unit_id": "train_fr_34#71",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+9194,
+9238
+]
+]
+},
+{
+"unit_id": "train_fr_33#424",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+72648,
+72707
+]
+]
+},
+{
+"unit_id": "train_fr_33#255",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+38749,
+38796
+]
+]
+},
+{
+"unit_id": "dev_fr_34#99",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_34",
+13529,
+13714
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_34#38",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_34",
+5852,
+5969
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#27",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_14",
+3917,
+4080
+]
+]
+},
+{
+"unit_id": "train_fr_30#125",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+17924,
+17953
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_34#33",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_34",
+4557,
+5035
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_28#20",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_28",
+3361,
+3817
+]
+]
+},
+{
+"unit_id": "train_fr_25#234",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+39397,
+39486
+]
+]
+},
+{
+"unit_id": "train_fr_33#674",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+130948,
+131263
+]
+]
+},
+{
+"unit_id": "train_fr_34#216",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+30505,
+30667
+]
+]
+},
+{
+"unit_id": "train_fr_23#16",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_23",
+2498,
+2903
+]
+]
+},
+{
+"unit_id": "train_fr_33#116",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+16683,
+16844
+]
+]
+},
+{
+"unit_id": "train_fr_32#66",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_32",
+15360,
+15603
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_24#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_24",
+13743,
+13786
+]
+]
+},
+{
+"unit_id": "train_fr_30#461",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"train_fr_30",
+71662,
+72499
+]
+]
+},
+{
+"unit_id": "train_fr_14#288",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+57918,
+58013
+]
+]
+},
+{
+"unit_id": "dev_fr_28#1",
+"fold": 5,
+"mentions": 15,
+"segments": [
+[
+"dev_fr_28",
+168,
+709
+]
+]
+},
+{
+"unit_id": "train_fr_26#165",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+23966,
+23999
+]
+]
+},
+{
+"unit_id": "train_fr_14#274",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+55916,
+56002
+]
+]
+},
+{
+"unit_id": "train_fr_34#337",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_34",
+50539,
+50717
+]
+]
+},
+{
+"unit_id": "test_fr_7#33",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_7",
+3845,
+4064
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_24#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_24",
+10789,
+10989
+]
+]
+},
+{
+"unit_id": "test_fr_25#14",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"test_fr_25",
+1873,
+2527
+]
+]
+},
+{
+"unit_id": "test_fr_23#27",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_23",
+4825,
+4865
+]
+]
+},
+{
+"unit_id": "dev_fr_32#30",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"dev_fr_32",
+4914,
+5177
+]
+]
+},
+{
+"unit_id": "dev_fr_20#4",
+"fold": 2,
+"mentions": 10,
+"segments": [
+[
+"dev_fr_20",
+311,
+972
+]
+]
+},
+{
+"unit_id": "train_fr_15#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_15",
+771,
+864
+]
+]
+},
+{
+"unit_id": "train_fr_30#505",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"train_fr_30",
+81395,
+81540
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_11#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_11",
+2659,
+2739
+]
+]
+},
+{
+"unit_id": "train_fr_21#92",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+17937,
+18158
+]
+]
+},
+{
+"unit_id": "test_fr_32#26",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"test_fr_32",
+3431,
+3642
+]
+]
+},
+{
+"unit_id": "test_fr_9#15",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"test_fr_9",
+4923,
+5317
+]
+]
+},
+{
+"unit_id": "train_fr_34#118",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+14406,
+14440
+]
+]
+},
+{
+"unit_id": "train_fr_11#81",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_11",
+17507,
+17748
+]
+]
+},
+{
+"unit_id": "test_fr_11#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_11",
+1185,
+1316
+]
+]
+},
+{
+"unit_id": "train_fr_35#74",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_35",
+8729,
+8837
+]
+]
+},
+{
+"unit_id": "train_fr_22#32",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_22",
+5086,
+5450
+]
+]
+},
+{
+"unit_id": "train_fr_5#83",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_5",
+9640,
+9783
+]
+]
+},
+{
+"unit_id": "test_fr_17#26",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_17",
+3451,
+3650
+]
+]
+},
+{
+"unit_id": "dev_fr_12#3",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_12",
+750,
+803
+]
+]
+},
+{
+"unit_id": "train_fr_31#187",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"train_fr_31",
+27604,
+27961
+]
+]
+},
+{
+"unit_id": "train_fr_30#709",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"train_fr_30",
+112963,
+113190
+]
+]
+},
+{
+"unit_id": "train_fr_10#85",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"train_fr_10",
+13615,
+13854
+]
+]
+},
+{
+"unit_id": "train_fr_26#139",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+20106,
+20203
+]
+]
+},
+{
+"unit_id": "dev_fr_28#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_28",
+1125,
+1170
+]
+]
+},
+{
+"unit_id": "train_fr_10#89",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_10",
+14354,
+14396
+]
+]
+},
+{
+"unit_id": "train_fr_25#121",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+17998,
+18645
+]
+]
+},
+{
+"unit_id": "train_fr_8#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_8",
+5686,
+5778
+]
+]
+},
+{
+"unit_id": "train_fr_6#64",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_6",
+9199,
+9235
+]
+]
+},
+{
+"unit_id": "train_fr_30#596",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+94902,
+94971
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#60",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+9290,
+9434
+]
+]
+},
+{
+"unit_id": "train_fr_22#102",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+19250,
+19297
+]
+]
+},
+{
+"unit_id": "train_fr_9#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_9",
+7836,
+7997
+]
+]
+},
+{
+"unit_id": "dev_fr_10#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_10",
+864,
+907
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_4#20",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_4",
+2590,
+2765
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#99",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+16827,
+16927
+]
+]
+},
+{
+"unit_id": "train_fr_33#200",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"train_fr_33",
+31566,
+31765
+]
+]
+},
+{
+"unit_id": "train_fr_12#40",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_12",
+9974,
+10245
+]
+]
+},
+{
+"unit_id": "train_fr_25#130",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"train_fr_25",
+20496,
+20712
+]
+]
+},
+{
+"unit_id": "train_fr_22#78",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"train_fr_22",
+13584,
+13796
+]
+]
+},
+{
+"unit_id": "train_fr_30#14",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+3653,
+4220
+]
+]
+},
+{
+"unit_id": "train_fr_35#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_35",
+4958,
+5028
+]
+]
+},
+{
+"unit_id": "train_fr_30#511",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+81969,
+82071
+]
+]
+},
+{
+"unit_id": "train_fr_5#95",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_5",
+10996,
+11071
+]
+]
+},
+{
+"unit_id": "train_fr_30#539",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+86677,
+86881
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_10#10",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_10",
+1138,
+1218
+]
+]
+},
+{
+"unit_id": "train_fr_11#88",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_11",
+18822,
+18865
+]
+]
+},
+{
+"unit_id": "train_fr_25#227",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+37651,
+37686
+]
+]
+},
+{
+"unit_id": "test_fr_11#39",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_11",
+6987,
+7070
+]
+]
+},
+{
+"unit_id": "train_fr_33#201",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+31766,
+31809
+]
+]
+},
+{
+"unit_id": "train_fr_14#212",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+45529,
+45576
+]
+]
+},
+{
+"unit_id": "dev_fr_22#0",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"dev_fr_22",
+0,
+201
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_2#5",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_2",
+529,
+1054
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_29#39",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_29",
+5664,
+5886
+]
+]
+},
+{
+"unit_id": "train_fr_30#327",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+43990,
+44053
+]
+]
+},
+{
+"unit_id": "train_fr_24#32",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"train_fr_24",
+6527,
+6903
+]
+]
+},
+{
+"unit_id": "train_fr_34#204",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+28529,
+28567
+]
+]
+},
+{
+"unit_id": "test_fr_7#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_7",
+1073,
+1181
+]
+]
+},
+{
+"unit_id": "train_fr_3#16",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+2853,
+3102
+]
+]
+},
+{
+"unit_id": "train_fr_32#0",
+"fold": 3,
+"mentions": 15,
+"segments": [
+[
+"train_fr_32",
+0,
+601
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#21",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+2404,
+2455
+]
+]
+},
+{
+"unit_id": "train_fr_3#9",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+1890,
+2270
+]
+]
+},
+{
+"unit_id": "dev_fr_9#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_9",
+492,
+943
+]
+]
+},
+{
+"unit_id": "train_fr_9#7",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_9",
+1375,
+1777
+]
+]
+},
+{
+"unit_id": "dev_fr_17#13",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_17",
+2002,
+2290
+]
+]
+},
+{
+"unit_id": "train_fr_16#68",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_16",
+8370,
+8452
+]
+]
+},
+{
+"unit_id": "train_fr_33#322",
+"fold": 2,
+"mentions": 18,
+"segments": [
+[
+"train_fr_33",
+50438,
+51228
+]
+]
+},
+{
+"unit_id": "train_fr_14#95",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"train_fr_14",
+19129,
+19702
+]
+]
+},
+{
+"unit_id": "dev_fr_17#26",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_17",
+4279,
+4319
+]
+]
+},
+{
+"unit_id": "train_fr_22#69",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+12096,
+12137
+]
+]
+},
+{
+"unit_id": "dev_fr_14#1",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_14",
+92,
+138
+]
+]
+},
+{
+"unit_id": "train_fr_27#79",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"train_fr_27",
+14687,
+14874
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_28#6",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_28",
+901,
+1234
+]
+]
+},
+{
+"unit_id": "train_fr_13#17",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+2628,
+2817
+]
+]
+},
+{
+"unit_id": "dev_fr_33#2",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_33",
+746,
+865
+]
+]
+},
+{
+"unit_id": "train_fr_34#125",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+15055,
+15092
+]
+]
+},
+{
+"unit_id": "train_fr_33#698",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"train_fr_33",
+134743,
+135072
+]
+]
+},
+{
+"unit_id": "train_fr_30#264",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+34341,
+34371
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_5#3",
+"fold": 5,
+"mentions": 12,
+"segments": [
+[
+"hidden_test_fr_5",
+669,
+1238
+]
+]
+},
+{
+"unit_id": "train_fr_2#62",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_2",
+10993,
+11033
+]
+]
+},
+{
+"unit_id": "train_fr_25#62",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_25",
+11243,
+11358
+]
+]
+},
+{
+"unit_id": "train_fr_30#678",
+"fold": 1,
+"mentions": 9,
+"segments": [
+[
+"train_fr_30",
+106444,
+107321
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_34#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_34",
+3528,
+3591
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#67",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+10317,
+10450
+]
+]
+},
+{
+"unit_id": "train_fr_9#81",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_9",
+15651,
+15811
+]
+]
+},
+{
+"unit_id": "test_fr_11#31",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_11",
+6228,
+6276
+]
+]
+},
+{
+"unit_id": "train_fr_31#88",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+13555,
+13619
+]
+]
+},
+{
+"unit_id": "test_fr_7#9",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_7",
+1257,
+1294
+]
+]
+},
+{
+"unit_id": "train_fr_18#37",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_18",
+6643,
+6829
+]
+]
+},
+{
+"unit_id": "train_fr_31#108",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_31",
+16280,
+16418
+]
+]
+},
+{
+"unit_id": "test_fr_16#3",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"test_fr_16",
+292,
+338
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#89",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"hidden_test_fr_14",
+14996,
+15529
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_4#2",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_4",
+160,
+278
+]
+]
+},
+{
+"unit_id": "train_fr_33#784",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+153522,
+153637
+]
+]
+},
+{
+"unit_id": "train_fr_32#175",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+33519,
+33721
+]
+]
+},
+{
+"unit_id": "train_fr_30#831",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+150043,
+150078
+]
+]
+},
+{
+"unit_id": "train_fr_24#22",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+4273,
+4316
+]
+]
+},
+{
+"unit_id": "test_fr_9#19",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_9",
+5537,
+5655
+]
+]
+},
+{
+"unit_id": "train_fr_33#504",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"train_fr_33",
+96260,
+96726
+]
+]
+},
+{
+"unit_id": "train_fr_7#116",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+15954,
+15988
+]
+]
+},
+{
+"unit_id": "train_fr_32#185",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+34892,
+34925
+]
+]
+},
+{
+"unit_id": "train_fr_30#451",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+65659,
+66026
+]
+]
+},
+{
+"unit_id": "train_fr_14#132",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+27903,
+27952
+]
+]
+},
+{
+"unit_id": "train_fr_33#138",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+20816,
+20858
+]
+]
+},
+{
+"unit_id": "train_fr_32#39",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_32",
+8105,
+8840
+]
+]
+},
+{
+"unit_id": "train_fr_14#226",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_14",
+47652,
+47822
+]
+]
+},
+{
+"unit_id": "test_fr_13#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_13",
+5251,
+5292
+]
+]
+},
+{
+"unit_id": "train_fr_25#300",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"train_fr_25",
+54522,
+54672
+]
+]
+},
+{
+"unit_id": "train_fr_30#494",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+79904,
+80002
+]
+]
+},
+{
+"unit_id": "dev_fr_34#49",
+"fold": 0,
+"mentions": 7,
+"segments": [
+[
+"dev_fr_34",
+5746,
+5943
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_11#10",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_11",
+1568,
+1777
+]
+]
+},
+{
+"unit_id": "train_fr_1#39",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_1",
+6872,
+7031
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#65",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+8120,
+8135
+]
+]
+},
+{
+"unit_id": "test_fr_31#42",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"test_fr_31",
+4966,
+5149
+]
+]
+},
+{
+"unit_id": "train_fr_33#234",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+35767,
+35966
+]
+]
+},
+{
+"unit_id": "train_fr_25#183",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"train_fr_25",
+31682,
+31989
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_34#11",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_34",
+1504,
+1602
+]
+]
+},
+{
+"unit_id": "dev_fr_17#6",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_17",
+1410,
+1501
+]
+]
+},
+{
+"unit_id": "train_fr_24#77",
+"fold": 4,
+"mentions": 8,
+"segments": [
+[
+"train_fr_24",
+17109,
+17679
+]
+]
+},
+{
+"unit_id": "dev_fr_1#2",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"dev_fr_1",
+123,
+373
+]
+]
+},
+{
+"unit_id": "dev_fr_30#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_30",
+0,
+74
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_13#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_13",
+1412,
+1495
+]
+]
+},
+{
+"unit_id": "train_fr_30#537",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+86387,
+86455
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#13",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+1700,
+1940
+]
+]
+},
+{
+"unit_id": "train_fr_30#288",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+38502,
+38628
+]
+]
+},
+{
+"unit_id": "test_fr_32#8",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_32",
+603,
+641
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_9#25",
+"fold": 3,
+"mentions": 5,
+"segments": [
+[
+"hidden_test_fr_9",
+5801,
+5952
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_22#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_22",
+7809,
+7967
+]
+]
+},
+{
+"unit_id": "train_fr_21#91",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+17887,
+17936
+]
+]
+},
+{
+"unit_id": "train_fr_12#64",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"train_fr_12",
+16577,
+17183
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_8#3",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_8",
+1546,
+1971
+]
+]
+},
+{
+"unit_id": "train_fr_3#4",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+1269,
+1308
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_29#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_29",
+1175,
+1328
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_6#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_6",
+2855,
+2875
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_23#46",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_23",
+8604,
+9441
+]
+]
+},
+{
+"unit_id": "train_fr_33#653",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+126089,
+126172
+]
+]
+},
+{
+"unit_id": "train_fr_33#50",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+6232,
+6365
+]
+]
+},
+{
+"unit_id": "train_fr_30#29",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+6759,
+6792
+]
+]
+},
+{
+"unit_id": "train_fr_28#57",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_28",
+7794,
+7929
+]
+]
+},
+{
+"unit_id": "train_fr_24#61",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+13616,
+13689
+]
+]
+},
+{
+"unit_id": "train_fr_29#78",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_29",
+12342,
+12404
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_17#59",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_17",
+9437,
+9637
+]
+]
+},
+{
+"unit_id": "train_fr_29#2",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_29",
+142,
+402
+]
+]
+},
+{
+"unit_id": "train_fr_33#737",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+143809,
+143855
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_33#14",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_33",
+5005,
+5425
+]
+]
+},
+{
+"unit_id": "train_fr_6#161",
+"fold": 1,
+"mentions": 7,
+"segments": [
+[
+"train_fr_6",
+29107,
+29336
+]
+]
+},
+{
+"unit_id": "train_fr_14#138",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+28908,
+29004
+]
+]
+},
+{
+"unit_id": "train_fr_7#1",
+"fold": 3,
+"mentions": 10,
+"segments": [
+[
+"train_fr_7",
+603,
+843
+]
+]
+},
+{
+"unit_id": "train_fr_31#122",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+18370,
+18439
+]
+]
+},
+{
+"unit_id": "train_fr_13#104",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+18005,
+18083
+]
+]
+},
+{
+"unit_id": "train_fr_30#213",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+27683,
+27717
+]
+]
+},
+{
+"unit_id": "train_fr_20#30",
+"fold": 4,
+"mentions": 5,
+"segments": [
+[
+"train_fr_20",
+17857,
+18020
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#54",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+8125,
+8172
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#96",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_14",
+16597,
+16691
+]
+]
+},
+{
+"unit_id": "train_fr_31#186",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+27534,
+27603
+]
+]
+},
+{
+"unit_id": "train_fr_33#346",
+"fold": 5,
+"mentions": 5,
+"segments": [
+[
+"train_fr_33",
+54856,
+55183
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_23#59",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_23",
+10929,
+11004
+]
+]
+},
+{
+"unit_id": "dev_fr_14#5",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_14",
+777,
+822
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_29#44",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_29",
+6153,
+6239
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_26#8",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"hidden_test_fr_26",
+482,
+691
+]
+]
+},
+{
+"unit_id": "train_fr_4#53",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"train_fr_4",
+8978,
+9476
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#6",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+698,
+743
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#108",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_14",
+17999,
+18191
+]
+]
+},
+{
+"unit_id": "test_fr_32#29",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"test_fr_32",
+4136,
+4292
+]
+]
+},
+{
+"unit_id": "train_fr_33#169",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+27689,
+27730
+]
+]
+},
+{
+"unit_id": "dev_fr_35#35",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_35",
+6488,
+6566
+]
+]
+},
+{
+"unit_id": "test_fr_32#6",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"test_fr_32",
+448,
+562
+]
+]
+},
+{
+"unit_id": "train_fr_30#800",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_30",
+145083,
+145222
+]
+]
+},
+{
+"unit_id": "train_fr_31#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_31",
+1317,
+1420
+]
+]
+},
+{
+"unit_id": "train_fr_30#4",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"train_fr_30",
+1531,
+1668
+]
+]
+},
+{
+"unit_id": "test_fr_17#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_17",
+1936,
+1981
+]
+]
+},
+{
+"unit_id": "train_fr_33#679",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+131756,
+131843
+]
+]
+},
+{
+"unit_id": "test_fr_5#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_5",
+0,
+130
+]
+]
+},
+{
+"unit_id": "train_fr_30#174",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+23936,
+23995
+]
+]
+},
+{
+"unit_id": "train_fr_26#115",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_26",
+17077,
+17255
+]
+]
+},
+{
+"unit_id": "train_fr_23#1",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_23",
+285,
+445
+]
+]
+},
+{
+"unit_id": "train_fr_30#190",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"train_fr_30",
+25561,
+25653
+]
+]
+},
+{
+"unit_id": "train_fr_30#763",
+"fold": 0,
+"mentions": 9,
+"segments": [
+[
+"train_fr_30",
+138408,
+138943
+]
+]
+},
+{
+"unit_id": "test_fr_26#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_26",
+886,
+923
+]
+]
+},
+{
+"unit_id": "train_fr_28#73",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_28",
+10621,
+10657
+]
+]
+},
+{
+"unit_id": "train_fr_33#592",
+"fold": 0,
+"mentions": 6,
+"segments": [
+[
+"train_fr_33",
+114427,
+114686
+]
+]
+},
+{
+"unit_id": "train_fr_13#46",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_13",
+8093,
+8179
+]
+]
+},
+{
+"unit_id": "train_fr_14#177",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+36576,
+36621
+]
+]
+},
+{
+"unit_id": "train_fr_13#85",
+"fold": 1,
+"mentions": 6,
+"segments": [
+[
+"train_fr_13",
+14311,
+15060
+]
+]
+},
+{
+"unit_id": "train_fr_9#30",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_9",
+5061,
+5385
+]
+]
+},
+{
+"unit_id": "test_fr_23#25",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"test_fr_23",
+4655,
+4738
+]
+]
+},
+{
+"unit_id": "train_fr_30#701",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+111857,
+111924
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#69",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+10489,
+10556
+]
+]
+},
+{
+"unit_id": "train_fr_33#179",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+28786,
+28958
+]
+]
+},
+{
+"unit_id": "train_fr_14#210",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+45122,
+45209
+]
+]
+},
+{
+"unit_id": "train_fr_8#41",
+"fold": 2,
+"mentions": 14,
+"segments": [
+[
+"train_fr_8",
+8761,
+9604
+]
+]
+},
+{
+"unit_id": "train_fr_7#119",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_7",
+16354,
+16541
+]
+]
+},
+{
+"unit_id": "train_fr_22#108",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+19880,
+19921
+]
+]
+},
+{
+"unit_id": "train_fr_33#401",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+67635,
+67824
+]
+]
+},
+{
+"unit_id": "train_fr_9#10",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_9",
+1896,
+2071
+]
+]
+},
+{
+"unit_id": "train_fr_30#859",
+"fold": 4,
+"mentions": 4,
+"segments": [
+[
+"train_fr_30",
+154104,
+154844
+]
+]
+},
+{
+"unit_id": "train_fr_3#42",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+6433,
+6556
+]
+]
+},
+{
+"unit_id": "train_fr_21#89",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+17130,
+17177
+]
+]
+},
+{
+"unit_id": "test_fr_30#26",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_30",
+3250,
+3316
+]
+]
+},
+{
+"unit_id": "dev_fr_16#17",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_16",
+2731,
+2849
+]
+]
+},
+{
+"unit_id": "train_fr_30#557",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+89753,
+89988
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#146",
+"fold": 1,
+"mentions": 14,
+"segments": [
+[
+"hidden_test_fr_31",
+22306,
+22493
+]
+]
+},
+{
+"unit_id": "train_fr_33#581",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+111586,
+111683
+]
+]
+},
+{
+"unit_id": "dev_fr_35#10",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_35",
+1317,
+1547
+]
+]
+},
+{
+"unit_id": "train_fr_3#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+4322,
+4439
+]
+]
+},
+{
+"unit_id": "train_fr_26#107",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_26",
+15860,
+15897
+]
+]
+},
+{
+"unit_id": "train_fr_35#49",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_35",
+5953,
+5994
+]
+]
+},
+{
+"unit_id": "train_fr_21#107",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+19923,
+19968
+]
+]
+},
+{
+"unit_id": "train_fr_30#229",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+29829,
+29894
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#107",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+14948,
+14984
+]
+]
+},
+{
+"unit_id": "train_fr_22#91",
+"fold": 0,
+"mentions": 5,
+"segments": [
+[
+"train_fr_22",
+15799,
+16196
+]
+]
+},
+{
+"unit_id": "train_fr_14#260",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+53739,
+53834
+]
+]
+},
+{
+"unit_id": "train_fr_7#29",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"train_fr_7",
+4481,
+4889
+]
+]
+},
+{
+"unit_id": "train_fr_30#127",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+17986,
+18056
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_33#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_33",
+0,
+85
+]
+]
+},
+{
+"unit_id": "train_fr_7#110",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+15217,
+15302
+]
+]
+},
+{
+"unit_id": "train_fr_32#18",
+"fold": 5,
+"mentions": 4,
+"segments": [
+[
+"train_fr_32",
+4119,
+5008
+]
+]
+},
+{
+"unit_id": "dev_fr_35#16",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_35",
+2497,
+2575
+]
+]
+},
+{
+"unit_id": "train_fr_18#53",
+"fold": 1,
+"mentions": 5,
+"segments": [
+[
+"train_fr_18",
+10487,
+10827
+]
+]
+},
+{
+"unit_id": "dev_fr_35#33",
+"fold": 2,
+"mentions": 6,
+"segments": [
+[
+"dev_fr_35",
+5603,
+6334
+]
+]
+},
+{
+"unit_id": "test_fr_16#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_16",
+703,
+746
+]
+]
+},
+{
+"unit_id": "train_fr_32#95",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+20129,
+20322
+]
+]
+},
+{
+"unit_id": "train_fr_19#45",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"train_fr_19",
+11482,
+11673
+]
+]
+},
+{
+"unit_id": "test_fr_30#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_30",
+0,
+26
+]
+]
+},
+{
+"unit_id": "train_fr_30#124",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+17859,
+17923
+]
+]
+},
+{
+"unit_id": "train_fr_26#179",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+25154,
+25222
+]
+]
+},
+{
+"unit_id": "train_fr_8#43",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"train_fr_8",
+9773,
+10219
+]
+]
+},
+{
+"unit_id": "dev_fr_34#14",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_34",
+1400,
+1514
+]
+]
+},
+{
+"unit_id": "train_fr_7#84",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+11523,
+11645
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_17#18",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_17",
+3332,
+3425
+]
+]
+},
+{
+"unit_id": "train_fr_30#704",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+112145,
+112214
+]
+]
+},
+{
+"unit_id": "dev_fr_34#109",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_34",
+14834,
+14911
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_4#4",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_4",
+328,
+504
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_10#12",
+"fold": 4,
+"mentions": 10,
+"segments": [
+[
+"hidden_test_fr_10",
+1263,
+1968
+]
+]
+},
+{
+"unit_id": "train_fr_30#471",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+76766,
+76831
+]
+]
+},
+{
+"unit_id": "train_fr_33#509",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+97607,
+97649
+]
+]
+},
+{
+"unit_id": "train_fr_25#237",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"train_fr_25",
+39639,
+39753
+]
+]
+},
+{
+"unit_id": "train_fr_25#148",
+"fold": 3,
+"mentions": 6,
+"segments": [
+[
+"train_fr_25",
+24763,
+25120
+]
+]
+},
+{
+"unit_id": "train_fr_33#260",
+"fold": 2,
+"mentions": 5,
+"segments": [
+[
+"train_fr_33",
+39363,
+39812
+]
+]
+},
+{
+"unit_id": "train_fr_1#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_1",
+5184,
+5264
+]
+]
+},
+{
+"unit_id": "train_fr_32#34",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+7184,
+7221
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_14#116",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_14",
+19641,
+20009
+]
+]
+},
+{
+"unit_id": "train_fr_5#51",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_5",
+5581,
+5647
+]
+]
+},
+{
+"unit_id": "train_fr_30#587",
+"fold": 3,
+"mentions": 3,
+"segments": [
+[
+"train_fr_30",
+94213,
+94328
+]
+]
+},
+{
+"unit_id": "train_fr_12#56",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_12",
+14844,
+14999
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_19#6",
+"fold": 2,
+"mentions": 7,
+"segments": [
+[
+"hidden_test_fr_19",
+3062,
+3468
+]
+]
+},
+{
+"unit_id": "train_fr_22#9",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+1620,
+1659
+]
+]
+},
+{
+"unit_id": "train_fr_30#351",
+"fold": 5,
+"mentions": 9,
+"segments": [
+[
+"train_fr_30",
+47156,
+47683
+]
+]
+},
+{
+"unit_id": "train_fr_30#830",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"train_fr_30",
+149774,
+150042
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_31#139",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_31",
+21545,
+21583
+]
+]
+},
+{
+"unit_id": "train_fr_30#57",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+10365,
+10425
+]
+]
+},
+{
+"unit_id": "train_fr_31#20",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"train_fr_31",
+3609,
+3835
+]
+]
+},
+{
+"unit_id": "train_fr_34#309",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_34",
+46532,
+46817
+]
+]
+},
+{
+"unit_id": "dev_fr_12#15",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"dev_fr_12",
+2396,
+2705
+]
+]
+},
+{
+"unit_id": "train_fr_25#226",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_25",
+37555,
+37650
+]
+]
+},
+{
+"unit_id": "dev_fr_32#21",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_32",
+2823,
+2983
+]
+]
+},
+{
+"unit_id": "test_fr_32#38",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"test_fr_32",
+5189,
+5502
+]
+]
+},
+{
+"unit_id": "train_fr_14#121",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+25587,
+26064
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#0",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+0,
+221
+]
+]
+},
+{
+"unit_id": "train_fr_35#0",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"train_fr_35",
+0,
+221
+]
+]
+},
+{
+"unit_id": "train_fr_32#135",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"train_fr_32",
+27780,
+28054
+]
+]
+},
+{
+"unit_id": "train_fr_34#299",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_34",
+45662,
+45768
+]
+]
+},
+{
+"unit_id": "train_fr_13#32",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+5135,
+5424
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#100",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+14488,
+14737
+]
+]
+},
+{
+"unit_id": "train_fr_14#193",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+38713,
+38899
+]
+]
+},
+{
+"unit_id": "train_fr_33#291",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+44156,
+44329
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_26#29",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_26",
+3785,
+3851
+]
+]
+},
+{
+"unit_id": "train_fr_4#67",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_4",
+11488,
+11560
+]
+]
+},
+{
+"unit_id": "train_fr_15#12",
+"fold": 0,
+"mentions": 13,
+"segments": [
+[
+"train_fr_15",
+1554,
+3543
+]
+]
+},
+{
+"unit_id": "train_fr_20#21",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_20",
+13652,
+13695
+]
+]
+},
+{
+"unit_id": "test_fr_32#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_32",
+563,
+602
+]
+]
+},
+{
+"unit_id": "train_fr_20#14",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"train_fr_20",
+11404,
+11862
+]
+]
+},
+{
+"unit_id": "train_fr_30#73",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_30",
+12402,
+12576
+]
+]
+},
+{
+"unit_id": "train_fr_6#82",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_6",
+11491,
+11527
+]
+]
+},
+{
+"unit_id": "train_fr_31#200",
+"fold": 3,
+"mentions": 11,
+"segments": [
+[
+"train_fr_31",
+30100,
+30818
+]
+]
+},
+{
+"unit_id": "train_fr_7#118",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+16215,
+16353
+]
+]
+},
+{
+"unit_id": "train_fr_25#217",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_25",
+36329,
+36532
+]
+]
+},
+{
+"unit_id": "train_fr_18#115",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_18",
+23327,
+23785
+]
+]
+},
+{
+"unit_id": "train_fr_14#183",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_14",
+37329,
+37473
+]
+]
+},
+{
+"unit_id": "train_fr_12#69",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_12",
+17708,
+17761
+]
+]
+},
+{
+"unit_id": "train_fr_4#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_4",
+3350,
+3428
+]
+]
+},
+{
+"unit_id": "train_fr_12#14",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_12",
+3263,
+3506
+]
+]
+},
+{
+"unit_id": "train_fr_20#24",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_20",
+16889,
+17071
+]
+]
+},
+{
+"unit_id": "train_fr_1#23",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_1",
+4357,
+4439
+]
+]
+},
+{
+"unit_id": "train_fr_29#13",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_29",
+1740,
+2014
+]
+]
+},
+{
+"unit_id": "test_fr_9#31",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"test_fr_9",
+7196,
+7374
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_2#8",
+"fold": 4,
+"mentions": 12,
+"segments": [
+[
+"hidden_test_fr_2",
+1904,
+2405
+]
+]
+},
+{
+"unit_id": "train_fr_32#130",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+26269,
+26554
+]
+]
+},
+{
+"unit_id": "train_fr_25#73",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+12715,
+12887
+]
+]
+},
+{
+"unit_id": "train_fr_25#181",
+"fold": 4,
+"mentions": 6,
+"segments": [
+[
+"train_fr_25",
+31001,
+31575
+]
+]
+},
+{
+"unit_id": "train_fr_30#489",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"train_fr_30",
+79211,
+79422
+]
+]
+},
+{
+"unit_id": "dev_fr_12#4",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_12",
+804,
+1113
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#95",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+14137,
+14245
+]
+]
+},
+{
+"unit_id": "train_fr_33#535",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+102221,
+102309
+]
+]
+},
+{
+"unit_id": "train_fr_33#594",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+115274,
+115361
+]
+]
+},
+{
+"unit_id": "train_fr_30#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+8115,
+8299
+]
+]
+},
+{
+"unit_id": "train_fr_12#42",
+"fold": 0,
+"mentions": 11,
+"segments": [
+[
+"train_fr_12",
+10301,
+11594
+]
+]
+},
+{
+"unit_id": "test_fr_7#35",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_7",
+4140,
+4250
+]
+]
+},
+{
+"unit_id": "train_fr_25#96",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+15237,
+15384
+]
+]
+},
+{
+"unit_id": "train_fr_33#270",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"train_fr_33",
+41381,
+41532
+]
+]
+},
+{
+"unit_id": "train_fr_32#5",
+"fold": 5,
+"mentions": 6,
+"segments": [
+[
+"train_fr_32",
+1104,
+1587
+]
+]
+},
+{
+"unit_id": "train_fr_2#33",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_2",
+5377,
+5418
+]
+]
+},
+{
+"unit_id": "train_fr_34#312",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_34",
+47080,
+47192
+]
+]
+},
+{
+"unit_id": "train_fr_14#90",
+"fold": 5,
+"mentions": 2,
+"segments": [
+[
+"train_fr_14",
+18033,
+18225
+]
+]
+},
+{
+"unit_id": "train_fr_32#77",
+"fold": 4,
+"mentions": 3,
+"segments": [
+[
+"train_fr_32",
+16926,
+17509
+]
+]
+},
+{
+"unit_id": "train_fr_14#292",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+58324,
+58432
+]
+]
+},
+{
+"unit_id": "train_fr_25#53",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"train_fr_25",
+9723,
+9970
+]
+]
+},
+{
+"unit_id": "train_fr_27#48",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_27",
+8705,
+8790
+]
+]
+},
+{
+"unit_id": "train_fr_26#171",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+24301,
+24335
+]
+]
+},
+{
+"unit_id": "train_fr_33#85",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+11967,
+12006
+]
+]
+},
+{
+"unit_id": "train_fr_21#97",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+18589,
+18783
+]
+]
+},
+{
+"unit_id": "train_fr_27#80",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_27",
+14875,
+15048
+]
+]
+},
+{
+"unit_id": "train_fr_34#65",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_34",
+8660,
+8810
+]
+]
+},
+{
+"unit_id": "train_fr_34#225",
+"fold": 5,
+"mentions": 3,
+"segments": [
+[
+"train_fr_34",
+31304,
+31507
+]
+]
+},
+{
+"unit_id": "train_fr_18#107",
+"fold": 0,
+"mentions": 2,
+"segments": [
+[
+"train_fr_18",
+21478,
+21890
+]
+]
+},
+{
+"unit_id": "train_fr_33#647",
+"fold": 0,
+"mentions": 3,
+"segments": [
+[
+"train_fr_33",
+124893,
+125109
+]
+]
+},
+{
+"unit_id": "test_fr_30#31",
+"fold": 1,
+"mentions": 2,
+"segments": [
+[
+"test_fr_30",
+3602,
+3864
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_30#27",
+"fold": 1,
+"mentions": 20,
+"segments": [
+[
+"hidden_test_fr_30",
+4368,
+4829
+]
+]
+},
+{
+"unit_id": "train_fr_26#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_26",
+7600,
+7795
+]
+]
+},
+{
+"unit_id": "train_fr_22#97",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_22",
+18625,
+18668
+]
+]
+},
+{
+"unit_id": "test_fr_13#0",
+"fold": 1,
+"mentions": 3,
+"segments": [
+[
+"test_fr_13",
+0,
+135
+]
+]
+},
+{
+"unit_id": "dev_fr_7#11",
+"fold": 2,
+"mentions": 2,
+"segments": [
+[
+"dev_fr_7",
+1652,
+1716
+]
+]
+},
+{
+"unit_id": "train_fr_23#59",
+"fold": 2,
+"mentions": 4,
+"segments": [
+[
+"train_fr_23",
+11329,
+11632
+]
+]
+},
+{
+"unit_id": "train_fr_30#444",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_30",
+61194,
+61354
+]
+]
+},
+{
+"unit_id": "train_fr_13#115",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_13",
+20367,
+20410
+]
+]
+},
+{
+"unit_id": "train_fr_24#25",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+4661,
+4796
+]
+]
+},
+{
+"unit_id": "dev_fr_32#41",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_32",
+6647,
+6689
+]
+]
+},
+{
+"unit_id": "train_fr_24#7",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+1575,
+1619
+]
+]
+},
+{
+"unit_id": "train_fr_24#14",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_24",
+3072,
+3158
+]
+]
+},
+{
+"unit_id": "train_fr_7#126",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+17423,
+17459
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_16#55",
+"fold": 2,
+"mentions": 3,
+"segments": [
+[
+"hidden_test_fr_16",
+8381,
+8502
+]
+]
+},
+{
+"unit_id": "test_fr_10#15",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_10",
+3591,
+3630
+]
+]
+},
+{
+"unit_id": "test_fr_34#6",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_34",
+867,
+905
+]
+]
+},
+{
+"unit_id": "train_fr_33#367",
+"fold": 3,
+"mentions": 1,
+"segments": [
+[
+"train_fr_33",
+59759,
+60113
+]
+]
+},
+{
+"unit_id": "dev_fr_32#27",
+"fold": 4,
+"mentions": 1,
+"segments": [
+[
+"dev_fr_32",
+3630,
+3960
+]
+]
+},
+{
+"unit_id": "train_fr_25#287",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_25",
+50514,
+50552
+]
+]
+},
+{
+"unit_id": "train_fr_14#211",
+"fold": 5,
+"mentions": 1,
+"segments": [
+[
+"train_fr_14",
+45210,
+45528
+]
+]
+},
+{
+"unit_id": "train_fr_7#28",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_7",
+4407,
+4480
+]
+]
+},
+{
+"unit_id": "test_fr_32#31",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"test_fr_32",
+4372,
+4446
+]
+]
+},
+{
+"unit_id": "train_fr_3#44",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_3",
+6767,
+6891
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_5#17",
+"fold": 0,
+"mentions": 1,
+"segments": [
+[
+"hidden_test_fr_5",
+4604,
+4677
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_32#102",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_32",
+14859,
+14899
+]
+]
+},
+{
+"unit_id": "train_fr_33#474",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+88471,
+88857
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_17#55",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"hidden_test_fr_17",
+8788,
+8823
+]
+]
+},
+{
+"unit_id": "train_fr_32#81",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_32",
+18190,
+18267
+]
+]
+},
+{
+"unit_id": "train_fr_5#118",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_5",
+16440,
+16476
+]
+]
+},
+{
+"unit_id": "train_fr_21#99",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_21",
+19031,
+19079
+]
+]
+},
+{
+"unit_id": "train_fr_33#325",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_33",
+51332,
+51378
+]
+]
+},
+{
+"unit_id": "train_fr_11#73",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_11",
+16338,
+16419
+]
+]
+},
+{
+"unit_id": "train_fr_25#107",
+"fold": 3,
+"mentions": 2,
+"segments": [
+[
+"train_fr_25",
+16591,
+16700
+]
+]
+},
+{
+"unit_id": "train_fr_13#43",
+"fold": 1,
+"mentions": 1,
+"segments": [
+[
+"train_fr_13",
+7737,
+7826
+]
+]
+},
+{
+"unit_id": "train_fr_14#47",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_14",
+6353,
+6503
+]
+]
+},
+{
+"unit_id": "dev_fr_35#18",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_35",
+2693,
+2881
+]
+]
+},
+{
+"unit_id": "dev_fr_25#8",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"dev_fr_25",
+3936,
+3974
+]
+]
+},
+{
+"unit_id": "train_fr_16#45",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_16",
+5792,
+5876
+]
+]
+},
+{
+"unit_id": "hidden_test_fr_2#13",
+"fold": 4,
+"mentions": 2,
+"segments": [
+[
+"hidden_test_fr_2",
+2946,
+3036
+]
+]
+},
+{
+"unit_id": "train_fr_10#93",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_10",
+15120,
+15163
+]
+]
+},
+{
+"unit_id": "train_fr_28#9",
+"fold": 2,
+"mentions": 1,
+"segments": [
+[
+"train_fr_28",
+1295,
+1399
+]
+]
+},
+{
+"unit_id": "train_fr_10#23",
+"fold": 3,
+"mentions": 0,
+"segments": [
+[
+"train_fr_10",
+3538,
+3580
+]
+]
+},
+{
+"unit_id": "train_fr_20#29",
+"fold": 3,
+"mentions": 4,
+"segments": [
+[
+"train_fr_20",
+17714,
+17856
+]
+]
+}
+]
+}

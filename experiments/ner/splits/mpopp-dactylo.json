@@ -1,0 +1,454 @@
+{
+"key": "mpopp-dactylo",
+"seed": 42,
+"k": 6,
+"budget": 866,
+"paired_with": null,
+"unit": "zone d'acte",
+"n_units_total": 446,
+"n_mentions_total": 10153,
+"n_units": 36,
+"n_mentions": 880,
+"mentions_per_fold": [
+138,
+138,
+154,
+153,
+154,
+143
+],
+"units": [
+{
+"unit_id": "archives_AD075EC_01M1930_0015-left.png#1",
+"fold": 5,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1930_0015-left.png#1",
+0,
+1509
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0015-right.png#2",
+"fold": 0,
+"mentions": 30,
+"segments": [
+[
+"archives_AD075EC_01M1930_0015-right.png#2",
+0,
+1505
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_04M298B_0034-right.png#2",
+"fold": 0,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_04M298B_0034-right.png#2",
+0,
+1325
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0014-right.png#1",
+"fold": 4,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_01M1940_0014-right.png#1",
+0,
+1393
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0029-right.png#0",
+"fold": 4,
+"mentions": 29,
+"segments": [
+[
+"archives_AD075EC_01M1940_0029-right.png#0",
+0,
+1533
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_04M298B_0057-right.png#1",
+"fold": 1,
+"mentions": 30,
+"segments": [
+[
+"archives_AD075EC_04M298B_0057-right.png#1",
+0,
+1442
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0012-left.png#0",
+"fold": 1,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0012-left.png#0",
+0,
+1476
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0005-left.png#0",
+"fold": 4,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_01M1930_0005-left.png#0",
+0,
+1281
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0002-left.png#1",
+"fold": 5,
+"mentions": 29,
+"segments": [
+[
+"archives_AD075EC_01M1940_0002-left.png#1",
+0,
+1541
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0003-right.png#2",
+"fold": 5,
+"mentions": 26,
+"segments": [
+[
+"archives_AD075EC_01M1940_0003-right.png#2",
+0,
+1381
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0007-right.png#2",
+"fold": 2,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0007-right.png#2",
+0,
+1434
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0110-right.png#0",
+"fold": 0,
+"mentions": 26,
+"segments": [
+[
+"archives_AD075EC_11M549_0110-right.png#0",
+0,
+1306
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0012-right.png#1",
+"fold": 3,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0012-right.png#1",
+0,
+1547
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0015-right.png#3",
+"fold": 5,
+"mentions": 10,
+"segments": [
+[
+"archives_AD075EC_01M1940_0015-right.png#3",
+0,
+555
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0024-left.png#2",
+"fold": 2,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_01M1940_0024-left.png#2",
+0,
+1437
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0010-right.png#2",
+"fold": 5,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0010-right.png#2",
+0,
+1141
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_04M298B_0046-right.png#1",
+"fold": 0,
+"mentions": 4,
+"segments": [
+[
+"archives_AD075EC_04M298B_0046-right.png#1",
+0,
+1033
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_04M298B_0059-right.png#0",
+"fold": 2,
+"mentions": 30,
+"segments": [
+[
+"archives_AD075EC_04M298B_0059-right.png#0",
+0,
+1427
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0024-right.png#0",
+"fold": 3,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_01M1940_0024-right.png#0",
+0,
+1376
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0007-right.png#1",
+"fold": 0,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0007-right.png#1",
+0,
+1387
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0113-right.png#1",
+"fold": 5,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_11M549_0113-right.png#1",
+0,
+1466
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0014-right.png#1",
+"fold": 4,
+"mentions": 28,
+"segments": [
+[
+"archives_AD075EC_01M1930_0014-right.png#1",
+0,
+1527
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0010-left.png#2",
+"fold": 1,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1940_0010-left.png#2",
+0,
+1574
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0028-right.png#2",
+"fold": 4,
+"mentions": 22,
+"segments": [
+[
+"archives_AD075EC_01M1930_0028-right.png#2",
+0,
+1278
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0005-right.png#2",
+"fold": 2,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1930_0005-right.png#2",
+0,
+1513
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0097-left.png#1",
+"fold": 1,
+"mentions": 4,
+"segments": [
+[
+"archives_AD075EC_11M549_0097-left.png#1",
+0,
+870
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0009-left.png#2",
+"fold": 2,
+"mentions": 25,
+"segments": [
+[
+"archives_AD075EC_01M1940_0009-left.png#2",
+0,
+1366
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1940_0008-left.png#0",
+"fold": 1,
+"mentions": 26,
+"segments": [
+[
+"archives_AD075EC_01M1940_0008-left.png#0",
+0,
+1277
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0107-left.png#0",
+"fold": 2,
+"mentions": 21,
+"segments": [
+[
+"archives_AD075EC_11M549_0107-left.png#0",
+0,
+1504
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0023-left.png#1",
+"fold": 0,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_01M1930_0023-left.png#1",
+0,
+1463
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0031-right.png#1",
+"fold": 3,
+"mentions": 30,
+"segments": [
+[
+"archives_AD075EC_01M1930_0031-right.png#1",
+0,
+1501
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0004-right.png#1",
+"fold": 3,
+"mentions": 25,
+"segments": [
+[
+"archives_AD075EC_01M1930_0004-right.png#1",
+0,
+1300
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0005-left.png#1",
+"fold": 3,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1930_0005-left.png#1",
+0,
+1376
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_01M1930_0028-right.png#1",
+"fold": 4,
+"mentions": 27,
+"segments": [
+[
+"archives_AD075EC_01M1930_0028-right.png#1",
+0,
+1403
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0108-left.png#1",
+"fold": 1,
+"mentions": 24,
+"segments": [
+[
+"archives_AD075EC_11M549_0108-left.png#1",
+0,
+1325
+]
+]
+},
+{
+"unit_id": "archives_AD075EC_11M549_0092-left.png#2",
+"fold": 3,
+"mentions": 20,
+"segments": [
+[
+"archives_AD075EC_11M549_0092-left.png#2",
+0,
+1331
+]
+]
+}
+]
+}

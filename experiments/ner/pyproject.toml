@@ -1,0 +1,44 @@
+# Projet uv AUTONOME (pas membre du workspace racine) : torch, gliner et les modèles spaCy « lg » sont lourds,
+# ils ne doivent pas alourdir l'environnement des expériences sur les indicateurs.
+#   uv sync                                 # pivot, tirage, évaluation
+#   uv sync --group spacy --group gliner    # + inférence zero-shot
+[project]
+name = "ner-experiments"
+version = "0.1.0"
+description = "Expériences NER IJDAR 2026 : pivot PER/LOC (version du Sheet), tirage équilibré, zero-shot et fine-tuning"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "nervaluate>=1.2,<2",
+]
+
+[dependency-groups]
+spacy = [
+    "spacy>=3.8,<3.9",
+    "fr-core-news-lg",
+    "de-core-news-lg",
+    "en-core-web-lg",
+    "fi-core-news-lg",
+    "sv-core-news-lg",
+    "en-core-web-trf",
+    "spacy-curated-transformers>=0.3",
+]
+gliner = [
+    # mêmes épingles que la forge DECIDON GLiNER-relex : gliner 0.2.27 a un bug (token_lengths fuit dans le
+    # label-encoder) ; transformers 5.x change l'échelle des scores des checkpoints relex.
+    "gliner==0.2.26",
+    "transformers==4.56.2",
+    "torch>=2.4",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+fr-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.8.0/fr_core_news_lg-3.8.0-py3-none-any.whl" }
+de-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_lg-3.8.0/de_core_news_lg-3.8.0-py3-none-any.whl" }
+en-core-web-lg = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl" }
+fi-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/fi_core_news_lg-3.8.0/fi_core_news_lg-3.8.0-py3-none-any.whl" }
+sv-core-news-lg = { url = "https://github.com/explosion/spacy-models/releases/download/sv_core_news_lg-3.8.0/sv_core_news_lg-3.8.0-py3-none-any.whl" }
+en-core-web-trf = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl" }
